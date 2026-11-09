@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="pt-br" ng-app="app" ng-strict-di="" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8">
+    <title ng-bind="&quot;SIOUT SC - &quot; + title" class="ng-binding">SIOUT SC - Sistema de Outorga de Água de Santa Catarina</title>
+    <meta name="description" content="Sistema de Outorga de Água de Santa Catarina">
+    <meta name="keywords" content="SIOUT, SC">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="./styles/1411bc1c7d2b41d9.css">
+<link rel="stylesheet" href="./styles/8c2e029fb808f359.css">
+  <style>.cke{visibility:hidden;}</style></head>
+  <body>
+    <div id="wrap" ng-class="{'footer-off': !autenticado &amp;&amp; !externo}" class="footer-off">
+      <div id="loaderDiv" loader="" style="display: none;"><span class="ajax-loader fa fa-spinner fa-pulse fa-4x"></span></div>
+      <div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+      </div>
+      <!-- ngIf: autenticado || externo || politicas -->
+      <!-- ngView:  --><section ng-view="" ng-class="{'container-off': !autenticado &amp;&amp; !externo &amp;&amp; !politicas}" class="container ng-scope container-off" style="">
+<!-- ngIf: EFuncionalidadeAtiva.MensagemIndisponibilidade -->
+<!-- ngIf: treinamento.exibir -->
+<!-- ngIf: !autenticado && !externo --><div id="new-portal-wrap" ng-if="!autenticado &amp;&amp; !externo" class="ng-scope">
+  <div ng-class="{'main-bg-img': autenticado || externo}" style="background-image: url('images/backgrounds/bg_agua.jpg'); background-repeat: round; background-size: cover;" class="main-left-container">
+    <div class="main-header-container"> 
+      <div class="header-img"><img src="images/logo_estado_branco.png" style="height: 90px;" class="img-responsive img-sc-header-big"></div>
+      <div class="header-menu">
+        <div class="menu-container">
+          <div class="menu-item"><a ng-href="http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33" target="_blank" rel="tooltip" title="Acesso ao SIG SIOUT" class="menu-item" href="http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33"><span class="menu-icon fa fa-tint fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Acesso</div>
+                <div>SIG SIOUT</div>
+              </div></a></div>
+          <div class="menu-item"><a href="http://www.aguas.sc.gov.br/" target="_blank" rel="tooltip" title="Acesso a página inicial do AGUAS.SC" class="menu-item"><span class="menu-icon fa fa-home fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Acesso</div>
+                <div>AGUAS.SC								</div>
+              </div></a></div>
+          <div class="menu-item"><a ng-click="baixarDocumentos()" rel="tooltip" title="Acesso a documentação auxiliar" class="menu-item"><span class="menu-icon fa fa-file-text fa-lg menu-docs-size"></span>
+              <div class="menu-description m-top-10">
+                <div>Documentação</div>
+                <div>auxiliar</div>
+              </div></a></div>
+          <div class="menu-item"><a href="consulta/" rel="tooltip" title="Consulta SIOUT" class="menu-item"><span class="menu-icon fa fa-search fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Consulta</div>
+                <div>SIOUT</div>
+              </div></a></div>
+          <div class="menu-item"><a ng-click="contato()" rel="tooltip" title="Acesso ao contato" class="menu-item"><span class="menu-icon fa fa-comments fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Contato</div>
+              </div></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="main-content-container">
+      <div class="main-content-title"> <span>O SISTEMA </span><span class="m-top-1">DE OUTORGA</span><span class="m-top-1">DE SC CHEGOU </span></div>
+      <div class="main-content-sub-container">
+        <div class="main-content-subtitle">
+           
+          Módulo autodeclaratório
+        </div>
+        <div class="main-content-btn"><a href="http://www.aguas.sc.gov.br/outorga-inicial/outorga-home" target="_blank" class="button btn btn-primary btn-saiba-mais"> Saiba mais</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="main-right-container">
+    <div class="header-menu-mobile">
+      <div class="header-menu">
+        <div class="menu-container">
+          <div class="menu-item"><a ng-click="" href="http://www.aguas.sc.gov.br/" rel="tooltip" title="Acesso a página inicial do AGUAS.SC" class="menu-item"><span class="menu-icon fa fa-home fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Acesso</div>
+                <div>AGUAS.SC</div>
+              </div></a></div>
+          <div class="menu-item"><a ng-click="baixarDocumentos()" rel="tooltip" title="Acesso a documentação auxiliar" class="menu-item"><span class="menu-icon fa fa-file-text fa-lg menu-docs-size"></span>
+              <div class="menu-description m-top-10">
+                <div>Documentação</div>
+                <div>auxiliar</div>
+              </div></a></div>
+          <div class="menu-item"><a href="consulta/" rel="tooltip" title="Consulta SIOUT" class="menu-item"><span class="menu-icon fa fa-search fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Consulta</div>
+                <div>SIOUT</div>
+              </div></a></div>
+          <div class="menu-item"><a ng-click="contato()" rel="tooltip" title="Acesso ao contato" class="menu-item"><span class="menu-icon fa fa-comments fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Contato</div>
+              </div></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="right-container-wrapper"><img src="images/novo_logo_siout.png" style="height: 60px;" class="m-top-10-p img-responsive img-siout-big">
+      <div class="m-top-10-p">
+        <div class="login-container">
+          <div class="panel-login-upper-section"><span class="login-title">Já tenho cadastro no <span class="strong-sc">SIOUT SC</span></span>
+            <form ng-submit="autenticar()" class="form-horizontal autenticacao-form panel-form-margin ng-pristine ng-invalid ng-invalid-required ng-invalid-documento ng-valid-maxlength">
+              <div class="form-group">
+                <div ng-class="{&quot;has-error&quot;:usuarioCpfInvalido}" class="has-feedback has-feedback-left">
+                  <input id="login" type="text" name="login" ng-model="usuario.login" ng-change="validaCpf()" ng-documento="" placeholder="Login" maxlength="14" ng-popover="ng-popover" popover-mensagem="O CPF informado é inválido!" popover-placement="bottom" shown="usuarioCpfInvalido" ng-disabled="modalCookieBotaoLoginSenha" required="required" class="form-control ng-pristine ng-untouched ng-isolate-scope ng-invalid ng-invalid-required ng-invalid-documento ng-valid-maxlength" style=""><i class="fa fa-user form-control-feedback"></i>
+                </div>
+              </div>
+              <div class="form-group has-feedback has-feedback-left">
+                <input type="password" id="password" ng-model="usuario.senha" placeholder="Senha" ng-disabled="modalCookieBotaoLoginSenha" required="required" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" style=""><i class="form-control-feedback fa fa-unlock-alt"></i>
+              </div>
+              <!-- ngIf: exibirCaptcha -->
+              <div class="form-group"><!-- ngIf: !modalCookieBotaoLoginSenha --><a ng-if="!modalCookieBotaoLoginSenha" ng-click="recuperarSenha()" class="clickable recover-password-title ng-scope" style="">Recuperar senha</a><!-- end ngIf: !modalCookieBotaoLoginSenha -->
+                <button type="submit" ng-disabled="modalCookieBotaoLoginSenha" class="btn btn-primary btn-primary-custom">Entrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="login-container-hr"></div>
+        <div class="signup-container"> <span class="panel-login-title">Não tenho cadastro no </span><span class="strong-sc">SIOUT SC</span>
+          <div style="text-align: center;" class="panel-login-sign-up-container m-top-10">
+            <button ng-click="cadastrar()" ng-disabled="modalCookieBotaoLoginSenha" class="btn btn-primary btn-primary-custom btn-custom-lg"> Cadastrar</button>
+          </div>
+        </div>
+      </div>
+      <div class="right-container-bottom"></div><img src="images/footer_juntos_invertido.png" style="height: 66px;" class="img-sc-footer-big">
+    </div>
+  </div>
+</div><!-- end ngIf: !autenticado && !externo -->
+<!-- ngIf: modalCookieBotaoLoginSenha --></section>
+    </div>
+    <!-- ngIf: autenticado || externo -->
+<script src="./ckeditor/ckeditor.js"></script>
+<script src="./scripts/9d69574d57093274.js"></script>
+<script src="./scripts/8ad69337a51920c2.js"></script>
+  
+</body></html>

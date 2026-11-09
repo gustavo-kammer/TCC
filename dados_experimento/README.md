@@ -24,8 +24,12 @@ Identificadores: `calib_01` a `calib_10` são as interfaces de calibração; `p1
 | `auditoria/` | Amostra de auditoria dos achados sem par (`auditoria_amostra.xlsx`, preenchida pelo autor), chave, população e resultado. |
 | `relatorios/` | Relatório visual (HTML e PDF) por configuração e sistema. |
 
+### validacao_externa/capturas/
+
+Capturas congeladas dos dois sistemas (`<sistema>/<data>/`): HTML de cada estado, imagem completa e fatias de 1080 px, `meta.json` com os metadados e `_html_original/` com o HTML antes da incorporação dos estilos. `validacao_capturas.md` traz o relatório de validação. Contêm apenas os arquivos referenciados pelo `meta.json` da execução oficial (88 estados de `p12` e 12 de `p13`).
+
 ## roteiros_exploracao/
 
 Roteiros gerados pela exploração determinística (`roteiro_*`), registro da exploração (`exploracao_*`) e roteiros após a curadoria (`curado_*`).
 
-Não estão incluídas as capturas congeladas (HTML e imagens) nem as imagens intermediárias da curadoria.
+Não estão incluídas as imagens intermediárias da curadoria (`exploracao_v2/_curadoria_*`).

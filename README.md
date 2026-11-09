@@ -51,7 +51,7 @@ O `.env` não deve ser versionado.
 | `prompts_exemplo.md` | Exemplo dos prompts enviados ao modelo. |
 | `scripts/` | `verificar_isolamento.py`, verificação usada pelos testes. |
 | `tests/` | Testes automatizados. |
-| `dados_experimento/` | Resultados das execuções relatadas no trabalho (ver `dados_experimento/README.md`). |
+| `dados_experimento/` | Resultados das execuções relatadas no trabalho e capturas congeladas dos sistemas externos (ver `dados_experimento/README.md`). |
 
 ## Como executar
 
@@ -152,9 +152,23 @@ python main.py metricas
 python analisar_resultados.py
 ```
 
-`main.py metricas` regrava `resultados/calibracao/` e `resultados/externa/`, e `analisar_resultados.py` grava `resultados/analises.json`. Os valores coincidem com os de `dados_experimento/` (diferenças apenas na 16ª casa decimal em alguns coeficientes). A ancoragem, a estabilidade e a auditoria dependem das capturas originais e não são refeitas por esse caminho.
+`main.py metricas` regrava `resultados/calibracao/` e `resultados/externa/`, e `analisar_resultados.py` grava `resultados/analises.json`. Os valores coincidem com os de `dados_experimento/` (diferenças apenas na 16ª casa decimal em alguns coeficientes).
+
+Com as capturas incluídas em `dados_experimento/validacao_externa/capturas/`, também é possível refazer a ancoragem textual, a estabilidade, a amostra de auditoria e os relatórios visuais, sem chamar a API. Esse caminho usa as pastas da versão `v2` (`coletas_v2/` e `output_v2/`):
+
+```
+mkdir -p output_v2
+cp -r dados_experimento/validacao_externa/execucoes output_v2/runs
+cp -r dados_experimento/validacao_externa/agregado  output_v2/agregado
+cp -r dados_experimento/validacao_externa/casamento output_v2/matching
+cp -r dados_experimento/validacao_externa/capturas  coletas_v2
+python pipeline.py confiabilidade --sites sites_v2_curado.json --versao v2
+python pipeline.py relatorios     --sites sites_v2_curado.json --versao v2
+```
+
+Os resultados são gravados em `resultados_v2/` (`ancoragem.json`, `ancoragem_achados.csv`, `estabilidade.json`, `auditoria/` e `relatorios/`) e coincidem com os de `dados_experimento/validacao_externa/`. A etapa `confiabilidade` gera uma planilha de auditoria em branco. A planilha preenchida pelo autor está em `dados_experimento/validacao_externa/auditoria/`; para recalcular os indicadores a partir dela, copiar esses arquivos para `resultados_v2/auditoria/` e executar `python pipeline.py auditoria-calcular --versao v2`.
 
 ## Limitações do repositório
 
-- As capturas congeladas (HTML e imagens dos sistemas externos) não estão incluídas por tamanho (cerca de 400 MB). Elas são necessárias para refazer a ancoragem, a estabilidade, a amostra de auditoria e os relatórios.
+- As capturas congeladas dos dois sistemas externos (HTML e imagens, 395 MB) estão em `dados_experimento/validacao_externa/capturas/`. As imagens intermediárias da curadoria (`exploracao_v2/_curadoria_*`, cerca de 215 MB) não estão incluídas e só são necessárias para repetir a curadoria.
 - O modelo de linguagem é acessado por API e não permite fixar temperatura nem semente; por isso cada configuração foi executada três vezes e novas execuções não reproduzem exatamente os mesmos achados.

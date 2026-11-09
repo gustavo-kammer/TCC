@@ -1,0 +1,185 @@
+{
+  "id": "p13",
+  "url_solicitada": "https://siout.aguas.sc.gov.br/#/",
+  "coletado_em": "2026-11-04T23:43:45-03:00",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "locale": "pt-BR",
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "portal_x01_inicial",
+      "url_no_momento": "https://siout.aguas.sc.gov.br/#/",
+      "completo": "estado_01_portal_x01_inicial_completo.png",
+      "fatias": [
+        "estado_01_portal_x01_inicial_fatia_1.png"
+      ],
+      "html": "estado_01_portal_x01_inicial.html",
+      "overlays_fechados": [],
+      "alertas": []
+    },
+    {
+      "ordem": 2,
+      "nome": "portal_x02_consulta_siout",
+      "url_no_momento": "https://siout.aguas.sc.gov.br/consulta/#/",
+      "completo": "estado_02_portal_x02_consulta_siout_completo.png",
+      "fatias": [
+        "estado_02_portal_x02_consulta_siout_fatia_1.png",
+        "estado_02_portal_x02_consulta_siout_fatia_2.png"
+      ],
+      "html": "estado_02_portal_x02_consulta_siout.html",
+      "overlays_fechados": [],
+      "alertas": []
+    },
+    {
+      "ordem": 3,
+      "nome": "portal_x03_cadastrar",
+      "url_no_momento": "https://siout.aguas.sc.gov.br/#/usuario-sistema/cadastro",
+      "completo": "estado_03_portal_x03_cadastrar_completo.png",
+      "fatias": [
+        "estado_03_portal_x03_cadastrar_fatia_1.png",
+        "estado_03_portal_x03_cadastrar_fatia_2.png"
+      ],
+      "html": "estado_03_portal_x03_cadastrar.html",
+      "overlays_fechados": [],
+      "alertas": []
+    },
+    {
+      "ordem": 4,
+      "nome": "portal_x04_documentacao_auxiliar",
+      "url_no_momento": "https://siout.aguas.sc.gov.br/#/",
+      "completo": "estado_04_portal_x04_documentacao_auxiliar_completo.png",
+      "fatias": [
+        "estado_04_portal_x04_documentacao_auxiliar_fatia_1.png"
+      ],
+      "html": "estado_04_portal_x04_documentacao_auxiliar.html",
+      "overlays_fechados": [],
+      "alertas": []
+    },
+    {
+      "ordem": 5,
+      "nome": "mapa_x01_inicial",
+      "url_no_momento": "http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33",
+      "completo": "estado_05_mapa_x01_inicial_completo.png",
+      "fatias": [
+        "estado_05_mapa_x01_inicial_fatia_1.png"
+      ],
+      "html": "estado_05_mapa_x01_inicial.html",
+      "overlays_fechados": [
+        "button:has-text('Aceitar')"
+      ],
+      "alertas": []
+    },
+    {
+      "ordem": 6,
+      "nome": "mapa_x02_square_button",
+      "url_no_momento": "http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33",
+      "completo": "estado_06_mapa_x02_square_button_completo.png",
+      "fatias": [
+        "estado_06_mapa_x02_square_button_fatia_1.png"
+      ],
+      "html": "estado_06_mapa_x02_square_button.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 7,
+      "nome": "mapa_x03_btn",
+      "url_no_momento": "http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33",
+      "completo": "estado_07_mapa_x03_btn_completo.png",
+      "fatias": [
+        "estado_07_mapa_x03_btn_fatia_1.png"
+      ],
+      "html": "estado_07_mapa_x03_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 8,
+      "nome": "mapa_x04_square_button",
+      "url_no_momento": "http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33",
+      "completo": "estado_08_mapa_x04_square_button_completo.png",
+      "fatias": [
+        "estado_08_mapa_x04_square_button_fatia_1.png"
+      ],
+      "html": "estado_08_mapa_x04_square_button.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 9,
+      "nome": "mapa_x05_square_button",
+      "url_no_momento": "http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33",
+      "completo": "estado_09_mapa_x05_square_button_completo.png",
+      "fatias": [
+        "estado_09_mapa_x05_square_button_fatia_1.png"
+      ],
+      "html": "estado_09_mapa_x05_square_button.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 10,
+      "nome": "mapa_x08_square_button",
+      "url_no_momento": "http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33",
+      "completo": "estado_10_mapa_x08_square_button_completo.png",
+      "fatias": [
+        "estado_10_mapa_x08_square_button_fatia_1.png"
+      ],
+      "html": "estado_10_mapa_x08_square_button.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 11,
+      "nome": "mapa_x09_square_button_md",
+      "url_no_momento": "http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33",
+      "completo": "estado_11_mapa_x09_square_button_md_completo.png",
+      "fatias": [
+        "estado_11_mapa_x09_square_button_md_fatia_1.png"
+      ],
+      "html": "estado_11_mapa_x09_square_button_md.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 12,
+      "nome": "mapa_x12_ol_viewport",
+      "url_no_momento": "http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33",
+      "completo": "estado_12_mapa_x12_ol_viewport_completo.png",
+      "fatias": [
+        "estado_12_mapa_x12_ol_viewport_fatia_1.png"
+      ],
+      "html": "estado_12_mapa_x12_ol_viewport.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    }
+  ],
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+  "cookies_tratados": true,
+  "css_embutido": {
+    "em": "2026-11-05T02:05:27-03:00",
+    "estados": 0,
+    "folhas_distintas": 0,
+    "falhas": [],
+    "ausentes_no_servidor": [
+      "http://sig-siout.aguas.sc.gov.br/MapStore2/web/client/libs/cesium-navigation/cesium-navigation.css"
+    ]
+  }
+}

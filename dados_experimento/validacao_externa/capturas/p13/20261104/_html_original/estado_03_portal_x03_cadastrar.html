@@ -1,0 +1,404 @@
+<!DOCTYPE html><html lang="pt-br" ng-app="app" ng-strict-di="" class="ng-scope"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8">
+    <title ng-bind="&quot;SIOUT SC - &quot; + title" class="ng-binding">SIOUT SC - Cadastro de Pessoa</title>
+    <meta name="description" content="Sistema de Outorga de Água de Santa Catarina">
+    <meta name="keywords" content="SIOUT, SC">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="./styles/1411bc1c7d2b41d9.css">
+<link rel="stylesheet" href="./styles/8c2e029fb808f359.css">
+  <style>.cke{visibility:hidden;}</style></head>
+  <body>
+    <div id="wrap" ng-class="{'footer-off': !autenticado &amp;&amp; !externo}" class="" style="">
+      <div id="loaderDiv" loader="" style="display: none;"><span class="ajax-loader fa fa-spinner fa-pulse fa-4x"></span></div>
+      <div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+      </div>
+      <!-- ngIf: autenticado || externo || politicas --><header ng-if="autenticado || externo || politicas" class="ng-scope" style="">
+        <!-- ngIf: autenticado -->
+        <div class="header-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4"><a href="#/" title="Ir à Página Inicial"><img src="images/logo_siout_branca.png" style="height: 75px; margin-top: 17px;" class="img-responsive"></a></div>
+              <!-- ngIf: !relatoriosig --><div ng-if="!relatoriosig" class="ng-scope">
+                <div class="col-sm-8">
+                  <!-- ngIf: !autenticado && !externo -->
+                </div>
+              </div><!-- end ngIf: !relatoriosig -->
+              <div class="col-sm-8">
+                <div class="row">
+                  <!-- ngIf: !autenticado && externo --><nav role="navigation" ng-if="!autenticado &amp;&amp; externo" class="navbar navbar-right navbar-inverse navbar-global hidden-xs fix-align navbar-fix ng-scope">
+                    <ul class="nav navbar-nav">
+                      <li class="hidden-sm">
+                        <p class="navbar-text pull-right norightspacing"><a ng-click="contato()" data-toggle="tooltip" title="Contato" class="navbar-link clickable"></a><small><span class="fa fa-question-circle fa-lg"></span></small><a ng-click="contato()" class="navbar-link clickable"><small>&nbsp; Contato</small></a><!-- ngIf: !relatoriosig --><span ng-if="!relatoriosig" class="ng-scope"></span><!-- end ngIf: !relatoriosig -->	&nbsp;&nbsp;&nbsp;</p>
+                      </li>
+                      <!-- ngIf: !relatoriosig --><li ng-if="!relatoriosig" class="hidden-sm ng-scope">
+                        <p class="navbar-text pull-right"><a ng-click="baixarDocumentos()" rel="tooltip" title="Manuais e documentos auxiliares" class="navbar-link clickable"></a><small><span class="fa fa-book fa-lg"></span></small><a ng-click="baixarDocumentos()" class="navbar-link clickable"><small>&nbsp; Documentação Auxiliar</small></a></p>
+                      </li><!-- end ngIf: !relatoriosig -->
+                    </ul>
+                  </nav><!-- end ngIf: !autenticado && externo -->
+                  <!-- ngIf: autenticado -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ngIf: autenticado || externo --><div ng-if="autenticado || externo" class="menu ng-scope">
+          <div class="container">
+            <nav role="navigation" class="navbar navbar-ra">
+              <div class="navbar-header">
+                <button type="button" data-toggle="collapse" data-target=".navbar-ex2-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+              </div>
+              <div class="collapse navbar-collapse navbar-ex2-collapse">
+                <!-- ngIf: autenticado -->
+                <div class="text-center navbar-title">
+                  <h3 class="page-title ng-binding">Cadastro de Pessoa</h3>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div><!-- end ngIf: autenticado || externo -->
+        <div id="menu-container">
+          <div id="menu-rounder">
+            <div id="menu-cascade">
+              <ul class="menu-level">
+                <!-- ngRepeat: modulo in modulos -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header><!-- end ngIf: autenticado || externo || politicas -->
+      <!-- ngView:  --><section ng-view="" ng-class="{'container-off': !autenticado &amp;&amp; !externo &amp;&amp; !politicas}" class="container ng-scope" style="">
+<ol class="breadcrumb ng-scope">
+  <li><a href="#/">SIOUT SC</a></li>
+  <li class="active">Cadastro de Pessoa</li>
+</ol>
+<div class="row margin-bottom ng-scope">
+  <div class="col-md-12"><i class="text-left obrigatorio">* Campos obrigatórios	</i></div>
+</div>
+<form name="formulario" class="form-horizontal ng-pristine ng-scope ng-invalid ng-invalid-required ng-valid-minlength ng-valid-maxlength ng-invalid-documento ng-valid-pattern ng-valid-email ng-invalid-match ng-valid-br-phone-number ng-valid-cep ng-invalid-recaptcha" style="">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading"><strong>Identificação</strong></div>
+        <div class="panel-body">
+          <div class="form-group">
+            <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.cpf.$invalid) ||  formulario.cpf.$dirty &amp;&amp; formulario.cpf.$invalid}" class="has-feedback">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-label">
+                    <label for="cpf" class="control-label">CPF/CNPJ:</label><span class="obrigatorio"> *</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <input id="cpf" type="text" name="cpf" ng-model="operador.CpfCnpj" ng-documento="" ng-blur="buscarDocumento()" maxlength="18" ng-minlength="14" ng-maxlength="18" ng-popover="ng-popover" popover-mensagem="O CPF/CNPJ informado é inválido!" shown="formulario.cpf.$dirty &amp;&amp; formulario.cpf.$invalid" required="required" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-isolate-scope ng-invalid ng-invalid-required ng-valid-minlength ng-valid-maxlength ng-invalid-documento" style="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ngIf: operador.Tipo == 'F' --><div ng-if="operador.Tipo == 'F'" class="ng-scope">
+            <div class="form-group">
+              <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.nome.$invalid) || formulario.nome.$dirty &amp;&amp; formulario.nome.$invalid}" class="has-feedback">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="form-label">
+                      <label for="nome" class="control-label">Nome:</label><span class="obrigatorio"> *</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <input id="nome" type="text" name="nome" ng-model="operador.NomeRazaoSocial" ng-disabled="usuario.Existente" required="required" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" style="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="has-feedback">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="form-label">
+                      <label for="rg" class="control-label">RG:</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <input id="rg" type="text" name="rg" restrict="[^a-z0-9-./ ]" ng-model="operador.RgInscricaoEstadual" maxlength="20" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control toUpper ng-pristine ng-untouched ng-valid ng-valid-maxlength" style="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- end ngIf: operador.Tipo == 'F' -->
+          <!-- ngIf: operador.Tipo == 'J' -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ngIf: operador.Tipo == 'F' --><div ng-if="operador.Tipo == 'F'" class="row ng-scope">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading"><strong>Responsável técnico</strong></div>
+        <div class="panel-body">
+          <div ng-init="operador.CadastrarResponsavelTecnico = false" class="form-group">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="form-label">
+                  <label class="control-label">Você é um responsável técnico?</label><span class="obrigatorio"> *</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label class="radio-inline">
+                  <input id="sim" name="cadastrarResponsavelTecnico" type="radio" ng-value="true" ng-model="operador.CadastrarResponsavelTecnico" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="ng-pristine ng-untouched ng-valid" value="true" style="">Sim
+                </label>
+                <label class="radio-inline">
+                  <input id="nao" name="cadastrarResponsavelTecnico" type="radio" ng-value="false" ng-model="operador.CadastrarResponsavelTecnico" checked="checked" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="ng-pristine ng-untouched ng-valid" value="false" style="">Não
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- ngIf: operador.CadastrarResponsavelTecnico -->
+          <!-- ngIf: operador.CadastrarResponsavelTecnico -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end ngIf: operador.Tipo == 'F' -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading"><strong>Contato</strong></div>
+        <div class="panel-body">
+          <div class="form-group">
+            <div ng-class="{&quot;has-error&quot;:(formulario.$submitted &amp;&amp; formulario.email.$invalid) || formulario.email.$dirty  &amp;&amp; formulario.email.$invalid}" class="has-feedback">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-label">
+                    <div tooltip-placement="top" tooltip="Atenção! Certifique-se que o e-mail inserido esteja correto, pois qualquer notificação do sistema será enviada a este endereço, inclusive a recuperação de senha de acesso." class="fa fa-question-circle"></div>
+                    <label for="email" class="control-label">E-mail:</label><span class="obrigatorio"> *</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <input id="email" type="text" name="email" ng-model="operador.Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+[.][a-z]{2,}$" data-container="body" data-toggle="popover-invalid-email" data-placement="right" data-content="Email inválido!" ng-mouseover="formulario.email.$dirty &amp;&amp; formulario.email.$invalid &amp;&amp; validaEmail(true)" ng-mouseleave="validaEmail(false)" ng-enter="formulario.$valid &amp;&amp; cadastrar()" required="required" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern" style="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.reinsiraEmail.$invalid) || formulario.reinsiraEmail.$dirty &amp;&amp; formulario.reinsiraEmail.$invalid}" class="has-feedback">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-label">
+                    <label for="reinsira-email" class="control-label">Reinsira o e-mail:</label><span class="obrigatorio"> *</span>
+                  </div>
+                </div>
+                <div class="col-md-6 input-form">
+                  <input id="reinsira-email" type="email" autocomplete="off" match="operador.Email" data-container="body" data-toggle="popover-notmatch" data-placement="right" data-content="O e-mail digitado não confere!" name="reinsiraEmail" ng-model="reinsiraEmail" ng-mouseover="formulario.reinsiraEmail.$dirty &amp;&amp; formulario.reinsiraEmail.$invalid &amp;&amp; confereEmail(true)" ng-mouseleave="confereEmail(false)" onpaste="return false" required="required" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control toLower ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required ng-invalid-match" style="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.telefone.$invalid) || formulario.telefone.$dirty &amp;&amp; formulario.telefone.$invalid}" class="has-feedback">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-label">
+                    <label for="telefone" class="control-label">Telefone:</label><span class="obrigatorio"> *</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <input id="telefone" type="text" name="telefone" ng-model="operador.Telefone" ui-br-phone-number="ui-br-phone-number" required="required" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-valid-br-phone-number ng-invalid ng-invalid-required" style="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div ng-class="{&quot;has-error&quot;: formulario.celular.$dirty &amp;&amp; formulario.celular.$invalid}" class="has-feedback">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-label">
+                    <label for="celular" class="control-label">Celular:</label><span class="obrigatorio"> </span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <input id="celular" type="text" name="celular" ng-model="operador.Celular" ui-br-phone-number="ui-br-phone-number" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-valid ng-valid-br-phone-number" style="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading"><strong>Endereço de correspondência</strong></div>
+        <div class="panel-body">
+          <div class="form-group">
+            <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.logradouro.$invalid) || formulario.logradouro.$dirty &amp;&amp; formulario.logradouro.$invalid}" class="has-feedback">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-label">
+                    <label for="logradouro" class="control-label">Logradouro:</label><span class="obrigatorio"> *</span>
+                  </div>
+                </div>
+                <div class="col-md-6 input-form">
+                  <input id="logradouro" type="text" name="logradouro" ng-model="operador.Endereco.Logradouro" required="required" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" style="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.numero_km.$invalid) || formulario.numero_km.$dirty &amp;&amp; formulario.numero_km.$invalid}" class="has-feedback">
+                <div class="col-md-3">
+                  <div class="form-label">
+                    <label for="numero_km" class="control-label">Número/Km:</label><span class="obrigatorio"> *</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.numero_km.$invalid) || formulario.numero_km.$dirty &amp;&amp; formulario.numero_km.$invalid}" class="has-feedback">
+                  <div class="col-md-2 col-not-margin">
+                    <input id="numero_km" type="text" only-digits="int" name="numero_km" ,="," maxlength="10" ng-model="operador.Endereco.Numero" ng-required="!semNumero" ng-disabled="semNumero" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength" required="required" style="">
+                  </div>
+                </div>
+                <div class="col-md-1">
+                  <input type="checkbox" name="sem_numero" ng-model="semNumero" ng-change="semNumero? operador.Endereco.Numero = null : operador.Endereco.Numero" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-valid" style="">
+                </div>
+                <div class="col-md-3 col-not-margin">
+                  <label class="control-label">Sem número</label>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-label">
+                    <label for="complemento" class="control-label">Complemento:</label>
+                  </div>
+                </div>
+                <div class="col-md-3 col-not-margin">
+                  <input id="complemento" type="text" name="complemento" ng-model="operador.Endereco.Complemento" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-valid" style="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.bairro.$invalid) || formulario.bairro.$dirty &amp;&amp; formulario.bairro.$invalid}" class="has-feedback">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-label">
+                    <label for="bairro" class="control-label">Bairro:</label><span class="obrigatorio"> *</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="col-md-4 col-not-margin">
+                    <input id="bairro" type="text" name="bairro" ng-model="operador.Endereco.Bairro" required="required" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" style="">
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-label">
+                      <label for="uf" class="control-label">UF:</label><span class="obrigatorio"> *</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-not-margin">
+                    <select id="uf" name="uf" ng-model="operador.Endereco.Estado" ng-change="listarMunicipios(operador.Endereco.Estado.Id)" ng-options="uf as uf.Nome for uf in Ufs" required="required" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required"><option value="" class="" selected="selected">Selecione...</option><option value="object:140" label="Acre">Acre</option><option value="object:141" label="Alagoas">Alagoas</option><option value="object:142" label="Amapá">Amapá</option><option value="object:143" label="Amazonas">Amazonas</option><option value="object:144" label="Bahia">Bahia</option><option value="object:145" label="Ceará">Ceará</option><option value="object:146" label="Distrito Federal">Distrito Federal</option><option value="object:147" label="Espirito Santo">Espirito Santo</option><option value="object:148" label="Goiás">Goiás</option><option value="object:149" label="Maranhão">Maranhão</option><option value="object:150" label="Mato Grosso">Mato Grosso</option><option value="object:151" label="Mato Grosso do Sul">Mato Grosso do Sul</option><option value="object:152" label="Minas Gerais">Minas Gerais</option><option value="object:153" label="Pará">Pará</option><option value="object:154" label="Paraíba">Paraíba</option><option value="object:155" label="Paraná">Paraná</option><option value="object:156" label="Pernambuco">Pernambuco</option><option value="object:157" label="Piauí">Piauí</option><option value="object:158" label="Rio de Janeiro">Rio de Janeiro</option><option value="object:159" label="Rio Grande do Norte">Rio Grande do Norte</option><option value="object:160" label="Rio Grande do Sul">Rio Grande do Sul</option><option value="object:161" label="Rondônia">Rondônia</option><option value="object:162" label="Roraima">Roraima</option><option value="object:163" label="Santa Catarina">Santa Catarina</option><option value="object:164" label="São Paulo">São Paulo</option><option value="object:165" label="Sergipe">Sergipe</option><option value="object:166" label="Tocantins">Tocantins</option></select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.municipio.$invalid) || formulario.municipio.$dirty &amp;&amp; formulario.municipio.$invalid}" class="has-feedback">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-label">
+                    <label for="municipio" class="control-label">Município:</label><span class="obrigatorio"> *</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="col-md-4 col-not-margin">
+                    <select id="municipio" name="municipio" ng-disabled="Municipios.length == 0" ng-model="operador.Endereco.Municipio.Id" ng-change="listarDistritos(operador.Endereco.Municipio.Id)" ng-options="municipio.Id as municipio.Nome for municipio in Municipios" required="required" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" disabled="disabled"><option value="" class="" selected="selected">Selecione...</option></select>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-label">
+                      <div tooltip-placement="top" tooltip="Caso seu distrito não esteja listado, selecione o próprio município." class="fa fa-question-circle"></div>
+                      <label for="distrito" class="control-label">Distrito:</label><span class="obrigatorio"> *</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-not-margin">
+                    <select id="distrito" name="distrito" ng-disabled="Distritos.length == 0" ng-model="operador.Endereco.Distrito.Id" ng-options="distrito.Id as distrito.Nome for distrito in Distritos" required="required" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" disabled="disabled"><option value="" class="" selected="selected">Selecione...										</option></select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-md-3">
+                <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.cep.$invalid) || formulario.cep.$dirty &amp;&amp; formulario.cep.$invalid}" class="has-feedback">
+                  <div class="form-label">
+                    <label for="caixa_postal" class="control-label">CEP:</label><span class="obrigatorio">*</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div ng-class="{&quot;has-error&quot;: (formulario.$submitted &amp;&amp; formulario.cep.$invalid) || formulario.cep.$dirty &amp;&amp; formulario.cep.$invalid}" class="has-feedback">
+                  <div class="col-md-4 col-not-margin">
+                    <input id="cep" type="text" name="cep" ng-model="operador.Endereco.Cep" ui-br-cep-mask="ui-br-cep-mask" required="required" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-valid-cep ng-invalid ng-invalid-required" style="">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-label">
+                    <label for="cep" class="control-label">Caixa postal:</label>
+                  </div>
+                </div>
+                <div class="col-md-4 col-not-margin">
+                  <input id="caixa_postal" type="text" name="caixa_postal" ng-model="operador.Endereco.CaixaPostal" maxlength="15" ng-enter="formulario.$valid &amp;&amp; cadastrar()" class="form-control ng-pristine ng-untouched ng-valid ng-valid-maxlength" style="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ngIf: operador.Tipo == 'J' -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading"><strong>Verificação</strong></div>
+        <div class="panel-body">
+          <div vc-recaptcha="vc-recaptcha" key="&quot;6Ld86uUUAAAAAOXgavYX-4YoXCdQqBDuKDCEqTO7&quot;" ng-model="operador.CaptchaChallenge" class="col-md-offset-4 ng-pristine ng-untouched ng-valid ng-isolate-scope"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-s49hlvv8ynsz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld86uUUAAAAAOXgavYX-4YoXCdQqBDuKDCEqTO7&amp;co=aHR0cHM6Ly9zaW91dC5hZ3Vhcy5zYy5nb3YuYnI6NDQz&amp;hl=pt-BR&amp;v=bSuJ2xBC8cFy7pM4Z3Hu9boH&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=5kvxh47w0p1o"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 text-left">
+      <button ng-click="cancelar()" class="btn btn-default btn-margin"><span class="fa fa-remove"></span> Cancelar			</button>
+    </div>
+    <div class="col-md-6 text-right">
+      <button type="button" ng-click="cadastrar()" class="btn btn-primary"><span class="fa fa-save"></span> Cadastrar</button>
+    </div>
+  </div>
+</form>
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/bSuJ2xBC8cFy7pM4Z3Hu9boH/recaptcha__pt_br.js" crossorigin="anonymous" integrity="sha384-QHsOBbvHOj4TxQPQ/7LbdS2cS0cXzaZKnoZAvk58g/zzW7E3uyMSoYMM8K3o/rek"></script><script type="text/javascript" class="ng-scope">function chooseFile() { $("#fileInput").val(""); $("#fileInput").click(); };</script></section>
+    </div>
+    <!-- ngIf: autenticado || externo --><footer id="footer" ng-if="autenticado || externo" class="ng-scope" style="">
+      <div class="container">
+        <div class="row footer-superior">
+          <div class="col-sm-3 text-right pull-right"><img src="images/footer_juntos_invertido.png" style="height: 66px;"></div>
+        </div>
+      </div>
+      <div class="footer-creditos">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <!-- a(href='#/') Telefones de Contato-->
+              <!-- a(href='#/') Aspectos legais e responsabilidades-->
+              <!-- a(href='#/') Política de privacidade-->
+            </div>
+            <div class="col-md-5 footer-creditos-dev">Desenvolvido por <strong>SDE/DRHS/SC </strong>e <strong>FUNDECC/UFLA</strong></div>
+          </div>
+        </div>
+      </div>
+    </footer><!-- end ngIf: autenticado || externo -->
+<script src="./ckeditor/ckeditor.js"></script>
+<script src="./scripts/9d69574d57093274.js"></script>
+<script src="./scripts/8ad69337a51920c2.js"></script>
+  
+<script async="" defer="" src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&amp;render=explicit"></script><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="o desafio reCAPTCHA expira em dois minutos" name="c-s49hlvv8ynsz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=pt-BR&amp;v=bSuJ2xBC8cFy7pM4Z3Hu9boH&amp;k=6Ld86uUUAAAAAOXgavYX-4YoXCdQqBDuKDCEqTO7&amp;bft=0dAFcWeA6yMrgmKPNotHMflhKCRTQ9ApXKymUoHbgwoXKttx58AnJQgIxjUcqrSSy5racBj43Ogp1ypuamuGfXncKdh85ju1EcMQ" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

@@ -1,0 +1,110 @@
+# Validação das capturas
+
+Gerado em 2026-11-05T08:34:54-03:00
+
+- **OK** `p12/x01_inicial`: 1 fatia(s), 566 caracteres de texto
+- **AVISO** `p12/x03_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 758 caracteres de texto
+- **AVISO** `p12/x04_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 756 caracteres de texto
+- **AVISO** `p12/x05_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 758 caracteres de texto
+- **AVISO** `p12/x06_div_menu_redirect`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 803 caracteres de texto
+- **AVISO** `p12/x07_usuario_publico`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 803 caracteres de texto
+- **AVISO** `p12/x08_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 648 caracteres de texto
+- **AVISO** `p12/x09_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 647 caracteres de texto
+- **AVISO** `p12/x10_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 648 caracteres de texto
+- **AVISO** `p12/x11_usuario_publico`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 648 caracteres de texto
+- **AVISO** `p12/x12_gestao_florestal`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 854 caracteres de texto
+- **AVISO** `p12/x13_recursos_hidricos`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 896 caracteres de texto
+- **AVISO** `p12/x14_terras_indigenas`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 887 caracteres de texto
+- **AVISO** `p12/x15_divisao_geografica_1`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 904 caracteres de texto
+- **AVISO** `p12/x17_assentamentos`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 1066 caracteres de texto
+- **AVISO** `p12/x20_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 647 caracteres de texto
+- **AVISO** `p12/x22_item`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 648 caracteres de texto
+- **AVISO** `p12/x23_abrir_modal_principal`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 647 caracteres de texto
+- **AVISO** `p12/x24_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 646 caracteres de texto
+- **AVISO** `p12/x25_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 801 caracteres de texto
+- **AVISO** `p12/x26_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 647 caracteres de texto
+- **AVISO** `p12/x27_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 646 caracteres de texto
+- **AVISO** `p12/x28_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 648 caracteres de texto
+- **AVISO** `p12/x29_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; idêntico ao estado anterior; 1 fatia(s), 648 caracteres de texto
+- **AVISO** `p12/x30_plataforma_geoespacial`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 646 caracteres de texto
+- **AVISO** `p12/x31_div_menu_redirect`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 603 caracteres de texto
+- **AVISO** `p12/x32_usuario_publico`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 603 caracteres de texto
+- **AVISO** `p12/x33_abrir_modal_principal`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 601 caracteres de texto
+- **AVISO** `p12/x34_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 602 caracteres de texto
+- **AVISO** `p12/x35_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 758 caracteres de texto
+- **AVISO** `p12/x36_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 756 caracteres de texto
+- **AVISO** `p12/x37_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 756 caracteres de texto
+- **AVISO** `p12/x39_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 757 caracteres de texto
+- **AVISO** `p12/x40_item`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 758 caracteres de texto
+- **AVISO** `p12/x42_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 757 caracteres de texto
+- **AVISO** `p12/x44_abrir_modal_principal`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 602 caracteres de texto
+- **AVISO** `p12/x45_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 601 caracteres de texto
+- **AVISO** `p12/x47_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 601 caracteres de texto
+- **AVISO** `p12/x48_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 602 caracteres de texto
+- **AVISO** `p12/x49_fonte_sfb_cadastro_nacio`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 888 caracteres de texto
+- **AVISO** `p12/x50_recursos_hidricos`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 902 caracteres de texto
+- **AVISO** `p12/x51_terras_indigenas`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 893 caracteres de texto
+- **AVISO** `p12/x52_divisao_geografica_1`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 910 caracteres de texto
+- **AVISO** `p12/x53_unidades_de_conservacao`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 865 caracteres de texto
+- **AVISO** `p12/x54_assentamentos`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 1072 caracteres de texto
+- **AVISO** `p12/x55_solos`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 844 caracteres de texto
+- **AVISO** `p12/x56_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 808 caracteres de texto
+- **AVISO** `p12/x57_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 807 caracteres de texto
+- **AVISO** `p12/x58_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 809 caracteres de texto
+- **AVISO** `p12/x60_usuario_publico`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 809 caracteres de texto
+- **AVISO** `p12/x61_eye_slash_fill`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 845 caracteres de texto
+- **AVISO** `p12/x62_item`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 887 caracteres de texto
+- **AVISO** `p12/x63_gestao_florestal`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 938 caracteres de texto
+- **AVISO** `p12/x64_fonte_ana_base_hidrograf`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 964 caracteres de texto
+- **AVISO** `p12/x65_terras_indigenas`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 971 caracteres de texto
+- **AVISO** `p12/x66_divisao_geografica_1`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 988 caracteres de texto
+- **AVISO** `p12/x68_assentamentos`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 1150 caracteres de texto
+- **AVISO** `p12/x70_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 886 caracteres de texto
+- **AVISO** `p12/x72_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 885 caracteres de texto
+- **AVISO** `p12/x73_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 887 caracteres de texto
+- **AVISO** `p12/x74_usuario_publico`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 887 caracteres de texto
+- **AVISO** `p12/x76_item`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 878 caracteres de texto
+- **AVISO** `p12/x79_divisao_geografica_1`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 979 caracteres de texto
+- **AVISO** `p12/x81_assentamentos`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 1141 caracteres de texto
+- **AVISO** `p12/x83_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 877 caracteres de texto
+- **AVISO** `p12/x84_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 876 caracteres de texto
+- **AVISO** `p12/x85_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 878 caracteres de texto
+- **AVISO** `p12/x86_div_menu_redirect`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 923 caracteres de texto
+- **AVISO** `p12/x87_usuario_publico`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 923 caracteres de texto
+- **AVISO** `p12/x90_item`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 940 caracteres de texto
+- **AVISO** `p12/x91_gestao_florestal`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 991 caracteres de texto
+- **AVISO** `p12/x92_terras_indigenas`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 1024 caracteres de texto
+- **AVISO** `p12/x96_assentamentos`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 1203 caracteres de texto
+- **AVISO** `p12/x98_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 939 caracteres de texto
+- **AVISO** `p12/x99_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 937 caracteres de texto
+- **AVISO** `p12/x100_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 938 caracteres de texto
+- **AVISO** `p12/x101_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 940 caracteres de texto
+- **AVISO** `p12/x102_usuario_publico`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 940 caracteres de texto
+- **AVISO** `p12/x106_item`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 895 caracteres de texto
+- **AVISO** `p12/x107_recursos_hidricos`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 988 caracteres de texto
+- **AVISO** `p12/x109_fonte_mma_unidades_de_co`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 988 caracteres de texto
+- **AVISO** `p12/x110_assentamentos`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 1158 caracteres de texto
+- **AVISO** `p12/x112_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 894 caracteres de texto
+- **AVISO** `p12/x113_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 893 caracteres de texto
+- **AVISO** `p12/x114_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 895 caracteres de texto
+- **AVISO** `p12/x115_div_menu_redirect`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 850 caracteres de texto
+- **AVISO** `p12/x116_usuario_publico`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 850 caracteres de texto
+- **AVISO** `p12/x119_item`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 1057 caracteres de texto
+- **OK** `p13/portal_x01_inicial`: 1 fatia(s), 357 caracteres de texto
+- **OK** `p13/portal_x02_consulta_siout`: 2 fatia(s), 11225 caracteres de texto
+- **OK** `p13/portal_x03_cadastrar`: 2 fatia(s), 841 caracteres de texto
+- **OK** `p13/portal_x04_documentacao_auxiliar`: 1 fatia(s), 1092 caracteres de texto
+- **OK** `p13/mapa_x01_inicial`: 1 fatia(s), 2203 caracteres de texto
+- **AVISO** `p13/mapa_x02_square_button`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 2211 caracteres de texto
+- **AVISO** `p13/mapa_x03_btn`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 2316 caracteres de texto
+- **AVISO** `p13/mapa_x04_square_button`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 2219 caracteres de texto
+- **AVISO** `p13/mapa_x05_square_button`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 2218 caracteres de texto
+- **AVISO** `p13/mapa_x08_square_button`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 2228 caracteres de texto
+- **AVISO** `p13/mapa_x09_square_button_md`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 2233 caracteres de texto
+- **AVISO** `p13/mapa_x12_ol_viewport`: URL não mudou entre os estados (ok se for SPA/menu; confira visualmente).; 1 fatia(s), 3902 caracteres de texto
+
+p12: 88 válido(s) de 88; pasta `RAIZ_DO_PROJETO/coletas_v2/p12/20261104`
+
+p13: 12 válido(s) de 12; pasta `RAIZ_DO_PROJETO/coletas_v2/p13/20261104`
+
+**Resultado: APROVADO**

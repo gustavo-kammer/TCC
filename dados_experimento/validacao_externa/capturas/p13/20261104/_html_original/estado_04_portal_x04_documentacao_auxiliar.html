@@ -1,0 +1,151 @@
+<!DOCTYPE html><html lang="pt-br" ng-app="app" ng-strict-di="" class="ng-scope"><head><meta http-equiv="origin-trial" content="A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZTnKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2VQYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8">
+    <title ng-bind="&quot;SIOUT SC - &quot; + title" class="ng-binding">SIOUT SC - Sistema de Outorga de Água de Santa Catarina</title>
+    <meta name="description" content="Sistema de Outorga de Água de Santa Catarina">
+    <meta name="keywords" content="SIOUT, SC">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="./styles/1411bc1c7d2b41d9.css">
+<link rel="stylesheet" href="./styles/8c2e029fb808f359.css">
+  <style>.cke{visibility:hidden;}</style></head>
+  <body class="modal-open">
+    <div id="wrap" ng-class="{'footer-off': !autenticado &amp;&amp; !externo}" class="footer-off" style="">
+      <div id="loaderDiv" loader="" style="display: none;"><span class="ajax-loader fa fa-spinner fa-pulse fa-4x"></span></div>
+      <div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+      </div>
+      <!-- ngIf: autenticado || externo || politicas -->
+      <!-- ngView:  --><section ng-view="" ng-class="{'container-off': !autenticado &amp;&amp; !externo &amp;&amp; !politicas}" class="container ng-scope container-off" style="">
+<!-- ngIf: EFuncionalidadeAtiva.MensagemIndisponibilidade -->
+<!-- ngIf: treinamento.exibir -->
+<!-- ngIf: !autenticado && !externo --><div id="new-portal-wrap" ng-if="!autenticado &amp;&amp; !externo" class="ng-scope">
+  <div ng-class="{'main-bg-img': autenticado || externo}" style="background-image: url('images/backgrounds/bg_agua.jpg'); background-repeat: round; background-size: cover;" class="main-left-container">
+    <div class="main-header-container"> 
+      <div class="header-img"><img src="images/logo_estado_branco.png" style="height: 90px;" class="img-responsive img-sc-header-big"></div>
+      <div class="header-menu">
+        <div class="menu-container">
+          <div class="menu-item"><a ng-href="http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33" target="_blank" rel="tooltip" title="Acesso ao SIG SIOUT" class="menu-item" href="http://sig-siout.aguas.sc.gov.br/#/viewer/openlayers/33"><span class="menu-icon fa fa-tint fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Acesso</div>
+                <div>SIG SIOUT</div>
+              </div></a></div>
+          <div class="menu-item"><a href="http://www.aguas.sc.gov.br/" target="_blank" rel="tooltip" title="Acesso a página inicial do AGUAS.SC" class="menu-item"><span class="menu-icon fa fa-home fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Acesso</div>
+                <div>AGUAS.SC								</div>
+              </div></a></div>
+          <div class="menu-item"><a ng-click="baixarDocumentos()" rel="tooltip" title="Acesso a documentação auxiliar" class="menu-item"><span class="menu-icon fa fa-file-text fa-lg menu-docs-size"></span>
+              <div class="menu-description m-top-10">
+                <div>Documentação</div>
+                <div>auxiliar</div>
+              </div></a></div>
+          <div class="menu-item"><a href="consulta/" rel="tooltip" title="Consulta SIOUT" class="menu-item"><span class="menu-icon fa fa-search fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Consulta</div>
+                <div>SIOUT</div>
+              </div></a></div>
+          <div class="menu-item"><a ng-click="contato()" rel="tooltip" title="Acesso ao contato" class="menu-item"><span class="menu-icon fa fa-comments fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Contato</div>
+              </div></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="main-content-container">
+      <div class="main-content-title"> <span>O SISTEMA </span><span class="m-top-1">DE OUTORGA</span><span class="m-top-1">DE SC CHEGOU </span></div>
+      <div class="main-content-sub-container">
+        <div class="main-content-subtitle">
+           
+          Módulo autodeclaratório
+        </div>
+        <div class="main-content-btn"><a href="http://www.aguas.sc.gov.br/outorga-inicial/outorga-home" target="_blank" class="button btn btn-primary btn-saiba-mais"> Saiba mais</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="main-right-container">
+    <div class="header-menu-mobile">
+      <div class="header-menu">
+        <div class="menu-container">
+          <div class="menu-item"><a ng-click="" href="http://www.aguas.sc.gov.br/" rel="tooltip" title="Acesso a página inicial do AGUAS.SC" class="menu-item"><span class="menu-icon fa fa-home fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Acesso</div>
+                <div>AGUAS.SC</div>
+              </div></a></div>
+          <div class="menu-item"><a ng-click="baixarDocumentos()" rel="tooltip" title="Acesso a documentação auxiliar" class="menu-item"><span class="menu-icon fa fa-file-text fa-lg menu-docs-size"></span>
+              <div class="menu-description m-top-10">
+                <div>Documentação</div>
+                <div>auxiliar</div>
+              </div></a></div>
+          <div class="menu-item"><a href="consulta/" rel="tooltip" title="Consulta SIOUT" class="menu-item"><span class="menu-icon fa fa-search fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Consulta</div>
+                <div>SIOUT</div>
+              </div></a></div>
+          <div class="menu-item"><a ng-click="contato()" rel="tooltip" title="Acesso ao contato" class="menu-item"><span class="menu-icon fa fa-comments fa-lg"></span>
+              <div class="menu-description m-top-10">
+                <div>Contato</div>
+              </div></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="right-container-wrapper"><img src="images/novo_logo_siout.png" style="height: 60px;" class="m-top-10-p img-responsive img-siout-big">
+      <div class="m-top-10-p">
+        <div class="login-container">
+          <div class="panel-login-upper-section"><span class="login-title">Já tenho cadastro no <span class="strong-sc">SIOUT SC</span></span>
+            <form ng-submit="autenticar()" class="form-horizontal autenticacao-form panel-form-margin ng-pristine ng-invalid ng-invalid-required ng-invalid-documento ng-valid-maxlength">
+              <div class="form-group">
+                <div ng-class="{&quot;has-error&quot;:usuarioCpfInvalido}" class="has-feedback has-feedback-left">
+                  <input id="login" type="text" name="login" ng-model="usuario.login" ng-change="validaCpf()" ng-documento="" placeholder="Login" maxlength="14" ng-popover="ng-popover" popover-mensagem="O CPF informado é inválido!" popover-placement="bottom" shown="usuarioCpfInvalido" ng-disabled="modalCookieBotaoLoginSenha" required="required" class="form-control ng-pristine ng-untouched ng-isolate-scope ng-invalid ng-invalid-required ng-invalid-documento ng-valid-maxlength" style=""><i class="fa fa-user form-control-feedback"></i>
+                </div>
+              </div>
+              <div class="form-group has-feedback has-feedback-left">
+                <input type="password" id="password" ng-model="usuario.senha" placeholder="Senha" ng-disabled="modalCookieBotaoLoginSenha" required="required" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required" style=""><i class="form-control-feedback fa fa-unlock-alt"></i>
+              </div>
+              <!-- ngIf: exibirCaptcha -->
+              <div class="form-group"><!-- ngIf: !modalCookieBotaoLoginSenha --><a ng-if="!modalCookieBotaoLoginSenha" ng-click="recuperarSenha()" class="clickable recover-password-title ng-scope">Recuperar senha</a><!-- end ngIf: !modalCookieBotaoLoginSenha -->
+                <button type="submit" ng-disabled="modalCookieBotaoLoginSenha" class="btn btn-primary btn-primary-custom">Entrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="login-container-hr"></div>
+        <div class="signup-container"> <span class="panel-login-title">Não tenho cadastro no </span><span class="strong-sc">SIOUT SC</span>
+          <div style="text-align: center;" class="panel-login-sign-up-container m-top-10">
+            <button ng-click="cadastrar()" ng-disabled="modalCookieBotaoLoginSenha" class="btn btn-primary btn-primary-custom btn-custom-lg"> Cadastrar</button>
+          </div>
+        </div>
+      </div>
+      <div class="right-container-bottom"></div><img src="images/footer_juntos_invertido.png" style="height: 66px;" class="img-sc-footer-big">
+    </div>
+  </div>
+</div><!-- end ngIf: !autenticado && !externo -->
+<!-- ngIf: modalCookieBotaoLoginSenha --></section>
+    </div>
+    <!-- ngIf: autenticado || externo -->
+<script src="./ckeditor/ckeditor.js"></script>
+<script src="./scripts/9d69574d57093274.js"></script>
+<script src="./scripts/8ad69337a51920c2.js"></script>
+  
+<script async="" defer="" src="https://www.google.com/recaptcha/api.js?onload=vcRecaptchaApiLoaded&amp;render=explicit"></script><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="o desafio reCAPTCHA expira em dois minutos" name="c-s49hlvv8ynsz" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/bframe?hl=pt-BR&amp;v=bSuJ2xBC8cFy7pM4Z3Hu9boH&amp;k=6Ld86uUUAAAAAOXgavYX-4YoXCdQqBDuKDCEqTO7&amp;bft=0dAFcWeA6yMrgmKPNotHMflhKCRTQ9ApXKymUoHbgwoXKttx58AnJQgIxjUcqrSSy5racBj43Ogp1ypuamuGfXncKdh85ju1EcMQ" style="width: 100%; height: 100%;"></iframe></div></div><div uib-modal-animation-class="fade" modal-in-class="in" ng-style="{'z-index': 1040 + (index &amp;&amp; 1 || 0) + index*10}" uib-modal-backdrop="modal-backdrop" modal-animation="true" class="fade modal-backdrop in" style="z-index: 1040;"></div><div modal-render="true" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope in" uib-modal-animation-class="fade" modal-in-class="in" ng-style="{'z-index': 1050 + index*10, display: 'block'}" uib-modal-window="modal-window" size="md" index="0" animate="animate" modal-animation="true" style="z-index: 1050; display: block;">
+    <div class="modal-dialog modal-md" ng-class="size ? 'modal-' + size : ''" style=""><div class="modal-content" uib-modal-transclude="">
+<div class="modal-header ng-scope">
+  <h3 class="modal-title text-center">Documentação auxiliar</h3>
+</div>
+<div class="modal-body ng-scope">
+  <div class="form-group">
+    <p>	Abaixo estão os links para os documentos auxiliares. Clique no link do documento desejado para fazer o download.</p>
+    <div class="row">
+      <div class="margin-links-manual">
+        <div class="col-md-12"><br><a type="button" href="Arquivos/Manual/Manual_Cadastro_Siout.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span> 	Como se cadastrar no SIOUT ?</a><br><a type="button" href="Arquivos/Manual/Manual_Cadastro_Outro_Usuario.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span> 	Como ser responsável pelo cadastro para outro usuário de água ?</a><br><a type="button" href="Arquivos/Manual/Manual_Autorizacao_Perf_Poco.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span> 	Como solicitar Autorização para Perfuração de Poço ?</a><br><a type="button" href="Arquivos/Manual/Exemplos_Cadastro_Subterraneo.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span> 	Exemplos de Cadastro de Uso da Água (Água Subterrânea) </a><br><a type="button" href="Arquivos/Manual/Exemplos_Cadastro_Superficial.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span>  Exemplos de Cadastro de Uso da Água (Água Superficial)</a><br><a type="button" href="Arquivos/Manual/Manual_Etapa_Finalidades.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span> 	Como posso informar como serão utilizados os recursos hídricos ?</a><br><a type="button" href="Arquivos/Manual/Manual_Regularizacao_Dispensa_Outorga.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span> 	Solicitação de regularização - Dispensa de Outorga</a><br><a type="button" href="Arquivos/Manual/Manual_Regularizacao_Uso_Insignificante.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span> 	Solicitação de regularização - Uso Insignificante</a><br><a type="button" href="Arquivos/Manual/Manual_Transferencia_Titularidade.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span> 	Como solicitar Transferência de Titularidade ?</a><br><a type="button" href="Arquivos/Manual/Manual_SIG_SIOUT_Usuarios_Externos.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span> 	Como utilizar o SIG SIOUT? Usuário Externo (não logado)</a><br><a type="button" href="Arquivos/Manual/Manual_SIG_SIOUT_Usuario_Basico.pdf" target="_blank" class="clickable link-manuais"><span class="fa fa-file-pdf-o"></span> 	Como utilizar o SIG SIOUT? Usuário Básico (logado)</a><br><a type="button" href="https://drive.google.com/drive/folders/1XnL0OEo5CgOyFPba9r2OkGK4iNInCDY7?usp=sharing" target="_blank" class="clickable link-manuais"><span class="fa fa-link"></span> 	Vídeos Tutoriais</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal-footer ng-scope">
+  <div class="col-md-12">
+    <button type="button" ng-click="fechar()" class="btn btn-default"><span class="fa fa-close"></span> Fechar</button>
+  </div>
+</div></div></div>
+</div></body></html>

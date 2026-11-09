@@ -1,0 +1,1251 @@
+{
+  "id": "p12",
+  "url_solicitada": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+  "coletado_em": "2026-11-04T23:57:41-03:00",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "locale": "pt-BR",
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "x01_inicial",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_01_x01_inicial_completo.png",
+      "fatias": [
+        "estado_01_x01_inicial_fatia_1.png"
+      ],
+      "html": "estado_01_x01_inicial.html",
+      "overlays_fechados": [],
+      "alertas": []
+    },
+    {
+      "ordem": 2,
+      "nome": "x03_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_02_x03_btn_completo.png",
+      "fatias": [
+        "estado_02_x03_btn_fatia_1.png"
+      ],
+      "html": "estado_02_x03_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 3,
+      "nome": "x04_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_03_x04_btn_completo.png",
+      "fatias": [
+        "estado_03_x04_btn_fatia_1.png"
+      ],
+      "html": "estado_03_x04_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 4,
+      "nome": "x05_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_04_x05_btn_completo.png",
+      "fatias": [
+        "estado_04_x05_btn_fatia_1.png"
+      ],
+      "html": "estado_04_x05_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 5,
+      "nome": "x06_div_menu_redirect",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_05_x06_div_menu_redirect_completo.png",
+      "fatias": [
+        "estado_05_x06_div_menu_redirect_fatia_1.png"
+      ],
+      "html": "estado_05_x06_div_menu_redirect.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 6,
+      "nome": "x07_usuario_publico",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_06_x07_usuario_publico_completo.png",
+      "fatias": [
+        "estado_06_x07_usuario_publico_fatia_1.png"
+      ],
+      "html": "estado_06_x07_usuario_publico.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 7,
+      "nome": "x08_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_07_x08_btn_completo.png",
+      "fatias": [
+        "estado_07_x08_btn_fatia_1.png"
+      ],
+      "html": "estado_07_x08_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 8,
+      "nome": "x09_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_08_x09_btn_completo.png",
+      "fatias": [
+        "estado_08_x09_btn_fatia_1.png"
+      ],
+      "html": "estado_08_x09_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 9,
+      "nome": "x10_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_09_x10_btn_completo.png",
+      "fatias": [
+        "estado_09_x10_btn_fatia_1.png"
+      ],
+      "html": "estado_09_x10_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 10,
+      "nome": "x11_usuario_publico",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_10_x11_usuario_publico_completo.png",
+      "fatias": [
+        "estado_10_x11_usuario_publico_fatia_1.png"
+      ],
+      "html": "estado_10_x11_usuario_publico.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 11,
+      "nome": "x12_gestao_florestal",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_11_x12_gestao_florestal_completo.png",
+      "fatias": [
+        "estado_11_x12_gestao_florestal_fatia_1.png"
+      ],
+      "html": "estado_11_x12_gestao_florestal.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 12,
+      "nome": "x13_recursos_hidricos",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_12_x13_recursos_hidricos_completo.png",
+      "fatias": [
+        "estado_12_x13_recursos_hidricos_fatia_1.png"
+      ],
+      "html": "estado_12_x13_recursos_hidricos.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 13,
+      "nome": "x14_terras_indigenas",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_13_x14_terras_indigenas_completo.png",
+      "fatias": [
+        "estado_13_x14_terras_indigenas_fatia_1.png"
+      ],
+      "html": "estado_13_x14_terras_indigenas.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 14,
+      "nome": "x15_divisao_geografica_1",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_14_x15_divisao_geografica_1_completo.png",
+      "fatias": [
+        "estado_14_x15_divisao_geografica_1_fatia_1.png"
+      ],
+      "html": "estado_14_x15_divisao_geografica_1.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 15,
+      "nome": "x17_assentamentos",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_15_x17_assentamentos_completo.png",
+      "fatias": [
+        "estado_15_x17_assentamentos_fatia_1.png"
+      ],
+      "html": "estado_15_x17_assentamentos.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 16,
+      "nome": "x20_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_16_x20_btn_completo.png",
+      "fatias": [
+        "estado_16_x20_btn_fatia_1.png"
+      ],
+      "html": "estado_16_x20_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 17,
+      "nome": "x22_item",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_17_x22_item_completo.png",
+      "fatias": [
+        "estado_17_x22_item_fatia_1.png"
+      ],
+      "html": "estado_17_x22_item.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 18,
+      "nome": "x23_abrir_modal_principal",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_18_x23_abrir_modal_principal_completo.png",
+      "fatias": [
+        "estado_18_x23_abrir_modal_principal_fatia_1.png"
+      ],
+      "html": "estado_18_x23_abrir_modal_principal.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 19,
+      "nome": "x24_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_19_x24_btn_completo.png",
+      "fatias": [
+        "estado_19_x24_btn_fatia_1.png"
+      ],
+      "html": "estado_19_x24_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 20,
+      "nome": "x25_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_20_x25_btn_completo.png",
+      "fatias": [
+        "estado_20_x25_btn_fatia_1.png"
+      ],
+      "html": "estado_20_x25_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 21,
+      "nome": "x26_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_21_x26_btn_completo.png",
+      "fatias": [
+        "estado_21_x26_btn_fatia_1.png"
+      ],
+      "html": "estado_21_x26_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 22,
+      "nome": "x27_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_22_x27_btn_completo.png",
+      "fatias": [
+        "estado_22_x27_btn_fatia_1.png"
+      ],
+      "html": "estado_22_x27_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 23,
+      "nome": "x28_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_23_x28_btn_completo.png",
+      "fatias": [
+        "estado_23_x28_btn_fatia_1.png"
+      ],
+      "html": "estado_23_x28_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 24,
+      "nome": "x29_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_24_x29_btn_completo.png",
+      "fatias": [
+        "estado_24_x29_btn_fatia_1.png"
+      ],
+      "html": "estado_24_x29_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 25,
+      "nome": "x30_plataforma_geoespacial",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_25_x30_plataforma_geoespacial_completo.png",
+      "fatias": [
+        "estado_25_x30_plataforma_geoespacial_fatia_1.png"
+      ],
+      "html": "estado_25_x30_plataforma_geoespacial.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 26,
+      "nome": "x31_div_menu_redirect",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_26_x31_div_menu_redirect_completo.png",
+      "fatias": [
+        "estado_26_x31_div_menu_redirect_fatia_1.png"
+      ],
+      "html": "estado_26_x31_div_menu_redirect.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 27,
+      "nome": "x32_usuario_publico",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_27_x32_usuario_publico_completo.png",
+      "fatias": [
+        "estado_27_x32_usuario_publico_fatia_1.png"
+      ],
+      "html": "estado_27_x32_usuario_publico.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 28,
+      "nome": "x33_abrir_modal_principal",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_28_x33_abrir_modal_principal_completo.png",
+      "fatias": [
+        "estado_28_x33_abrir_modal_principal_fatia_1.png"
+      ],
+      "html": "estado_28_x33_abrir_modal_principal.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 29,
+      "nome": "x34_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_29_x34_btn_completo.png",
+      "fatias": [
+        "estado_29_x34_btn_fatia_1.png"
+      ],
+      "html": "estado_29_x34_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 30,
+      "nome": "x35_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_30_x35_btn_completo.png",
+      "fatias": [
+        "estado_30_x35_btn_fatia_1.png"
+      ],
+      "html": "estado_30_x35_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 31,
+      "nome": "x36_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_31_x36_btn_completo.png",
+      "fatias": [
+        "estado_31_x36_btn_fatia_1.png"
+      ],
+      "html": "estado_31_x36_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 32,
+      "nome": "x37_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_32_x37_btn_completo.png",
+      "fatias": [
+        "estado_32_x37_btn_fatia_1.png"
+      ],
+      "html": "estado_32_x37_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 33,
+      "nome": "x39_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_33_x39_btn_completo.png",
+      "fatias": [
+        "estado_33_x39_btn_fatia_1.png"
+      ],
+      "html": "estado_33_x39_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 34,
+      "nome": "x40_item",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_34_x40_item_completo.png",
+      "fatias": [
+        "estado_34_x40_item_fatia_1.png"
+      ],
+      "html": "estado_34_x40_item.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 35,
+      "nome": "x42_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_35_x42_btn_completo.png",
+      "fatias": [
+        "estado_35_x42_btn_fatia_1.png"
+      ],
+      "html": "estado_35_x42_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 36,
+      "nome": "x44_abrir_modal_principal",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_36_x44_abrir_modal_principal_completo.png",
+      "fatias": [
+        "estado_36_x44_abrir_modal_principal_fatia_1.png"
+      ],
+      "html": "estado_36_x44_abrir_modal_principal.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 37,
+      "nome": "x45_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_37_x45_btn_completo.png",
+      "fatias": [
+        "estado_37_x45_btn_fatia_1.png"
+      ],
+      "html": "estado_37_x45_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 38,
+      "nome": "x47_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_38_x47_btn_completo.png",
+      "fatias": [
+        "estado_38_x47_btn_fatia_1.png"
+      ],
+      "html": "estado_38_x47_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 39,
+      "nome": "x48_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_39_x48_btn_completo.png",
+      "fatias": [
+        "estado_39_x48_btn_fatia_1.png"
+      ],
+      "html": "estado_39_x48_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 40,
+      "nome": "x49_fonte_sfb_cadastro_nacio",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_40_x49_fonte_sfb_cadastro_nacio_completo.png",
+      "fatias": [
+        "estado_40_x49_fonte_sfb_cadastro_nacio_fatia_1.png"
+      ],
+      "html": "estado_40_x49_fonte_sfb_cadastro_nacio.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 41,
+      "nome": "x50_recursos_hidricos",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_41_x50_recursos_hidricos_completo.png",
+      "fatias": [
+        "estado_41_x50_recursos_hidricos_fatia_1.png"
+      ],
+      "html": "estado_41_x50_recursos_hidricos.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 42,
+      "nome": "x51_terras_indigenas",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_42_x51_terras_indigenas_completo.png",
+      "fatias": [
+        "estado_42_x51_terras_indigenas_fatia_1.png"
+      ],
+      "html": "estado_42_x51_terras_indigenas.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 43,
+      "nome": "x52_divisao_geografica_1",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_43_x52_divisao_geografica_1_completo.png",
+      "fatias": [
+        "estado_43_x52_divisao_geografica_1_fatia_1.png"
+      ],
+      "html": "estado_43_x52_divisao_geografica_1.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 44,
+      "nome": "x53_unidades_de_conservacao",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_44_x53_unidades_de_conservacao_completo.png",
+      "fatias": [
+        "estado_44_x53_unidades_de_conservacao_fatia_1.png"
+      ],
+      "html": "estado_44_x53_unidades_de_conservacao.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 45,
+      "nome": "x54_assentamentos",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_45_x54_assentamentos_completo.png",
+      "fatias": [
+        "estado_45_x54_assentamentos_fatia_1.png"
+      ],
+      "html": "estado_45_x54_assentamentos.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 46,
+      "nome": "x55_solos",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_46_x55_solos_completo.png",
+      "fatias": [
+        "estado_46_x55_solos_fatia_1.png"
+      ],
+      "html": "estado_46_x55_solos.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 47,
+      "nome": "x56_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_47_x56_btn_completo.png",
+      "fatias": [
+        "estado_47_x56_btn_fatia_1.png"
+      ],
+      "html": "estado_47_x56_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 48,
+      "nome": "x57_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_48_x57_btn_completo.png",
+      "fatias": [
+        "estado_48_x57_btn_fatia_1.png"
+      ],
+      "html": "estado_48_x57_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 49,
+      "nome": "x58_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_49_x58_btn_completo.png",
+      "fatias": [
+        "estado_49_x58_btn_fatia_1.png"
+      ],
+      "html": "estado_49_x58_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 50,
+      "nome": "x60_usuario_publico",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_50_x60_usuario_publico_completo.png",
+      "fatias": [
+        "estado_50_x60_usuario_publico_fatia_1.png"
+      ],
+      "html": "estado_50_x60_usuario_publico.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 51,
+      "nome": "x61_eye_slash_fill",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_51_x61_eye_slash_fill_completo.png",
+      "fatias": [
+        "estado_51_x61_eye_slash_fill_fatia_1.png"
+      ],
+      "html": "estado_51_x61_eye_slash_fill.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 52,
+      "nome": "x62_item",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_52_x62_item_completo.png",
+      "fatias": [
+        "estado_52_x62_item_fatia_1.png"
+      ],
+      "html": "estado_52_x62_item.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 53,
+      "nome": "x63_gestao_florestal",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_53_x63_gestao_florestal_completo.png",
+      "fatias": [
+        "estado_53_x63_gestao_florestal_fatia_1.png"
+      ],
+      "html": "estado_53_x63_gestao_florestal.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 54,
+      "nome": "x64_fonte_ana_base_hidrograf",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_54_x64_fonte_ana_base_hidrograf_completo.png",
+      "fatias": [
+        "estado_54_x64_fonte_ana_base_hidrograf_fatia_1.png"
+      ],
+      "html": "estado_54_x64_fonte_ana_base_hidrograf.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 55,
+      "nome": "x65_terras_indigenas",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_55_x65_terras_indigenas_completo.png",
+      "fatias": [
+        "estado_55_x65_terras_indigenas_fatia_1.png"
+      ],
+      "html": "estado_55_x65_terras_indigenas.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 56,
+      "nome": "x66_divisao_geografica_1",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_56_x66_divisao_geografica_1_completo.png",
+      "fatias": [
+        "estado_56_x66_divisao_geografica_1_fatia_1.png"
+      ],
+      "html": "estado_56_x66_divisao_geografica_1.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 57,
+      "nome": "x68_assentamentos",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_57_x68_assentamentos_completo.png",
+      "fatias": [
+        "estado_57_x68_assentamentos_fatia_1.png"
+      ],
+      "html": "estado_57_x68_assentamentos.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 58,
+      "nome": "x70_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_58_x70_btn_completo.png",
+      "fatias": [
+        "estado_58_x70_btn_fatia_1.png"
+      ],
+      "html": "estado_58_x70_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 59,
+      "nome": "x72_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_59_x72_btn_completo.png",
+      "fatias": [
+        "estado_59_x72_btn_fatia_1.png"
+      ],
+      "html": "estado_59_x72_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 60,
+      "nome": "x73_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_60_x73_btn_completo.png",
+      "fatias": [
+        "estado_60_x73_btn_fatia_1.png"
+      ],
+      "html": "estado_60_x73_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 61,
+      "nome": "x74_usuario_publico",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_61_x74_usuario_publico_completo.png",
+      "fatias": [
+        "estado_61_x74_usuario_publico_fatia_1.png"
+      ],
+      "html": "estado_61_x74_usuario_publico.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 62,
+      "nome": "x76_item",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_62_x76_item_completo.png",
+      "fatias": [
+        "estado_62_x76_item_fatia_1.png"
+      ],
+      "html": "estado_62_x76_item.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 63,
+      "nome": "x79_divisao_geografica_1",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_63_x79_divisao_geografica_1_completo.png",
+      "fatias": [
+        "estado_63_x79_divisao_geografica_1_fatia_1.png"
+      ],
+      "html": "estado_63_x79_divisao_geografica_1.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 64,
+      "nome": "x81_assentamentos",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_64_x81_assentamentos_completo.png",
+      "fatias": [
+        "estado_64_x81_assentamentos_fatia_1.png"
+      ],
+      "html": "estado_64_x81_assentamentos.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 65,
+      "nome": "x83_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_65_x83_btn_completo.png",
+      "fatias": [
+        "estado_65_x83_btn_fatia_1.png"
+      ],
+      "html": "estado_65_x83_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 66,
+      "nome": "x84_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_66_x84_btn_completo.png",
+      "fatias": [
+        "estado_66_x84_btn_fatia_1.png"
+      ],
+      "html": "estado_66_x84_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 67,
+      "nome": "x85_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_67_x85_btn_completo.png",
+      "fatias": [
+        "estado_67_x85_btn_fatia_1.png"
+      ],
+      "html": "estado_67_x85_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 68,
+      "nome": "x86_div_menu_redirect",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_68_x86_div_menu_redirect_completo.png",
+      "fatias": [
+        "estado_68_x86_div_menu_redirect_fatia_1.png"
+      ],
+      "html": "estado_68_x86_div_menu_redirect.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 69,
+      "nome": "x87_usuario_publico",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_69_x87_usuario_publico_completo.png",
+      "fatias": [
+        "estado_69_x87_usuario_publico_fatia_1.png"
+      ],
+      "html": "estado_69_x87_usuario_publico.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 70,
+      "nome": "x90_item",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_70_x90_item_completo.png",
+      "fatias": [
+        "estado_70_x90_item_fatia_1.png"
+      ],
+      "html": "estado_70_x90_item.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 71,
+      "nome": "x91_gestao_florestal",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_71_x91_gestao_florestal_completo.png",
+      "fatias": [
+        "estado_71_x91_gestao_florestal_fatia_1.png"
+      ],
+      "html": "estado_71_x91_gestao_florestal.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 72,
+      "nome": "x92_terras_indigenas",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_72_x92_terras_indigenas_completo.png",
+      "fatias": [
+        "estado_72_x92_terras_indigenas_fatia_1.png"
+      ],
+      "html": "estado_72_x92_terras_indigenas.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 73,
+      "nome": "x96_assentamentos",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_73_x96_assentamentos_completo.png",
+      "fatias": [
+        "estado_73_x96_assentamentos_fatia_1.png"
+      ],
+      "html": "estado_73_x96_assentamentos.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 74,
+      "nome": "x98_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_74_x98_btn_completo.png",
+      "fatias": [
+        "estado_74_x98_btn_fatia_1.png"
+      ],
+      "html": "estado_74_x98_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 75,
+      "nome": "x99_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_75_x99_btn_completo.png",
+      "fatias": [
+        "estado_75_x99_btn_fatia_1.png"
+      ],
+      "html": "estado_75_x99_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 76,
+      "nome": "x100_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_76_x100_btn_completo.png",
+      "fatias": [
+        "estado_76_x100_btn_fatia_1.png"
+      ],
+      "html": "estado_76_x100_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 77,
+      "nome": "x101_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_77_x101_btn_completo.png",
+      "fatias": [
+        "estado_77_x101_btn_fatia_1.png"
+      ],
+      "html": "estado_77_x101_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 78,
+      "nome": "x102_usuario_publico",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_78_x102_usuario_publico_completo.png",
+      "fatias": [
+        "estado_78_x102_usuario_publico_fatia_1.png"
+      ],
+      "html": "estado_78_x102_usuario_publico.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 79,
+      "nome": "x106_item",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_79_x106_item_completo.png",
+      "fatias": [
+        "estado_79_x106_item_fatia_1.png"
+      ],
+      "html": "estado_79_x106_item.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 80,
+      "nome": "x107_recursos_hidricos",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_80_x107_recursos_hidricos_completo.png",
+      "fatias": [
+        "estado_80_x107_recursos_hidricos_fatia_1.png"
+      ],
+      "html": "estado_80_x107_recursos_hidricos.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 81,
+      "nome": "x109_fonte_mma_unidades_de_co",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_81_x109_fonte_mma_unidades_de_co_completo.png",
+      "fatias": [
+        "estado_81_x109_fonte_mma_unidades_de_co_fatia_1.png"
+      ],
+      "html": "estado_81_x109_fonte_mma_unidades_de_co.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 82,
+      "nome": "x110_assentamentos",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_82_x110_assentamentos_completo.png",
+      "fatias": [
+        "estado_82_x110_assentamentos_fatia_1.png"
+      ],
+      "html": "estado_82_x110_assentamentos.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 83,
+      "nome": "x112_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_83_x112_btn_completo.png",
+      "fatias": [
+        "estado_83_x112_btn_fatia_1.png"
+      ],
+      "html": "estado_83_x112_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 84,
+      "nome": "x113_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_84_x113_btn_completo.png",
+      "fatias": [
+        "estado_84_x113_btn_fatia_1.png"
+      ],
+      "html": "estado_84_x113_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 85,
+      "nome": "x114_btn",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_85_x114_btn_completo.png",
+      "fatias": [
+        "estado_85_x114_btn_fatia_1.png"
+      ],
+      "html": "estado_85_x114_btn.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 86,
+      "nome": "x115_div_menu_redirect",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_86_x115_div_menu_redirect_completo.png",
+      "fatias": [
+        "estado_86_x115_div_menu_redirect_fatia_1.png"
+      ],
+      "html": "estado_86_x115_div_menu_redirect.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 87,
+      "nome": "x116_usuario_publico",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_87_x116_usuario_publico_completo.png",
+      "fatias": [
+        "estado_87_x116_usuario_publico_fatia_1.png"
+      ],
+      "html": "estado_87_x116_usuario_publico.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    },
+    {
+      "ordem": 88,
+      "nome": "x119_item",
+      "url_no_momento": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+      "completo": "estado_88_x119_item_completo.png",
+      "fatias": [
+        "estado_88_x119_item_fatia_1.png"
+      ],
+      "html": "estado_88_x119_item.html",
+      "overlays_fechados": [],
+      "alertas": [
+        "URL não mudou entre os estados (ok se for SPA/menu; confira visualmente)."
+      ]
+    }
+  ],
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+  "cookies_tratados": false,
+  "css_embutido": {
+    "em": "2026-11-05T02:05:27-03:00",
+    "estados": 88,
+    "folhas_distintas": 1,
+    "falhas": [],
+    "ausentes_no_servidor": []
+  }
+}
