@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cesta recorrente — Feirinha</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="#">
+        <span class="brand__mark" aria-hidden="true"></span>
+        Feirinha
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#">Catálogo</a>
+        <a href="#" aria-current="page">Pedidos</a>
+        <a href="#">Ajuda</a>
+        <a href="#">Minha conta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container stack">
+    <nav class="breadcrumb" aria-label="Você está em">
+    <ol>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Meus pedidos</a></li>
+      <li aria-current="page">Cesta recorrente</li>
+    </ol>
+    </nav>
+    <h1>Cesta recorrente</h1>
+    <form class="stack narrow" action="#" method="post">
+      <div class="field">
+        <label for="freq">Frequência</label>
+        <select id="freq" name="freq">
+          <option>Toda semana</option>
+          <option>A cada 15 dias</option>
+          <option>Todo mês</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="dia">Dia da entrega</label>
+        <select id="dia" name="dia">
+          <option>Segunda-feira</option>
+          <option>Quarta-feira</option>
+          <option>Sexta-feira</option>
+          <option>Sábado</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="subst">Política de substituição</label>
+        <select id="subst" name="subst">
+          <option>Substituir por produto similar</option>
+          <option>Substituir por produto de mesmo valor</option>
+          <option>Não substituir</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="variacao">Limite de variação de preço (%)</label>
+        <input id="variacao" name="variacao" type="number" value="10">
+      </div>
+      <div class="field">
+        <label for="falta">Se faltar um produto</label>
+        <select id="falta" name="falta">
+          <option>Cancelar o item</option>
+          <option>Reembolsar</option>
+          <option>Gerar crédito</option>
+        </select>
+      </div>
+      <div class="actions"><button class="btn" type="submit">Ativar cesta recorrente</button></div>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© 2026 Feirinha</p>
+      <ul>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Privacidade</a></li>
+        <li><a href="#">Fale conosco</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

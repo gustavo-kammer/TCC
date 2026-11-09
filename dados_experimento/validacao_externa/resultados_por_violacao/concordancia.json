@@ -1,0 +1,19 @@
+{
+ "n": 114,
+ "acordo": 0.9385964912280702,
+ "kappa": 0.8701594533029613,
+ "acordo_casou": 0.8695652173913043,
+ "acordo_nao_casou": 0.9852941176470589,
+ "n_casou": 46,
+ "n_nao_casou": 68,
+ "acordo_casou_ic95": [
+  0.7749452223553319,
+  0.9072158639661343
+ ],
+ "populacao_casou": 84,
+ "acordo_nao_casou_ic95": [
+  0.9273943637721289,
+  0.9912934160100588
+ ],
+ "populacao_nao_casou": 228
+}

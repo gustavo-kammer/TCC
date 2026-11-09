@@ -1,0 +1,82 @@
+{
+ "auditados": 172,
+ "por_config": {
+  "hibrido": {
+   "auditados": 86,
+   "procedentes": 77,
+   "nao_procedentes": 0,
+   "inconclusivos": 9,
+   "taxa_nao_procedente": 0.0,
+   "taxa_nao_procedente_ic95": [
+    3.469446951953614e-18,
+    0.047520088667220836
+   ],
+   "tipos_de_erro": {
+    "inexistente na captura": 0,
+    "suposição de interação": 0,
+    "generalização": 0,
+    "discordância (preferência ou escopo)": 0
+   },
+   "achados_llm_run": 716,
+   "achados_sem_par_run": 687,
+   "precisao_estimada": 1.0,
+   "precisao_estimada_ic95": [
+    0.9544046076614796,
+    1.0
+   ],
+   "cenario_conservador": {
+    "procedentes_com_ressalva": 9,
+    "procedentes_sem_ressalva": 68,
+    "n": 86,
+    "taxa_procedente": 0.7906976744186046,
+    "precisao_estimada": 0.7991750032480186,
+    "precisao_estimada_ic95": [
+     0.7056570833134832,
+     0.8688395428528521
+    ]
+   }
+  },
+  "llm": {
+   "auditados": 86,
+   "procedentes": 78,
+   "nao_procedentes": 1,
+   "inconclusivos": 7,
+   "taxa_nao_procedente": 0.012658227848101266,
+   "taxa_nao_procedente_ic95": [
+    0.002237936230769212,
+    0.06827736043177712
+   ],
+   "tipos_de_erro": {
+    "inexistente na captura": 1,
+    "suposição de interação": 0,
+    "generalização": 0,
+    "discordância (preferência ou escopo)": 0
+   },
+   "achados_llm_run": 841,
+   "achados_sem_par_run": 807,
+   "precisao_estimada": 0.9878535197700147,
+   "precisao_estimada_ic95": [
+    0.9344829609174268,
+    0.9978525391935424
+   ],
+   "cenario_conservador": {
+    "procedentes_com_ressalva": 3,
+    "procedentes_sem_ressalva": 75,
+    "n": 86,
+    "taxa_procedente": 0.872093023255814,
+    "precisao_estimada": 0.8772640544202639,
+    "precisao_estimada_ic95": [
+     0.7939898282757705,
+     0.930003575699848
+    ]
+   }
+  }
+ },
+ "ancoragem_vs_veredito": {
+  "n_verificaveis": 88,
+  "sensibilidade": 0.0,
+  "especificidade": 0.9425287356321839,
+  "n_nao_procedentes": 1,
+  "n_procedentes": 87
+ }
+}

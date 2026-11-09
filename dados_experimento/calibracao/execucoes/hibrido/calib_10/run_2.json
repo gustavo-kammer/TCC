@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256": "1dcbcd1ef4ecb04d51e8b49fca06ddf825056d0e4a34b9589761ad7429e096bc",
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:38:22-03:00",
+    "configuracao": "hibrido",
+    "run_id": 2
+  },
+  "flow_id": "calib_10",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_10.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_10.html",
+      "n_fatias": 1,
+      "prompt_sha256": "dae1b89b7471196943a92a615d79b5c19669b8593dffb4932d3ed79fb0428fbb",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_10.html",
+        "total_violations": 7,
+        "count_by_severity": {
+          "3": 2,
+          "2": 4,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H02_correspondencia_sistema_mundo_real",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campos 'Política de substituição' e 'Se faltar um produto'",
+            "description": "Dois campos com rótulos e valores sobrepostos ('Substituir por produto similar' e 'Cancelar o item') tratam do mesmo cenário de falta de produto.",
+            "justification": "O usuário não sabe distinguir 'política de substituição' de 'se faltar um produto'; os valores selecionados parecem contraditórios (substituir por similar vs. cancelar o item), e 'política' é linguagem interna da empresa.",
+            "recommendation": "Unificar em uma única pergunta clara, como 'Se um produto estiver em falta', com opções explícitas (substituir por similar, remover o item, avisar-me antes), ou explicar a relação entre os dois campos e evitar combinações conflitantes.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Ativar cesta recorrente'",
+            "description": "A ativação de uma compra recorrente ocorre direto, sem resumo da configuração, valor estimado nem confirmação.",
+            "justification": "O botão cria um compromisso financeiro repetitivo e a página não mostra os produtos da cesta, o total estimado, a próxima entrega nem as condições de cancelamento, deixando o usuário decidir às cegas.",
+            "recommendation": "Exibir um resumo (itens, valor estimado, próxima entrega) antes ou numa etapa de confirmação, e informar que a cesta pode ser pausada ou cancelada a qualquer momento.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H02_correspondencia_sistema_mundo_real",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campo 'Limite de variação de preço (%)'",
+            "description": "O rótulo usa linguagem técnica e não explica sobre o que incide o percentual nem o que acontece ao ultrapassá-lo.",
+            "justification": "Um consumidor comum pode não entender se o limite se refere ao preço de cada item ou ao total da cesta, nem se o pedido é cancelado, substituído ou pausado ao exceder os 10% apresentados.",
+            "recommendation": "Reescrever como 'Aceito pagar até X% a mais por item' e acrescentar texto de apoio explicando o efeito (ex.: 'Se o preço subir mais que isso, avisaremos você antes de cobrar').",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Formulário inteiro, especialmente os campos de substituição e variação de preço",
+            "description": "Não há texto de apoio, dicas ou link de ajuda contextual em nenhum dos campos.",
+            "justification": "Os campos envolvem regras com consequências financeiras e logísticas e nada na página explica seus efeitos, embora exista um item 'Ajuda' no menu global, distante do ponto de decisão.",
+            "recommendation": "Adicionar textos de apoio curtos sob os campos e um link 'Saiba mais' para a ajuda sobre cestas recorrentes.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Formulário (ausência de conteúdo da cesta)",
+            "description": "A página não mostra quais produtos fazem parte da cesta recorrente que está sendo configurada.",
+            "justification": "O usuário precisa lembrar ou deduzir o que será entregue ao definir substituição e limite de preço, já que o formulário só traz configurações abstratas, sem o contexto dos itens.",
+            "recommendation": "Mostrar uma lista resumida dos itens da cesta (com preços) ao lado ou acima do formulário, com link para editá-los.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 6,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campos 'Frequência' e 'Dia da entrega'",
+            "description": "Não há indicação da data da próxima entrega resultante da combinação escolhida.",
+            "justification": "Ao escolher 'Toda semana' e 'Segunda-feira', o sistema não confirma quando ocorrerá a primeira entrega nem quando haverá cobrança, e o usuário não vê o efeito de suas escolhas.",
+            "recommendation": "Exibir dinamicamente 'Próxima entrega: segunda-feira, dd/mm' conforme os campos mudam.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 7,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campo 'Limite de variação de preço (%)'",
+            "description": "O campo de texto/número aceita qualquer valor sem indicar faixa válida, unidade além do rótulo ou exemplo.",
+            "justification": "Sem limites ou orientação visíveis, o usuário pode digitar valores absurdos (0, 100, negativos) e não sabe qual é um valor razoável.",
+            "recommendation": "Definir mínimo e máximo, usar um controle com passos (ou seletor de opções como 5%, 10%, 20%) e indicar a faixa permitida.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campos 'Frequência' e 'Dia da entrega'",
+          "description": "Não há indicação da data da próxima entrega resultante da combinação escolhida.",
+          "justification": "Ao escolher 'Toda semana' e 'Segunda-feira', o sistema não confirma quando ocorrerá a primeira entrega nem quando haverá cobrança, e o usuário não vê o efeito de suas escolhas.",
+          "recommendation": "Exibir dinamicamente 'Próxima entrega: segunda-feira, dd/mm' conforme os campos mudam.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campos 'Política de substituição' e 'Se faltar um produto'",
+          "description": "Dois campos com rótulos e valores sobrepostos ('Substituir por produto similar' e 'Cancelar o item') tratam do mesmo cenário de falta de produto.",
+          "justification": "O usuário não sabe distinguir 'política de substituição' de 'se faltar um produto'; os valores selecionados parecem contraditórios (substituir por similar vs. cancelar o item), e 'política' é linguagem interna da empresa.",
+          "recommendation": "Unificar em uma única pergunta clara, como 'Se um produto estiver em falta', com opções explícitas (substituir por similar, remover o item, avisar-me antes), ou explicar a relação entre os dois campos e evitar combinações conflitantes.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo 'Limite de variação de preço (%)'",
+          "description": "O rótulo usa linguagem técnica e não explica sobre o que incide o percentual nem o que acontece ao ultrapassá-lo.",
+          "justification": "Um consumidor comum pode não entender se o limite se refere ao preço de cada item ou ao total da cesta, nem se o pedido é cancelado, substituído ou pausado ao exceder os 10% apresentados.",
+          "recommendation": "Reescrever como 'Aceito pagar até X% a mais por item' e acrescentar texto de apoio explicando o efeito (ex.: 'Se o preço subir mais que isso, avisaremos você antes de cobrar').",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário (ausência de conteúdo da cesta)",
+          "description": "A página não mostra quais produtos fazem parte da cesta recorrente que está sendo configurada.",
+          "justification": "O usuário precisa lembrar ou deduzir o que será entregue ao definir substituição e limite de preço, já que o formulário só traz configurações abstratas, sem o contexto dos itens.",
+          "recommendation": "Mostrar uma lista resumida dos itens da cesta (com preços) ao lado ou acima do formulário, com link para editá-los.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Ativar cesta recorrente'",
+          "description": "A ativação de uma compra recorrente ocorre direto, sem resumo da configuração, valor estimado nem confirmação.",
+          "justification": "O botão cria um compromisso financeiro repetitivo e a página não mostra os produtos da cesta, o total estimado, a próxima entrega nem as condições de cancelamento, deixando o usuário decidir às cegas.",
+          "recommendation": "Exibir um resumo (itens, valor estimado, próxima entrega) antes ou numa etapa de confirmação, e informar que a cesta pode ser pausada ou cancelada a qualquer momento.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo 'Limite de variação de preço (%)'",
+          "description": "O campo de texto/número aceita qualquer valor sem indicar faixa válida, unidade além do rótulo ou exemplo.",
+          "justification": "Sem limites ou orientação visíveis, o usuário pode digitar valores absurdos (0, 100, negativos) e não sabe qual é um valor razoável.",
+          "recommendation": "Definir mínimo e máximo, usar um controle com passos (ou seletor de opções como 5%, 10%, 20%) e indicar a faixa permitida.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário inteiro, especialmente os campos de substituição e variação de preço",
+          "description": "Não há texto de apoio, dicas ou link de ajuda contextual em nenhum dos campos.",
+          "justification": "Os campos envolvem regras com consequências financeiras e logísticas e nada na página explica seus efeitos, embora exista um item 'Ajuda' no menu global, distante do ponto de decisão.",
+          "recommendation": "Adicionar textos de apoio curtos sob os campos e um link 'Saiba mais' para a ajuda sobre cestas recorrentes.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

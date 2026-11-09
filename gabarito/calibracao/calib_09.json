@@ -1,0 +1,17 @@
+{
+  "interface_id": "calib_09",
+  "fase": "calibracao",
+  "fonte": "autor",
+  "descricao": "Etapa de pagamento com mensagem de erro genérica",
+  "arquivo_ou_url": "interfaces/calibracao/calib_09.html",
+  "violacoes_gabarito": [
+    {
+      "id": "calib_09_v1",
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "severity": 3,
+      "location": "mensagem de erro de pagamento",
+      "description": "A mensagem mostra só um código técnico genérico: não diz o que deu errado, não indica a causa provável e não oferece nenhuma ação para tentar de novo ou escolher outro método.",
+      "papel": "violacao_central"
+    }
+  ]
+}

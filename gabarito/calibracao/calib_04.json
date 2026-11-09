@@ -1,0 +1,17 @@
+{
+  "interface_id": "calib_04",
+  "fase": "calibracao",
+  "fonte": "autor",
+  "descricao": "Lista de pedidos com títulos de seção fora do padrão",
+  "arquivo_ou_url": "interfaces/calibracao/calib_04.html",
+  "violacoes_gabarito": [
+    {
+      "id": "calib_04_v1",
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "severity": 1,
+      "location": "títulos de seção",
+      "description": "Os títulos de seção saltam de h1 para h4 e aparecem menores que os títulos de seção das demais telas do produto, quebrando o padrão de hierarquia.",
+      "papel": "violacao_central"
+    }
+  ]
+}

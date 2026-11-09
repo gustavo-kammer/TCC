@@ -1,0 +1,2585 @@
+{
+ "chave": "c02a5303bab283c4058255128b0585c758b360fd2d54bca1f10b03e1446b8858",
+ "juiz_modelo": "claude-opus-5-5",
+ "config": "hibrido",
+ "fluxo": "p13",
+ "run": 2,
+ "achados": [
+  {
+   "id": 1,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#login",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 2,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#password",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 3,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "button \"Entrar\"",
+   "descricao": "Contraste insuficiente: 2.85:1 (mínimo 4.5:1) no texto \"Entrar\"."
+  },
+  {
+   "id": 4,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "3 <img>",
+   "descricao": "3 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 5,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Barra de navegação superior: \"Acesso SIG SIOUT\", \"Acesso AGUAS.SC\", \"Consulta SIOUT\"",
+   "descricao": "Rótulos de navegação com siglas e nomes de sistemas, parecidos entre si, sem explicar o que cada um oferece."
+  },
+  {
+   "id": 6,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Banner: \"Módulo autodeclaratório\" e botão \"Saiba mais\"",
+   "descricao": "O módulo é apresentado com termo técnico e sem explicação do que é, para quem serve ou quando usá-lo."
+  },
+  {
+   "id": 7,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "Campos Login e Senha no painel lateral direito",
+   "descricao": "Os nomes dos campos aparecem só como placeholders pequenos e claros dentro dos campos, e o texto de \"Login\" não indica o que se espera (CPF, e-mail ou usuário)."
+  },
+  {
+   "id": 8,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "Ações do painel de login: botões \"Entrar\" e \"Cadastrar\" e link \"Recuperar senha\"",
+   "descricao": "Botões primários com tamanhos, posições e estilos diferentes, e \"Entrar\" é menor e mais fraco que \"Cadastrar\"."
+  },
+  {
+   "id": 9,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "a \"Saiba mais\"",
+   "descricao": "Contraste insuficiente: 3.50:1 (mínimo 4.5:1) no texto \"Saiba mais\"."
+  },
+  {
+   "id": 10,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "Painel direito: logotipo SIOUT SC e brasão de Santa Catarina na parte inferior",
+   "descricao": "Brasões e logotipos repetidos (cabeçalho, painel e rodapé do painel) ocupam espaço sem função informativa."
+  },
+  {
+   "id": 11,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "Painel de login e navegação superior",
+   "descricao": "Não há atalhos para o usuário recorrente, como \"lembrar-me\", acesso direto ao mapa ou ao autoatendimento."
+  },
+  {
+   "id": 12,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "input#password",
+   "descricao": "Campo de dado pessoal sem o atributo autocomplete."
+  },
+  {
+   "id": 13,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "span \"Já tenho cadastro no\"",
+   "descricao": "Contraste insuficiente: 4.13:1 (mínimo 4.5:1) no texto \"Já tenho cadastro no\"."
+  },
+  {
+   "id": 14,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H01",
+   "severidade": 1,
+   "local": "div.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 15,
+   "estado": "portal_x01_inicial",
+   "heuristica": "H04",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "A página não possui nenhum título (h1–h6)."
+  },
+  {
+   "id": 16,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "input#dataFimCadastro",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 17,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "input#dataFimSaidaProcesso",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 18,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "<select>",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado. (+1 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 19,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "Selects do formulário (Status, Corpo hídrico vs. Tipo de intervenção, Finalidade de uso)",
+   "descricao": "Os campos de seleção têm aparências diferentes: alguns com seta nativa, outros com seta preta diferente e alguns com fundo cinza."
+  },
+  {
+   "id": 20,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Botão Limpar",
+   "descricao": "O botão 'Limpar' usa ícone de lixeira, que remete a excluir dados e não a reiniciar filtros."
+  },
+  {
+   "id": 21,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Campos 'N° do cadastro' e 'N° da portaria'",
+   "descricao": "As máscaras de formato aparecem só como placeholder, sem exemplo nem explicação do que é cada número."
+  },
+  {
+   "id": 22,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Rótulos dos filtros",
+   "descricao": "Termos técnicos como 'Natureza da intervenção', 'Tipo de intervenção', 'Sistema aquífero' e 'Classificação' são usados sem explicação."
+  },
+  {
+   "id": 23,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H06",
+   "severidade": 2,
+   "local": "Selects 'Município', 'Bacia hidrográfica', 'Corpo hídrico'",
+   "descricao": "Os campos de seleção com muitas opções (Município, Bacia, Corpo hídrico) são selects nativos sem busca por digitação."
+  },
+  {
+   "id": 24,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "h3 \"Consulta SIOUT\"",
+   "descricao": "Contraste insuficiente: 2.90:1 (mínimo 4.5:1) no texto \"Consulta SIOUT\"."
+  },
+  {
+   "id": 25,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "a \"SIOUT SC\"",
+   "descricao": "Contraste insuficiente: 3.36:1 (mínimo 4.5:1) no texto \"SIOUT SC\"."
+  },
+  {
+   "id": 26,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "div.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 27,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H04",
+   "severidade": 1,
+   "local": "2 <img>",
+   "descricao": "2 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 28,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 29,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "Painel 'Filtros de pesquisa'",
+   "descricao": "Quatorze filtros são exibidos de uma vez, em duas colunas com rótulos desalinhados, sem agrupamento nem hierarquia entre os frequentes e os raros."
+  },
+  {
+   "id": 30,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H02",
+   "severidade": 1,
+   "local": "Rodapé",
+   "descricao": "O rodapé cita apenas siglas (SDE/DRHS/SC, FUNDECC/UFLA) sem explicar o que significam."
+  },
+  {
+   "id": 31,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "li \"Consulta SIOUT\"",
+   "descricao": "Contraste insuficiente: 2.85:1 (mínimo 4.5:1) no texto \"Consulta SIOUT\"."
+  },
+  {
+   "id": 32,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 33,
+   "estado": "portal_x02_consulta_siout",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 34,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "2 <img>",
+   "descricao": "2 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 35,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Ícones de interrogação ao lado de \"E-mail\" e \"Distrito\"",
+   "descricao": "Os ícones de ajuda aparecem só em dois campos e não indicam visualmente que conteúdo oferecem (tooltip, clique ou foco). Campos igualmente ambíguos, como CPF/CNPJ e Responsável técnico, ficam sem ajuda."
+  },
+  {
+   "id": 36,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Campo \"Distrito\" obrigatório e rótulo \"Responsável técnico\"",
+   "descricao": "\"Distrito\" é obrigatório sem explicação visível, e a pergunta \"Você é um responsável técnico?\" usa um termo que o cidadão pode não entender."
+  },
+  {
+   "id": 37,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "Campos CPF/CNPJ, Telefone, Celular e CEP",
+   "descricao": "Os campos com formato rígido aparecem vazios, sem máscara, exemplo ou placeholder indicando o padrão esperado."
+  },
+  {
+   "id": 38,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "Painel \"Verificação\" (reCAPTCHA)",
+   "descricao": "O painel \"Verificação\" aparece como uma caixa vazia, sem o widget reCAPTCHA visível nem indicação de carregamento."
+  },
+  {
+   "id": 39,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H03",
+   "severidade": 2,
+   "local": "Botão \"Cancelar\" no rodapé do formulário",
+   "descricao": "O botão Cancelar fica logo acima do rodapé, sem indicação de para onde leva nem se pede confirmação antes de descartar os dados."
+  },
+  {
+   "id": 40,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "input#telefone",
+   "descricao": "Campo aparenta coletar \"tel\" mas usa type=\"text\"."
+  },
+  {
+   "id": 41,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "input#celular",
+   "descricao": "Campo aparenta coletar \"tel\" mas usa type=\"text\"."
+  },
+  {
+   "id": 42,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "a \"SIOUT SC\"",
+   "descricao": "Contraste insuficiente: 3.36:1 (mínimo 4.5:1) no texto \"SIOUT SC\"."
+  },
+  {
+   "id": 43,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "input#email",
+   "descricao": "Campo aparenta coletar \"email\" mas usa type=\"text\"."
+  },
+  {
+   "id": 44,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "h3 \"Cadastro de Pessoa\"",
+   "descricao": "Contraste insuficiente: 2.90:1 (mínimo 4.5:1) no texto \"Cadastro de Pessoa\"."
+  },
+  {
+   "id": 45,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "input[name=\"sem_numero\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 46,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "Rodapé e cabeçalho",
+   "descricao": "O cabeçalho ocupa muita altura com imagem decorativa de cachoeira, e o rodapé tem a bandeira de SC, com créditos em fonte muito pequena e cinza."
+  },
+  {
+   "id": 47,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "Campos \"E-mail\" e \"Reinsira o e-mail\"",
+   "descricao": "Há um segundo campo para repetir o e-mail e nenhum recurso para agilizar o preenchimento, como autopreenchimento de endereço pelo CEP."
+  },
+  {
+   "id": 48,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "li \"Cadastro de Pessoa\"",
+   "descricao": "Contraste insuficiente: 2.85:1 (mínimo 4.5:1) no texto \"Cadastro de Pessoa\". (+1 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 49,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H01",
+   "severidade": 1,
+   "local": "div.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 50,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 51,
+   "estado": "portal_x03_cadastrar",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 52,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "3 <img>",
+   "descricao": "3 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 53,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "input#login",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 54,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "input#password",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 55,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 56,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H07",
+   "severidade": 2,
+   "local": "Modal 'Documentação auxiliar', lista de links",
+   "descricao": "Onze documentos e um link de vídeo aparecem em uma lista plana, sem agrupamento por tema ou perfil de usuário."
+  },
+  {
+   "id": 57,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Modal, títulos de documentos de regularização",
+   "descricao": "Títulos usam termos técnico-jurídicos sem explicação, como 'Dispensa de Outorga', 'Uso Insignificante' e 'Transferência de Titularidade'."
+  },
+  {
+   "id": 58,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "Modal, parágrafo de instrução e último item da lista",
+   "descricao": "A instrução diz que os links servem para 'fazer o download', mas 'Vídeos Tutoriais' é um link externo, com ícone diferente, que não baixa arquivo."
+  },
+  {
+   "id": 59,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Modal, itens da lista de documentos",
+   "descricao": "Os links não informam formato, tamanho nem breve descrição do conteúdo, e a ajuda aparece só em um modal separado."
+  },
+  {
+   "id": 60,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Já tenho cadastro no\"",
+   "descricao": "Contraste insuficiente: 4.13:1 (mínimo 4.5:1) no texto \"Já tenho cadastro no\"."
+  },
+  {
+   "id": 61,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"Entrar\"",
+   "descricao": "Contraste insuficiente: 2.85:1 (mínimo 4.5:1) no texto \"Entrar\". (+1 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 62,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "a \"Saiba mais\"",
+   "descricao": "Contraste insuficiente: 3.50:1 (mínimo 4.5:1) no texto \"Saiba mais\"."
+  },
+  {
+   "id": 63,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H02",
+   "severidade": 1,
+   "local": "Banner inferior direito, 'Módulo autodeclaratório'",
+   "descricao": "O termo 'Módulo autodeclaratório' é jargão interno, sem explicação do que é ou do que o usuário faz nele."
+  },
+  {
+   "id": 64,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "Modal, lista de documentos",
+   "descricao": "Não há busca ou filtro na lista de documentos, nem atalho para o documento do perfil do usuário."
+  },
+  {
+   "id": 65,
+   "estado": "portal_x04_documentacao_auxiliar",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "input#password",
+   "descricao": "Campo de dado pessoal sem o atributo autocomplete."
+  },
+  {
+   "id": 66,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select[name=\"busca\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 67,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select#usoAgua",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 68,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input[name=\"termo\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 69,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H07",
+   "severidade": 3,
+   "local": "Área central do mapa, camada 'interferencias regularizadas'",
+   "descricao": "Milhares de marcadores vermelhos quadrados se sobrepõem, formando uma mancha densa, principalmente no oeste e no centro de Santa Catarina."
+  },
+  {
+   "id": 70,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 71,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "<html>",
+   "descricao": "O idioma da página não está declarado (atributo lang)."
+  },
+  {
+   "id": 72,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H03",
+   "severidade": 2,
+   "local": "<meta name=viewport>",
+   "descricao": "O viewport impede ou limita o zoom do usuário (user-scalable=no ou maximum-scale baixo)."
+  },
+  {
+   "id": 73,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "1 <img>",
+   "descricao": "1 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 74,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-circle-wrapper.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 75,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.toc-inline-loader",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 76,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-three-bounce.sk-fade-in.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 77,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H02",
+   "severidade": 3,
+   "local": "rótulos e textos da página",
+   "descricao": "Identificadores de implementação visíveis ao usuário: balanco_hidrico_, cubatao_norte, cubatao_sul, hidrica_antas, hidrica_ararangua, hidrica_biguacu."
+  },
+  {
+   "id": 78,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Mapa e painel de camadas",
+   "descricao": "Não há legenda visível explicando o significado dos marcadores vermelhos nem das camadas ligadas."
+  },
+  {
+   "id": 79,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H07",
+   "severidade": 2,
+   "local": "Painel de camadas (SIG SC / SADPLAN)",
+   "descricao": "A lista de camadas é longa e repetitiva, com duas camadas por bacia (balanço hídrico e disponibilidade hídrica) para quase 20 bacias, sem agrupamento claro por tipo."
+  },
+  {
+   "id": 80,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "Painel de camadas, bacia Irani",
+   "descricao": "Os nomes das camadas de Irani seguem outro padrão (siout_shp_qdisp_irani, siout_shp_qrem_irani) em relação às demais bacias (balanco_hidrico_, disponibilidade_hidrica_)."
+  },
+  {
+   "id": 81,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H06",
+   "severidade": 2,
+   "local": "Painel de consulta SIOUT e caixa 'Pesquisar por nome do local'",
+   "descricao": "Há duas buscas distintas (consulta SIOUT e busca de local) sem atalhos, sem sugestões nem indicação do tipo de termo; os termos pesquisáveis só aparecem no rodapé do painel."
+  },
+  {
+   "id": 82,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "Canto inferior esquerdo e barra inferior",
+   "descricao": "A miniatura do mapa de Santa Catarina e o botão pequeno à direita da escala não têm rótulo nem texto que explique sua função, e o texto da escala é muito pequeno."
+  },
+  {
+   "id": 83,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Sobre este mapa\"",
+   "descricao": "Contraste insuficiente: 4.06:1 (mínimo 4.5:1) no texto \"Sobre este mapa\"."
+  },
+  {
+   "id": 84,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "button",
+   "descricao": "Alvo interativo pequeno (26x22 px) e próximo de outros alvos."
+  },
+  {
+   "id": 85,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H02",
+   "severidade": 1,
+   "local": "Painel de consulta SIOUT, filtro de uso",
+   "descricao": "O rótulo 'Selecione o uso água' está gramaticalmente incorreto e o placeholder contém erro de digitação ('pequisar')."
+  },
+  {
+   "id": 86,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "h2 \"Consulta SIOUT\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 4.5:1) no texto \"Consulta SIOUT\"."
+  },
+  {
+   "id": 87,
+   "estado": "mapa_x01_inicial",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 88,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select[name=\"busca\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 89,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select#usoAgua",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 90,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input[name=\"termo\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 91,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H07",
+   "severidade": 3,
+   "local": "Área central do mapa, camada 'interferencias regularizadas'",
+   "descricao": "Milhares de pontos vermelhos sólidos e do mesmo tamanho se sobrepõem, formando uma mancha que esconde a distribuição real e o fundo do mapa."
+  },
+  {
+   "id": 92,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "Mapa e painel de camadas",
+   "descricao": "Não há legenda que explique o que os pontos vermelhos representam (tipo de interferência, uso da água, cor)."
+  },
+  {
+   "id": 93,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 94,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "<html>",
+   "descricao": "O idioma da página não está declarado (atributo lang)."
+  },
+  {
+   "id": 95,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H03",
+   "severidade": 2,
+   "local": "<meta name=viewport>",
+   "descricao": "O viewport impede ou limita o zoom do usuário (user-scalable=no ou maximum-scale baixo)."
+  },
+  {
+   "id": 96,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "1 <img>",
+   "descricao": "1 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 97,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-circle-wrapper.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 98,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.toc-inline-loader",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 99,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-three-bounce.sk-fade-in.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 100,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H02",
+   "severidade": 3,
+   "local": "rótulos e textos da página",
+   "descricao": "Identificadores de implementação visíveis ao usuário: balanco_hidrico_, cubatao_norte, cubatao_sul, hidrica_antas, hidrica_ararangua, hidrica_biguacu."
+  },
+  {
+   "id": 101,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Controles do mapa, lado direito inferior",
+   "descricao": "Os botões à direita usam ícones abstratos (pontos em arco, setas diagonais, reticências) sem rótulo visível, e o significado de alguns não é claro."
+  },
+  {
+   "id": 102,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H07",
+   "severidade": 2,
+   "local": "Painel de camadas, grupo SADPLAN",
+   "descricao": "A lista de camadas repete dezenas de itens quase idênticos (balanço e disponibilidade por bacia, 17 bacias), poluindo o painel."
+  },
+  {
+   "id": 103,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "Painel de camadas, ícones de olho",
+   "descricao": "Alternar visibilidade por ícones de olho aberto/riscado, com camadas esmaecidas, deixa pouco claro o estado atual e a ação disponível."
+  },
+  {
+   "id": 104,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Painel de camadas e mapa",
+   "descricao": "Não há ajuda contextual que explique os conceitos técnicos (balanço hídrico, disponibilidade hídrica, interferências regularizadas, SADPLAN) nem como usar as camadas."
+  },
+  {
+   "id": 105,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "Barras de busca: 'Pesquisar camadas' e 'Pesquisar por nome do local'",
+   "descricao": "Duas buscas coexistem com funções diferentes e aparência semelhante, além do ícone de filtro e do ícone de menu junto à busca de local, sem rótulo."
+  },
+  {
+   "id": 106,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Sobre este mapa\"",
+   "descricao": "Contraste insuficiente: 4.06:1 (mínimo 4.5:1) no texto \"Sobre este mapa\"."
+  },
+  {
+   "id": 107,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "button",
+   "descricao": "Alvo interativo pequeno (26x22 px) e próximo de outros alvos."
+  },
+  {
+   "id": 108,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H04",
+   "severidade": 1,
+   "local": "Formulário de consulta SIOUT e rótulos de camada",
+   "descricao": "Há erros de português e inconsistência de rótulos, como 'pequisar' e 'Selecione o uso água', e camadas sem acento ('interferencias')."
+  },
+  {
+   "id": 109,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "select",
+   "descricao": "Alvo interativo pequeno (216x20 px) e próximo de outros alvos."
+  },
+  {
+   "id": 110,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "h2 \"Consulta SIOUT\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 4.5:1) no texto \"Consulta SIOUT\"."
+  },
+  {
+   "id": 111,
+   "estado": "mapa_x02_square_button",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 112,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select[name=\"busca\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 113,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select#usoAgua",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 114,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input[name=\"termo\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado. (+4 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 115,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H07",
+   "severidade": 3,
+   "local": "Área central do mapa, camada de interferências regularizadas",
+   "descricao": "Milhares de pontos vermelhos idênticos se sobrepõem, formando uma mancha densa a oeste, sem agrupamento (cluster) ou variação de tamanho/cor."
+  },
+  {
+   "id": 116,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "Mapa e painel de camadas",
+   "descricao": "Não há legenda indicando o que os pontos vermelhos representam; a informação está só no nome técnico da camada."
+  },
+  {
+   "id": 117,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 118,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "<h5> \"Lat:00°00'00,00''Lng:000°00'00,00''\"",
+   "descricao": "Salto na hierarquia de títulos: <h2> seguido diretamente de <h5>."
+  },
+  {
+   "id": 119,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "<html>",
+   "descricao": "O idioma da página não está declarado (atributo lang)."
+  },
+  {
+   "id": 120,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H03",
+   "severidade": 2,
+   "local": "<meta name=viewport>",
+   "descricao": "O viewport impede ou limita o zoom do usuário (user-scalable=no ou maximum-scale baixo)."
+  },
+  {
+   "id": 121,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "1 <img>",
+   "descricao": "1 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 122,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.toc-inline-loader",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 123,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-three-bounce.sk-fade-in.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 124,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H02",
+   "severidade": 3,
+   "local": "rótulos e textos da página",
+   "descricao": "Identificadores de implementação visíveis ao usuário: balanco_hidrico_, cubatao_norte, cubatao_sul, hidrica_antas, hidrica_ararangua, hidrica_biguacu."
+  },
+  {
+   "id": 125,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "Fundo do mapa",
+   "descricao": "O mapa não exibe mapa base (OrtoRGB-2012 e limites municipais não aparecem); o fundo é branco e só os pontos delineiam o estado."
+  },
+  {
+   "id": 126,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Barra de ferramentas inferior direita",
+   "descricao": "Ícones ambíguos (pontos em arco, setas diagonais, '...') sem rótulo visível e sem diferenciar claramente suas funções."
+  },
+  {
+   "id": 127,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "Barra de coordenadas, rodapé",
+   "descricao": "As coordenadas exibem valores-padrão zerados (Lat 00°00'00,00'' Lng 000°00'00,00'') sem indicar que dependem do cursor."
+  },
+  {
+   "id": 128,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H07",
+   "severidade": 2,
+   "local": "Rodapé direito, junto a 'CRS'",
+   "descricao": "O rótulo 'CRS' fica cortado e o tooltip 'Exibir / Ocultar coordenadas' se sobrepõe a ele e ao botão ao lado."
+  },
+  {
+   "id": 129,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Painel Consulta SIOUT, campo 'Selecione o uso água'",
+   "descricao": "Rótulo gramaticalmente incorreto ('uso água') e uso de siglas (SIOUT, SADPLAN, SIG SC) sem explicação."
+  },
+  {
+   "id": 130,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Painel de consulta e mapa",
+   "descricao": "Falta ajuda contextual para os termos pesquisáveis, para a interpretação das camadas (balanço hídrico, disponibilidade hídrica) e para o uso das ferramentas do mapa."
+  },
+  {
+   "id": 131,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H06",
+   "severidade": 2,
+   "local": "Barra de busca superior e painel de consulta",
+   "descricao": "Há duas buscas distintas (por local e por cadastro) e nenhuma indicação de atalhos, filtros salvos ou busca rápida unificada."
+  },
+  {
+   "id": 132,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Sobre este mapa\"",
+   "descricao": "Contraste insuficiente: 4.06:1 (mínimo 4.5:1) no texto \"Sobre este mapa\"."
+  },
+  {
+   "id": 133,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "button",
+   "descricao": "Alvo interativo pequeno (26x22 px) e próximo de outros alvos."
+  },
+  {
+   "id": 134,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "div.sk-circle-wrapper.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 135,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H04",
+   "severidade": 1,
+   "local": "Campo Termo da consulta",
+   "descricao": "O placeholder tem erro de digitação ('pequisar')."
+  },
+  {
+   "id": 136,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "h2 \"Consulta SIOUT\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 4.5:1) no texto \"Consulta SIOUT\"."
+  },
+  {
+   "id": 137,
+   "estado": "mapa_x03_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 138,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H03",
+   "severidade": 3,
+   "local": "<meta name=viewport>",
+   "descricao": "O viewport impede ou limita o zoom do usuário (user-scalable=no ou maximum-scale baixo)."
+  },
+  {
+   "id": 139,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select[name=\"busca\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 140,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select#usoAgua",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 141,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H07",
+   "severidade": 3,
+   "local": "Área central do mapa, concentração de pontos vermelhos do centro-norte à esquerda",
+   "descricao": "Milhares de marcadores vermelhos do mesmo tamanho se sobrepõem em massa opaca, sem agrupamento (cluster) ou transparência."
+  },
+  {
+   "id": 142,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 143,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "1 <img>",
+   "descricao": "1 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 144,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "input[name=\"termo\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 145,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.toc-inline-loader",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 146,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-three-bounce.sk-fade-in.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 147,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H02",
+   "severidade": 3,
+   "local": "rótulos e textos da página",
+   "descricao": "Identificadores de implementação visíveis ao usuário: balanco_hidrico_, cubatao_norte, cubatao_sul, hidrica_antas, hidrica_ararangua, hidrica_biguacu."
+  },
+  {
+   "id": 148,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Mapa inteiro, sem legenda visível",
+   "descricao": "Não há legenda indicando o que os pontos vermelhos representam (interferências regularizadas, tipo de uso, outorga)."
+  },
+  {
+   "id": 149,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Coluna de controles do mapa à direita (ícone de pontos em arco e ícone de setas)",
+   "descricao": "Ícones ambíguos: o de pontos em arco (localização?) e os dois de setas diagonais (ajustar à extensão e tela cheia) são difíceis de distinguir, e só o de zoom exibe tooltip."
+  },
+  {
+   "id": 150,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H07",
+   "severidade": 2,
+   "local": "Painel de camadas (árvore SIG SC / SADPLAN por bacia)",
+   "descricao": "A árvore de camadas repete, para cada bacia, duas camadas com nomes técnicos (balanco_hidrico_ e disponibilidade_hidrica_), formando uma lista longa e repetitiva."
+  },
+  {
+   "id": 151,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Sobre este mapa\"",
+   "descricao": "Contraste insuficiente: 4.06:1 (mínimo 4.5:1) no texto \"Sobre este mapa\"."
+  },
+  {
+   "id": 152,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "button",
+   "descricao": "Alvo interativo pequeno (26x22 px) e próximo de outros alvos."
+  },
+  {
+   "id": 153,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "h2 \"Consulta SIOUT\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 4.5:1) no texto \"Consulta SIOUT\"."
+  },
+  {
+   "id": 154,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "div.sk-circle-wrapper.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 155,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H02",
+   "severidade": 1,
+   "local": "<html>",
+   "descricao": "O idioma da página não está declarado (atributo lang)."
+  },
+  {
+   "id": 156,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "Barra de ferramentas do mapa e painel de camadas",
+   "descricao": "Não há atalhos visíveis (teclado, favoritos de camadas, camadas pré-configuradas) para usuários frequentes."
+  },
+  {
+   "id": 157,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H04",
+   "severidade": 1,
+   "local": "Campo 'Pesquisar por nome do local' no topo",
+   "descricao": "Há dois campos de busca distintos (busca por local no topo e 'Consulta SIOUT' na lupa à esquerda) com ícones de lupa semelhantes e escopos diferentes, e o ícone de menu ao lado do campo não tem função clara."
+  },
+  {
+   "id": 158,
+   "estado": "mapa_x04_square_button",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 159,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H03",
+   "severidade": 3,
+   "local": "<meta name=viewport>",
+   "descricao": "O viewport impede ou limita o zoom do usuário (user-scalable=no ou maximum-scale baixo)."
+  },
+  {
+   "id": 160,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select[name=\"busca\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 161,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select#usoAgua",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 162,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input[name=\"termo\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 163,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H10",
+   "severidade": 3,
+   "local": "Centro do mapa: mancha vermelha de pontos",
+   "descricao": "A camada de interferências é exibida como uma massa vermelha sem legenda nem explicação do que os pontos representam."
+  },
+  {
+   "id": 164,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 165,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "<html>",
+   "descricao": "O idioma da página não está declarado (atributo lang)."
+  },
+  {
+   "id": 166,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "1 <img>",
+   "descricao": "1 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 167,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.toc-inline-loader",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 168,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-three-bounce.sk-fade-in.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 169,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H02",
+   "severidade": 3,
+   "local": "rótulos e textos da página",
+   "descricao": "Identificadores de implementação visíveis ao usuário: balanco_hidrico_, cubatao_norte, cubatao_sul, hidrica_antas, hidrica_ararangua, hidrica_biguacu."
+  },
+  {
+   "id": 170,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "Fundo do mapa",
+   "descricao": "O mapa base (ortofoto) não aparece, deixando o fundo totalmente branco, sem indicação de carregamento ou falha."
+  },
+  {
+   "id": 171,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Barra de ferramentas à direita",
+   "descricao": "Os ícones de reticências, setas diagonais e expandir não têm significado claro, e só o zoom mostra tooltip no estado atual."
+  },
+  {
+   "id": 172,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Rodapé: seletor de escala",
+   "descricao": "A escala é apresentada como razão numérica (1 : 4622334), de difícil compreensão para leigos."
+  },
+  {
+   "id": 173,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H07",
+   "severidade": 2,
+   "local": "Painel de camadas (Pesquisar camadas)",
+   "descricao": "O painel lista dezenas de camadas repetitivas por bacia (balanço hídrico e disponibilidade), sem agrupamento claro."
+  },
+  {
+   "id": 174,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "Canto inferior esquerdo: miniatura do mapa",
+   "descricao": "A miniatura de Santa Catarina não tem rótulo e sua função (mapa de referência ou alternar mapa base) não é clara."
+  },
+  {
+   "id": 175,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H06",
+   "severidade": 2,
+   "local": "Barra superior: caixa de busca por local",
+   "descricao": "Há duas buscas separadas (a de local e a Consulta SIOUT), sem atalhos visíveis nem integração entre elas."
+  },
+  {
+   "id": 176,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Sobre este mapa\"",
+   "descricao": "Contraste insuficiente: 4.06:1 (mínimo 4.5:1) no texto \"Sobre este mapa\"."
+  },
+  {
+   "id": 177,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "button",
+   "descricao": "Alvo interativo pequeno (26x22 px) e próximo de outros alvos."
+  },
+  {
+   "id": 178,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "div.sk-circle-wrapper.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 179,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "h2 \"Consulta SIOUT\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 4.5:1) no texto \"Consulta SIOUT\"."
+  },
+  {
+   "id": 180,
+   "estado": "mapa_x05_square_button",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 181,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H03",
+   "severidade": 3,
+   "local": "<meta name=viewport>",
+   "descricao": "O viewport impede ou limita o zoom do usuário (user-scalable=no ou maximum-scale baixo)."
+  },
+  {
+   "id": 182,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select[name=\"busca\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 183,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select#usoAgua",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 184,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input[name=\"termo\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 185,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H07",
+   "severidade": 3,
+   "local": "Área central do mapa (camada de pontos vermelhos de Santa Catarina)",
+   "descricao": "Milhares de marcadores vermelhos quadrados se sobrepõem e formam uma mancha densa, sem agrupamento (cluster) nem transparência."
+  },
+  {
+   "id": 186,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 187,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "<html>",
+   "descricao": "O idioma da página não está declarado (atributo lang)."
+  },
+  {
+   "id": 188,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "1 <img>",
+   "descricao": "1 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 189,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-circle-wrapper.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 190,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.toc-inline-loader",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 191,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-three-bounce.sk-fade-in.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 192,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H02",
+   "severidade": 3,
+   "local": "rótulos e textos da página",
+   "descricao": "Identificadores de implementação visíveis ao usuário: balanco_hidrico_, cubatao_norte, cubatao_sul, hidrica_antas, hidrica_ararangua, hidrica_biguacu."
+  },
+  {
+   "id": 193,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Mapa principal, sem legenda visível",
+   "descricao": "Não há legenda nem explicação do que representam os pontos vermelhos, e a ajuda ('Sobre este mapa') fica escondida no painel de consulta."
+  },
+  {
+   "id": 194,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Barra de ferramentas vertical à direita",
+   "descricao": "Ícones ambíguos (pontos em arco, setas retangulares, setas diagonais, alfinete, reticências) não deixam clara a função, e só o último mostra tooltip."
+  },
+  {
+   "id": 195,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H06",
+   "severidade": 2,
+   "local": "Painel de camadas e ferramentas do mapa",
+   "descricao": "Não há atalhos visíveis, favoritos ou presets de camadas, e a lista de camadas por bacia é longa e repetitiva."
+  },
+  {
+   "id": 196,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Sobre este mapa\"",
+   "descricao": "Contraste insuficiente: 4.06:1 (mínimo 4.5:1) no texto \"Sobre este mapa\"."
+  },
+  {
+   "id": 197,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "button",
+   "descricao": "Alvo interativo pequeno (26x22 px) e próximo de outros alvos."
+  },
+  {
+   "id": 198,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H09",
+   "severidade": 1,
+   "local": "Campo de busca do painel Consulta SIOUT",
+   "descricao": "O placeholder/atributo contém erro ortográfico: 'pequisar'."
+  },
+  {
+   "id": 199,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "h2 \"Consulta SIOUT\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 4.5:1) no texto \"Consulta SIOUT\"."
+  },
+  {
+   "id": 200,
+   "estado": "mapa_x08_square_button",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 201,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select[name=\"busca\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 202,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select#usoAgua",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 203,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input[name=\"termo\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 204,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H07",
+   "severidade": 3,
+   "local": "Área central do mapa, camada de interferências",
+   "descricao": "Milhares de marcadores quadrados vermelhos se sobrepõem, formando manchas sólidas, principalmente no oeste e no centro."
+  },
+  {
+   "id": 205,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 206,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "<html>",
+   "descricao": "O idioma da página não está declarado (atributo lang)."
+  },
+  {
+   "id": 207,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H03",
+   "severidade": 2,
+   "local": "<meta name=viewport>",
+   "descricao": "O viewport impede ou limita o zoom do usuário (user-scalable=no ou maximum-scale baixo)."
+  },
+  {
+   "id": 208,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "1 <img>",
+   "descricao": "1 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 209,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.toc-inline-loader",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 210,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-three-bounce.sk-fade-in.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 211,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H02",
+   "severidade": 3,
+   "local": "rótulos e textos da página",
+   "descricao": "Identificadores de implementação visíveis ao usuário: balanco_hidrico_, cubatao_norte, cubatao_sul, hidrica_antas, hidrica_ararangua, hidrica_biguacu."
+  },
+  {
+   "id": 212,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H07",
+   "severidade": 2,
+   "local": "Menu suspenso de busca no canto superior direito",
+   "descricao": "O tooltip \"Alterar a ferramenta de busca\" aparece sobre a opção \"PESQUISAR POR NOME DO LOCAL\" e esconde parte do texto."
+  },
+  {
+   "id": 213,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Mapa, ausência de legenda",
+   "descricao": "Não há legenda visível que explique o que o marcador vermelho representa."
+  },
+  {
+   "id": 214,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Barra de controles à direita (primeiro e último botões) e botão do canto inferior direito",
+   "descricao": "Ícones sem rótulo (pontos em arco, três pontos, ícone no rodapé) têm significado pouco claro."
+  },
+  {
+   "id": 215,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "Menu de busca do topo",
+   "descricao": "O menu de busca usa caixa alta (\"PESQUISAR POR COORDENADAS\") e os demais textos da interface usam caixa mista; o ícone de coordenadas é pouco legível."
+  },
+  {
+   "id": 216,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Formulário Consulta SIOUT",
+   "descricao": "O texto contém erro de grafia e rótulo gramaticalmente incorreto: \"pequisar\" e \"Selecione o uso água\"."
+  },
+  {
+   "id": 217,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H06",
+   "severidade": 2,
+   "local": "Barra inferior, seletor de escala",
+   "descricao": "O seletor de escala é pequeno e só oferece valores fixos em formato técnico (1 : 2311167), sem campo para digitar a escala nem atalhos de uso."
+  },
+  {
+   "id": 218,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Sobre este mapa\"",
+   "descricao": "Contraste insuficiente: 4.06:1 (mínimo 4.5:1) no texto \"Sobre este mapa\"."
+  },
+  {
+   "id": 219,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H08",
+   "severidade": 2,
+   "local": "button",
+   "descricao": "Alvo interativo pequeno (26x22 px) e próximo de outros alvos."
+  },
+  {
+   "id": 220,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "div.sk-circle-wrapper.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 221,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "h2 \"Consulta SIOUT\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 4.5:1) no texto \"Consulta SIOUT\"."
+  },
+  {
+   "id": 222,
+   "estado": "mapa_x09_square_button_md",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 223,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select[name=\"busca\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 224,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "select#usoAgua",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 225,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input[name=\"termo\"]",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 226,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H02",
+   "severidade": 3,
+   "local": "texto da página",
+   "descricao": "Texto de teste ou valor não tratado visível: \"null\"."
+  },
+  {
+   "id": 227,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H02",
+   "severidade": 3,
+   "local": "Popup/painel de atributos: DATA REGISTRO CNARH, DATA INICIAL/FINAL OUTORGA",
+   "descricao": "Datas aparecem como números seriais (43720, 44010, 43644) em vez de datas legíveis."
+  },
+  {
+   "id": 228,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H07",
+   "severidade": 3,
+   "local": "Camada 'Interferencias regularizadas' no mapa, região oeste e centro",
+   "descricao": "Milhares de marcadores vermelhos grandes se sobrepõem formando uma mancha sólida, sem agrupamento nem variação por escala."
+  },
+  {
+   "id": 229,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H09",
+   "severidade": 3,
+   "local": "mensagem de erro \"Consulta SIOUT Buscar por: Uso de água Bacia Ano d\"",
+   "descricao": "Mensagem de erro exibe código técnico e não orienta o usuário sobre causa ou próxima ação."
+  },
+  {
+   "id": 230,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 231,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "<h4> \"\"",
+   "descricao": "Salto na hierarquia de títulos: <h2> seguido diretamente de <h4>."
+  },
+  {
+   "id": 232,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "<html>",
+   "descricao": "O idioma da página não está declarado (atributo lang)."
+  },
+  {
+   "id": 233,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H03",
+   "severidade": 2,
+   "local": "<meta name=viewport>",
+   "descricao": "O viewport impede ou limita o zoom do usuário (user-scalable=no ou maximum-scale baixo)."
+  },
+  {
+   "id": 234,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "1 <img>",
+   "descricao": "1 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 235,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.toc-inline-loader",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 236,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H01",
+   "severidade": 3,
+   "local": "div.sk-three-bounce.sk-fade-in.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status. (+3 ocorrência(s) omitida(s) do relatório)"
+  },
+  {
+   "id": 237,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "Fundo do mapa (área branca ao redor dos pontos)",
+   "descricao": "O mapa-base está em branco: não há limites municipais, relevo, hidrografia nem imagem, apesar de as camadas limitesmunic2018 e OrtoRGB-2012 constarem na lista."
+  },
+  {
+   "id": 238,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "Popup de atributos e painel de resultados",
+   "descricao": "Rótulos usam siglas e jargão sem explicação (CNARH, CÓDIGO OTTOBACIA TRECHO, CLASSE CONAMA, NOME_USUÁRIO, 'VAZAO ... M³/H') e formatação inconsistente."
+  },
+  {
+   "id": 239,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H07",
+   "severidade": 2,
+   "local": "Painel de atributos da interferência",
+   "descricao": "São listados mais de 90 campos, com 12 repetições mensais de vazão, horas e dias, todas com valores idênticos, em tabela única."
+  },
+  {
+   "id": 240,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "Barra superior: 'Pesquisar por nome do local' e painel 'Consulta SIOUT'",
+   "descricao": "Há dois mecanismos de busca separados (busca por local no topo e Consulta SIOUT na lateral, com ícone de lupa) e um segundo ícone de menu junto à busca, sem diferenciação clara."
+  },
+  {
+   "id": 241,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H10",
+   "severidade": 2,
+   "local": "Mapa, canto inferior esquerdo e painel de camadas",
+   "descricao": "Não há legenda do símbolo vermelho nem ajuda contextual sobre o significado dos pontos, das camadas SADPLAN e do minimapa."
+  },
+  {
+   "id": 242,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H06",
+   "severidade": 2,
+   "local": "Lista de camadas (Antas, Araranguá, Biguaçu ... Urussanga)",
+   "descricao": "Há dezenas de camadas por bacia, sem ações em lote (ativar/desativar todas, favoritos) e com dois itens técnicos para cada bacia."
+  },
+  {
+   "id": 243,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Sobre este mapa\"",
+   "descricao": "Contraste insuficiente: 4.06:1 (mínimo 4.5:1) no texto \"Sobre este mapa\"."
+  },
+  {
+   "id": 244,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "tabela",
+   "descricao": "Tabela com várias linhas sem células de cabeçalho (<th>)."
+  },
+  {
+   "id": 245,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H02",
+   "severidade": 2,
+   "local": "rótulos e textos da página",
+   "descricao": "Identificadores de implementação visíveis ao usuário: balanco_hidrico_, cubatao_norte, cubatao_sul, hidrica_antas, hidrica_ararangua, hidrica_biguacu."
+  },
+  {
+   "id": 246,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H01",
+   "severidade": 2,
+   "local": "div.sk-circle-wrapper.spinner",
+   "descricao": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status."
+  },
+  {
+   "id": 247,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H04",
+   "severidade": 1,
+   "local": "Campo de busca e dados do painel",
+   "descricao": "Há erros de grafia: 'pequisar' no placeholder e 'Muncipio' nos nomes do empreendimento e do usuário."
+  },
+  {
+   "id": 248,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "button",
+   "descricao": "Alvo interativo pequeno (26x22 px) e próximo de outros alvos."
+  },
+  {
+   "id": 249,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H05",
+   "severidade": 1,
+   "local": "h2 \"Consulta SIOUT\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 4.5:1) no texto \"Consulta SIOUT\"."
+  },
+  {
+   "id": 250,
+   "estado": "mapa_x12_ol_viewport",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  }
+ ],
+ "problemas": [
+  {
+   "code": "SIH-01",
+   "description": "The initial screen does not clearly communicate the operation flow.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-02",
+   "description": "What does GIS mean? Will everyone understand?",
+   "severity": 2
+  },
+  {
+   "code": "SIH-03",
+   "description": "The flag at the bottom is not well-aligned.",
+   "severity": 1
+  },
+  {
+   "code": "SIH-04",
+   "description": "\"Home Page\" title - is it clickable? It has the same color scheme as the menu.",
+   "severity": 2
+  },
+  {
+   "code": "SIH-05",
+   "description": "\"Loading mapstore\" - loading is in English while the system is in Portuguese.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-06",
+   "description": "Only mentions storing cookies without explaining what it means in the context where the user must agree.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-07",
+   "description": "The map does not contextualize the state of Santa Catarina with the others - could at least show the borders.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-08",
+   "description": "The button in the lower left corner to change the background does not clearly indicate that it is clickable.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-09",
+   "description": "The map outline option becomes illegible - difficult to read due to color contrast.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-10",
+   "description": "The \"manual\" icon for help is hard to find and unclear.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-11",
+   "description": "\"No information available for this point\" when clicking on an item outside the map - should not be considered clickable.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-12",
+   "description": "Tooltip with map point information presents acronyms difficult for the general population to understand.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-13",
+   "description": "In the layer list, there are several acronyms to select - what do they mean?",
+   "severity": 4
+  },
+  {
+   "code": "SIH-14",
+   "description": "Layers - in the layer list - \"Antas\" has a subtle shift in relation to \"SADPLAN\" - hard to see that it is a sub-item.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-15",
+   "description": "What is \"balanco_hidrico_antes\"? No clear description provided.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-16",
+   "description": "\"balanco_hidrico_antes\" - what is it? The description only indicates \"blue line\" - does not satisfactorily explain.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-17",
+   "description": "Toggling the layer visibility - a term difficult for users to understand.",
+   "severity": 2
+  },
+  {
+   "code": "SIH-18",
+   "description": "Line with percentage of line contrast - difficult to understand how it works.",
+   "severity": 2
+  },
+  {
+   "code": "SIH-19",
+   "description": "Difficult to understand what the explaining balloon refers to - only by the lower arrow? (to which point on the map is this related?)",
+   "severity": 3
+  },
+  {
+   "code": "SIH-20",
+   "description": "When deactivating municipal boundaries, the divisions still appear in the layer list.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-21",
+   "description": "Capture and classification layer - what is it? How to use?",
+   "severity": 3
+  },
+  {
+   "code": "SIH-22",
+   "description": "The layer icon is a menu (hamburger), but does not act like a menu.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-23",
+   "description": "Menu icon shows \"capture\" and \"grab...\" - distinct descriptions for different functions for the same icon.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-24",
+   "description": "Searching for \"São\" - shows items up to Russia, but it’s only the state of SC.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-25",
+   "description": "Auto-complete items do not prioritize the context of Santa Catarina in the search.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-26",
+   "description": "Menu icon is used to offer choices of search types (coordinate or place name).",
+   "severity": 3
+  },
+  {
+   "code": "SIH-27",
+   "description": "Searching by coordinates - lat / lon - non-descriptive names.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-28",
+   "description": "lat/lon in search by coordinates is outlined in red, as if it had already been filled in incorrectly before.",
+   "severity": 2
+  },
+  {
+   "code": "SIH-29",
+   "description": "What do \"degree gms/degree decimal\" mean? In settings.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-30",
+   "description": "X icon to clear field - does not correspond to common use (amid other icons).",
+   "severity": 3
+  },
+  {
+   "code": "SIH-31",
+   "description": "Search by incorrect latitude and longitude shows location \"in the middle of nowhere,\" without feedback.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-32",
+   "description": "Even when logged in, clicking on the profile icon shows the option to \"login,\" suggesting you are not logged in.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-33",
+   "description": "Login status does not appear to be working.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-34",
+   "description": "\"Drop your map context\" - translation does not make sense.",
+   "severity": 2
+  },
+  {
+   "code": "SIH-35",
+   "description": "Mouse icon shows the option to hide/show layers (bottom right corner) - the icon does not make sense.",
+   "severity": 1
+  },
+  {
+   "code": "SIH-36",
+   "description": "What is a query? It is not clear whether it is a public consultation or what it is for.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-37",
+   "description": "SIOUT Consultation - it is not clear that selecting an item affects the list of subsequent ones.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-38",
+   "description": "Search in the consultation is very slow.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-39",
+   "description": "When the search is stuck, there is no option to cancel.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-40",
+   "description": "The result does not indicate how many results were listed.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-41",
+   "description": "There is no explanation about the numbers or types of results - does not explain what the items in the results are.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-42",
+   "description": "When clicking on a result in the consultation list, it shows the point but does not leave a visual indication of which is currently selected.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-43",
+   "description": "When clicking on the item to show details, there is an overlay of balloons, and it is difficult to change.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-44",
+   "description": "Result point - detail balloon - X button as retract, not as close.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-45",
+   "description": "Result point - detail balloon - some items show with empty details.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-46",
+   "description": "When clearing the consultation, it removes the point, but the pop-up with details remains on the screen.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-47",
+   "description": "When exporting, it does not ask for confirmation, and immediately starts the automatic download of a .zip file.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-48",
+   "description": "When exporting, a read me in English says the result is empty.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-49",
+   "description": "When exporting, it does not explain that the data will come in shape files.",
+   "severity": 3
+  },
+  {
+   "code": "SIH-50",
+   "description": "Does not give feedback on whether the export was successful or not.",
+   "severity": 4
+  },
+  {
+   "code": "SIH-51",
+   "description": "Consulting objects on the map (local icon) only shows the map.",
+   "severity": 2
+  },
+  {
+   "code": "SIH-52",
+   "description": "The upper right corner shows two menu (sandwich) icons very close together - what are they for?",
+   "severity": 3
+  }
+ ],
+ "matches": [
+  {
+   "problem_code": "SIH-01",
+   "match": "partial",
+   "finding_id": 5,
+   "rationale": "The finding notes navigation labels do not explain what each option offers, which only partly covers the unclear operation flow."
+  },
+  {
+   "problem_code": "SIH-02",
+   "match": "full",
+   "finding_id": 5,
+   "rationale": "The finding flags acronyms such as 'SIG SIOUT' in the navigation as unexplained."
+  },
+  {
+   "problem_code": "SIH-03",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses alignment of the footer flag."
+  },
+  {
+   "problem_code": "SIH-04",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the 'Home Page' title appearing clickable."
+  },
+  {
+   "problem_code": "SIH-05",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding mentions the English loading text."
+  },
+  {
+   "problem_code": "SIH-06",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding mentions cookies."
+  },
+  {
+   "problem_code": "SIH-07",
+   "match": "partial",
+   "finding_id": 125,
+   "rationale": "The finding notes the base map and boundaries are missing, so only the points delineate the state."
+  },
+  {
+   "problem_code": "SIH-08",
+   "match": "full",
+   "finding_id": 174,
+   "rationale": "The lower-left thumbnail has no label and its background-toggle function is unclear."
+  },
+  {
+   "problem_code": "SIH-09",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses contrast in the map outline option."
+  },
+  {
+   "problem_code": "SIH-10",
+   "match": "partial",
+   "finding_id": 193,
+   "rationale": "The finding says help ('Sobre este mapa') is hidden, but does not mention the manual icon."
+  },
+  {
+   "problem_code": "SIH-11",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses clicks outside the map returning no information."
+  },
+  {
+   "problem_code": "SIH-12",
+   "match": "full",
+   "finding_id": 238,
+   "rationale": "The attribute popup uses unexplained acronyms and jargon."
+  },
+  {
+   "problem_code": "SIH-13",
+   "match": "partial",
+   "finding_id": 104,
+   "rationale": "The finding notes missing explanation of technical layer concepts such as SADPLAN, a more generic version of the problem."
+  },
+  {
+   "problem_code": "SIH-14",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses sub-item indentation in the layer list."
+  },
+  {
+   "problem_code": "SIH-15",
+   "match": "full",
+   "finding_id": 104,
+   "rationale": "There is no explanation of balanço hídrico in the layers."
+  },
+  {
+   "problem_code": "SIH-16",
+   "match": "partial",
+   "finding_id": 104,
+   "rationale": "The finding covers the lack of explanation for balanço hídrico, but not the inadequate 'blue line' description."
+  },
+  {
+   "problem_code": "SIH-17",
+   "match": "partial",
+   "finding_id": 103,
+   "rationale": "The finding says visibility toggling is unclear, but via icons rather than the terminology."
+  },
+  {
+   "problem_code": "SIH-18",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the contrast percentage line."
+  },
+  {
+   "problem_code": "SIH-19",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses which map point the balloon refers to."
+  },
+  {
+   "problem_code": "SIH-20",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses this deactivation inconsistency."
+  },
+  {
+   "problem_code": "SIH-21",
+   "match": "partial",
+   "finding_id": 130,
+   "rationale": "The finding reports generic lack of help for interpreting layers and tools."
+  },
+  {
+   "problem_code": "SIH-22",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the hamburger icon on layers."
+  },
+  {
+   "problem_code": "SIH-23",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the inconsistent descriptions for the same icon."
+  },
+  {
+   "problem_code": "SIH-24",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses search results outside SC."
+  },
+  {
+   "problem_code": "SIH-25",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses autocomplete prioritization."
+  },
+  {
+   "problem_code": "SIH-26",
+   "match": "full",
+   "finding_id": 157,
+   "rationale": "The menu icon next to the search field has no clear function."
+  },
+  {
+   "problem_code": "SIH-27",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the lat/lon field names."
+  },
+  {
+   "problem_code": "SIH-28",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the red outline on the fields."
+  },
+  {
+   "problem_code": "SIH-29",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the degree format options."
+  },
+  {
+   "problem_code": "SIH-30",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the X clear-field icon."
+  },
+  {
+   "problem_code": "SIH-31",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses missing feedback for invalid coordinates."
+  },
+  {
+   "problem_code": "SIH-32",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the profile icon showing login while logged in."
+  },
+  {
+   "problem_code": "SIH-33",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses login status."
+  },
+  {
+   "problem_code": "SIH-34",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the bad translation."
+  },
+  {
+   "problem_code": "SIH-35",
+   "match": "full",
+   "finding_id": 214,
+   "rationale": "The bottom-right icon is flagged as having an unclear meaning."
+  },
+  {
+   "problem_code": "SIH-36",
+   "match": "partial",
+   "finding_id": 5,
+   "rationale": "'Consulta SIOUT' appears among labels without explanation of what it offers."
+  },
+  {
+   "problem_code": "SIH-37",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses dependency between selection filters."
+  },
+  {
+   "problem_code": "SIH-38",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses search slowness."
+  },
+  {
+   "problem_code": "SIH-39",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the missing cancel option."
+  },
+  {
+   "problem_code": "SIH-40",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the result count."
+  },
+  {
+   "problem_code": "SIH-41",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding explains the types of results."
+  },
+  {
+   "problem_code": "SIH-42",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses indication of the selected item."
+  },
+  {
+   "problem_code": "SIH-43",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses balloon overlap."
+  },
+  {
+   "problem_code": "SIH-44",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the behavior of the X button."
+  },
+  {
+   "problem_code": "SIH-45",
+   "match": "partial",
+   "finding_id": 226,
+   "rationale": "The finding notes untreated 'null' values are visible, which relates to empty details."
+  },
+  {
+   "problem_code": "SIH-46",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the popup persisting after clearing."
+  },
+  {
+   "problem_code": "SIH-47",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses export confirmation."
+  },
+  {
+   "problem_code": "SIH-48",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the English readme in the export."
+  },
+  {
+   "problem_code": "SIH-49",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses the shapefile export format."
+  },
+  {
+   "problem_code": "SIH-50",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses export feedback."
+  },
+  {
+   "problem_code": "SIH-51",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses object consultation on the map."
+  },
+  {
+   "problem_code": "SIH-52",
+   "match": "full",
+   "finding_id": 240,
+   "rationale": "The finding flags a second menu icon next to the search without clear differentiation."
+  }
+ ]
+}

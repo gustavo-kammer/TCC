@@ -1,0 +1,288 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256": "1dcbcd1ef4ecb04d51e8b49fca06ddf825056d0e4a34b9589761ad7429e096bc",
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:38:05-03:00",
+    "configuracao": "hibrido",
+    "run_id": 1
+  },
+  "flow_id": "calib_10",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_10.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_10.html",
+      "n_fatias": 1,
+      "prompt_sha256": "dae1b89b7471196943a92a615d79b5c19669b8593dffb4932d3ed79fb0428fbb",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_10.html",
+        "total_violations": 5,
+        "count_by_severity": {
+          "3": 2,
+          "2": 3
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campo 'Limite de variação de preço (%)'",
+            "description": "O campo numérico não explica a que se refere o limite nem o que acontece quando o preço o ultrapassa.",
+            "justification": "O rótulo é abstrato e o campo mostra apenas '10', sem texto de apoio. O usuário não sabe se são 10% sobre o preço da última compra, do catálogo ou da cesta total, nem se o item será cancelado, substituído ou pedirá confirmação. Essa decisão financeira é tomada sem ajuda no ponto de uso.",
+            "recommendation": "Adicionar texto de apoio abaixo do campo com exemplo (ex.: 'Se o preço de um item subir mais de 10% em relação à última compra, avisaremos você antes de cobrar') e indicar a unidade % junto ao campo.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Ativar cesta recorrente' e área abaixo do formulário",
+            "description": "A página não mostra resumo do que será ativado (itens, valor estimado, próxima entrega) antes de comprometer o usuário.",
+            "justification": "O botão ativa uma compra periódica, mas a tela só traz parâmetros de configuração. O usuário não vê quais produtos compõem a cesta, quanto custará nem quando será a primeira entrega, e também não há indicação do estado atual (cesta inativa).",
+            "recommendation": "Exibir um resumo (itens, valor estimado, data da próxima entrega, forma de pagamento) junto ao botão e indicar o estado atual da cesta; após a ativação, mostrar confirmação clara.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H02_correspondencia_sistema_mundo_real",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campos 'Política de substituição' e 'Se faltar um produto'",
+            "description": "Dois campos tratam de situações parecidas com nomes distintos e pouco claros, sem explicar a diferença.",
+            "justification": "'Política de substituição' é um termo técnico/corporativo e se sobrepõe a 'Se faltar um produto'. Com valores como 'Substituir por produto similar' e 'Cancelar o item' em campos separados, é possível ter combinações contraditórias, e o usuário não sabe qual regra prevalece.",
+            "recommendation": "Unificar em uma única pergunta em linguagem natural (ex.: 'Se um produto estiver em falta') ou explicar a diferença e a ordem de aplicação, usando termos como 'trocar por um parecido' em vez de 'política'.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Formulário como um todo",
+            "description": "Não há explicação do que é a cesta recorrente nem de como ela funciona (cobrança, itens, cancelamento).",
+            "justification": "Abaixo do título 'Cesta recorrente' vai direto para os campos, sem descrição. Quem chega pela primeira vez não sabe se a cesta repete os últimos pedidos, como será cobrada ou como é cancelada. A ajuda existe apenas como link global no menu.",
+            "recommendation": "Incluir um breve parágrafo introdutório sob o título e um link contextual 'Como funciona' ou 'Saiba mais' perto dos campos.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Ativar cesta recorrente' e rodapé do formulário",
+            "description": "Não há ação secundária de cancelar/voltar nem informação sobre como pausar ou cancelar a cesta depois de ativada.",
+            "justification": "O único botão é o de ativação, que gera compromisso recorrente. Sem 'Cancelar' ou indicação de que é possível pausar a qualquer momento, o usuário pode hesitar ou se sentir preso após ativar.",
+            "recommendation": "Adicionar botão ou link secundário 'Cancelar' e uma nota como 'Você pode pausar ou cancelar quando quiser em Meus pedidos'.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Ativar cesta recorrente' e área abaixo do formulário",
+          "description": "A página não mostra resumo do que será ativado (itens, valor estimado, próxima entrega) antes de comprometer o usuário.",
+          "justification": "O botão ativa uma compra periódica, mas a tela só traz parâmetros de configuração. O usuário não vê quais produtos compõem a cesta, quanto custará nem quando será a primeira entrega, e também não há indicação do estado atual (cesta inativa).",
+          "recommendation": "Exibir um resumo (itens, valor estimado, data da próxima entrega, forma de pagamento) junto ao botão e indicar o estado atual da cesta; após a ativação, mostrar confirmação clara.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campos 'Política de substituição' e 'Se faltar um produto'",
+          "description": "Dois campos tratam de situações parecidas com nomes distintos e pouco claros, sem explicar a diferença.",
+          "justification": "'Política de substituição' é um termo técnico/corporativo e se sobrepõe a 'Se faltar um produto'. Com valores como 'Substituir por produto similar' e 'Cancelar o item' em campos separados, é possível ter combinações contraditórias, e o usuário não sabe qual regra prevalece.",
+          "recommendation": "Unificar em uma única pergunta em linguagem natural (ex.: 'Se um produto estiver em falta') ou explicar a diferença e a ordem de aplicação, usando termos como 'trocar por um parecido' em vez de 'política'.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Ativar cesta recorrente' e rodapé do formulário",
+          "description": "Não há ação secundária de cancelar/voltar nem informação sobre como pausar ou cancelar a cesta depois de ativada.",
+          "justification": "O único botão é o de ativação, que gera compromisso recorrente. Sem 'Cancelar' ou indicação de que é possível pausar a qualquer momento, o usuário pode hesitar ou se sentir preso após ativar.",
+          "recommendation": "Adicionar botão ou link secundário 'Cancelar' e uma nota como 'Você pode pausar ou cancelar quando quiser em Meus pedidos'.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo 'Limite de variação de preço (%)'",
+          "description": "O campo numérico não explica a que se refere o limite nem o que acontece quando o preço o ultrapassa.",
+          "justification": "O rótulo é abstrato e o campo mostra apenas '10', sem texto de apoio. O usuário não sabe se são 10% sobre o preço da última compra, do catálogo ou da cesta total, nem se o item será cancelado, substituído ou pedirá confirmação. Essa decisão financeira é tomada sem ajuda no ponto de uso.",
+          "recommendation": "Adicionar texto de apoio abaixo do campo com exemplo (ex.: 'Se o preço de um item subir mais de 10% em relação à última compra, avisaremos você antes de cobrar') e indicar a unidade % junto ao campo.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário como um todo",
+          "description": "Não há explicação do que é a cesta recorrente nem de como ela funciona (cobrança, itens, cancelamento).",
+          "justification": "Abaixo do título 'Cesta recorrente' vai direto para os campos, sem descrição. Quem chega pela primeira vez não sabe se a cesta repete os últimos pedidos, como será cobrada ou como é cancelada. A ajuda existe apenas como link global no menu.",
+          "recommendation": "Incluir um breve parágrafo introdutório sob o título e um link contextual 'Como funciona' ou 'Saiba mais' perto dos campos.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "interface_id": "calib_07",
+  "fase": "calibracao",
+  "fonte": "autor",
+  "descricao": "Página inicial com excesso de avisos, selos e chamadas de mesmo peso",
+  "arquivo_ou_url": "interfaces/calibracao/calib_07.html",
+  "violacoes_gabarito": [
+    {
+      "id": "calib_07_v1",
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "severity": 2,
+      "location": "corpo da página inicial",
+      "description": "Três avisos promocionais coloridos e dez cards com botão e selo de mesmo peso competem por atenção, repetindo a mesma informação (frete grátis) em vários pontos.",
+      "papel": "violacao_central"
+    }
+  ]
+}

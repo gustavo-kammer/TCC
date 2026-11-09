@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "1a60f213227f7bd53e39231ed0a997e77655a9cea6c764f11c2cc85cc285afb9",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:37:14-03:00",
+    "configuracao": "llm",
+    "run_id": 1
+  },
+  "flow_id": "calib_09",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_09.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_09.html",
+      "n_fatias": 1,
+      "prompt_sha256": "067f365b44bcc943495efa73a47f77e20d94c820e97bb8c785c31560e64a7e63",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_09.html",
+        "total_violations": 5,
+        "count_by_severity": {
+          "4": 1,
+          "3": 2,
+          "2": 1,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+            "severity_effective": 4,
+            "criticality_index": 3.0,
+            "severity_original": 4,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Caixa de erro em 'Pagamento com cartão'",
+            "description": "A mensagem exibe 'Erro 500' e 'Falha inesperada. (cód. 0x80070057)', sem explicar o que houve nem o que fazer.",
+            "justification": "O texto usa código técnico de servidor e código hexadecimal interno, incompreensíveis para um cliente de feira online. Não diz se o cartão foi cobrado, se o pedido foi mantido, nem sugere solução.",
+            "recommendation": "Trocar por linguagem simples, como 'Não foi possível carregar o pagamento. Seu pedido está salvo e nada foi cobrado.', com ação clara (tentar novamente, usar outra forma de pagamento) e código técnico apenas secundário.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Área principal de pagamento (abaixo da mensagem de erro)",
+            "description": "Após o erro não há botão de 'Tentar novamente', 'Voltar para Entrega' ou outra saída dentro da área de pagamento.",
+            "justification": "A área só contém o alerta; o usuário fica preso na etapa 3 sem caminho óbvio para continuar ou retroceder, restando navegar pelo breadcrumb ou menu superior.",
+            "recommendation": "Incluir botões visíveis 'Tentar novamente' e 'Voltar para Entrega', e oferecer métodos de pagamento alternativos.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Área 'Pagamento com cartão' e resumo do pedido",
+            "description": "A tela não informa o estado do pedido nem do pagamento após a falha: o formulário de cartão não aparece e não há indicação de se algo foi cobrado.",
+            "justification": "O usuário vê o resumo com total R$ 28,10 e um erro genérico, sem saber se o pedido está salvo, se a cobrança ocorreu ou se o formulário falhou ao carregar.",
+            "recommendation": "Informar explicitamente o status ('Pedido não finalizado, nenhuma cobrança realizada') e manter ou recarregar o formulário de pagamento.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Mensagem de erro e rodapé",
+            "description": "O erro não oferece caminho contextual para suporte (link para Ajuda ou Fale conosco).",
+            "justification": "Diante de uma falha bloqueante, o usuário precisa procurar por conta própria o suporte no menu 'Ajuda' ou no rodapé, sem referência ao código do erro para o atendimento.",
+            "recommendation": "Adicionar na própria mensagem um link 'Falar com o suporte' ou 'Ajuda com pagamento', com o código de referência do erro.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H04_consistencia_e_padronizacao",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Breadcrumb 'Início / Carrinho / Pagamento' vs. indicador de etapas",
+            "description": "O breadcrumb omite a etapa 'Entrega' presente no indicador de etapas, e ambos coexistem mostrando a localização.",
+            "justification": "Duas representações do caminho divergem (3 níveis contra 4 etapas), o que pode confundir sobre a estrutura do fluxo.",
+            "recommendation": "Manter apenas o indicador de etapas no checkout, ou alinhar o breadcrumb às etapas reais.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Área 'Pagamento com cartão' e resumo do pedido",
+          "description": "A tela não informa o estado do pedido nem do pagamento após a falha: o formulário de cartão não aparece e não há indicação de se algo foi cobrado.",
+          "justification": "O usuário vê o resumo com total R$ 28,10 e um erro genérico, sem saber se o pedido está salvo, se a cobrança ocorreu ou se o formulário falhou ao carregar.",
+          "recommendation": "Informar explicitamente o status ('Pedido não finalizado, nenhuma cobrança realizada') e manter ou recarregar o formulário de pagamento.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Área principal de pagamento (abaixo da mensagem de erro)",
+          "description": "Após o erro não há botão de 'Tentar novamente', 'Voltar para Entrega' ou outra saída dentro da área de pagamento.",
+          "justification": "A área só contém o alerta; o usuário fica preso na etapa 3 sem caminho óbvio para continuar ou retroceder, restando navegar pelo breadcrumb ou menu superior.",
+          "recommendation": "Incluir botões visíveis 'Tentar novamente' e 'Voltar para Entrega', e oferecer métodos de pagamento alternativos.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Breadcrumb 'Início / Carrinho / Pagamento' vs. indicador de etapas",
+          "description": "O breadcrumb omite a etapa 'Entrega' presente no indicador de etapas, e ambos coexistem mostrando a localização.",
+          "justification": "Duas representações do caminho divergem (3 níveis contra 4 etapas), o que pode confundir sobre a estrutura do fluxo.",
+          "recommendation": "Manter apenas o indicador de etapas no checkout, ou alinhar o breadcrumb às etapas reais.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 4,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 4
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+          "severity_effective": 4,
+          "criticality_index": 3.0,
+          "severity_original": 4,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Caixa de erro em 'Pagamento com cartão'",
+          "description": "A mensagem exibe 'Erro 500' e 'Falha inesperada. (cód. 0x80070057)', sem explicar o que houve nem o que fazer.",
+          "justification": "O texto usa código técnico de servidor e código hexadecimal interno, incompreensíveis para um cliente de feira online. Não diz se o cartão foi cobrado, se o pedido foi mantido, nem sugere solução.",
+          "recommendation": "Trocar por linguagem simples, como 'Não foi possível carregar o pagamento. Seu pedido está salvo e nada foi cobrado.', com ação clara (tentar novamente, usar outra forma de pagamento) e código técnico apenas secundário.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Mensagem de erro e rodapé",
+          "description": "O erro não oferece caminho contextual para suporte (link para Ajuda ou Fale conosco).",
+          "justification": "Diante de uma falha bloqueante, o usuário precisa procurar por conta própria o suporte no menu 'Ajuda' ou no rodapé, sem referência ao código do erro para o atendimento.",
+          "recommendation": "Adicionar na própria mensagem um link 'Falar com o suporte' ou 'Ajuda com pagamento', com o código de referência do erro.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

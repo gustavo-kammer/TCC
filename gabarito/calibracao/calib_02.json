@@ -1,0 +1,17 @@
+{
+  "interface_id": "calib_02",
+  "fase": "calibracao",
+  "fonte": "autor",
+  "descricao": "Configuração de entrega com campos em linguagem técnica",
+  "arquivo_ou_url": "interfaces/calibracao/calib_02.html",
+  "violacoes_gabarito": [
+    {
+      "id": "calib_02_v1",
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "severity": 2,
+      "location": "formulário de entrega (rótulos e dicas)",
+      "description": "Rótulos e dicas usam termos técnicos de implementação (slot_id, flag, TTL, cache de rota, callback) em um app voltado a consumidores finais.",
+      "papel": "violacao_central"
+    }
+  ]
+}

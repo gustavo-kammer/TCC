@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "7957a7ffe3245ed095c2525894cabaa35d4e422b61a0a43284d7c01885d0628a",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:24:51-03:00",
+    "configuracao": "llm",
+    "run_id": 1
+  },
+  "flow_id": "calib_01",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+      "n_fatias": 1,
+      "prompt_sha256": "77457e8e31c8747b0f4f62f71f18a4d545aef845ef6db2bec228b833d7f92b8e",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+        "total_violations": 5,
+        "count_by_severity": {
+          "3": 1,
+          "2": 3,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Bloco 'Pagamento via Pix', spinner",
+            "description": "Apenas um spinner é exibido, sem texto indicando o que está carregando, nem tempo estimado.",
+            "justification": "O usuário vê um círculo girando abaixo de 'Pagamento via Pix' e nenhum QR code ou código; não sabe se o sistema está gerando o Pix, aguardando pagamento ou travado, nem por quanto tempo esperar.",
+            "recommendation": "Adicionar mensagem como 'Gerando seu código Pix...' e, ao concluir, exibir QR code, código copia-e-cola, valor e prazo de validade, com estado de aguardando pagamento e tratamento de timeout.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Confirmar pedido' desabilitado",
+            "description": "O botão aparece acinzentado sem explicar por que não pode ser usado nem quando será liberado.",
+            "justification": "O botão em cinza claro sugere inatividade, mas nada informa a condição de habilitação (ex.: aguardando geração do Pix ou confirmação do pagamento).",
+            "recommendation": "Exibir texto de apoio junto ao botão (ex.: 'Disponível após a confirmação do pagamento') ou mudar o rótulo conforme o estado.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Bloco 'Pagamento via Pix'",
+            "description": "Não há instruções de como pagar com Pix (abrir app do banco, escanear QR ou copiar código) nem o que ocorre após o pagamento.",
+            "justification": "O bloco contém só título, spinner e botão; usuários menos familiarizados não têm orientação contextual, restando apenas o link 'Ajuda' global no cabeçalho.",
+            "recommendation": "Incluir passos curtos de pagamento via Pix e link de ajuda contextual para problemas (código expirado, pagamento não identificado).",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Bloco de pagamento e indicador de etapas",
+            "description": "Não há botão visível de 'Voltar' ou 'Cancelar/Trocar forma de pagamento' na etapa de pagamento.",
+            "justification": "Se o Pix demorar ou falhar, o usuário só tem o breadcrumb e as etapas (sem aparência de links clicáveis) para sair; também não há opção de outro método de pagamento.",
+            "recommendation": "Adicionar botão 'Voltar para Entrega' e opção de alterar a forma de pagamento ou cancelar; tornar as etapas concluídas clicáveis.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H07_design_estetico_e_minimalista",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Breadcrumb e indicador de etapas",
+            "description": "Breadcrumb (Início / Carrinho / Pagamento) e indicador de 4 etapas coexistem, duplicando a informação de localização.",
+            "justification": "Ambos mostram a posição no checkout e competem por atenção acima do conteúdo principal; o breadcrumb ainda omite Entrega, gerando inconsistência com as etapas.",
+            "recommendation": "Remover o breadcrumb durante o checkout e manter apenas o indicador de etapas, ou reduzir a ênfase de um deles.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Bloco 'Pagamento via Pix', spinner",
+          "description": "Apenas um spinner é exibido, sem texto indicando o que está carregando, nem tempo estimado.",
+          "justification": "O usuário vê um círculo girando abaixo de 'Pagamento via Pix' e nenhum QR code ou código; não sabe se o sistema está gerando o Pix, aguardando pagamento ou travado, nem por quanto tempo esperar.",
+          "recommendation": "Adicionar mensagem como 'Gerando seu código Pix...' e, ao concluir, exibir QR code, código copia-e-cola, valor e prazo de validade, com estado de aguardando pagamento e tratamento de timeout.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Confirmar pedido' desabilitado",
+          "description": "O botão aparece acinzentado sem explicar por que não pode ser usado nem quando será liberado.",
+          "justification": "O botão em cinza claro sugere inatividade, mas nada informa a condição de habilitação (ex.: aguardando geração do Pix ou confirmação do pagamento).",
+          "recommendation": "Exibir texto de apoio junto ao botão (ex.: 'Disponível após a confirmação do pagamento') ou mudar o rótulo conforme o estado.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Bloco de pagamento e indicador de etapas",
+          "description": "Não há botão visível de 'Voltar' ou 'Cancelar/Trocar forma de pagamento' na etapa de pagamento.",
+          "justification": "Se o Pix demorar ou falhar, o usuário só tem o breadcrumb e as etapas (sem aparência de links clicáveis) para sair; também não há opção de outro método de pagamento.",
+          "recommendation": "Adicionar botão 'Voltar para Entrega' e opção de alterar a forma de pagamento ou cancelar; tornar as etapas concluídas clicáveis.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H07_design_estetico_e_minimalista",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Breadcrumb e indicador de etapas",
+          "description": "Breadcrumb (Início / Carrinho / Pagamento) e indicador de 4 etapas coexistem, duplicando a informação de localização.",
+          "justification": "Ambos mostram a posição no checkout e competem por atenção acima do conteúdo principal; o breadcrumb ainda omite Entrega, gerando inconsistência com as etapas.",
+          "recommendation": "Remover o breadcrumb durante o checkout e manter apenas o indicador de etapas, ou reduzir a ênfase de um deles.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Bloco 'Pagamento via Pix'",
+          "description": "Não há instruções de como pagar com Pix (abrir app do banco, escanear QR ou copiar código) nem o que ocorre após o pagamento.",
+          "justification": "O bloco contém só título, spinner e botão; usuários menos familiarizados não têm orientação contextual, restando apenas o link 'Ajuda' global no cabeçalho.",
+          "recommendation": "Incluir passos curtos de pagamento via Pix e link de ajuda contextual para problemas (código expirado, pagamento não identificado).",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

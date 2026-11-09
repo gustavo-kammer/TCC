@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "7b8bd83c0dae9f83c115f71c66d222dcbb06ad60c4198def74a5f0ef9d79f1c1",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:39:13-03:00",
+    "configuracao": "llm",
+    "run_id": 2
+  },
+  "flow_id": "calib_10",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_10.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_10.html",
+      "n_fatias": 1,
+      "prompt_sha256": "37ac0af94ba191a73e8bfebcf51626a986bd988aa4deb33f20f40631a5a7cde2",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_10.html",
+        "total_violations": 8,
+        "count_by_severity": {
+          "3": 2,
+          "2": 6
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H02_correspondencia_sistema_mundo_real",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campos 'Política de substituição' e 'Se faltar um produto'",
+            "description": "Dois campos com nomes e finalidades muito parecidos, que tratam de falta de produto, sem distinção clara.",
+            "justification": "'Política de substituição' (ex.: 'Substituir por produto similar') e 'Se faltar um produto' (ex.: 'Cancelar o item') parecem cobrir a mesma situação e podem gerar configurações contraditórias; o usuário não sabe qual prevalece.",
+            "recommendation": "Unificar em um único campo ou diferenciar claramente (ex.: 'Quando um item estiver em falta' e 'Quanto posso pagar a mais por um substituto'), com texto de apoio explicando a precedência.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Ativar cesta recorrente'",
+            "description": "A ação cria uma compra recorrente sem resumo nem confirmação do que será cobrado e entregue.",
+            "justification": "Ativar gera pedidos e cobranças automáticas; a tela não mostra itens, valor estimado, próxima entrega nem pede confirmação, o que favorece ativações indesejadas ou erradas.",
+            "recommendation": "Exibir um resumo (itens, valor estimado, próxima data de entrega, forma de pagamento) e uma etapa de confirmação antes de ativar.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H02_correspondencia_sistema_mundo_real",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campo 'Limite de variação de preço (%)'",
+            "description": "O rótulo usa linguagem técnica e não explica sobre o que incide o percentual.",
+            "justification": "Não fica claro se o limite é por item, por cesta ou em relação a qual preço de referência; usuários leigos não associam 'variação de preço' a um percentual de tolerância.",
+            "recommendation": "Reescrever como 'Aceito pagar até X% a mais que o preço atual' e adicionar texto de apoio com exemplo (ex.: 10% sobre R$ 20 = R$ 22).",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Formulário como um todo",
+            "description": "Não há texto de ajuda contextual ou explicação do que é a cesta recorrente e de como cada opção funciona.",
+            "justification": "Os campos (política de substituição, limite de variação, falta de produto) são específicos e exigem entendimento; a página só traz rótulos, sem dicas, links de ajuda ou descrição do recurso.",
+            "recommendation": "Incluir uma breve introdução abaixo do título e textos de apoio por campo, com link para a página de Ajuda específica.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campo 'Limite de variação de preço (%)'",
+            "description": "Campo de texto livre sem indicação de faixa válida, unidade fixa ou restrições.",
+            "justification": "O valor '10' é digitado manualmente, sem indicação de mínimo/máximo; o usuário pode inserir valores negativos, muito altos ou não numéricos.",
+            "recommendation": "Usar campo numérico com min/max e passo, sufixo '%' visível e texto de apoio com a faixa aceita (ou um seletor de opções predefinidas).",
+            "revision_rationale": null
+          },
+          {
+            "rank": 6,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Rodapé do formulário (área do botão)",
+            "description": "Só existe o botão de ativar; não há opção de cancelar ou voltar, nem indicação de como pausar ou cancelar depois.",
+            "justification": "O usuário que desistir só pode sair pelo breadcrumb/menu, e não há garantia visível de que a cesta recorrente poderá ser pausada ou cancelada depois de ativada.",
+            "recommendation": "Adicionar botão secundário 'Cancelar' e informar, próximo ao botão, que a cesta pode ser pausada ou cancelada a qualquer momento.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 7,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Página inteira / área do formulário",
+            "description": "A página não mostra se já existe uma cesta recorrente ativa nem o estado atual da configuração.",
+            "justification": "Os campos aparecem com valores pré-selecionados sem indicação de serem padrões ou de uma configuração já salva; o usuário não sabe se está criando ou editando, nem qual o status atual.",
+            "recommendation": "Exibir o status (ex.: 'Cesta inativa') e indicar claramente que os valores são sugestões; após ativar, mostrar feedback de confirmação com a data da próxima entrega.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 8,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Formulário (conteúdo da cesta)",
+            "description": "A página não mostra quais produtos compõem a cesta que será repetida.",
+            "justification": "O usuário configura frequência e regras de substituição sem ver os itens afetados, precisando lembrar o conteúdo da cesta de outra tela.",
+            "recommendation": "Mostrar a lista (ou resumo) dos itens da cesta na própria página, com link para editá-la.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Página inteira / área do formulário",
+          "description": "A página não mostra se já existe uma cesta recorrente ativa nem o estado atual da configuração.",
+          "justification": "Os campos aparecem com valores pré-selecionados sem indicação de serem padrões ou de uma configuração já salva; o usuário não sabe se está criando ou editando, nem qual o status atual.",
+          "recommendation": "Exibir o status (ex.: 'Cesta inativa') e indicar claramente que os valores são sugestões; após ativar, mostrar feedback de confirmação com a data da próxima entrega.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campos 'Política de substituição' e 'Se faltar um produto'",
+          "description": "Dois campos com nomes e finalidades muito parecidos, que tratam de falta de produto, sem distinção clara.",
+          "justification": "'Política de substituição' (ex.: 'Substituir por produto similar') e 'Se faltar um produto' (ex.: 'Cancelar o item') parecem cobrir a mesma situação e podem gerar configurações contraditórias; o usuário não sabe qual prevalece.",
+          "recommendation": "Unificar em um único campo ou diferenciar claramente (ex.: 'Quando um item estiver em falta' e 'Quanto posso pagar a mais por um substituto'), com texto de apoio explicando a precedência.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo 'Limite de variação de preço (%)'",
+          "description": "O rótulo usa linguagem técnica e não explica sobre o que incide o percentual.",
+          "justification": "Não fica claro se o limite é por item, por cesta ou em relação a qual preço de referência; usuários leigos não associam 'variação de preço' a um percentual de tolerância.",
+          "recommendation": "Reescrever como 'Aceito pagar até X% a mais que o preço atual' e adicionar texto de apoio com exemplo (ex.: 10% sobre R$ 20 = R$ 22).",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Rodapé do formulário (área do botão)",
+          "description": "Só existe o botão de ativar; não há opção de cancelar ou voltar, nem indicação de como pausar ou cancelar depois.",
+          "justification": "O usuário que desistir só pode sair pelo breadcrumb/menu, e não há garantia visível de que a cesta recorrente poderá ser pausada ou cancelada depois de ativada.",
+          "recommendation": "Adicionar botão secundário 'Cancelar' e informar, próximo ao botão, que a cesta pode ser pausada ou cancelada a qualquer momento.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário (conteúdo da cesta)",
+          "description": "A página não mostra quais produtos compõem a cesta que será repetida.",
+          "justification": "O usuário configura frequência e regras de substituição sem ver os itens afetados, precisando lembrar o conteúdo da cesta de outra tela.",
+          "recommendation": "Mostrar a lista (ou resumo) dos itens da cesta na própria página, com link para editá-la.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Ativar cesta recorrente'",
+          "description": "A ação cria uma compra recorrente sem resumo nem confirmação do que será cobrado e entregue.",
+          "justification": "Ativar gera pedidos e cobranças automáticas; a tela não mostra itens, valor estimado, próxima entrega nem pede confirmação, o que favorece ativações indesejadas ou erradas.",
+          "recommendation": "Exibir um resumo (itens, valor estimado, próxima data de entrega, forma de pagamento) e uma etapa de confirmação antes de ativar.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo 'Limite de variação de preço (%)'",
+          "description": "Campo de texto livre sem indicação de faixa válida, unidade fixa ou restrições.",
+          "justification": "O valor '10' é digitado manualmente, sem indicação de mínimo/máximo; o usuário pode inserir valores negativos, muito altos ou não numéricos.",
+          "recommendation": "Usar campo numérico com min/max e passo, sufixo '%' visível e texto de apoio com a faixa aceita (ou um seletor de opções predefinidas).",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário como um todo",
+          "description": "Não há texto de ajuda contextual ou explicação do que é a cesta recorrente e de como cada opção funciona.",
+          "justification": "Os campos (política de substituição, limite de variação, falta de produto) são específicos e exigem entendimento; a página só traz rótulos, sem dicas, links de ajuda ou descrição do recurso.",
+          "recommendation": "Incluir uma breve introdução abaixo do título e textos de apoio por campo, com link para a página de Ajuda específica.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

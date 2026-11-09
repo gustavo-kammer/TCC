@@ -1,0 +1,53 @@
+code,description,heuristics_raw,severity,pdf_page
+SIH-01,The initial screen does not clearly communicate the operation flow.,"N1, V6, M5",4,111
+SIH-02,What does GIS mean? Will everyone understand?,"N2, V6, M5",2,111
+SIH-03,The flag at the bottom is not well-aligned.,N8,1,111
+SIH-04,"""Home Page"" title - is it clickable? It has the same color scheme as the menu.","N6, M1",2,111
+SIH-05,"""Loading mapstore"" - loading is in English while the system is in Portuguese.","N2, V3, V6, M5",3,111
+SIH-06,Only mentions storing cookies without explaining what it means in the context where the user must agree.,"N2, N10, V6, M1",4,111
+SIH-07,The map does not contextualize the state of Santa Catarina with the others - could at least show the borders.,"N2, V2, M4",3,111
+SIH-08,The button in the lower left corner to change the background does not clearly indicate that it is clickable.,"N6, V6, M5",3,111
+SIH-09,The map outline option becomes illegible - difficult to read due to color contrast.,"N1, N8, V3, M4",4,111
+SIH-10,"The ""manual"" icon for help is hard to find and unclear.","N10, V6, M1",4,111
+SIH-11,"""No information available for this point"" when clicking on an item outside the map - should not be considered clickable.","N9, N1, V3, V6, M9",3,111
+SIH-12,Tooltip with map point information presents acronyms difficult for the general population to understand.,"N2, V6, M9",4,111
+SIH-13,"In the layer list, there are several acronyms to select - what do they mean?","N2, V6, M5, M9",4,111
+SIH-14,"Layers - in the layer list - ""Antas"" has a subtle shift in relation to ""SADPLAN"" - hard to see that it is a sub-item.","N8, N1, V2",3,111
+SIH-15,"What is ""balanco_hidrico_antes""? No clear description provided.","N2, V6, M9",3,112
+SIH-16,"""balanco_hidrico_antes"" - what is it? The description only indicates ""blue line"" - does not satisfactorily explain.","N2, N10, V6, M9",4,112
+SIH-17,Toggling the layer visibility - a term difficult for users to understand.,"N2, N10, V6, M4",2,112
+SIH-18,Line with percentage of line contrast - difficult to understand how it works.,"N3, N6, V5, M9",2,112
+SIH-19,Difficult to understand what the explaining balloon refers to - only by the lower arrow? (to which point on the map is this related?),"N6, V6, M5",3,112
+SIH-20,"When deactivating municipal boundaries, the divisions still appear in the layer list.","N2, V2, M2",3,112
+SIH-21,Capture and classification layer - what is it? How to use?,"N6, V6, M5",3,112
+SIH-22,"The layer icon is a menu (hamburger), but does not act like a menu.","N6, N2, V3, M1",3,112
+SIH-23,"Menu icon shows ""capture"" and ""grab..."" - distinct descriptions for different functions for the same icon.","N10, N4, V6, M9",3,112
+SIH-24,"Searching for ""São"" - shows items up to Russia, but it’s only the state of SC.","N3, V4, M6",4,112
+SIH-25,Auto-complete items do not prioritize the context of Santa Catarina in the search.,"N4, V3, M6",3,112
+SIH-26,Menu icon is used to offer choices of search types (coordinate or place name).,"N2, N10, V6, M5",3,112
+SIH-27,Searching by coordinates - lat / lon - non-descriptive names.,"N9, V6, M5, M9",3,112
+SIH-28,"lat/lon in search by coordinates is outlined in red, as if it had already been filled in incorrectly before.","N9, V5, M5",2,112
+SIH-29,"What do ""degree gms/degree decimal"" mean? In settings.","N2, V6, M4",3,112
+SIH-30,X icon to clear field - does not correspond to common use (amid other icons).,"N6, V3, M1",3,113
+SIH-31,"Search by incorrect latitude and longitude shows location ""in the middle of nowhere,"" without feedback.","N9, V5, M4, M9",4,113
+SIH-32,"Even when logged in, clicking on the profile icon shows the option to ""login,"" suggesting you are not logged in.","N9, V3, M1",4,113
+SIH-33,Login status does not appear to be working.,"N9, M1",4,113
+SIH-34,"""Drop your map context"" - translation does not make sense.","N2, V6, M5",2,113
+SIH-35,Mouse icon shows the option to hide/show layers (bottom right corner) - the icon does not make sense.,"N6, V5, M4",1,113
+SIH-36,What is a query? It is not clear whether it is a public consultation or what it is for.,"N2, V6, M9",4,113
+SIH-37,SIOUT Consultation - it is not clear that selecting an item affects the list of subsequent ones.,"N5, V3, M6",3,113
+SIH-38,Search in the consultation is very slow.,"N3, V3, M6",4,113
+SIH-39,"When the search is stuck, there is no option to cancel.","N3, V4, M6",4,113
+SIH-40,The result does not indicate how many results were listed.,"N1, V3, V4, M9",3,113
+SIH-41,There is no explanation about the numbers or types of results - does not explain what the items in the results are.,"N2, V6, M5",3,113
+SIH-42,"When clicking on a result in the consultation list, it shows the point but does not leave a visual indication of which is currently selected.","N1, V3, M2",3,113
+SIH-43,"When clicking on the item to show details, there is an overlay of balloons, and it is difficult to change.","N1, V4, M1",4,113
+SIH-44,"Result point - detail balloon - X button as retract, not as close.","N2, V5, M1",4,113
+SIH-45,Result point - detail balloon - some items show with empty details.,"N1, V3, M9",3,114
+SIH-46,"When clearing the consultation, it removes the point, but the pop-up with details remains on the screen.","N1, N9, V3, M1",4,114
+SIH-47,"When exporting, it does not ask for confirmation, and immediately starts the automatic download of a .zip file.","N5, V3, V4, M9, M10",3,114
+SIH-48,"When exporting, a read me in English says the result is empty.","N9, V6, M9",3,114
+SIH-49,"When exporting, it does not explain that the data will come in shape files.","N5, V3, V6, M5",3,114
+SIH-50,Does not give feedback on whether the export was successful or not.,"N9, V3, M1",4,114
+SIH-51,Consulting objects on the map (local icon) only shows the map.,"N2, V6, M4",2,114
+SIH-52,The upper right corner shows two menu (sandwich) icons very close together - what are they for?,"N4, V5, M1",3,114

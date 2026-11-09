@@ -1,0 +1,13 @@
+.env
+__pycache__/
+.pytest_cache/
+coletas/
+coletas_v2/
+output/
+output_v2/
+resultados/
+resultados_v2/
+exploracao_v2/_curadoria_*/
+analises_url/
+.venv/
+venv/

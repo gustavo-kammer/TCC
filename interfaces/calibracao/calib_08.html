@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meu perfil — Feirinha</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="#">
+        <span class="brand__mark" aria-hidden="true"></span>
+        Feirinha
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#">Catálogo</a>
+        <a href="#">Pedidos</a>
+        <a href="#">Ajuda</a>
+        <a href="#" aria-current="page">Minha conta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container stack">
+    <nav class="breadcrumb" aria-label="Você está em">
+    <ol>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Minha conta</a></li>
+      <li aria-current="page">Meu perfil</li>
+    </ol>
+    </nav>
+    <h1>Meu perfil</h1>
+    <form class="stack narrow" action="#" method="post">
+      <div class="field">
+        <label for="nome">Nome completo</label>
+        <input id="nome" name="nome" type="text" value="Marina Souza">
+      </div>
+      <div class="field">
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" value="marina@exemplo.com.br">
+      </div>
+      <div class="actions">
+        <button class="btn" type="submit">Salvar alterações</button>
+        <button class="btn" type="button">Excluir conta</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© 2026 Feirinha</p>
+      <ul>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Privacidade</a></li>
+        <li><a href="#">Fale conosco</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

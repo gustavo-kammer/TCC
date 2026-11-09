@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256": "3bea43b78290a7fb39ad8a46329979f65c13218531c6bd304190feb463de931d",
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:35:13-03:00",
+    "configuracao": "hibrido",
+    "run_id": 0
+  },
+  "flow_id": "calib_08",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_08.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_08.html",
+      "n_fatias": 1,
+      "prompt_sha256": "9ccf71a5ae2fdde7028b5c7aa0ac4eb8a2996fc751dce3a539d369ae95047e29",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_08.html",
+        "total_violations": 5,
+        "count_by_severity": {
+          "4": 1,
+          "3": 1,
+          "2": 1,
+          "1": 2
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 4,
+            "criticality_index": 2.4,
+            "severity_original": 3,
+            "severity_revised": 4,
+            "source": "motor_de_regras",
+            "confidence": 0.6,
+            "location": "<button type=\"button\">",
+            "description": "Ação destrutiva (\"Excluir conta\") sem confirmação nem aviso de irreversibilidade.",
+            "justification": "Ações irreversíveis ao alcance de um clique favorecem o erro; a prevenção exige confirmação ou separação visual.",
+            "recommendation": "Pedir confirmação (diálogo) e avisar que a ação não pode ser desfeita.",
+            "revision_rationale": "O visual agrava o problema: o botão 'Excluir conta' é idêntico ao 'Salvar alterações' e está colado a ele, sem aviso de irreversibilidade nem confirmação. Um clique equivocado pode apagar a conta de forma irreversível, o que justifica tratar como catástrofe."
+          },
+          {
+            "rank": 2,
+            "heuristic": "H04_consistencia_e_padronizacao",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Grupo de botões abaixo do formulário (Salvar alterações / Excluir conta)",
+            "description": "O botão destrutivo 'Excluir conta' tem exatamente o mesmo estilo visual (verde preenchido, mesmo tamanho) do botão primário 'Salvar alterações', posicionado imediatamente ao lado.",
+            "justification": "Na captura, os dois botões são indistinguíveis em hierarquia e cor; convenções da plataforma associam ações destrutivas a estilo diferenciado (vermelho, secundário ou link) e separação do botão principal. Isso aumenta muito a chance de clique equivocado em uma ação irreversível.",
+            "recommendation": "Diferenciar 'Excluir conta' visualmente (botão secundário/contorno em cor de perigo ou link de texto), separá-lo do botão 'Salvar alterações' e movê-lo para uma seção própria 'Zona de risco' abaixo do formulário.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Formulário de perfil, área de botões",
+            "description": "Não há botão 'Cancelar' ou 'Descartar alterações' para desfazer edições nos campos e sair do formulário.",
+            "justification": "Só existem 'Salvar alterações' e 'Excluir conta'; quem alterou um campo por engano precisa sair pela navegação ou recarregar a página, sem saída clara do formulário.",
+            "recommendation": "Adicionar um botão secundário 'Cancelar' que restaure os valores originais ou volte para 'Minha conta'.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Excluir conta' e campo E-mail",
+            "description": "Não há texto de apoio explicando as consequências da exclusão da conta (dados, pedidos, prazo) nem o uso do e-mail (login, notificações).",
+            "justification": "A ação mais crítica da tela aparece sem nenhuma explicação contextual; o usuário não sabe o que será perdido antes de decidir.",
+            "recommendation": "Incluir texto curto junto ao botão de exclusão descrevendo o que acontece com os dados e pedidos, com link para a ajuda, e uma dica sobre o uso do e-mail.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 1,
+            "criticality_index": 0.7,
+            "severity_original": 1,
+            "severity_revised": 1,
+            "source": "motor_de_regras",
+            "confidence": 0.7,
+            "location": "input#email",
+            "description": "Campo de dado pessoal sem o atributo autocomplete.",
+            "justification": "Sem declarar a finalidade, o navegador não preenche o campo e o usuário digita à mão, o que aumenta o esforço e o risco de erro.",
+            "recommendation": "Declarar a finalidade com autocomplete (por exemplo email, tel, name).",
+            "revision_rationale": "A ausência de autocomplete no e-mail é um incômodo menor; o campo já vem preenchido e a tela tem só dois campos, então o impacto é cosmético. Mantém-se a severidade 1."
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário de perfil, área de botões",
+          "description": "Não há botão 'Cancelar' ou 'Descartar alterações' para desfazer edições nos campos e sair do formulário.",
+          "justification": "Só existem 'Salvar alterações' e 'Excluir conta'; quem alterou um campo por engano precisa sair pela navegação ou recarregar a página, sem saída clara do formulário.",
+          "recommendation": "Adicionar um botão secundário 'Cancelar' que restaure os valores originais ou volte para 'Minha conta'.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Grupo de botões abaixo do formulário (Salvar alterações / Excluir conta)",
+          "description": "O botão destrutivo 'Excluir conta' tem exatamente o mesmo estilo visual (verde preenchido, mesmo tamanho) do botão primário 'Salvar alterações', posicionado imediatamente ao lado.",
+          "justification": "Na captura, os dois botões são indistinguíveis em hierarquia e cor; convenções da plataforma associam ações destrutivas a estilo diferenciado (vermelho, secundário ou link) e separação do botão principal. Isso aumenta muito a chance de clique equivocado em uma ação irreversível.",
+          "recommendation": "Diferenciar 'Excluir conta' visualmente (botão secundário/contorno em cor de perigo ou link de texto), separá-lo do botão 'Salvar alterações' e movê-lo para uma seção própria 'Zona de risco' abaixo do formulário.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 4,
+      "nota_por_origem": {
+        "motor_de_regras": 4,
+        "llm": 0
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 4,
+          "criticality_index": 2.4,
+          "severity_original": 3,
+          "severity_revised": 4,
+          "source": "motor_de_regras",
+          "confidence": 0.6,
+          "location": "<button type=\"button\">",
+          "description": "Ação destrutiva (\"Excluir conta\") sem confirmação nem aviso de irreversibilidade.",
+          "justification": "Ações irreversíveis ao alcance de um clique favorecem o erro; a prevenção exige confirmação ou separação visual.",
+          "recommendation": "Pedir confirmação (diálogo) e avisar que a ação não pode ser desfeita.",
+          "revision_rationale": "O visual agrava o problema: o botão 'Excluir conta' é idêntico ao 'Salvar alterações' e está colado a ele, sem aviso de irreversibilidade nem confirmação. Um clique equivocado pode apagar a conta de forma irreversível, o que justifica tratar como catástrofe."
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 1,
+          "criticality_index": 0.7,
+          "severity_original": 1,
+          "severity_revised": 1,
+          "source": "motor_de_regras",
+          "confidence": 0.7,
+          "location": "input#email",
+          "description": "Campo de dado pessoal sem o atributo autocomplete.",
+          "justification": "Sem declarar a finalidade, o navegador não preenche o campo e o usuário digita à mão, o que aumenta o esforço e o risco de erro.",
+          "recommendation": "Declarar a finalidade com autocomplete (por exemplo email, tel, name).",
+          "revision_rationale": "A ausência de autocomplete no e-mail é um incômodo menor; o campo já vem preenchido e a tela tem só dois campos, então o impacto é cosmético. Mantém-se a severidade 1."
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Excluir conta' e campo E-mail",
+          "description": "Não há texto de apoio explicando as consequências da exclusão da conta (dados, pedidos, prazo) nem o uso do e-mail (login, notificações).",
+          "justification": "A ação mais crítica da tela aparece sem nenhuma explicação contextual; o usuário não sabe o que será perdido antes de decidir.",
+          "recommendation": "Incluir texto curto junto ao botão de exclusão descrevendo o que acontece com os dados e pedidos, com link para a ajuda, e uma dica sobre o uso do e-mail.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

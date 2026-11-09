@@ -1,0 +1,322 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256": "19d2313732db0f8f006e4e1701aba61f096fcba27ea0edcb78e18276ee18c83b",
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:36:49-03:00",
+    "configuracao": "hibrido",
+    "run_id": 2
+  },
+  "flow_id": "calib_09",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_09.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_09.html",
+      "n_fatias": 1,
+      "prompt_sha256": "ef82afb019ca00f4cd72afbcc8c4a0b20e63c4967a9435ceda95d167f84a1fd1",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_09.html",
+        "total_violations": 6,
+        "count_by_severity": {
+          "4": 2,
+          "3": 1,
+          "2": 2,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 4,
+            "criticality_index": 3.0,
+            "severity_original": 4,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Área principal 'Pagamento com cartão', abaixo do alerta de erro",
+            "description": "Após o erro não existe nenhuma ação disponível: sem botão de tentar novamente, voltar à etapa anterior ou escolher outra forma de pagamento.",
+            "justification": "A região principal contém só o alerta vermelho e um grande espaço vazio, sem campos de cartão nem botões. O usuário não consegue concluir nem sair da situação, exceto navegando pelo menu ou breadcrumb, e a compra fica bloqueada.",
+            "recommendation": "Incluir ações claras no próprio alerta ou abaixo dele, como 'Tentar novamente', 'Voltar para Entrega' e 'Usar outra forma de pagamento', além de manter os dados do pedido preservados.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+            "severity_effective": 4,
+            "criticality_index": 2.8,
+            "severity_original": 3,
+            "severity_revised": 4,
+            "source": "motor_de_regras",
+            "confidence": 0.7,
+            "location": "mensagem de erro \"Erro 500 Falha inesperada. (cód. 0x80070057)\"",
+            "description": "Mensagem de erro exibe código técnico e não orienta o usuário sobre causa ou próxima ação.",
+            "justification": "Mensagens de erro devem usar linguagem simples, indicar o problema com precisão e sugerir uma solução.",
+            "recommendation": "Reescrever a mensagem dizendo o que houve e como tentar de novo.",
+            "revision_rationale": "O visual agrava o problema: o alerta, além de trazer código técnico sem orientação, é o único conteúdo da etapa de pagamento. Sem campos, botões ou instrução de recuperação, o usuário não consegue concluir a compra, o que impede a tarefa principal do fluxo."
+          },
+          {
+            "rank": 3,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Alerta de erro e área de pagamento",
+            "description": "Não há ajuda contextual nem canal de suporte junto ao erro de pagamento.",
+            "justification": "Ajuda e 'Fale conosco' estão só no menu superior e no rodapé, distantes do alerta. O usuário não sabe se foi cobrado, se o pedido foi registrado ou a quem recorrer, justamente no momento mais crítico do fluxo.",
+            "recommendation": "Adicionar no alerta um link para suporte/contato (chat ou telefone) e um texto que informe se houve cobrança e se o pedido foi preservado.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Área principal 'Pagamento com cartão'",
+            "description": "A tela não informa se o pedido ou a cobrança foram processados nem qual é o estado do pagamento.",
+            "justification": "O alerta diz apenas 'Falha inesperada', e o resumo do pedido com total de R$ 28,10 continua visível como se a compra estivesse pendente. Não há indicação de que nada foi cobrado.",
+            "recommendation": "Informar explicitamente o estado, por exemplo 'Seu pagamento não foi concluído e nenhum valor foi cobrado', e confirmar que o carrinho foi mantido.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H02_correspondencia_sistema_mundo_real",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Título do alerta 'Erro 500'",
+            "description": "O título usa o código HTTP 'Erro 500', jargão sem significado para um consumidor de feira online.",
+            "justification": "'Erro 500' é uma convenção interna de servidores, sem relação com a tarefa de pagar. O título do alerta deveria descrever o problema na linguagem do usuário, como 'Não foi possível processar o pagamento'.",
+            "recommendation": "Trocar o título por uma frase em linguagem simples sobre o que não funcionou e remover o código da vista principal, deixando-o, se necessário, como referência discreta para o suporte.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 6,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Indicador de etapas (Carrinho, Entrega, Pagamento, Confirmação)",
+            "description": "As etapas anteriores (Carrinho e Entrega) não aparecem como concluídas, com o mesmo estilo cinza das etapas futuras.",
+            "justification": "Só a etapa atual é destacada; Carrinho e Entrega têm o mesmo visual de Confirmação, então não se distingue o que já foi feito do que falta, e as etapas não parecem navegáveis.",
+            "recommendation": "Marcar as etapas concluídas com ícone de check ou cor distinta e torná-las links para voltar e editar.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Área principal 'Pagamento com cartão'",
+          "description": "A tela não informa se o pedido ou a cobrança foram processados nem qual é o estado do pagamento.",
+          "justification": "O alerta diz apenas 'Falha inesperada', e o resumo do pedido com total de R$ 28,10 continua visível como se a compra estivesse pendente. Não há indicação de que nada foi cobrado.",
+          "recommendation": "Informar explicitamente o estado, por exemplo 'Seu pagamento não foi concluído e nenhum valor foi cobrado', e confirmar que o carrinho foi mantido.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Indicador de etapas (Carrinho, Entrega, Pagamento, Confirmação)",
+          "description": "As etapas anteriores (Carrinho e Entrega) não aparecem como concluídas, com o mesmo estilo cinza das etapas futuras.",
+          "justification": "Só a etapa atual é destacada; Carrinho e Entrega têm o mesmo visual de Confirmação, então não se distingue o que já foi feito do que falta, e as etapas não parecem navegáveis.",
+          "recommendation": "Marcar as etapas concluídas com ícone de check ou cor distinta e torná-las links para voltar e editar.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Título do alerta 'Erro 500'",
+          "description": "O título usa o código HTTP 'Erro 500', jargão sem significado para um consumidor de feira online.",
+          "justification": "'Erro 500' é uma convenção interna de servidores, sem relação com a tarefa de pagar. O título do alerta deveria descrever o problema na linguagem do usuário, como 'Não foi possível processar o pagamento'.",
+          "recommendation": "Trocar o título por uma frase em linguagem simples sobre o que não funcionou e remover o código da vista principal, deixando-o, se necessário, como referência discreta para o suporte.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 4,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 4
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 4,
+          "criticality_index": 3.0,
+          "severity_original": 4,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Área principal 'Pagamento com cartão', abaixo do alerta de erro",
+          "description": "Após o erro não existe nenhuma ação disponível: sem botão de tentar novamente, voltar à etapa anterior ou escolher outra forma de pagamento.",
+          "justification": "A região principal contém só o alerta vermelho e um grande espaço vazio, sem campos de cartão nem botões. O usuário não consegue concluir nem sair da situação, exceto navegando pelo menu ou breadcrumb, e a compra fica bloqueada.",
+          "recommendation": "Incluir ações claras no próprio alerta ou abaixo dele, como 'Tentar novamente', 'Voltar para Entrega' e 'Usar outra forma de pagamento', além de manter os dados do pedido preservados.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 4,
+      "nota_por_origem": {
+        "motor_de_regras": 4,
+        "llm": 0
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+          "severity_effective": 4,
+          "criticality_index": 2.8,
+          "severity_original": 3,
+          "severity_revised": 4,
+          "source": "motor_de_regras",
+          "confidence": 0.7,
+          "location": "mensagem de erro \"Erro 500 Falha inesperada. (cód. 0x80070057)\"",
+          "description": "Mensagem de erro exibe código técnico e não orienta o usuário sobre causa ou próxima ação.",
+          "justification": "Mensagens de erro devem usar linguagem simples, indicar o problema com precisão e sugerir uma solução.",
+          "recommendation": "Reescrever a mensagem dizendo o que houve e como tentar de novo.",
+          "revision_rationale": "O visual agrava o problema: o alerta, além de trazer código técnico sem orientação, é o único conteúdo da etapa de pagamento. Sem campos, botões ou instrução de recuperação, o usuário não consegue concluir a compra, o que impede a tarefa principal do fluxo."
+        }
+      ]
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Alerta de erro e área de pagamento",
+          "description": "Não há ajuda contextual nem canal de suporte junto ao erro de pagamento.",
+          "justification": "Ajuda e 'Fale conosco' estão só no menu superior e no rodapé, distantes do alerta. O usuário não sabe se foi cobrado, se o pedido foi registrado ou a quem recorrer, justamente no momento mais crítico do fluxo.",
+          "recommendation": "Adicionar no alerta um link para suporte/contato (chat ou telefone) e um texto que informe se houve cobrança e se o pedido foi preservado.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "modelo": null,
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": null,
+    "prompt_sha256": null,
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:36:49-03:00",
+    "configuracao": "regras",
+    "run_id": 1
+  },
+  "flow_id": "calib_09",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_09.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_09.html",
+      "n_fatias": 1,
+      "prompt_sha256": null,
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_09.html",
+        "total_violations": 1,
+        "count_by_severity": {
+          "3": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+            "severity_effective": 3,
+            "criticality_index": 2.1,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "motor_de_regras",
+            "confidence": 0.7,
+            "location": "mensagem de erro \"Erro 500 Falha inesperada. (cód. 0x80070057)\"",
+            "description": "Mensagem de erro exibe código técnico e não orienta o usuário sobre causa ou próxima ação.",
+            "justification": "Mensagens de erro devem usar linguagem simples, indicar o problema com precisão e sugerir uma solução.",
+            "recommendation": "Reescrever a mensagem dizendo o que houve e como tentar de novo.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 3,
+        "llm": 0
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+          "severity_effective": 3,
+          "criticality_index": 2.1,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "motor_de_regras",
+          "confidence": 0.7,
+          "location": "mensagem de erro \"Erro 500 Falha inesperada. (cód. 0x80070057)\"",
+          "description": "Mensagem de erro exibe código técnico e não orienta o usuário sobre causa ou próxima ação.",
+          "justification": "Mensagens de erro devem usar linguagem simples, indicar o problema com precisão e sugerir uma solução.",
+          "recommendation": "Reescrever a mensagem dizendo o que houve e como tentar de novo.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    }
+  }
+}

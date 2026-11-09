@@ -1,0 +1,509 @@
+[
+ {
+  "id": "p13",
+  "site": "SIOUT SC (Águas de SC)",
+  "gabarito": "Capeleti (2024), Tabelas A.14-A.17 (SIH)",
+  "tarefa": "Explorar livremente as seções públicas do sistema, incluindo o visualizador de mapa (SIG SIOUT).",
+  "url": "https://siout.aguas.sc.gov.br/#/",
+  "cookies": "button.cookie-btn",
+  "locale": "pt-BR",
+  "_nota": "Roteiro gerado por exploração determinística em largura; 16 estados em 2 ponto(s) de partida; paradas: ['saturacao', 'teto_de_tempo'].",
+  "fechar": [
+   "button:has-text('Aceitar')"
+  ],
+  "estados": [
+   {
+    "nome": "portal_x01_inicial",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     }
+    ]
+   },
+   {
+    "nome": "portal_x02_consulta_siout",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#new-portal-wrap > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+      "alternativa": "a:visible:has-text(\"Consulta SIOUT\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "portal_x03_cadastrar",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#new-portal-wrap > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Cadastrar\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "portal_x04_documentacao_auxiliar",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#new-portal-wrap > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x01_inicial",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x02_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#drawer-menu-button",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x03_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#mapstore-mouseposition > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x04_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#zoomin-btn",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x05_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#zoomout-btn",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x06_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#fullscreen-btn",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x07_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#mapstore-zoomtomaxextent",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x08_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#navigationBar-container > button:nth-of-type(5)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x09_square_button_md",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-search-bar > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x10_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#mapstore-burger-menu-container",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x11_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#dropdown-basic-primary",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x12_ol_viewport",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map > div:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   }
+  ]
+ }
+]

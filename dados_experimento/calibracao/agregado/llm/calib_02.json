@@ -1,0 +1,667 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256_execucoes": [
+      "ebe5d7dfbc26ef56964b082d42d7cbab2a57af5fae028292653852b98f66ac17",
+      "ebe5d7dfbc26ef56964b082d42d7cbab2a57af5fae028292653852b98f66ac17",
+      "ebe5d7dfbc26ef56964b082d42d7cbab2a57af5fae028292653852b98f66ac17"
+    ],
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:26:49-03:00",
+    "configuracao": "llm",
+    "run_ids": [
+      0,
+      1,
+      2
+    ],
+    "n_execucoes": 3,
+    "agregacao": "mediana por célula; empate (n par) = nível mais severo"
+  },
+  "flow_id": "calib_02",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_02.html",
+  "tarefa": null,
+  "pasta": null,
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        1,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          1,
+          0
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão \"Salvar configuração\" e formulário",
+          "description": "Não há indicação visível do que será aplicado ao salvar nem de estado de salvamento/confirmação, e não se vê o estado atual salvo versus alterado.",
+          "justification": "O formulário mostra valores pré-preenchidos sem informar se são os já salvos ou padrões; o usuário não tem pistas sobre feedback após o clique.",
+          "recommendation": "Indicar claramente o estado atual (ex.: \"Configuração salva em…\"), e prever feedback de carregamento e mensagem de sucesso/erro após salvar.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "nota": 3,
+      "notas_execucoes": [
+        3,
+        3,
+        3
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          3,
+          3,
+          3
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Rótulo e opções do campo \"Janela de despacho (slot_id)\"",
+          "description": "O campo mostra identificadores técnicos (slot_id, \"slot_07\") em vez de uma descrição amigável da janela de entrega.",
+          "justification": "O usuário final de uma feira online não conhece \"slot_id\" nem \"despacho\"; a opção \"slot_07 — seg/qua 08h–10h\" prioriza um código interno à frente da informação útil (dias e horário).",
+          "recommendation": "Renomear para \"Horário de entrega\" e exibir apenas \"Seg e qua, 8h–10h\", ocultando o identificador interno.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Checkbox \"Habilitar flag express_delivery\"",
+          "description": "O rótulo usa jargão de desenvolvimento (\"flag\") e o nome de variável em inglês com underscore.",
+          "justification": "\"Habilitar flag express_delivery\" é um nome de parâmetro de código, não uma linguagem do usuário; ele não explica o que a opção faz nem se há custo ou prazo diferente.",
+          "recommendation": "Trocar por \"Entrega expressa\" com breve descrição do benefício, prazo e eventual custo adicional.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo \"TTL do agendamento (min)\" e texto de apoio \"Inteiro; 0 desativa o cache de rota.\"",
+          "description": "Termos como TTL, cache de rota e \"Inteiro\" são técnicos e opacos para um usuário comum.",
+          "justification": "O rótulo e a dica pressupõem conhecimento de infraestrutura; o usuário não sabe o que é TTL nem o efeito de desativar o \"cache de rota\" sobre sua entrega.",
+          "recommendation": "Usar linguagem clara (por exemplo, \"Tempo para confirmar o agendamento (minutos)\") e explicar o efeito em termos práticos, ou ocultar a opção de usuários não técnicos.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo \"Callback de status do pedido (URL)\"",
+          "description": "\"Callback\" e \"URL\" são jargão técnico sem explicação do que deve ser informado.",
+          "justification": "O usuário comum não sabe o que é um callback nem que endereço fornecer; o placeholder \"https://\" é o único indício e não exemplifica um valor válido.",
+          "recommendation": "Renomear para algo como \"Endereço para receber atualizações do pedido (opcional)\" e incluir exemplo e texto de ajuda; restringir a quem for integrador.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Rótulos dos campos: \"Janela de despacho (slot_id)\", \"Habilitar flag express_delivery\", \"TTL do agendamento (min)\", \"Callback de status do pedido (URL)\"",
+          "description": "Os rótulos expõem identificadores internos e jargão técnico (slot_id, flag, express_delivery, TTL, callback) em vez de linguagem de cliente.",
+          "justification": "Para um usuário de uma feira/loja online, \"flag express_delivery\" e \"TTL do agendamento\" não têm significado; os nomes de variáveis em snake_case e siglas mostram o modelo interno do sistema. Também \"despacho\" é um termo de logística, e não a forma como o cliente fala de horário de entrega.",
+          "recommendation": "Reescrever com linguagem do usuário: \"Horário de entrega\", \"Entrega expressa\", \"Tempo de reserva do horário (minutos)\", \"Endereço para receber avisos do pedido (opcional)\", e remover identificadores internos da interface.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Opção do select: \"slot_07 — seg/qua 08h–10h\"",
+          "description": "A opção selecionada mostra o código interno \"slot_07\" antes da informação útil do horário.",
+          "justification": "O código não tem valor para o usuário e polui a leitura; o que importa é \"seg/qua 08h–10h\", que ainda usa abreviações de dias.",
+          "recommendation": "Exibir somente \"Segundas e quartas, 08h às 10h\" e manter o identificador apenas internamente.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Rótulos dos campos do formulário (Janela de despacho (slot_id), Habilitar flag express_delivery, TTL do agendamento, Callback de status do pedido)",
+          "description": "Os rótulos usam jargão técnico e nomes internos de código (slot_id, flag express_delivery, TTL, callback).",
+          "justification": "Para um cliente de uma feira online, termos como \"flag\", \"TTL\" e \"callback\" não são familiares; \"express_delivery\" em snake_case expõe o nome da variável do sistema em vez de linguagem do usuário.",
+          "recommendation": "Reescrever em linguagem natural: \"Horário de entrega\", \"Entrega expressa\", \"Tempo de validade do agendamento (minutos)\", \"Endereço para receber avisos de status do pedido\", sem nomes de variáveis.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Select de janela de despacho (\"slot_07 — seg/qua 08h–10h\")",
+          "description": "As opções do select exibem identificadores internos (slot_07) antes da descrição do horário.",
+          "justification": "O código do slot não tem significado para o usuário e polui a leitura da informação realmente útil (dias e horário).",
+          "recommendation": "Mostrar apenas \"Seg/Qua, 08h–10h\" e manter o identificador internamente como valor da opção.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "nota": 2,
+      "notas_execucoes": [
+        1,
+        2,
+        2
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          1,
+          2,
+          2
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Área do botão \"Salvar configuração\"",
+          "description": "Há apenas a ação de salvar, sem opção de cancelar ou restaurar os valores padrão.",
+          "justification": "Quem alterar campos técnicos por engano não tem uma saída clara no formulário além de sair pela navegação, nem como reverter para os valores originais.",
+          "recommendation": "Incluir botão secundário \"Cancelar\" e/ou \"Restaurar padrão\" ao lado de \"Salvar configuração\".",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Rodapé do formulário (apenas botão \"Salvar configuração\")",
+          "description": "Não existe ação de Cancelar ou Restaurar padrão para descartar alterações.",
+          "justification": "O usuário só tem a opção de salvar; para desistir precisa navegar pelo breadcrumb/menu, sem saber se as alterações serão perdidas, e não há como voltar aos valores originais.",
+          "recommendation": "Adicionar botão secundário \"Cancelar\" (voltando a Minha conta) e, se pertinente, \"Restaurar padrão\".",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Área de ações do formulário (botão Salvar configuração)",
+          "description": "Há apenas o botão Salvar, sem opção de Cancelar ou Restaurar padrões.",
+          "justification": "O usuário que alterou configurações técnicas por engano não tem como descartar as mudanças ou voltar aos valores originais de forma explícita, a não ser navegando para fora.",
+          "recommendation": "Adicionar botão secundário \"Cancelar\" e/ou \"Restaurar padrão\" ao lado de Salvar.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "nota": 2,
+      "notas_execucoes": [
+        0,
+        2,
+        2
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          2,
+          2
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo \"Callback de status do pedido (URL)\" com placeholder \"https://\"",
+          "description": "O formato esperado da URL e a obrigatoriedade do campo são indicados apenas por um placeholder que some ao digitar.",
+          "justification": "O placeholder \"https://\" não explica o que inserir nem dá um exemplo; depois que o usuário começa a digitar, perde a referência. Também não se sabe se o campo é opcional.",
+          "recommendation": "Manter uma dica persistente abaixo do campo com exemplo (https://seusite.com/avisos) e marcar o campo como opcional ou obrigatório.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo Callback de status do pedido (URL)",
+          "description": "O campo só mostra o placeholder \"https://\", sem exemplo de formato nem indicação de se é opcional.",
+          "justification": "O usuário precisa saber de memória qual endereço informar e que tipo de URL é esperado; o placeholder desaparece ao digitar e não orienta.",
+          "recommendation": "Incluir texto de apoio persistente com exemplo (ex.: https://seusite.com/avisos), indicar se é opcional e o que o sistema envia a essa URL.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        1
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          1
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H07_design_estetico_e_minimalista",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Página inteira (conteúdo da configuração de entrega)",
+          "description": "Configurações avançadas/técnicas (callback, TTL) aparecem no mesmo nível das opções básicas de entrega para todos os usuários.",
+          "justification": "Opções raramente necessárias competem com as essenciais (janela de entrega e entrega expressa) e aumentam a complexidade percebida do formulário.",
+          "recommendation": "Separar as opções avançadas em uma seção recolhível \"Configurações avançadas\" e manter visíveis apenas as essenciais.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H08_prevencao_de_erros": {
+      "nota": 2,
+      "notas_execucoes": [
+        2,
+        2,
+        2
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          2,
+          2,
+          2
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campos \"TTL do agendamento (min)\" e \"Callback de status do pedido (URL)\"",
+          "description": "Os campos não restringem nem orientam o formato de entrada, e o valor 0 do TTL desativa um recurso sem aviso.",
+          "justification": "A dica \"Inteiro; 0 desativa o cache de rota\" mostra que há um valor com efeito colateral relevante e que o campo aceita entrada livre; não se vê limite mínimo/máximo nem exemplo para a URL, o que favorece valores inválidos.",
+          "recommendation": "Definir limites (min/max, passo) no campo numérico, validar a URL com exemplo de formato e pedir confirmação ou avisar ao escolher 0.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo \"TTL do agendamento (min)\" (valor 30)",
+          "description": "O campo numérico livre aceita qualquer inteiro, inclusive 0, que desativa uma funcionalidade, sem limites, unidade guiada ou aviso.",
+          "justification": "O texto indica que 0 desativa o cache de rota, mas não há faixa recomendada, mínimo/máximo, nem confirmação; valores incorretos podem afetar o agendamento sem que o usuário perceba.",
+          "recommendation": "Restringir a faixa com min/max e passo, oferecer opções predefinidas (ex.: 15/30/60 min) e avisar claramente sobre o efeito de valores extremos.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo TTL do agendamento (min)",
+          "description": "O campo numérico livre aceita qualquer valor, inclusive 0, que desativa o cache de rota, sem limites, unidade guiada ou aviso.",
+          "justification": "A dica indica que um valor especial tem efeito de desativar uma função, o que é propenso a erro; não há restrições visíveis de faixa (mín/máx) nem confirmação.",
+          "recommendation": "Usar input numérico com mínimo/máximo e passo, ou opções predefinidas; exibir aviso claro ao escolher 0 ou separar a desativação em um controle explícito.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "nota": 3,
+      "notas_execucoes": [
+        2,
+        3,
+        3
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          2,
+          3,
+          3
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário como um todo (checkbox de entrega expressa, TTL e callback)",
+          "description": "Não há ajuda contextual nem link de documentação explicando o efeito de cada configuração.",
+          "justification": "Apenas o campo TTL tem uma dica curta e igualmente técnica; entrega expressa e callback não têm nenhuma explicação, e o formulário não aponta para a página \"Ajuda\" do menu.",
+          "recommendation": "Adicionar textos de apoio ou ícones de ajuda por campo e um link para a documentação relevante.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Texto de apoio \"Inteiro; 0 desativa o cache de rota.\" e campos sem explicação (checkbox, Callback)",
+          "description": "A ajuda contextual é inexistente ou também técnica: o único texto de apoio fala de \"cache de rota\", e os demais campos não explicam o que fazem.",
+          "justification": "Não há descrição do que é entrega expressa (custo, prazos), para que serve o callback ou o efeito prático do TTL. A única dica presente usa jargão (\"cache de rota\") e não ajuda um usuário comum a decidir.",
+          "recommendation": "Adicionar texto de apoio em linguagem simples para cada campo, com exemplos e consequências (ex.: \"A entrega expressa pode ter taxa adicional\"), ou remover do fluxo do cliente as opções técnicas, deixando-as em área avançada, com link para a Ajuda.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campos TTL do agendamento, Habilitar express_delivery e Callback de status",
+          "description": "Faltam explicações contextuais sobre o que cada configuração faz e suas consequências; a única dica (\"Inteiro; 0 desativa o cache de rota.\") é críptica.",
+          "justification": "A dica do TTL usa outro jargão (\"cache de rota\") sem explicar efeito prático; o checkbox express e o callback não têm nenhuma descrição, e não há link de ajuda no formulário.",
+          "recommendation": "Adicionar textos de apoio em linguagem simples para cada campo (o que faz, quando usar, exemplo) e link para a página Ajuda.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256": "3bea43b78290a7fb39ad8a46329979f65c13218531c6bd304190feb463de931d",
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:35:26-03:00",
+    "configuracao": "hibrido",
+    "run_id": 1
+  },
+  "flow_id": "calib_08",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_08.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_08.html",
+      "n_fatias": 1,
+      "prompt_sha256": "9ccf71a5ae2fdde7028b5c7aa0ac4eb8a2996fc751dce3a539d369ae95047e29",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_08.html",
+        "total_violations": 4,
+        "count_by_severity": {
+          "4": 1,
+          "3": 1,
+          "2": 1,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 4,
+            "criticality_index": 2.4,
+            "severity_original": 3,
+            "severity_revised": 4,
+            "source": "motor_de_regras",
+            "confidence": 0.6,
+            "location": "<button type=\"button\">",
+            "description": "Ação destrutiva (\"Excluir conta\") sem confirmação nem aviso de irreversibilidade.",
+            "justification": "Ações irreversíveis ao alcance de um clique favorecem o erro; a prevenção exige confirmação ou separação visual.",
+            "recommendation": "Pedir confirmação (diálogo) e avisar que a ação não pode ser desfeita.",
+            "revision_rationale": "O visual agrava o problema estrutural: 'Excluir conta' é idêntico ao botão de salvar e está logo ao lado, sem aviso de irreversibilidade nem confirmação. Um clique acidental poderia causar perda irreversível da conta, o que justifica severidade de catástrofe."
+          },
+          {
+            "rank": 2,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Grupo de botões abaixo do formulário (Salvar alterações / Excluir conta)",
+            "description": "O botão destrutivo 'Excluir conta' tem exatamente o mesmo estilo (verde preenchido, mesmo tamanho) do botão primário 'Salvar alterações' e fica colado a ele.",
+            "justification": "Na captura, os dois botões são idênticos em cor, peso e dimensão, separados por um espaço pequeno. Nada sinaliza perigo na ação de exclusão, e o usuário que quer apenas salvar pode clicar no botão errado por engano, ou quem deseja excluir pode confundi-lo com a ação normal de edição.",
+            "recommendation": "Diferenciar visualmente a ação destrutiva: usar estilo secundário ou de perigo (contorno ou vermelho), separá-la do botão de salvar (por exemplo, em uma seção 'Zona de risco' abaixo do formulário) e manter 'Salvar alterações' como única ação primária.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Área do formulário, próximo ao botão 'Excluir conta' e ao campo E-mail",
+            "description": "Não há texto de apoio explicando as consequências de excluir a conta (dados perdidos, pedidos, prazo) nem o que acontece ao alterar o e-mail.",
+            "justification": "A tela mostra apenas rótulos e botões, sem nenhuma explicação contextual. Ações de impacto alto, como excluir a conta ou trocar o e-mail de acesso, exigem que o usuário entenda o resultado antes de agir, e a única ajuda está no item 'Ajuda' do menu, distante do ponto de decisão.",
+            "recommendation": "Adicionar texto curto de apoio junto ao botão de exclusão (por exemplo, 'Esta ação apaga seus dados e pedidos e não pode ser desfeita') e, no campo E-mail, informar se será necessária confirmação da alteração, com link para a Ajuda correspondente.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 1,
+            "criticality_index": 0.7,
+            "severity_original": 1,
+            "severity_revised": 1,
+            "source": "motor_de_regras",
+            "confidence": 0.7,
+            "location": "input#email",
+            "description": "Campo de dado pessoal sem o atributo autocomplete.",
+            "justification": "Sem declarar a finalidade, o navegador não preenche o campo e o usuário digita à mão, o que aumenta o esforço e o risco de erro.",
+            "recommendation": "Declarar a finalidade com autocomplete (por exemplo email, tel, name).",
+            "revision_rationale": "Mantido como cosmético: o campo de e-mail já vem preenchido com o valor atual do usuário e a tela é de edição de perfil, então a ausência de autocomplete tem impacto prático mínimo no uso."
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 4,
+      "nota_por_origem": {
+        "motor_de_regras": 4,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 4,
+          "criticality_index": 2.4,
+          "severity_original": 3,
+          "severity_revised": 4,
+          "source": "motor_de_regras",
+          "confidence": 0.6,
+          "location": "<button type=\"button\">",
+          "description": "Ação destrutiva (\"Excluir conta\") sem confirmação nem aviso de irreversibilidade.",
+          "justification": "Ações irreversíveis ao alcance de um clique favorecem o erro; a prevenção exige confirmação ou separação visual.",
+          "recommendation": "Pedir confirmação (diálogo) e avisar que a ação não pode ser desfeita.",
+          "revision_rationale": "O visual agrava o problema estrutural: 'Excluir conta' é idêntico ao botão de salvar e está logo ao lado, sem aviso de irreversibilidade nem confirmação. Um clique acidental poderia causar perda irreversível da conta, o que justifica severidade de catástrofe."
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Grupo de botões abaixo do formulário (Salvar alterações / Excluir conta)",
+          "description": "O botão destrutivo 'Excluir conta' tem exatamente o mesmo estilo (verde preenchido, mesmo tamanho) do botão primário 'Salvar alterações' e fica colado a ele.",
+          "justification": "Na captura, os dois botões são idênticos em cor, peso e dimensão, separados por um espaço pequeno. Nada sinaliza perigo na ação de exclusão, e o usuário que quer apenas salvar pode clicar no botão errado por engano, ou quem deseja excluir pode confundi-lo com a ação normal de edição.",
+          "recommendation": "Diferenciar visualmente a ação destrutiva: usar estilo secundário ou de perigo (contorno ou vermelho), separá-la do botão de salvar (por exemplo, em uma seção 'Zona de risco' abaixo do formulário) e manter 'Salvar alterações' como única ação primária.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 1,
+          "criticality_index": 0.7,
+          "severity_original": 1,
+          "severity_revised": 1,
+          "source": "motor_de_regras",
+          "confidence": 0.7,
+          "location": "input#email",
+          "description": "Campo de dado pessoal sem o atributo autocomplete.",
+          "justification": "Sem declarar a finalidade, o navegador não preenche o campo e o usuário digita à mão, o que aumenta o esforço e o risco de erro.",
+          "recommendation": "Declarar a finalidade com autocomplete (por exemplo email, tel, name).",
+          "revision_rationale": "Mantido como cosmético: o campo de e-mail já vem preenchido com o valor atual do usuário e a tela é de edição de perfil, então a ausência de autocomplete tem impacto prático mínimo no uso."
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Área do formulário, próximo ao botão 'Excluir conta' e ao campo E-mail",
+          "description": "Não há texto de apoio explicando as consequências de excluir a conta (dados perdidos, pedidos, prazo) nem o que acontece ao alterar o e-mail.",
+          "justification": "A tela mostra apenas rótulos e botões, sem nenhuma explicação contextual. Ações de impacto alto, como excluir a conta ou trocar o e-mail de acesso, exigem que o usuário entenda o resultado antes de agir, e a única ajuda está no item 'Ajuda' do menu, distante do ponto de decisão.",
+          "recommendation": "Adicionar texto curto de apoio junto ao botão de exclusão (por exemplo, 'Esta ação apaga seus dados e pedidos e não pode ser desfeita') e, no campo E-mail, informar se será necessária confirmação da alteração, com link para a Ajuda correspondente.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

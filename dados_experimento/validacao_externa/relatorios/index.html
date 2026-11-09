@@ -1,0 +1,19 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>Relatórios</title><style>
+:root{--bg:#fff;--fg:#1c2330;--mut:#5b6575;--bd:#d9dee7;--card:#f7f9fc;--acc:#1f3864}
+@media(prefers-color-scheme:dark){:root{--bg:#12161d;--fg:#e6eaf1;--mut:#9aa5b5;--bd:#2c3442;--card:#1a2029;--acc:#8fb0ee}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,Segoe UI,Arial,sans-serif}
+main{max-width:980px;margin:0 auto;padding:24px 16px 64px}h1{font-size:1.5rem;margin:.2em 0;color:var(--acc)}h3{margin:1.6em 0 .3em;color:var(--acc)}h4{margin:.3em 0}
+.sub{color:var(--mut);margin:0 0 1em}.aviso{border-left:4px solid var(--acc);background:var(--card);padding:10px 14px;margin:14px 0;border-radius:4px}
+.resumo{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+.kpi{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:10px 12px}.kpi b{font-size:1.5rem;display:block}.kpi span{color:var(--mut);font-size:.85rem}
+.barras{margin:10px 0}.linha{display:flex;align-items:center;gap:8px;margin:3px 0;font-size:.85rem}.linha .nome{width:230px;color:var(--mut)}
+.linha .bar{height:12px;background:var(--acc);border-radius:3px;min-width:2px}.filtros{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--bd);z-index:2;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.filtros label{font-size:.85rem;color:var(--mut)}select{font:inherit;padding:3px 6px;background:var(--card);color:var(--fg);border:1px solid var(--bd);border-radius:4px}
+.estado .url{color:var(--mut);font-size:.8rem;word-break:break-all;margin:0 0 8px}.cap{max-width:100%;border:1px solid var(--bd);border-radius:4px;margin:6px 0 12px}
+.achado{background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:10px 14px;margin:10px 0;break-inside:avoid}.achado header{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.achado p{margin:.35em 0}.rank{margin-left:auto;color:var(--mut);font-size:.8rem}code{font-size:.85em;word-break:break-all}
+.chip{font-size:.75rem;padding:1px 8px;border-radius:10px;border:1px solid var(--bd);white-space:nowrap}
+.sev4{background:#b3261e;color:#fff;border-color:#b3261e}.sev3{background:#e8710a;color:#fff;border-color:#e8710a}.sev2{background:#f2c94c;color:#222;border-color:#f2c94c}.sev1{background:#9bb7d4;color:#222}.sev0{background:var(--card)}
+.fonte-llm{border-style:dashed}.anc-ancorado{color:#1e7b34;border-color:#1e7b34}.anc-nao_ancorado{color:#b3261e;border-color:#b3261e}
+.oculto{display:none}@media print{.filtros{display:none}.achado{background:#fff}.estado{break-before:auto}body{font-size:12px}}
+</style><body><main><h1>Relatórios de inspeção</h1><ul><li><a href="hibrido/p12.html">hibrido / p12</a></li><li><a href="hibrido/p13.html">hibrido / p13</a></li><li><a href="llm/p12.html">llm / p12</a></li><li><a href="llm/p13.html">llm / p13</a></li><li><a href="regras/p12.html">regras / p12</a></li><li><a href="regras/p13.html">regras / p13</a></li></ul></main></body></html>

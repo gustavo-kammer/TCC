@@ -1,0 +1,322 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256": "6ba6cb3c702765bcedcbb32f39084d1ad981d8a97e95f06e7091efe2a70b19ca",
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:24:22-03:00",
+    "configuracao": "hibrido",
+    "run_id": 2
+  },
+  "flow_id": "calib_01",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+      "n_fatias": 1,
+      "prompt_sha256": "6dd639844f3a32abac77a38c7d2cceb21aa9506b208270f11551b5a07c56a7eb",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+        "total_violations": 6,
+        "count_by_severity": {
+          "4": 1,
+          "3": 2,
+          "2": 2,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 4,
+            "criticality_index": 2.4,
+            "severity_original": 3,
+            "severity_revised": 4,
+            "source": "motor_de_regras",
+            "confidence": 0.6,
+            "location": "div.spinner",
+            "description": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status.",
+            "justification": "O estado em andamento não é comunicado em texto nem de forma programática; o usuário não sabe o que ocorre.",
+            "recommendation": "Associar ao indicador um texto de estado ou role=\"status\"/aria-live.",
+            "revision_rationale": "O spinner sem texto é a única informação do cartão principal, o botão fica desabilitado e não há QR code nem instrução. O usuário não sabe o que carrega nem por quanto tempo, e se travar não consegue concluir o pagamento, que é a tarefa central do checkout."
+          },
+          {
+            "rank": 2,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartão 'Pagamento via Pix'",
+            "description": "O cartão de pagamento Pix não traz QR code, código copia e cola nem instruções de como pagar.",
+            "justification": "Abaixo do título 'Pagamento via Pix' há apenas um spinner e o botão desabilitado. Quem não conhece o fluxo do Pix não sabe o que fazer para pagar, nem onde obter os dados do pagamento.",
+            "recommendation": "Exibir QR code, código Pix copia e cola com botão de copiar e passos curtos (abrir app do banco, escanear/colar, pagar), além de prazo de validade e link de ajuda contextual.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Confirmar pedido' (desabilitado)",
+            "description": "O botão aparece desabilitado sem qualquer explicação do motivo ou de quando será liberado.",
+            "justification": "O botão cinza com baixo contraste ao lado do spinner não informa o que precisa acontecer para habilitá-lo. O usuário não sabe se deve esperar, agir ou se há falha, e não consegue prosseguir.",
+            "recommendation": "Acrescentar texto de status (ex.: 'Gerando seu código Pix…' ou 'Aguardando pagamento') e indicar a condição para habilitar o botão.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H02_correspondencia_sistema_mundo_real",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Confirmar pedido'",
+            "description": "O rótulo 'Confirmar pedido' é ambíguo no contexto do Pix, em que o pagamento é feito no app do banco.",
+            "justification": "Não fica claro se o clique efetiva o pedido, gera o pagamento ou apenas verifica se o Pix foi pago. Isso pode levar a confirmar antes de pagar ou a pagar sem saber o que fazer em seguida.",
+            "recommendation": "Usar rótulos que reflitam a ação, como 'Já paguei, verificar pagamento', ou confirmar automaticamente ao detectar o Pix e explicar isso na tela.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartão 'Pagamento via Pix' e indicador de etapas",
+            "description": "Não há ação visível para voltar à etapa Entrega, trocar a forma de pagamento ou cancelar.",
+            "justification": "O cartão tem apenas o botão desabilitado; se o carregamento travar, o usuário fica sem saída clara além do breadcrumb e das etapas, que não parecem clicáveis.",
+            "recommendation": "Incluir botão ou link 'Voltar para Entrega' e a opção de escolher outra forma de pagamento ou cancelar.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 6,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartão 'Pagamento via Pix'",
+            "description": "O valor a pagar não aparece no cartão de pagamento, só no resumo ao lado.",
+            "justification": "Ao pagar no app do banco o usuário precisa lembrar o total (R$ 28,10), que está em outro bloco, em vez de vê-lo junto ao ponto de ação.",
+            "recommendation": "Mostrar o total a pagar no cartão do Pix, junto ao QR code e ao botão.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 4,
+      "nota_por_origem": {
+        "motor_de_regras": 4,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 4,
+          "criticality_index": 2.4,
+          "severity_original": 3,
+          "severity_revised": 4,
+          "source": "motor_de_regras",
+          "confidence": 0.6,
+          "location": "div.spinner",
+          "description": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status.",
+          "justification": "O estado em andamento não é comunicado em texto nem de forma programática; o usuário não sabe o que ocorre.",
+          "recommendation": "Associar ao indicador um texto de estado ou role=\"status\"/aria-live.",
+          "revision_rationale": "O spinner sem texto é a única informação do cartão principal, o botão fica desabilitado e não há QR code nem instrução. O usuário não sabe o que carrega nem por quanto tempo, e se travar não consegue concluir o pagamento, que é a tarefa central do checkout."
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Confirmar pedido' (desabilitado)",
+          "description": "O botão aparece desabilitado sem qualquer explicação do motivo ou de quando será liberado.",
+          "justification": "O botão cinza com baixo contraste ao lado do spinner não informa o que precisa acontecer para habilitá-lo. O usuário não sabe se deve esperar, agir ou se há falha, e não consegue prosseguir.",
+          "recommendation": "Acrescentar texto de status (ex.: 'Gerando seu código Pix…' ou 'Aguardando pagamento') e indicar a condição para habilitar o botão.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Confirmar pedido'",
+          "description": "O rótulo 'Confirmar pedido' é ambíguo no contexto do Pix, em que o pagamento é feito no app do banco.",
+          "justification": "Não fica claro se o clique efetiva o pedido, gera o pagamento ou apenas verifica se o Pix foi pago. Isso pode levar a confirmar antes de pagar ou a pagar sem saber o que fazer em seguida.",
+          "recommendation": "Usar rótulos que reflitam a ação, como 'Já paguei, verificar pagamento', ou confirmar automaticamente ao detectar o Pix e explicar isso na tela.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartão 'Pagamento via Pix' e indicador de etapas",
+          "description": "Não há ação visível para voltar à etapa Entrega, trocar a forma de pagamento ou cancelar.",
+          "justification": "O cartão tem apenas o botão desabilitado; se o carregamento travar, o usuário fica sem saída clara além do breadcrumb e das etapas, que não parecem clicáveis.",
+          "recommendation": "Incluir botão ou link 'Voltar para Entrega' e a opção de escolher outra forma de pagamento ou cancelar.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartão 'Pagamento via Pix'",
+          "description": "O valor a pagar não aparece no cartão de pagamento, só no resumo ao lado.",
+          "justification": "Ao pagar no app do banco o usuário precisa lembrar o total (R$ 28,10), que está em outro bloco, em vez de vê-lo junto ao ponto de ação.",
+          "recommendation": "Mostrar o total a pagar no cartão do Pix, junto ao QR code e ao botão.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartão 'Pagamento via Pix'",
+          "description": "O cartão de pagamento Pix não traz QR code, código copia e cola nem instruções de como pagar.",
+          "justification": "Abaixo do título 'Pagamento via Pix' há apenas um spinner e o botão desabilitado. Quem não conhece o fluxo do Pix não sabe o que fazer para pagar, nem onde obter os dados do pagamento.",
+          "recommendation": "Exibir QR code, código Pix copia e cola com botão de copiar e passos curtos (abrir app do banco, escanear/colar, pagar), além de prazo de validade e link de ajuda contextual.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

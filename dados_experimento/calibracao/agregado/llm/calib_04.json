@@ -1,0 +1,508 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256_execucoes": [
+      "50349e285d205182909fe271c33f394802a8cb23d2849130af3dee2879907b9e",
+      "50349e285d205182909fe271c33f394802a8cb23d2849130af3dee2879907b9e",
+      "50349e285d205182909fe271c33f394802a8cb23d2849130af3dee2879907b9e"
+    ],
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:29:38-03:00",
+    "configuracao": "llm",
+    "run_ids": [
+      0,
+      1,
+      2
+    ],
+    "n_execucoes": 3,
+    "agregacao": "mediana por célula; empate (n par) = nível mais severo"
+  },
+  "flow_id": "calib_04",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_04.html",
+  "tarefa": null,
+  "pasta": null,
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "nota": 2,
+      "notas_execucoes": [
+        2,
+        2,
+        2
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          2,
+          2,
+          2
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões em \"Em andamento\" (selos \"A caminho\" e \"Em separação\")",
+          "description": "O status dos pedidos em andamento é mostrado só por um selo de texto, sem progresso nem previsão de entrega.",
+          "justification": "Para pedidos ativos o usuário quer saber em que etapa está e quando chega; os selos têm a mesma cor verde-clara dos \"Entregue\" e a data exibida é a de criação, sem previsão.",
+          "recommendation": "Exibir previsão de entrega e um indicador de progresso (etapas), e diferenciar visualmente os estados em andamento dos concluídos, mantendo o texto do status.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Selos de status dos pedidos",
+          "description": "Todos os selos de status usam o mesmo verde claro com texto verde escuro, sem diferenciação visual entre estados em andamento e entregue.",
+          "justification": "\"A caminho\", \"Em separação\" e \"Entregue\" têm aparência idêntica, e o selo é pequeno e de baixo contraste; o usuário precisa ler o texto para distinguir o estado, e não há detalhe de progresso (previsão de entrega, etapa).",
+          "recommendation": "Diferenciar estados por cor/ícone com contraste adequado e, para pedidos em andamento, mostrar previsão de entrega ou indicador de progresso.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Selos de status ('A caminho', 'Em separação', 'Entregue')",
+          "description": "Todos os status usam o mesmo selo verde claro com texto pequeno, sem diferenciação visual de estágio e sem previsão ou progresso de entrega.",
+          "justification": "Para pedidos em andamento, o usuário só vê o rótulo textual; não há estimativa de chegada nem etapa do processo, e o selo 'A caminho' tem a mesma aparência de 'Entregue'. Isso reduz a leitura rápida do estado atual de cada pedido.",
+          "recommendation": "Diferenciar os estados por cor e ícone, e acrescentar nos pedidos em andamento uma previsão de entrega ou indicador de progresso (ex.: 'Chega hoje até 18h').",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "nota": 2,
+      "notas_execucoes": [
+        2,
+        2,
+        2
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          2,
+          2,
+          2
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido, selo de status (#4821 vs #4817)",
+          "description": "O selo de status aparece ao lado do título em #4821 (com formato mais alto) e abaixo do título em #4817, com espaçamentos internos diferentes.",
+          "justification": "Cartões do mesmo tipo e na mesma linha apresentam posição e formato distintos do selo, desalinhando data, itens e valor (R$ 28,10 e R$ 47,60 em alturas diferentes) e quebrando o padrão visual esperado.",
+          "recommendation": "Padronizar o componente do cartão: mesma posição, altura e padding do selo e alinhamento fixo de data e valor em todos os cartões.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedidos em andamento (#4821 e #4817)",
+          "description": "O selo de status e o espaçamento interno variam entre os dois cartões em andamento: em #4821 o selo \"A caminho\" fica ao lado do título e é mais alto; em #4817 o selo \"Em separação\" fica abaixo do título.",
+          "justification": "Cartões do mesmo tipo e na mesma linha apresentam estruturas diferentes (posição e tamanho do selo, distância entre data e valor), o que quebra o padrão visual e faz o usuário se perguntar se são elementos distintos. Os cartões de Concluídos usam o selo ao lado do título, diferentemente de #4817.",
+          "recommendation": "Padronizar o componente de cartão: posição, tamanho e altura do selo e espaçamentos idênticos em todos os pedidos, independentemente do comprimento do texto do status.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido, em especial 'Pedido #4821' e 'Pedido #4817'",
+          "description": "O layout interno dos cartões é inconsistente: o selo de status ora fica ao lado do número do pedido (#4821, #4790, #4766), ora abaixo (#4817), e o selo 'A caminho' tem altura e alinhamento diferentes dos demais.",
+          "justification": "Na captura, 'A caminho' aparece como um selo maior, alinhado à direita do título, enquanto 'Em separação' é um selo menor abaixo do título, o que desloca data e valor (R$ 28,10 e R$ 47,60 ficam em alturas diferentes). Elementos equivalentes com apresentação distinta forçam o usuário a reinterpretar cada cartão e quebram o ritmo de leitura.",
+          "recommendation": "Padronizar o componente de cartão: mesma posição, tamanho e espaçamento do selo, e mesmas posições de data, itens e valor em todos os cartões, com altura uniforme.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "nota": 0,
+      "notas_execucoes": [
+        1,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          1,
+          0,
+          0
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido, identificação",
+          "description": "Os pedidos são identificados apenas por número, data e quantidade de itens, sem pista do conteúdo.",
+          "justification": "O usuário precisa lembrar o que comprou em cada \"Pedido #NNNN\" para distinguir um do outro, pois nada mostra nomes ou imagens dos produtos.",
+          "recommendation": "Mostrar um resumo do conteúdo, como nomes dos primeiros itens ou miniaturas, em cada cartão.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "nota": 3,
+      "notas_execucoes": [
+        3,
+        3,
+        3
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          3,
+          3,
+          3
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido (toda a lista)",
+          "description": "Os cartões não têm ação nem indicação de que levam a detalhes: sem link, botão, seta, \"Acompanhar\", \"Ver detalhes\" ou \"Pedir novamente\".",
+          "justification": "A listagem mostra apenas resumo (número, data, itens, valor). Não há como ver quais itens foram comprados, acompanhar a entrega do pedido \"A caminho\" ou repetir uma compra dos concluídos, tornando a tela um beco sem saída e exigindo outro caminho para tarefas frequentes.",
+          "recommendation": "Tornar o cartão clicável com affordance visível (seta ou link \"Ver detalhes\") e incluir ações contextuais: \"Acompanhar entrega\" nos em andamento e \"Pedir novamente\" nos concluídos.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido (todos)",
+          "description": "Os cartões não exibem ação ou affordance de clique (link, botão, seta) para ver detalhes, acompanhar entrega ou repetir o pedido.",
+          "justification": "A página mostra apenas resumo (número, data, itens, valor, status). Para pedidos \"A caminho\" ou \"Em separação\" o usuário espera acompanhar, e para \"Entregue\" espera ver detalhes ou pedir de novo; nada na tela indica como fazê-lo, obrigando o usuário a adivinhar se o cartão é clicável.",
+          "recommendation": "Tornar o cartão claramente clicável (hover, seta, link \"Ver detalhes\") e adicionar ações contextuais como \"Acompanhar pedido\" nos em andamento e \"Pedir novamente\" nos concluídos.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido (todos)",
+          "description": "Os cartões não exibem links, botões ou ações como 'Acompanhar pedido', 'Ver detalhes' ou 'Pedir novamente'.",
+          "justification": "Cada cartão mostra apenas número, status, data, itens e valor, sem nenhum indicativo de que seja clicável nem atalhos para tarefas típicas, como acompanhar o pedido a caminho ou repetir um pedido entregue. O usuário precisa descobrir por tentativa como ver os itens ou refazer a compra.",
+          "recommendation": "Tornar o cartão claramente clicável (título como link, seta, hover) e incluir ações rápidas: 'Acompanhar' nos pedidos em andamento e 'Pedir novamente' nos concluídos.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Listagem 'Concluídos'",
+          "description": "Não há busca, filtro ou paginação para o histórico de pedidos.",
+          "justification": "A lista é dividida apenas em 'Em andamento' e 'Concluídos'; conforme o histórico crescer, o usuário recorrente não terá como localizar um pedido antigo por data ou número.",
+          "recommendation": "Adicionar busca por número do pedido e filtros por período, além de paginação ou 'Ver mais'.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H07_design_estetico_e_minimalista": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        1
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          1
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedidos em andamento",
+          "description": "Não há acesso contextual à ajuda em um pedido específico, como atraso ou problema com a entrega.",
+          "justification": "A ajuda está apenas no menu principal e 'Fale conosco' no rodapé; nos cartões de pedidos em andamento não existe atalho como 'Problema com este pedido?'.",
+          "recommendation": "Incluir link de ajuda contextual no cartão ou na página de detalhes do pedido em andamento.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

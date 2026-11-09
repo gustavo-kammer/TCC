@@ -1,0 +1,354 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "a63b7307ff116e36669ee4b30eaf23a27b34fea5e6ca1fdf0c91dec7040d07b6",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:30:37-03:00",
+    "configuracao": "llm",
+    "run_id": 0
+  },
+  "flow_id": "calib_05",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_05.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_05.html",
+      "n_fatias": 1,
+      "prompt_sha256": "3bc3be1d2c4f5e29f250817c5a06e8a42b574d2df56fee807ed4487f9c469283",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_05.html",
+        "total_violations": 7,
+        "count_by_severity": {
+          "3": 1,
+          "2": 4,
+          "1": 2
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Terceiro campo do formulário (entre E-mail e CEP)",
+            "description": "O campo de telefone não tem rótulo visível e depende apenas do placeholder \"(48) 99999-0000\".",
+            "justification": "Os demais campos têm label acima, mas este só tem placeholder em cinza claro, que desaparece ao digitar; o usuário precisa lembrar o que o campo pede, e leitores de tela podem não anunciá-lo corretamente.",
+            "recommendation": "Adicionar um label persistente (ex.: \"Telefone\" ou \"Celular\") acima do campo, mantendo o placeholder apenas como exemplo de formato.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H04_consistencia_e_padronizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Terceiro campo do formulário",
+            "description": "O campo de telefone quebra o padrão visual e estrutural dos outros campos, que têm rótulo em negrito acima.",
+            "justification": "Nome, E-mail e CEP seguem o padrão rótulo + input; o terceiro campo aparece sem rótulo, com espaçamento diferente, o que gera inconsistência no formulário.",
+            "recommendation": "Padronizar todos os campos com rótulo visível no mesmo estilo e espaçamento.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campos E-mail, telefone e CEP",
+            "description": "Não há indicação de campos obrigatórios nem orientação de formato/máscara para CEP e telefone.",
+            "justification": "Os campos estão vazios, sem dica de formato (CEP, por exemplo) nem marcação de obrigatório/opcional, o que favorece erros de preenchimento e envios rejeitados.",
+            "recommendation": "Marcar campos obrigatórios/opcionais, aplicar máscaras e texto de apoio (ex.: \"CEP com 8 dígitos\"), e validar em tempo real.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H02_correspondencia_sistema_mundo_real",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Formulário de cadastro completo",
+            "description": "Um formulário de \"Criar conta\" não pede senha e não explica como o acesso será feito; também pede CEP sem explicar a finalidade.",
+            "justification": "Usuários esperam definir credenciais ao criar uma conta; a ausência de senha e a falta de justificativa para o CEP quebram o modelo mental convencional e podem gerar desconfiança.",
+            "recommendation": "Esclarecer o método de acesso (ex.: link por e-mail) ou incluir campo de senha, e explicar brevemente por que o CEP é solicitado.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Área do formulário e botão \"Criar conta\"",
+            "description": "Não há link para entrar para quem já tem conta nem opção de cancelar/voltar no formulário.",
+            "justification": "Usuários que já possuem cadastro ou que chegaram por engano só têm o breadcrumb e o menu \"Minha conta\" ambíguo como saída; falta um caminho claro para login.",
+            "recommendation": "Incluir \"Já tem conta? Entrar\" próximo ao botão e uma ação secundária de cancelar/voltar.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 6,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Formulário (ajuda contextual) e rodapé (Termos de uso / Privacidade)",
+            "description": "Não há ajuda contextual no formulário nem aviso de aceite de Termos e Privacidade perto do botão de envio.",
+            "justification": "Os links de Termos e Privacidade ficam apenas no rodapé, longe do ponto de decisão, e não há explicações sobre o uso dos dados pedidos.",
+            "recommendation": "Adicionar texto curto junto ao botão (\"Ao criar a conta, você concorda com os Termos e a Política de Privacidade\") e dicas de ajuda nos campos.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 7,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Navegação principal (\"Minha conta\", \"Pedidos\")",
+            "description": "A navegação não indica o estado de autenticação do usuário.",
+            "justification": "Itens como \"Minha conta\" e \"Pedidos\" aparecem para quem ainda não tem conta, sem sinalizar se está logado ou como entrar, deixando o estado do sistema ambíguo.",
+            "recommendation": "Exibir \"Entrar\" / \"Criar conta\" para visitantes e mostrar o nome do usuário quando logado.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Navegação principal (\"Minha conta\", \"Pedidos\")",
+          "description": "A navegação não indica o estado de autenticação do usuário.",
+          "justification": "Itens como \"Minha conta\" e \"Pedidos\" aparecem para quem ainda não tem conta, sem sinalizar se está logado ou como entrar, deixando o estado do sistema ambíguo.",
+          "recommendation": "Exibir \"Entrar\" / \"Criar conta\" para visitantes e mostrar o nome do usuário quando logado.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário de cadastro completo",
+          "description": "Um formulário de \"Criar conta\" não pede senha e não explica como o acesso será feito; também pede CEP sem explicar a finalidade.",
+          "justification": "Usuários esperam definir credenciais ao criar uma conta; a ausência de senha e a falta de justificativa para o CEP quebram o modelo mental convencional e podem gerar desconfiança.",
+          "recommendation": "Esclarecer o método de acesso (ex.: link por e-mail) ou incluir campo de senha, e explicar brevemente por que o CEP é solicitado.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Área do formulário e botão \"Criar conta\"",
+          "description": "Não há link para entrar para quem já tem conta nem opção de cancelar/voltar no formulário.",
+          "justification": "Usuários que já possuem cadastro ou que chegaram por engano só têm o breadcrumb e o menu \"Minha conta\" ambíguo como saída; falta um caminho claro para login.",
+          "recommendation": "Incluir \"Já tem conta? Entrar\" próximo ao botão e uma ação secundária de cancelar/voltar.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Terceiro campo do formulário",
+          "description": "O campo de telefone quebra o padrão visual e estrutural dos outros campos, que têm rótulo em negrito acima.",
+          "justification": "Nome, E-mail e CEP seguem o padrão rótulo + input; o terceiro campo aparece sem rótulo, com espaçamento diferente, o que gera inconsistência no formulário.",
+          "recommendation": "Padronizar todos os campos com rótulo visível no mesmo estilo e espaçamento.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Terceiro campo do formulário (entre E-mail e CEP)",
+          "description": "O campo de telefone não tem rótulo visível e depende apenas do placeholder \"(48) 99999-0000\".",
+          "justification": "Os demais campos têm label acima, mas este só tem placeholder em cinza claro, que desaparece ao digitar; o usuário precisa lembrar o que o campo pede, e leitores de tela podem não anunciá-lo corretamente.",
+          "recommendation": "Adicionar um label persistente (ex.: \"Telefone\" ou \"Celular\") acima do campo, mantendo o placeholder apenas como exemplo de formato.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campos E-mail, telefone e CEP",
+          "description": "Não há indicação de campos obrigatórios nem orientação de formato/máscara para CEP e telefone.",
+          "justification": "Os campos estão vazios, sem dica de formato (CEP, por exemplo) nem marcação de obrigatório/opcional, o que favorece erros de preenchimento e envios rejeitados.",
+          "recommendation": "Marcar campos obrigatórios/opcionais, aplicar máscaras e texto de apoio (ex.: \"CEP com 8 dígitos\"), e validar em tempo real.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário (ajuda contextual) e rodapé (Termos de uso / Privacidade)",
+          "description": "Não há ajuda contextual no formulário nem aviso de aceite de Termos e Privacidade perto do botão de envio.",
+          "justification": "Os links de Termos e Privacidade ficam apenas no rodapé, longe do ponto de decisão, e não há explicações sobre o uso dos dados pedidos.",
+          "recommendation": "Adicionar texto curto junto ao botão (\"Ao criar a conta, você concorda com os Termos e a Política de Privacidade\") e dicas de ajuda nos campos.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

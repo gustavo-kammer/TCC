@@ -1,0 +1,317 @@
+{
+ "site": "p13",
+ "pontos": [
+  {
+   "site": "p13",
+   "parada": "saturacao",
+   "tentativas_enfileiradas": 36,
+   "caminhos_irreproduziveis": 31,
+   "exclusoes_por_motivo": {
+    "origem_externa": 7,
+    "tipo": 3,
+    "nova_aba": 11
+   },
+   "duracao_s": 1525.2,
+   "limite_segundos": 3600,
+   "max_profundidade": 4,
+   "abas_novas_fechadas": 2,
+   "ponto": "portal"
+  },
+  {
+   "site": "p13",
+   "parada": "teto_de_tempo",
+   "tentativas_enfileiradas": 720,
+   "caminhos_irreproduziveis": 44,
+   "exclusoes_por_motivo": {
+    "tipo": 12,
+    "excedeu_candidatos": 1419,
+    "texto_de_risco": 1
+   },
+   "duracao_s": 3617.0,
+   "limite_segundos": 3600,
+   "max_profundidade": 4,
+   "abas_novas_fechadas": 0,
+   "ponto": "mapa"
+  }
+ ],
+ "estados": [
+  {
+   "nome": "portal_x01_inicial",
+   "caminho": [],
+   "assinatura": "5ab6f1f66744fbea81336cfc7d999e38b5c4674b",
+   "rota": "/#/",
+   "caracteres": 240,
+   "profundidade": 0,
+   "t_s": 11.2,
+   "similaridade_max": 0.0,
+   "texto": "acesso sig siout acesso aguas.sc documentação auxiliar consulta siout contato o sistema de outorga de sc chegou módulo autodeclaratório saiba mais já tenho cadastro no siout sc recuperar senha entrar não tenho cadastro no siout sc cadastrar",
+   "ponto": "portal"
+  },
+  {
+   "nome": "portal_x02_consulta_siout",
+   "caminho": [
+    {
+     "seletor": "#new-portal-wrap > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+     "texto": "Consulta SIOUT",
+     "alternativa": "a:visible:has-text(\"Consulta SIOUT\") >> nth=0"
+    }
+   ],
+   "assinatura": "708c9ed12b9055e8fc09c92c6b598e3d16961eb8",
+   "rota": "/consulta/#/",
+   "caracteres": 6157,
+   "profundidade": 1,
+   "t_s": 22.7,
+   "similaridade_max": 0.014,
+   "texto": "consulta siout siout sc consulta siout cadastro de usos de água portarias digitadas filtros de pesquisa data de início do cadastro: a data de saída do processo: a n° do cadastro: classificação: selecione... adequação estrutural alteração da outorga autorização para perfuração de poço cadastro cancelamento de uso declaração de uso do insignificante dispensa de outorga outorga outorga de direito de uso outorga preventiva projeto de tamponamento tamponamento transferência de titularidade n° da portaria: status: selecione... município: selecione... abdon batista abelardo luz agrolândia agronômica água doce águas de chapecó águas frias águas mornas alfredo wagner alto bela vista anchieta angelina anita garibaldi anitápolis antônio carlos apiúna arabutã araquari araranguá armazém arroio trinta arvoredo ascurra atalanta aurora balneário arroio do silva balneário barra do sul balneário camboriú balneário gaivota balneário piçarras balneário rincão bandeirante barra bonita barra velha bela vista do toldo belmonte benedito novo biguaçu blumenau bocaina do sul bombinhas bom jardim da serra bom jesus bom jesus do oeste bom retiro botuverá braço do norte braço do trombudo brunópolis brusque caçador caibi calmon camboriú campo alegre campo belo do sul campo erê campos novos canelinha canoinhas capão alto capinzal capivari de baixo catanduvas caxambu do sul celso ramos cerro negro chapadão do lageado chapecó cocal do sul concórdia cordilheira alta coronel freitas coronel martins correia pinto corupá criciúma cunha porã cunhataí curitibanos descanso dionísio cerqueira dona emma doutor pedrinho entre rios ermo erval velho faxinal dos guedes flor do sertão florianópolis formosa do sul forquilhinha fraiburgo frei rogério galvão garopaba garuva gaspar governador celso ramos grão pará gravatal guabiruba guaraciaba guaramirim guarujá do sul guatambú herval d'oeste ibiam ibicaré ibirama içara ilhota imaruí imbituba imbuia indaial iomerê ipira iporã do oeste ipuaçu ipumirim iraceminha irani irati irineópolis itá itaiópolis itajaí itapema itapiranga itapoá ituporanga jaborá jacinto machado jaguaruna jaraguá do sul jardinópolis joaçaba joinville josé boiteux jupiá lacerdópolis lages laguna lajeado grande laurentino lauro müller lebon régis leoberto leal lindóia do sul lontras luiz alves luzerna macieira mafra major gercino major vieira maracajá maravilha marema massaranduba matos costa meleiro mirim doce modelo mondaí monte carlo monte castelo morro da fumaça morro grande navegantes nova erechim nova itaberaba nova trento nova veneza novo horizonte orleans otacílio costa ouro ouro verde paial painel palhoça palma sola palmeira palmitos papanduva paraíso passo de torres passos maia paulo lopes pedras grandes penha peritiba pescaria brava petrolândia pinhalzinho pinheiro preto piratuba planalto alegre pomerode ponte alta ponte alta do norte ponte serrada porto belo porto união pouso redondo praia grande presidente castello branco presidente getúlio presidente nereu princesa quilombo rancho queimado rio das antas rio do campo rio do oeste rio dos cedros rio do sul rio fortuna rio negrinho rio rufino riqueza rodeio romelândia salete saltinho salto veloso sangão santa cecília santa helena santa rosa de lima santa rosa do sul santa terezinha santa terezinha do progresso santiago do sul santo amaro da imperatriz são bento do sul são bernardino são bonifácio são carlos são cristóvão do sul são domingos são francisco do sul são joão batista são joão do itaperiú são joão do oeste são joão do sul são joaquim são josé são josé do cedro são josé do cerrito são lourenço do oeste são ludgero são martinho são miguel da boa vista são miguel do oeste são pedro de alcântara saudades schroeder seara serra alta siderópolis sombrio sul brasil taió tangará tigrinhos tijucas timbé do sul timbó timbó grande três barras treviso treze de maio treze tílias trombudo central tubarão tunápolis turvo união do oeste urubici urupema urussanga vargeão vargem vargem bonita vidal ramos videira vitor meireles witmarsum xanxerê xavantina xaxim zortéa natureza da intervenção: selecione... superficial subterrânea bacia hidrográfica: selecione... bacias hidrográficas da ilha de santa catarina complexo hidrológico da baía da babitonga rio araranguá e bacias contíguas rio biguaçú e bacias contíguas rio camboriú e bacias contíguas rio canoas rio canoinhas e bacias contíguas rio chapecó e bacias contíguas rio cubatão e bacias contíguas rio da madre e bacias contíguas rio das antas e bacias contíguas rio do peixe e bacias contíguas rio d'una e complexo lagunar rio irani rio itajaí e bacias contíguas rio itapocu e bacias contíguas rio jacutinga e bacias contíguas rio mampituba e bacias contíguas rio negro (afluentes) rio pelotas (afluentes) rio peperi-guaçu (afluentes) rio tijucas e bacias contíguas rio timbó e bacias contíguas rio tubarão e bacias contíguas rio urussanga e bacias contíguas fonte de captação: selecione... açude barragem de acumulação barragem de nível canal captação/depósito natural subterrâneo estuário lago natural ou lagoa nascente rede privada rede pública rio ou curso d'água intermitente rio ou curso d'água perene sem captação corpo hídrico: selecione... tipo de intervenção: selecione... sistema aquífero: selecione... aquiferos fraturados de maior potencialidade (af1_1) aquiferos fraturados de maior potencialidade (af1_2) aquíferos fraturados de menor potencialidade (af2) aquíferos fraturados de menor potencialidade (af3) aquíferos locais e limitados (app) aquíferos sedimentares de maior potencialidade (as1) aquíferos sedimentares de maior potencialidade (as3_1) aquíferos sedimentares de maior potencialidade (as3_2) aquíferos sedimentares de maior potencialidade (as5) aquíferos sedimentares de menor potencialidade (as2) aquíferos sedimentares de menor potencialidade (as3_3) aquíferos sedimentares de menor potencialidade (as4) aquíferos sedimentares de menor potencialidade (as6) áreas praticamente sem aquíferos (na_1) áreas praticamente sem aquíferos (na_2) áreas praticamente sem aquíferos (na_3) finalidade de uso: selecione... limpar pesquisar voltar desenvolvido por sde/drhs/sc e fundecc/ufla",
+   "ponto": "portal"
+  },
+  {
+   "nome": "portal_x03_cadastrar",
+   "caminho": [
+    {
+     "seletor": "#new-portal-wrap > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Cadastrar",
+     "alternativa": "button:visible:has-text(\"Cadastrar\") >> nth=0"
+    }
+   ],
+   "assinatura": "14708a519b599db12e86865e71031b5cbabd5e44",
+   "rota": "/#/usuario-sistema/cadastro",
+   "caracteres": 792,
+   "profundidade": 1,
+   "t_s": 42.3,
+   "similaridade_max": 0.097,
+   "texto": "contato documentação auxiliar cadastro de pessoa siout sc cadastro de pessoa * campos obrigatórios identificação cpf/cnpj: * nome: * rg: responsável técnico você é um responsável técnico? * sim não contato e-mail: * reinsira o e-mail: * telefone: * celular: endereço de correspondência logradouro: * número/km: * sem número complemento: bairro: * uf: * selecione... acre alagoas amapá amazonas bahia ceará distrito federal espirito santo goiás maranhão mato grosso mato grosso do sul minas gerais pará paraíba paraná pernambuco piauí rio de janeiro rio grande do norte rio grande do sul rondônia roraima santa catarina são paulo sergipe tocantins município: * selecione... distrito: * selecione... cep:* caixa postal: verificação cancelar cadastrar desenvolvido por sde/drhs/sc e fundecc/ufla",
+   "ponto": "portal"
+  },
+  {
+   "nome": "portal_x04_documentacao_auxiliar",
+   "caminho": [
+    {
+     "seletor": "#new-portal-wrap > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+     "texto": "Documentação auxiliar",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "030d3874f024e3b168c53a134e5a9f98ff6d6212",
+   "rota": "/#/",
+   "caracteres": 975,
+   "profundidade": 1,
+   "t_s": 75.5,
+   "similaridade_max": 0.325,
+   "texto": "acesso sig siout acesso aguas.sc documentação auxiliar consulta siout contato o sistema de outorga de sc chegou módulo autodeclaratório saiba mais já tenho cadastro no siout sc recuperar senha entrar não tenho cadastro no siout sc cadastrar documentação auxiliar abaixo estão os links para os documentos auxiliares. clique no link do documento desejado para fazer o download. como se cadastrar no siout ? como ser responsável pelo cadastro para outro usuário de água ? como solicitar autorização para perfuração de poço ? exemplos de cadastro de uso da água (água subterrânea) exemplos de cadastro de uso da água (água superficial) como posso informar como serão utilizados os recursos hídricos ? solicitação de regularização - dispensa de outorga solicitação de regularização - uso insignificante como solicitar transferência de titularidade ? como utilizar o sig siout? usuário externo (não logado) como utilizar o sig siout? usuário básico (logado) vídeos tutoriais fechar",
+   "ponto": "portal"
+  },
+  {
+   "nome": "mapa_x01_inicial",
+   "caminho": [],
+   "assinatura": "a5e3df73b45fa39237c89f96dc2ca235d67a0437",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 1990,
+   "profundidade": 0,
+   "t_s": 31.0,
+   "similaridade_max": 0.0,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 100 % ortorgb-2012 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 50 km",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x02_square_button",
+   "caminho": [
+    {
+     "seletor": "#drawer-menu-button",
+     "texto": "square-button",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "eeb426cdc60949eb4886fd4d180517fdbdd2f44d",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 1998,
+   "profundidade": 1,
+   "t_s": 459.4,
+   "similaridade_max": 0.993,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 100 % ortorgb-2012 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 50 km camadas",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x03_btn",
+   "caminho": [
+    {
+     "seletor": "#mapstore-mouseposition > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "7404b085e547d4f5921246d4cb37b32c41729520",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 2096,
+   "profundidade": 1,
+   "t_s": 567.5,
+   "similaridade_max": 0.907,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 100 % ortorgb-2012 coordenadas:lat: 00° 00' 00,00'' lng: 000° 00' 00,00'' crs: wgs 84 epsg:3857 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 50 km exibir / ocultar coordenadas",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x04_square_button",
+   "caminho": [
+    {
+     "seletor": "#zoomin-btn",
+     "texto": "square-button",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "807bb628afb4306481514fa9d9812903b8529b48",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 2000,
+   "profundidade": 1,
+   "t_s": 641.5,
+   "similaridade_max": 0.971,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 ortorgb-2012 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 20 km aumentar o zoom",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x05_square_button",
+   "caminho": [
+    {
+     "seletor": "#zoomout-btn",
+     "texto": "square-button",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "08398b7680c6745f823a4e06568b069678fc4206",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 2005,
+   "profundidade": 1,
+   "t_s": 678.3,
+   "similaridade_max": 0.978,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 100 % ortorgb-2012 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 100 km diminuir zoom",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x06_square_button",
+   "caminho": [
+    {
+     "seletor": "#fullscreen-btn",
+     "texto": "square-button",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "fd41f647d822eaf30644139f185ea753469dec8e",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 2009,
+   "profundidade": 1,
+   "t_s": 715.6,
+   "similaridade_max": 0.971,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 100 % ortorgb-2012 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 50 km sair da tela cheia",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x07_square_button",
+   "caminho": [
+    {
+     "seletor": "#mapstore-zoomtomaxextent",
+     "texto": "square-button",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "ebe2bfb84ff410529e37f27f4211e5ef09e93695",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 2013,
+   "profundidade": 1,
+   "t_s": 752.2,
+   "similaridade_max": 0.978,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 100 % ortorgb-2012 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 50 km zoom para extensão máx",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x08_square_button",
+   "caminho": [
+    {
+     "seletor": "#navigationBar-container > button:nth-of-type(5)",
+     "texto": "square-button",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "bcddcb6bafe4fcd062de63ea43d37bbde2d3fe5c",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 2003,
+   "profundidade": 1,
+   "t_s": 773.6,
+   "similaridade_max": 0.978,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 ortorgb-2012 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 50 km expansão / colapso",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x09_square_button_md",
+   "caminho": [
+    {
+     "seletor": "#map-search-bar > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "square-button-md",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "6a5727c7850d4ed9f0583095d30376a7ec7e7e84",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 2074,
+   "profundidade": 1,
+   "t_s": 881.4,
+   "similaridade_max": 0.944,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 100 % ortorgb-2012 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 50 km pesquisar por nome do local pesquisar por coordenadas alterar a ferramenta de busca",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x10_square_button",
+   "caminho": [
+    {
+     "seletor": "#mapstore-burger-menu-container",
+     "texto": "square-button",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "98b99526abf92356147703aaab92bad2e5bfa552",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 2008,
+   "profundidade": 1,
+   "t_s": 918.3,
+   "similaridade_max": 0.986,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 100 % ortorgb-2012 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 50 km opções importação",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x11_square_button",
+   "caminho": [
+    {
+     "seletor": "#dropdown-basic-primary",
+     "texto": "square-button",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "ece40b618347427c09852f0ab63a125328d8908a",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 1990,
+   "profundidade": 1,
+   "t_s": 941.4,
+   "similaridade_max": 0.993,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 ortorgb-2012 escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 50 km login",
+   "ponto": "mapa"
+  },
+  {
+   "nome": "mapa_x12_ol_viewport",
+   "caminho": [
+    {
+     "seletor": "#map > div:nth-of-type(1)",
+     "texto": "ol-viewport",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "c02fcd2f9fc82670ea8f1eb5080593cb007d6ff1",
+   "rota": "/#/viewer/openlayers/33",
+   "caracteres": 3689,
+   "profundidade": 1,
+   "t_s": 978.2,
+   "similaridade_max": 0.571,
+   "texto": "consulta siout buscar por: uso de água bacia ano de emissão do documento região hidrográfica selecione o uso água: autorização para perfuração de poço uso insignificante dispensa de outorga outorga captação superficial captação subterrânea termo: termos pesquisáveis: número do cadastro, fonte de captação, tipo de intervenção limpar pesquisar sobre este mapa interferencias regularizadas código cnarh 1015213 tipo interferência captação subtipo interferência subterrânea tipo corpo hídrico poço tipo situação interferência projeto domínio estadual latitude -27.68 longitude -50.99 código ibge municipio 4201000 municipio anita garibaldi nome corpo hídrico null data registro cnarh 43720 nome empreendimento muncipio de anita garibaldi nome_usuário muncipio de anita garibaldi - fazenda dos chaves tipo outorga licença ou autorização para perfuração de poços situação outorga autorizado data final outorga 44010 data inicial outorga 43644 número processo dsust 17372019 tipo ato autoriza número ato 3172019 vazao janeiro m³/h 6 vazao fevereiro m³/h 6 vazao março m³/h 6 vazao abril m³/h 6 vazao maio m³/h 6 vazao junho m³/h 6 vazao julho m³/h 6 vazao agosto m³/h 6 vazao setembro m³/h 6 vazao outubro m³/h 6 vazao novembro m³/h 6 vazao dezembro m³/h 6 quantidade horas jan 3 quantidade horas fev 3 quantidade horas mar 3 quantidade horas abr 3 quantidade horas mai 3 quantidade horas jun 3 quantidade horas jul 3 quantidade horas ago 3 quantidade horas set 3 quantidade horas out 3 quantidade horas nov 3 quantidade horas dez 3 quantidade dias jan 30 quantidade dias fev 30 quantidade dias mar 30 quantidade dias abr 30 quantidade dias mai 30 quantidade dias jun 30 quantidade dias jul 30 quantidade dias ago 30 quantidade dias set 30 quantidade dias out 30 quantidade dias nov 30 quantidade dias dez 30 vazao maxima 6 finalidade abastecimento público código ottobacia trecho 82937 comite bacia cbh do rio canoas classe conama null x santa catarina default interferencias regularizadas 100 % sig sc sadplan antas balanco_hidrico_ antas disponibilidade_ hidrica_antas araranguá balanco_hidrico_ ararangua disponibilidade_ hidrica_ararangua biguaçu balanco_hidrico_ biguacu disponibilidade_ hidrica_biguacu camboriú balanco_hidrico_ camboriu disponibilidade_ hidrica_camboriu canoas balanco_hidrico_ canoas disponibilidade_ hidrica_canoas canoinhas balanco_hidrico_ canoinhas disponibilidade_ hidrica_canoinhas chapecó balanco_hidrico_ chapeco disponibilidade_ hidrica_chapeco cubatão norte balanco_hidrico_ cubatao_norte disponibilidade_ hidrica_cubatao_ norte cubatão sul balanco_hidrico_ cubatao_sul disponibilidade_ hidrica_cubatao_sul irani siout_shp_qdisp_ irani siout_shp_qrem_ irani itajaí balanco_hidrico_ itajai disponibilidade_ hidrica_itajai itapocu disponibilidade_ hidrica_itapocu balanco_hidrico_ itapocu madre balanco_hidrico_ madre disponibilidade_ hidrica_madre peixe balanco_hidrico_ peixe disponibilidade_ hidrica_peixe pelotas balanco_hidrico_ pelotas disponibilidade_ hidrica_pelotas peperi-guaçu balanco_hidrico_ peperi_guacu disponibilidade_ hidrica_peperi_ guacu tijucas balanco_hidrico_ tijucas disponibilidade_ hidrica_tijucas urussanga balanco_hidrico_ urussanga disponibilidade_ hidrica_urussanga limitesmunic2018 100 % ortorgb-2012 interferencias regularizadas lat: -27,684 - long: -50,982 este perfil não tem permissão para visualizar os dados das camadas escala: 1 : 591658711 1 : 295829355 1 : 147914678 1 : 73957339 1 : 36978669 1 : 18489335 1 : 9244667 1 : 4622334 1 : 2311167 1 : 1155583 1 : 577792 1 : 288896 1 : 144448 1 : 72224 1 : 36112 1 : 18056 1 : 9028 1 : 4514 1 : 2257 1 : 1128 1 : 564 1 : 282 1 : 141 1 : 71 1 : 35 1 : 18 1 : 9 1 : 4 1 : 2 50 km",
+   "ponto": "mapa"
+  }
+ ],
+ "duracao_s": 5142.2,
+ "parada": "saturacao/teto_de_tempo"
+}

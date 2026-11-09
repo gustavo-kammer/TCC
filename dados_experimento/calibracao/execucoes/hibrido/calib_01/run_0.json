@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256": "6ba6cb3c702765bcedcbb32f39084d1ad981d8a97e95f06e7091efe2a70b19ca",
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:23:57-03:00",
+    "configuracao": "hibrido",
+    "run_id": 0
+  },
+  "flow_id": "calib_01",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+      "n_fatias": 1,
+      "prompt_sha256": "6dd639844f3a32abac77a38c7d2cceb21aa9506b208270f11551b5a07c56a7eb",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+        "total_violations": 5,
+        "count_by_severity": {
+          "4": 1,
+          "3": 2,
+          "2": 1,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 4,
+            "criticality_index": 2.4,
+            "severity_original": 3,
+            "severity_revised": 4,
+            "source": "motor_de_regras",
+            "confidence": 0.6,
+            "location": "div.spinner",
+            "description": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status.",
+            "justification": "O estado em andamento não é comunicado em texto nem de forma programática; o usuário não sabe o que ocorre.",
+            "recommendation": "Associar ao indicador um texto de estado ou role=\"status\"/aria-live.",
+            "revision_rationale": "O spinner é o único conteúdo do painel de pagamento e, com o botão desabilitado, bloqueia a conclusão da compra. Sem texto de status, tempo estimado ou alternativa, o usuário pode abandonar o pedido, o que sobe a severidade de 3 para 4."
+          },
+          {
+            "rank": 2,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Painel 'Pagamento via Pix' (botão 'Confirmar pedido' desabilitado)",
+            "description": "O botão 'Confirmar pedido' aparece desabilitado (cinza) sem nenhuma explicação do motivo ou do que precisa acontecer para habilitá-lo.",
+            "justification": "Abaixo do spinner sem texto, o botão aparece com aparência inativa e sem mensagem. O usuário não sabe se deve esperar, pagar ou fazer algo antes de confirmar.",
+            "recommendation": "Exibir texto de status junto ao botão (ex.: 'Gerando seu código Pix...' ou 'Aguardando pagamento') e explicar quando o botão será habilitado.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Painel 'Pagamento via Pix'",
+            "description": "Não há instruções sobre como pagar com Pix: faltam QR Code, código copia-e-cola, prazo de validade e passo a passo.",
+            "justification": "O painel contém só o título, um spinner e o botão. Quem nunca pagou com Pix em um checkout não tem orientação no ponto da tarefa, e a única ajuda está no menu superior, fora do contexto.",
+            "recommendation": "Exibir o QR Code e o código copia-e-cola com instruções curtas em passos, tempo de expiração e link de ajuda contextual sobre o Pix.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Painel 'Pagamento via Pix'",
+            "description": "Não há ação visível para voltar, cancelar ou trocar a forma de pagamento caso o carregamento demore ou falhe.",
+            "justification": "O painel só oferece o botão desabilitado. Se o spinner não terminar, o usuário depende do indicador de etapas ou do breadcrumb, que não parecem ações de saída do pagamento.",
+            "recommendation": "Incluir botões 'Voltar' e 'Escolher outra forma de pagamento' no painel, e um 'Tentar novamente' se o carregamento falhar.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H07_design_estetico_e_minimalista",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Painel 'Pagamento via Pix' (card esquerdo)",
+            "description": "O painel de pagamento está quase vazio, com conteúdo centralizado e sem informação útil, enquanto o resumo ao lado concentra os dados.",
+            "justification": "O card ocupa grande área com só título, spinner e botão. O espaço vazio não traz informação relevante e o painel parece incompleto ou quebrado.",
+            "recommendation": "Ocupar o espaço com o conteúdo essencial do Pix (QR Code, código, valor a pagar e prazo) ou usar um estado de carregamento mais informativo.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 4,
+      "nota_por_origem": {
+        "motor_de_regras": 4,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 4,
+          "criticality_index": 2.4,
+          "severity_original": 3,
+          "severity_revised": 4,
+          "source": "motor_de_regras",
+          "confidence": 0.6,
+          "location": "div.spinner",
+          "description": "Indicador de carregamento/progresso sem texto, nome acessível ou região de status.",
+          "justification": "O estado em andamento não é comunicado em texto nem de forma programática; o usuário não sabe o que ocorre.",
+          "recommendation": "Associar ao indicador um texto de estado ou role=\"status\"/aria-live.",
+          "revision_rationale": "O spinner é o único conteúdo do painel de pagamento e, com o botão desabilitado, bloqueia a conclusão da compra. Sem texto de status, tempo estimado ou alternativa, o usuário pode abandonar o pedido, o que sobe a severidade de 3 para 4."
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Painel 'Pagamento via Pix' (botão 'Confirmar pedido' desabilitado)",
+          "description": "O botão 'Confirmar pedido' aparece desabilitado (cinza) sem nenhuma explicação do motivo ou do que precisa acontecer para habilitá-lo.",
+          "justification": "Abaixo do spinner sem texto, o botão aparece com aparência inativa e sem mensagem. O usuário não sabe se deve esperar, pagar ou fazer algo antes de confirmar.",
+          "recommendation": "Exibir texto de status junto ao botão (ex.: 'Gerando seu código Pix...' ou 'Aguardando pagamento') e explicar quando o botão será habilitado.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Painel 'Pagamento via Pix'",
+          "description": "Não há ação visível para voltar, cancelar ou trocar a forma de pagamento caso o carregamento demore ou falhe.",
+          "justification": "O painel só oferece o botão desabilitado. Se o spinner não terminar, o usuário depende do indicador de etapas ou do breadcrumb, que não parecem ações de saída do pagamento.",
+          "recommendation": "Incluir botões 'Voltar' e 'Escolher outra forma de pagamento' no painel, e um 'Tentar novamente' se o carregamento falhar.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H07_design_estetico_e_minimalista",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Painel 'Pagamento via Pix' (card esquerdo)",
+          "description": "O painel de pagamento está quase vazio, com conteúdo centralizado e sem informação útil, enquanto o resumo ao lado concentra os dados.",
+          "justification": "O card ocupa grande área com só título, spinner e botão. O espaço vazio não traz informação relevante e o painel parece incompleto ou quebrado.",
+          "recommendation": "Ocupar o espaço com o conteúdo essencial do Pix (QR Code, código, valor a pagar e prazo) ou usar um estado de carregamento mais informativo.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Painel 'Pagamento via Pix'",
+          "description": "Não há instruções sobre como pagar com Pix: faltam QR Code, código copia-e-cola, prazo de validade e passo a passo.",
+          "justification": "O painel contém só o título, um spinner e o botão. Quem nunca pagou com Pix em um checkout não tem orientação no ponto da tarefa, e a única ajuda está no menu superior, fora do contexto.",
+          "recommendation": "Exibir o QR Code e o código copia-e-cola com instruções curtas em passos, tempo de expiração e link de ajuda contextual sobre o Pix.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

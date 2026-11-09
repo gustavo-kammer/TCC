@@ -1,0 +1,53 @@
+code,description,heuristics_raw,severity,pdf_page
+OBH-01,Background animations impair readability.,"N1, V5, M1",2,102
+OBH-02,Actions for reading are difficult to locate.,"N1, N6, V6, M5",3,102
+OBH-03,The contrast between elements is dark against a dark background.,"N1, V5, M1",3,102
+OBH-04,"Inconsistency in navigation - some panels lead directly to the map, while others do not.","N4, V1, M9",2,102
+OBH-05,"Lack of standardized nomenclature - ""Geospatial,"" ""Geospatial Platform.""","N4, V6, M1",2,102
+OBH-06,Functions with the same name redirect to different locations.,"N4, V2, M5",2,102
+OBH-07,Entering a thematic panel does not provide feedback indicating selection.,"N5, V3, M5",2,102
+OBH-08,No instructions on what to select to activate layers.,"N1, N6, V6, M1",3,102
+OBH-09,"In the layer list, there is an info button that seems clickable but is not.","N6, V3, M1",3,102
+OBH-10,"Colors are informative only, with no explanation of their meaning.","N1, N6, V6, M5",2,102
+OBH-11,Color legends are only displayed when the layer is activated.,"N3, N5, V3, V6, M9",2,102
+OBH-12,The activation button (eye icon) is unclear to users.,"N1, N6, V6, M5",3,102
+OBH-13,"The button in ""Planted Area"" with sub-options is too small and unclear.","N8, N3, V5, M4",3,102
+OBH-14,Activating a layer displays a number (active layer counter) without explanation.,"N1, N6, V3, M9",3,102
+OBH-15,Layer title suggests button functionality but is not a button.,"N1, N6, V4, M1",2,102
+OBH-16,Clearing layers lacks button affordance.,"N1, V6, M1",2,103
+OBH-17,"In filters, ""culture"" with a gray background appears disabled but is not.","N1, N4, V3, M9",2,103
+OBH-18,"In filters, municipal layers appear activated (in white) when they are not.","N1, N4, V3, M4",2,103
+OBH-19,The difference between clearing layers at the top of filters and clicking filters below is unclear.,"N1, N6, V5, M1",3,103
+OBH-20,Clearing filters leaves municipal layers active without selecting a culture.,"N2, N7, V6, M4",2,103
+OBH-21,The order of interaction and field dependency in filter application is unclear.,"N1, N6, V3, M5",3,103
+OBH-22,"The play button for advancing time is too fast, not allowing images to load.","N1, N7, V4, M1",3,103
+OBH-23,The button to change speed does not clarify whether it will increase or decrease speed.,"N2, N7, V6, M5",3,103
+OBH-24,Changing to English or Spanish does not change the layer list.,"N1, V6, M9",4,103
+OBH-25,Logging in - the process is unclear. Why log in? How to create an account?,"N1, N3, V6, M5",4,103
+OBH-26,"Clicking on the map raises expectations of area details, but no information is provided.","N2, V3, V4, M9",3,103
+OBH-27,Clicking the sandwich menu to return to the filter takes you back to the main menu of the Observatory.,"N5, V6, M1",3,103
+OBH-28,The tutorial does not function.,"N10, M1",4,103
+OBH-29,"The ""forward"" button’s purpose (share?) is unclear.","N6, V6, M1",3,103
+OBH-30,Social media contrast makes reading difficult.,"N1, V5, M9",3,103
+OBH-31,Why is there such a lengthy process to reach social media sharing icons?,"N7, M5",2,103
+OBH-32,"The button on the left with ""squares"" - label - does it open the main modal? It does not communicate effectively with the user.","N2, V6, M5",3,104
+OBH-33,"Theme names suggest they are layers, but layer names do not match themes.","N1, N10, V6, M9",3,104
+OBH-34,It is unclear whether it is possible to intersect layers from different themes.,"N3, V4, V6, M4",3,104
+OBH-35,The relationship between base layers and specific layers is unclear.,"N5, V6, M9",3,104
+OBH-36,No option to clear the theme.,"N2, M5",3,104
+OBH-37,Selecting more than one theme does not seem possible in the interface.,"N4, M1",3,104
+OBH-38,The area for report details has poor contrast options - white letters on light backgrounds.,"N1, V5, M9",3,104
+OBH-39,"The function should be to delete the report, not remove the theme.","N3, V6, M5",3,104
+OBH-40,The generated bar graph is illegible.,"N1, V4, M1",4,104
+OBH-41,The process to generate graphs is overly complicated.,"N2, V4, M5",3,104
+OBH-42,The graph lacks a Y-axis legend.,"N1, V6, M9",4,104
+OBH-43,An icon commonly used for sorting is used to change the period.,"N6, M1",3,104
+OBH-44,Graph color changes randomly during exchanges.,"N4, M2, M9",3,104
+OBH-45,"Latitude, longitude, and location options only work if an unidentified function is enabled.","N6, V5, M2",3,104
+OBH-46,Activating zoom options does not provide feedback.,"N5, V3, M2",3,104
+OBH-47,Specifying the desired zoom level is difficult.,"N7, M5",3,104
+OBH-48,Options with search results are displayed with poor contrast.,"N1, V5, M6",3,104
+OBH-49,Searching for a municipality only centers the map on the city without visually identifying the contour.,"N1, N9, V2, M6",3,105
+OBH-50,Searching does not allow pressing enter.,"N6, V4, M5, M6",3,105
+OBH-51,"When the search list generates scrolling, mouse scrolling moves the map, not the list.","N7, V4, M6",4,105
+OBH-52,"A list with more names in search disappears after a while, without providing an option to search further.","N5, V2, M9",4,105

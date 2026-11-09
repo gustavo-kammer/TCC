@@ -1,0 +1,17 @@
+{
+  "interface_id": "calib_03",
+  "fase": "calibracao",
+  "fonte": "autor",
+  "descricao": "Página de conta com diálogo de alteração de plano aberto",
+  "arquivo_ou_url": "interfaces/calibracao/calib_03.html",
+  "violacoes_gabarito": [
+    {
+      "id": "calib_03_v1",
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "severity": 4,
+      "location": "diálogo de alteração de plano",
+      "description": "Diálogo modal cobre a página e oferece apenas o botão de confirmar uma cobrança maior; não há botão de fechar nem de cancelar, e o usuário não tem como sair sem aceitar.",
+      "papel": "violacao_central"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Configurar entrega — Feirinha</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="#">
+        <span class="brand__mark" aria-hidden="true"></span>
+        Feirinha
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#">Catálogo</a>
+        <a href="#">Pedidos</a>
+        <a href="#">Ajuda</a>
+        <a href="#" aria-current="page">Minha conta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container stack">
+    <nav class="breadcrumb" aria-label="Você está em">
+    <ol>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Minha conta</a></li>
+      <li aria-current="page">Configurar entrega</li>
+    </ol>
+    </nav>
+    <h1>Configurar entrega</h1>
+    <form class="stack narrow" action="#" method="post">
+      <div class="field">
+        <label for="slot">Janela de despacho (slot_id)</label>
+        <select id="slot" name="slot">
+          <option>slot_07 — seg/qua 08h–10h</option>
+          <option>slot_12 — sex 14h–16h</option>
+          <option>slot_15 — sáb 07h–09h</option>
+        </select>
+      </div>
+      <div class="field">
+        <div class="choice">
+          <input id="express" name="express" type="checkbox">
+          <label for="express">Habilitar flag express_delivery</label>
+        </div>
+      </div>
+      <div class="field">
+        <label for="ttl">TTL do agendamento (min)</label>
+        <input id="ttl" name="ttl" type="number" aria-describedby="ttl-dica" value="30">
+        <span class="hint" id="ttl-dica">Inteiro; 0 desativa o cache de rota.</span>
+      </div>
+      <div class="field">
+        <label for="callback">Callback de status do pedido (URL)</label>
+        <input id="callback" name="callback" type="url" placeholder="https://">
+      </div>
+      <div class="actions"><button class="btn" type="submit">Salvar configuração</button></div>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© 2026 Feirinha</p>
+      <ul>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Privacidade</a></li>
+        <li><a href="#">Fale conosco</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

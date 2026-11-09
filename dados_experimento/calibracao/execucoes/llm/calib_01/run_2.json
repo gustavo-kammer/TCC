@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "7957a7ffe3245ed095c2525894cabaa35d4e422b61a0a43284d7c01885d0628a",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:25:07-03:00",
+    "configuracao": "llm",
+    "run_id": 2
+  },
+  "flow_id": "calib_01",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+      "n_fatias": 1,
+      "prompt_sha256": "77457e8e31c8747b0f4f62f71f18a4d545aef845ef6db2bec228b833d7f92b8e",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_01.html",
+        "total_violations": 7,
+        "count_by_severity": {
+          "4": 1,
+          "3": 3,
+          "2": 2,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 4,
+            "criticality_index": 3.0,
+            "severity_original": 4,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartão 'Pagamento via Pix', spinner de carregamento",
+            "description": "Um spinner sem nenhum texto aparece sob o título e não indica o que está carregando nem por quanto tempo.",
+            "justification": "O usuário vê apenas um círculo girando, sem mensagem como 'Gerando código Pix...'. Não é possível saber se o sistema está processando, travado ou aguardando o pagamento, nem se há previsão de término.",
+            "recommendation": "Adicionar texto de status junto ao spinner (ex.: 'Gerando seu código Pix...'), com tratamento de erro e de tempo excedido, e exibir o QR code e o código assim que prontos.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartão 'Pagamento via Pix', área central",
+            "description": "Não há instruções sobre como pagar via Pix (QR code, copia e cola, passos no app do banco, prazo).",
+            "justification": "O cartão tem só título, spinner e botão. Quem não conhece o fluxo do Pix não sabe o que fazer nem se deve clicar em 'Confirmar pedido' antes ou depois de pagar.",
+            "recommendation": "Incluir passos curtos de como pagar, exibir QR code e código copia e cola com botão de copiar, informar o prazo de validade e linkar para ajuda contextual.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartão 'Pagamento via Pix' (ausência de dados de pagamento)",
+            "description": "As informações necessárias para pagar (QR code, chave/código Pix, valor) não estão visíveis na etapa de pagamento.",
+            "justification": "O usuário precisaria lembrar ou procurar por conta própria o valor (R$ 28,10 aparece só no resumo ao lado) e os dados do Pix; nada no cartão apresenta o que é necessário para concluir o pagamento.",
+            "recommendation": "Mostrar no próprio cartão o QR code, o código copia e cola e o valor total a pagar, de forma destacada.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H04_consistencia_e_padronizacao",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Confirmar pedido' desabilitado",
+            "description": "O botão aparece cinza e aparentemente inativo, sem indicar o motivo, e seu papel em relação ao Pix é ambíguo.",
+            "justification": "O botão desabilitado não explica quando será habilitado (após o pagamento? após o carregamento?). Como é a única ação disponível, o usuário fica sem caminho claro para avançar.",
+            "recommendation": "Explicar o motivo do estado desabilitado (ex.: 'Disponível após a confirmação do pagamento') ou ocultar o botão e avançar automaticamente quando o Pix for detectado; manter o rótulo coerente com a ação.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartão de pagamento e indicador de etapas",
+            "description": "Não há botão 'Voltar' ou 'Cancelar' na etapa de pagamento, e as etapas anteriores do indicador não parecem clicáveis.",
+            "justification": "Se o spinner travar ou o usuário quiser mudar a entrega ou os itens, a única saída é o breadcrumb pequeno ou o navegador; o cartão não oferece ação alternativa.",
+            "recommendation": "Adicionar ação secundária 'Voltar para Entrega' e/ou 'Escolher outra forma de pagamento', e tornar as etapas concluídas do indicador clicáveis.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 6,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartão 'Pagamento via Pix'",
+            "description": "Não há aviso sobre expiração do Pix nem sobre o que acontece se o usuário sair ou recarregar a página durante o pagamento.",
+            "justification": "Pagamento por Pix tem prazo e é irreversível após enviado; sem orientação, o usuário pode pagar duas vezes, pagar após a expiração ou abandonar sem saber o estado do pedido.",
+            "recommendation": "Exibir contagem regressiva ou prazo de validade, avisar para não fechar a página e esclarecer o que ocorre com o pedido se o pagamento não for concluído.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 7,
+            "heuristic": "H07_design_estetico_e_minimalista",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartão 'Pagamento via Pix' e área abaixo do conteúdo",
+            "description": "O cartão tem muito espaço vazio e pouco conteúdo útil, enquanto a maior parte da página abaixo está vazia.",
+            "justification": "A composição centraliza só título, spinner e botão, desperdiçando espaço que poderia mostrar as informações essenciais de pagamento; o resultado parece incompleto.",
+            "recommendation": "Reorganizar o cartão para priorizar o conteúdo de pagamento (QR code, código, instruções) e reduzir o espaço vazio.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 4,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 4
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 4,
+          "criticality_index": 3.0,
+          "severity_original": 4,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartão 'Pagamento via Pix', spinner de carregamento",
+          "description": "Um spinner sem nenhum texto aparece sob o título e não indica o que está carregando nem por quanto tempo.",
+          "justification": "O usuário vê apenas um círculo girando, sem mensagem como 'Gerando código Pix...'. Não é possível saber se o sistema está processando, travado ou aguardando o pagamento, nem se há previsão de término.",
+          "recommendation": "Adicionar texto de status junto ao spinner (ex.: 'Gerando seu código Pix...'), com tratamento de erro e de tempo excedido, e exibir o QR code e o código assim que prontos.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartão de pagamento e indicador de etapas",
+          "description": "Não há botão 'Voltar' ou 'Cancelar' na etapa de pagamento, e as etapas anteriores do indicador não parecem clicáveis.",
+          "justification": "Se o spinner travar ou o usuário quiser mudar a entrega ou os itens, a única saída é o breadcrumb pequeno ou o navegador; o cartão não oferece ação alternativa.",
+          "recommendation": "Adicionar ação secundária 'Voltar para Entrega' e/ou 'Escolher outra forma de pagamento', e tornar as etapas concluídas do indicador clicáveis.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Confirmar pedido' desabilitado",
+          "description": "O botão aparece cinza e aparentemente inativo, sem indicar o motivo, e seu papel em relação ao Pix é ambíguo.",
+          "justification": "O botão desabilitado não explica quando será habilitado (após o pagamento? após o carregamento?). Como é a única ação disponível, o usuário fica sem caminho claro para avançar.",
+          "recommendation": "Explicar o motivo do estado desabilitado (ex.: 'Disponível após a confirmação do pagamento') ou ocultar o botão e avançar automaticamente quando o Pix for detectado; manter o rótulo coerente com a ação.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartão 'Pagamento via Pix' (ausência de dados de pagamento)",
+          "description": "As informações necessárias para pagar (QR code, chave/código Pix, valor) não estão visíveis na etapa de pagamento.",
+          "justification": "O usuário precisaria lembrar ou procurar por conta própria o valor (R$ 28,10 aparece só no resumo ao lado) e os dados do Pix; nada no cartão apresenta o que é necessário para concluir o pagamento.",
+          "recommendation": "Mostrar no próprio cartão o QR code, o código copia e cola e o valor total a pagar, de forma destacada.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H07_design_estetico_e_minimalista",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartão 'Pagamento via Pix' e área abaixo do conteúdo",
+          "description": "O cartão tem muito espaço vazio e pouco conteúdo útil, enquanto a maior parte da página abaixo está vazia.",
+          "justification": "A composição centraliza só título, spinner e botão, desperdiçando espaço que poderia mostrar as informações essenciais de pagamento; o resultado parece incompleto.",
+          "recommendation": "Reorganizar o cartão para priorizar o conteúdo de pagamento (QR code, código, instruções) e reduzir o espaço vazio.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartão 'Pagamento via Pix'",
+          "description": "Não há aviso sobre expiração do Pix nem sobre o que acontece se o usuário sair ou recarregar a página durante o pagamento.",
+          "justification": "Pagamento por Pix tem prazo e é irreversível após enviado; sem orientação, o usuário pode pagar duas vezes, pagar após a expiração ou abandonar sem saber o estado do pedido.",
+          "recommendation": "Exibir contagem regressiva ou prazo de validade, avisar para não fechar a página e esclarecer o que ocorre com o pedido se o pagamento não for concluído.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartão 'Pagamento via Pix', área central",
+          "description": "Não há instruções sobre como pagar via Pix (QR code, copia e cola, passos no app do banco, prazo).",
+          "justification": "O cartão tem só título, spinner e botão. Quem não conhece o fluxo do Pix não sabe o que fazer nem se deve clicar em 'Confirmar pedido' antes ou depois de pagar.",
+          "recommendation": "Incluir passos curtos de como pagar, exibir QR code e código copia e cola com botão de copiar, informar o prazo de validade e linkar para ajuda contextual.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "cda69ae85dba6868b8c3e83c023b7b909d63095f40fa86f214ff100d6552d8e9",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:34:06-03:00",
+    "configuracao": "llm",
+    "run_id": 0
+  },
+  "flow_id": "calib_07",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_07.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_07.html",
+      "n_fatias": 2,
+      "prompt_sha256": "d414be8fc838b2840bd9e71ad6241e6999175e6e5f25d7efe0fe5db2526af578",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_07.html",
+        "total_violations": 10,
+        "count_by_severity": {
+          "3": 1,
+          "2": 6,
+          "1": 3
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H07_design_estetico_e_minimalista",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Três banners promocionais empilhados abaixo do título 'Olá, Marina'",
+            "description": "Três banners de largura total, cada um com botão de destaque, ocupam toda a primeira dobra antes de qualquer produto.",
+            "justification": "Frete grátis aparece em dois banners e de novo em texto do terceiro e nas etiquetas dos cards; as promoções competem entre si e empurram o conteúdo principal (produtos) para baixo, diluindo a atenção.",
+            "recommendation": "Reduzir a um banner principal (ou carrossel compacto), consolidar as mensagens repetidas de frete grátis e mover indicação de amigo para área secundária.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H04_consistencia_e_padronizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botões dos cards: 'Aproveitar' em Ofertas da semana vs. 'Comprar agora' em Mais vendidos",
+            "description": "Ações equivalentes de adquirir um produto recebem rótulos diferentes em seções diferentes.",
+            "justification": "Os cards têm estrutura idêntica (imagem, etiqueta, nome, preço, botão verde), mas o botão muda de 'Aproveitar' para 'Comprar agora', levando o usuário a se perguntar se fazem coisas distintas.",
+            "recommendation": "Padronizar o rótulo da ação, por exemplo 'Adicionar ao carrinho', em todos os cards.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H02_correspondencia_sistema_mundo_real",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botões 'Aproveitar' nos cards de Ofertas da semana e 'Aproveitar frete grátis'",
+            "description": "O verbo 'Aproveitar' é vago e não descreve a ação concreta (adicionar ao carrinho, ver oferta).",
+            "justification": "Em um e-commerce, o usuário espera rótulos que indiquem a consequência do clique; 'Aproveitar' não diz se o item será comprado, adicionado ao carrinho ou se abrirá uma página de detalhes.",
+            "recommendation": "Usar rótulos orientados à ação real, como 'Adicionar ao carrinho' ou 'Ver ofertas'.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Banner amarelo 'Últimas unidades de tomate italiano' e botão 'Garantir o meu'",
+            "description": "O botão 'Garantir o meu' não indica o produto nem a ação, e o banner não mostra imagem ou preço do item.",
+            "justification": "O usuário precisa ler o título do banner e relacioná-lo ao botão, sem ver preço ou foto; além disso, o mesmo tomate italiano aparece depois nos cards, sem relação visual clara com o banner.",
+            "recommendation": "Incluir imagem, preço e quantidade restante no banner, e usar um rótulo explícito como 'Adicionar tomate ao carrinho'.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H07_design_estetico_e_minimalista",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Imagens dos cards de produto (todos os 10)",
+            "description": "Todos os cards exibem um bloco cinza-esverdeado vazio no lugar da foto do produto.",
+            "justification": "Imagens ocupam cerca de metade de cada card sem transmitir informação; em feira de hortifruti, a aparência do produto é relevante para a decisão, e blocos idênticos dificultam diferenciar os itens.",
+            "recommendation": "Exibir fotos reais dos produtos ou, se carregando/ausente, usar placeholder com ícone ou inicial e texto alternativo; reduzir a altura da imagem se não houver foto.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 6,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cabeçalho (navegação principal)",
+            "description": "Não há indicação do item atual na navegação nem acesso visível ao carrinho.",
+            "justification": "Os links Catálogo, Pedidos, Ajuda e Minha conta têm a mesma aparência, sem destaque para a página atual, e numa loja com botões de compra não aparece carrinho ou contagem de itens para mostrar o resultado das ações.",
+            "recommendation": "Destacar o item ativo do menu e incluir ícone de carrinho com contador de itens no cabeçalho.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 7,
+            "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cabeçalho e seções de produtos",
+            "description": "Não há busca, filtros ou ordenação para chegar rápido a um produto.",
+            "justification": "A página lista 10 produtos em duas grades sem campo de busca nem categorias; o usuário recorrente precisa percorrer a página ou ir ao Catálogo para achar o que quer.",
+            "recommendation": "Adicionar campo de busca no cabeçalho, atalhos de categorias e opção de recompra a partir de Pedidos.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 8,
+            "heuristic": "H07_design_estetico_e_minimalista",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Etiquetas amarelas nos cards ('Frete grátis', 'Oferta', 'Mais vendido')",
+            "description": "As etiquetas são repetitivas, alternam sem critério visível e não trazem informação específica.",
+            "justification": "Em 'Ofertas da semana' todos os produtos já são ofertas, então 'Oferta' é redundante; 'Frete grátis' repete a promoção geral acima de R$ 40, que não é específica do item; o selo 'Oferta' não mostra preço anterior ou desconto.",
+            "recommendation": "Manter apenas etiquetas informativas (ex.: '-20%' com preço anterior riscado) e remover as redundantes.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 9,
+            "heuristic": "H04_consistencia_e_padronizacao",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Banners promocionais: botões verdes idênticos",
+            "description": "Os três banners usam cores de fundo e bordas diferentes (azul, amarelo, verde), mas todos têm o mesmo botão verde.",
+            "justification": "A cor do banner sugere tipos de mensagem distintos (informação, alerta, sucesso), mas o botão não acompanha e a cor amarela sugere aviso quando é apenas promoção; isso confunde a semântica visual e deixa sem hierarquia a ação principal.",
+            "recommendation": "Unificar o tratamento visual dos banners e definir hierarquia clara entre ação primária e secundária.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 10,
+            "heuristic": "H07_design_estetico_e_minimalista",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Seção 'Ofertas da semana', segunda linha da grade",
+            "description": "A grade de 4 colunas com 6 itens deixa a última linha com dois cards e grande espaço vazio ao lado.",
+            "justification": "O layout parece incompleto e desequilibrado em relação à seção seguinte, que preenche as 4 colunas.",
+            "recommendation": "Mostrar 4 ou 8 itens, ou usar carrossel/botão 'Ver todas as ofertas' para a seção.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cabeçalho (navegação principal)",
+          "description": "Não há indicação do item atual na navegação nem acesso visível ao carrinho.",
+          "justification": "Os links Catálogo, Pedidos, Ajuda e Minha conta têm a mesma aparência, sem destaque para a página atual, e numa loja com botões de compra não aparece carrinho ou contagem de itens para mostrar o resultado das ações.",
+          "recommendation": "Destacar o item ativo do menu e incluir ícone de carrinho com contador de itens no cabeçalho.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botões 'Aproveitar' nos cards de Ofertas da semana e 'Aproveitar frete grátis'",
+          "description": "O verbo 'Aproveitar' é vago e não descreve a ação concreta (adicionar ao carrinho, ver oferta).",
+          "justification": "Em um e-commerce, o usuário espera rótulos que indiquem a consequência do clique; 'Aproveitar' não diz se o item será comprado, adicionado ao carrinho ou se abrirá uma página de detalhes.",
+          "recommendation": "Usar rótulos orientados à ação real, como 'Adicionar ao carrinho' ou 'Ver ofertas'.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botões dos cards: 'Aproveitar' em Ofertas da semana vs. 'Comprar agora' em Mais vendidos",
+          "description": "Ações equivalentes de adquirir um produto recebem rótulos diferentes em seções diferentes.",
+          "justification": "Os cards têm estrutura idêntica (imagem, etiqueta, nome, preço, botão verde), mas o botão muda de 'Aproveitar' para 'Comprar agora', levando o usuário a se perguntar se fazem coisas distintas.",
+          "recommendation": "Padronizar o rótulo da ação, por exemplo 'Adicionar ao carrinho', em todos os cards.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Banners promocionais: botões verdes idênticos",
+          "description": "Os três banners usam cores de fundo e bordas diferentes (azul, amarelo, verde), mas todos têm o mesmo botão verde.",
+          "justification": "A cor do banner sugere tipos de mensagem distintos (informação, alerta, sucesso), mas o botão não acompanha e a cor amarela sugere aviso quando é apenas promoção; isso confunde a semântica visual e deixa sem hierarquia a ação principal.",
+          "recommendation": "Unificar o tratamento visual dos banners e definir hierarquia clara entre ação primária e secundária.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Banner amarelo 'Últimas unidades de tomate italiano' e botão 'Garantir o meu'",
+          "description": "O botão 'Garantir o meu' não indica o produto nem a ação, e o banner não mostra imagem ou preço do item.",
+          "justification": "O usuário precisa ler o título do banner e relacioná-lo ao botão, sem ver preço ou foto; além disso, o mesmo tomate italiano aparece depois nos cards, sem relação visual clara com o banner.",
+          "recommendation": "Incluir imagem, preço e quantidade restante no banner, e usar um rótulo explícito como 'Adicionar tomate ao carrinho'.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cabeçalho e seções de produtos",
+          "description": "Não há busca, filtros ou ordenação para chegar rápido a um produto.",
+          "justification": "A página lista 10 produtos em duas grades sem campo de busca nem categorias; o usuário recorrente precisa percorrer a página ou ir ao Catálogo para achar o que quer.",
+          "recommendation": "Adicionar campo de busca no cabeçalho, atalhos de categorias e opção de recompra a partir de Pedidos.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H07_design_estetico_e_minimalista",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Três banners promocionais empilhados abaixo do título 'Olá, Marina'",
+          "description": "Três banners de largura total, cada um com botão de destaque, ocupam toda a primeira dobra antes de qualquer produto.",
+          "justification": "Frete grátis aparece em dois banners e de novo em texto do terceiro e nas etiquetas dos cards; as promoções competem entre si e empurram o conteúdo principal (produtos) para baixo, diluindo a atenção.",
+          "recommendation": "Reduzir a um banner principal (ou carrossel compacto), consolidar as mensagens repetidas de frete grátis e mover indicação de amigo para área secundária.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H07_design_estetico_e_minimalista",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Imagens dos cards de produto (todos os 10)",
+          "description": "Todos os cards exibem um bloco cinza-esverdeado vazio no lugar da foto do produto.",
+          "justification": "Imagens ocupam cerca de metade de cada card sem transmitir informação; em feira de hortifruti, a aparência do produto é relevante para a decisão, e blocos idênticos dificultam diferenciar os itens.",
+          "recommendation": "Exibir fotos reais dos produtos ou, se carregando/ausente, usar placeholder com ícone ou inicial e texto alternativo; reduzir a altura da imagem se não houver foto.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H07_design_estetico_e_minimalista",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Etiquetas amarelas nos cards ('Frete grátis', 'Oferta', 'Mais vendido')",
+          "description": "As etiquetas são repetitivas, alternam sem critério visível e não trazem informação específica.",
+          "justification": "Em 'Ofertas da semana' todos os produtos já são ofertas, então 'Oferta' é redundante; 'Frete grátis' repete a promoção geral acima de R$ 40, que não é específica do item; o selo 'Oferta' não mostra preço anterior ou desconto.",
+          "recommendation": "Manter apenas etiquetas informativas (ex.: '-20%' com preço anterior riscado) e remover as redundantes.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H07_design_estetico_e_minimalista",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Seção 'Ofertas da semana', segunda linha da grade",
+          "description": "A grade de 4 colunas com 6 itens deixa a última linha com dois cards e grande espaço vazio ao lado.",
+          "justification": "O layout parece incompleto e desequilibrado em relação à seção seguinte, que preenche as 4 colunas.",
+          "recommendation": "Mostrar 4 ou 8 itens, ou usar carrossel/botão 'Ver todas as ofertas' para a seção.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    }
+  }
+}

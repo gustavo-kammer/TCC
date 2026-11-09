@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "9a896897200188b84eac375883a2a9abc7c6296b0246bad9866190a1b6ae82a4",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:27:40-03:00",
+    "configuracao": "llm",
+    "run_id": 0
+  },
+  "flow_id": "calib_03",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_03.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_03.html",
+      "n_fatias": 1,
+      "prompt_sha256": "fa2ffcb9cb920d2a21ba3617e0df9a9feba507ef44233370fcfb439285ba3369",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_03.html",
+        "total_violations": 3,
+        "count_by_severity": {
+          "4": 1,
+          "3": 1,
+          "2": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 4,
+            "criticality_index": 3.0,
+            "severity_original": 4,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Modal 'Alterar para o plano Premium?'",
+            "description": "O modal tem apenas o botão 'Confirmar alteração', sem 'Cancelar' nem botão de fechar (X) visível.",
+            "justification": "Ao clicar em 'Alterar plano', o usuário cai num diálogo que cobra R$ 49,90 imediatamente e não vê uma saída explícita; a única ação visível é confirmar a cobrança. Quem abriu por engano ou desistiu fica sem rota de escape clara.",
+            "recommendation": "Adicionar botão secundário 'Cancelar' ao lado de 'Confirmar alteração' e um X de fechar, além de suportar Esc e clique fora do modal.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Modal de confirmação, botão 'Confirmar alteração'",
+            "description": "Ação com cobrança imediata e aumento de preço é oferecida sem alternativa de desistir e sem detalhes suficientes para decidir.",
+            "justification": "O modal mostra só o novo valor e 'cobrança imediata'. Não informa o plano atual, o valor proporcional, a forma de pagamento nem o que o Premium inclui, e o único botão visível é o de confirmar. Isso facilita confirmar a mudança sem querer ou sem entender.",
+            "recommendation": "Mostrar resumo da mudança (Básico → Premium, valor a cobrar hoje, forma de pagamento, benefícios) e dar peso equivalente à ação de cancelar.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Modal 'Alterar para o plano Premium?'",
+            "description": "O modal não mostra o plano atual nem permite comparar planos; o Premium aparece como escolha pré-definida.",
+            "justification": "Clicando em 'Alterar plano', o usuário não escolheu o destino, mas o modal já fala em Premium. Ele precisa lembrar o que tem hoje (Básico, R$ 19,90) e o que o Premium oferece, pois isso não aparece no diálogo.",
+            "recommendation": "Exibir seleção ou comparação de planos antes da confirmação, ou incluir no modal o plano atual e um resumo das diferenças.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 4,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 4
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 4,
+          "criticality_index": 3.0,
+          "severity_original": 4,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Modal 'Alterar para o plano Premium?'",
+          "description": "O modal tem apenas o botão 'Confirmar alteração', sem 'Cancelar' nem botão de fechar (X) visível.",
+          "justification": "Ao clicar em 'Alterar plano', o usuário cai num diálogo que cobra R$ 49,90 imediatamente e não vê uma saída explícita; a única ação visível é confirmar a cobrança. Quem abriu por engano ou desistiu fica sem rota de escape clara.",
+          "recommendation": "Adicionar botão secundário 'Cancelar' ao lado de 'Confirmar alteração' e um X de fechar, além de suportar Esc e clique fora do modal.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Modal 'Alterar para o plano Premium?'",
+          "description": "O modal não mostra o plano atual nem permite comparar planos; o Premium aparece como escolha pré-definida.",
+          "justification": "Clicando em 'Alterar plano', o usuário não escolheu o destino, mas o modal já fala em Premium. Ele precisa lembrar o que tem hoje (Básico, R$ 19,90) e o que o Premium oferece, pois isso não aparece no diálogo.",
+          "recommendation": "Exibir seleção ou comparação de planos antes da confirmação, ou incluir no modal o plano atual e um resumo das diferenças.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Modal de confirmação, botão 'Confirmar alteração'",
+          "description": "Ação com cobrança imediata e aumento de preço é oferecida sem alternativa de desistir e sem detalhes suficientes para decidir.",
+          "justification": "O modal mostra só o novo valor e 'cobrança imediata'. Não informa o plano atual, o valor proporcional, a forma de pagamento nem o que o Premium inclui, e o único botão visível é o de confirmar. Isso facilita confirmar a mudança sem querer ou sem entender.",
+          "recommendation": "Mostrar resumo da mudança (Básico → Premium, valor a cobrar hoje, forma de pagamento, benefícios) e dar peso equivalente à ação de cancelar.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    }
+  }
+}

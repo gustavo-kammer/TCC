@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256": "57b1dcf36762a05152ffb529555529058c5f9c44ad32cb9c080aaeebdf3936ff",
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:30:06-03:00",
+    "configuracao": "hibrido",
+    "run_id": 1
+  },
+  "flow_id": "calib_05",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_05.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_05.html",
+      "n_fatias": 1,
+      "prompt_sha256": "c9eb918b03d245abf46b11e0a4be7001e0b5f66fea6f4fff5f9c300d4ad3a67a",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_05.html",
+        "total_violations": 3,
+        "count_by_severity": {
+          "3": 1,
+          "2": 1,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 3,
+            "criticality_index": 2.7,
+            "severity_original": 3,
+            "severity_revised": 3,
+            "source": "motor_de_regras",
+            "confidence": 0.9,
+            "location": "input#tel",
+            "description": "Campo de formulário sem rótulo (<label>) associado.",
+            "justification": "Sem rótulo persistente, o usuário precisa memorizar o que cada campo espera, e leitores de tela não anunciam sua função.",
+            "recommendation": "Associar um <label for> ou aria-label ao campo.",
+            "revision_rationale": "O visual agrava o problema: o campo de telefone depende só do placeholder, que desaparece ao digitar, e fica entre campos com rótulo visível. Isso quebra a consistência do formulário e deixa o usuário sem saber o que o campo pede depois de preenchê-lo. Mantém-se a severidade 3."
+          },
+          {
+            "rank": 2,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campos do formulário (Nome completo, E-mail, telefone, CEP)",
+            "description": "Nenhum campo indica se é obrigatório ou opcional, nem há dica de formato para CEP.",
+            "justification": "Os quatro campos aparecem idênticos, sem asterisco, texto \"(opcional)\" ou máscara/exemplo no CEP. O usuário só descobre o que é exigido ao enviar, o que favorece erros de preenchimento e reenvios.",
+            "recommendation": "Marcar claramente campos obrigatórios e opcionais, adicionar texto de apoio com o formato esperado do CEP (ex.: 88000-000) e aplicar máscara e validação em linha.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campo CEP e telefone",
+            "description": "Não há explicação de por que CEP e telefone são pedidos nem de como serão usados.",
+            "justification": "O cadastro solicita dados pessoais (telefone, CEP) sem nenhum texto de apoio no ponto de entrada. A ajuda só existe no menu superior, distante do campo, e pode gerar hesitação ou abandono.",
+            "recommendation": "Incluir texto curto de apoio abaixo desses campos (ex.: \"Usamos o CEP para calcular a entrega\") e, se for o caso, um link para a política de privacidade perto do botão.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 3,
+        "llm": 0
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 3,
+          "criticality_index": 2.7,
+          "severity_original": 3,
+          "severity_revised": 3,
+          "source": "motor_de_regras",
+          "confidence": 0.9,
+          "location": "input#tel",
+          "description": "Campo de formulário sem rótulo (<label>) associado.",
+          "justification": "Sem rótulo persistente, o usuário precisa memorizar o que cada campo espera, e leitores de tela não anunciam sua função.",
+          "recommendation": "Associar um <label for> ou aria-label ao campo.",
+          "revision_rationale": "O visual agrava o problema: o campo de telefone depende só do placeholder, que desaparece ao digitar, e fica entre campos com rótulo visível. Isso quebra a consistência do formulário e deixa o usuário sem saber o que o campo pede depois de preenchê-lo. Mantém-se a severidade 3."
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campos do formulário (Nome completo, E-mail, telefone, CEP)",
+          "description": "Nenhum campo indica se é obrigatório ou opcional, nem há dica de formato para CEP.",
+          "justification": "Os quatro campos aparecem idênticos, sem asterisco, texto \"(opcional)\" ou máscara/exemplo no CEP. O usuário só descobre o que é exigido ao enviar, o que favorece erros de preenchimento e reenvios.",
+          "recommendation": "Marcar claramente campos obrigatórios e opcionais, adicionar texto de apoio com o formato esperado do CEP (ex.: 88000-000) e aplicar máscara e validação em linha.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo CEP e telefone",
+          "description": "Não há explicação de por que CEP e telefone são pedidos nem de como serão usados.",
+          "justification": "O cadastro solicita dados pessoais (telefone, CEP) sem nenhum texto de apoio no ponto de entrada. A ajuda só existe no menu superior, distante do campo, e pode gerar hesitação ou abandono.",
+          "recommendation": "Incluir texto curto de apoio abaixo desses campos (ex.: \"Usamos o CEP para calcular a entrega\") e, se for o caso, um link para a política de privacidade perto do botão.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256": "57b1dcf36762a05152ffb529555529058c5f9c44ad32cb9c080aaeebdf3936ff",
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:30:22-03:00",
+    "configuracao": "hibrido",
+    "run_id": 2
+  },
+  "flow_id": "calib_05",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_05.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_05.html",
+      "n_fatias": 1,
+      "prompt_sha256": "c9eb918b03d245abf46b11e0a4be7001e0b5f66fea6f4fff5f9c300d4ad3a67a",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_05.html",
+        "total_violations": 7,
+        "count_by_severity": {
+          "3": 2,
+          "2": 2,
+          "1": 3
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 3,
+            "criticality_index": 2.7,
+            "severity_original": 3,
+            "severity_revised": 3,
+            "source": "motor_de_regras",
+            "confidence": 0.9,
+            "location": "input#tel",
+            "description": "Campo de formulário sem rótulo (<label>) associado.",
+            "justification": "Sem rótulo persistente, o usuário precisa memorizar o que cada campo espera, e leitores de tela não anunciam sua função.",
+            "recommendation": "Associar um <label for> ou aria-label ao campo.",
+            "revision_rationale": "Confirmada. O visual agrava o problema: o campo de telefone aparece sem nenhum texto acima, ao contrário dos demais, e depende só do placeholder, que some ao digitar; o usuário pode esquecer ou confundir o que o campo pede, e a ausência quebra a consistência do formulário."
+          },
+          {
+            "rank": 2,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Terceiro campo (telefone), entre E-mail e CEP",
+            "description": "O campo de telefone depende apenas do placeholder, que desaparece ao digitar, e seu espaçamento o destaca como se fosse um grupo à parte.",
+            "justification": "Visualmente não há texto acima do campo, ao contrário dos demais; o usuário só infere que é telefone pelo formato do exemplo e, ao digitar, perde a pista. Além disso, a falta de rótulo quebra o padrão visual dos outros campos.",
+            "recommendation": "Incluir rótulo visível 'Telefone (opcional ou obrigatório)' acima do campo, no mesmo estilo dos demais, mantendo o placeholder apenas como exemplo.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campo CEP",
+            "description": "O campo CEP não traz formato esperado, exemplo nem explicação de por que o dado é solicitado.",
+            "justification": "O campo aparece vazio, sem placeholder ou texto de apoio, ao contrário do campo de telefone; o usuário não sabe se digita hífen ou só números, nem para que o CEP serve no cadastro.",
+            "recommendation": "Adicionar texto de apoio (ex.: 'Somente números, ex.: 88010-000. Usamos para calcular entregas') e máscara automática de formato.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Formulário de cadastro (todos os campos)",
+            "description": "Não há indicação visual de quais campos são obrigatórios ou opcionais.",
+            "justification": "Os rótulos Nome completo, E-mail e CEP não têm asterisco nem '(opcional)', e o campo de telefone nem tem rótulo; o usuário só descobrirá o que é obrigatório após tentar enviar e receber erro.",
+            "recommendation": "Marcar campos obrigatórios (ou opcionais) de forma consistente e explicar a convenção no topo do formulário.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H04_consistencia_e_padronizacao",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Campo de telefone vs. demais campos",
+            "description": "Apenas o campo de telefone tem placeholder de exemplo; Nome, E-mail e CEP estão vazios sem exemplo.",
+            "justification": "A orientação ao usuário é inconsistente entre campos do mesmo formulário, e o espaçamento acima do campo de telefone também difere do ritmo dos outros.",
+            "recommendation": "Padronizar o tratamento: rótulo visível e texto de apoio/exemplo em todos os campos que precisem de formato, com espaçamento uniforme.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 6,
+            "heuristic": "H03_controle_e_liberdade_do_usuario",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Rodapé do formulário / abaixo do botão 'Criar conta'",
+            "description": "Não há caminho para quem já tem conta (ex.: 'Já tenho conta? Entrar') nem ação de cancelar/voltar.",
+            "justification": "A página oferece só o botão primário; quem chegou por engano precisa recorrer ao breadcrumb ou ao menu 'Minha conta', cujo significado nesse contexto não é claro.",
+            "recommendation": "Adicionar link 'Já tenho conta? Entrar' próximo ao botão.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 7,
+            "heuristic": "H10_ajuda_e_documentacao",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Formulário, acima do botão 'Criar conta'",
+            "description": "Os Termos de uso e a Privacidade só aparecem no rodapé, sem menção no ponto de decisão do cadastro.",
+            "justification": "O usuário fornece dados pessoais (nome, e-mail, telefone, CEP) sem ver aviso ou informação sobre o uso dos dados perto do botão de envio.",
+            "recommendation": "Incluir, perto do botão, uma frase como 'Ao criar a conta, você concorda com os Termos de uso e a Política de Privacidade' com links.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Rodapé do formulário / abaixo do botão 'Criar conta'",
+          "description": "Não há caminho para quem já tem conta (ex.: 'Já tenho conta? Entrar') nem ação de cancelar/voltar.",
+          "justification": "A página oferece só o botão primário; quem chegou por engano precisa recorrer ao breadcrumb ou ao menu 'Minha conta', cujo significado nesse contexto não é claro.",
+          "recommendation": "Adicionar link 'Já tenho conta? Entrar' próximo ao botão.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo de telefone vs. demais campos",
+          "description": "Apenas o campo de telefone tem placeholder de exemplo; Nome, E-mail e CEP estão vazios sem exemplo.",
+          "justification": "A orientação ao usuário é inconsistente entre campos do mesmo formulário, e o espaçamento acima do campo de telefone também difere do ritmo dos outros.",
+          "recommendation": "Padronizar o tratamento: rótulo visível e texto de apoio/exemplo em todos os campos que precisem de formato, com espaçamento uniforme.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 3,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 3,
+          "criticality_index": 2.7,
+          "severity_original": 3,
+          "severity_revised": 3,
+          "source": "motor_de_regras",
+          "confidence": 0.9,
+          "location": "input#tel",
+          "description": "Campo de formulário sem rótulo (<label>) associado.",
+          "justification": "Sem rótulo persistente, o usuário precisa memorizar o que cada campo espera, e leitores de tela não anunciam sua função.",
+          "recommendation": "Associar um <label for> ou aria-label ao campo.",
+          "revision_rationale": "Confirmada. O visual agrava o problema: o campo de telefone aparece sem nenhum texto acima, ao contrário dos demais, e depende só do placeholder, que some ao digitar; o usuário pode esquecer ou confundir o que o campo pede, e a ausência quebra a consistência do formulário."
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Terceiro campo (telefone), entre E-mail e CEP",
+          "description": "O campo de telefone depende apenas do placeholder, que desaparece ao digitar, e seu espaçamento o destaca como se fosse um grupo à parte.",
+          "justification": "Visualmente não há texto acima do campo, ao contrário dos demais; o usuário só infere que é telefone pelo formato do exemplo e, ao digitar, perde a pista. Além disso, a falta de rótulo quebra o padrão visual dos outros campos.",
+          "recommendation": "Incluir rótulo visível 'Telefone (opcional ou obrigatório)' acima do campo, no mesmo estilo dos demais, mantendo o placeholder apenas como exemplo.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário de cadastro (todos os campos)",
+          "description": "Não há indicação visual de quais campos são obrigatórios ou opcionais.",
+          "justification": "Os rótulos Nome completo, E-mail e CEP não têm asterisco nem '(opcional)', e o campo de telefone nem tem rótulo; o usuário só descobrirá o que é obrigatório após tentar enviar e receber erro.",
+          "recommendation": "Marcar campos obrigatórios (ou opcionais) de forma consistente e explicar a convenção no topo do formulário.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Campo CEP",
+          "description": "O campo CEP não traz formato esperado, exemplo nem explicação de por que o dado é solicitado.",
+          "justification": "O campo aparece vazio, sem placeholder ou texto de apoio, ao contrário do campo de telefone; o usuário não sabe se digita hífen ou só números, nem para que o CEP serve no cadastro.",
+          "recommendation": "Adicionar texto de apoio (ex.: 'Somente números, ex.: 88010-000. Usamos para calcular entregas') e máscara automática de formato.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário, acima do botão 'Criar conta'",
+          "description": "Os Termos de uso e a Privacidade só aparecem no rodapé, sem menção no ponto de decisão do cadastro.",
+          "justification": "O usuário fornece dados pessoais (nome, e-mail, telefone, CEP) sem ver aviso ou informação sobre o uso dos dados perto do botão de envio.",
+          "recommendation": "Incluir, perto do botão, uma frase como 'Ao criar a conta, você concorda com os Termos de uso e a Política de Privacidade' com links.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "interface_id": "calib_01",
+  "fase": "calibracao",
+  "fonte": "autor",
+  "descricao": "Etapa de pagamento de um pedido, em estado de espera",
+  "arquivo_ou_url": "interfaces/calibracao/calib_01.html",
+  "violacoes_gabarito": [
+    {
+      "id": "calib_01_v1",
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "severity": 3,
+      "location": "painel de pagamento",
+      "description": "Painel mostra apenas um indicador de carregamento e um botão desabilitado, sem texto que diga o que está acontecendo, quanto falta ou o que fazer.",
+      "papel": "violacao_central"
+    }
+  ]
+}

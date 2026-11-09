@@ -1,0 +1,6 @@
+configuracao,origem,n_fluxos,n_celulas,precision,recall,f1,vp,fp,fn,vn,kappa_todas_celulas,kappa_somente_vp,spearman
+hibrido,todos,2,20,0.9500,1.0000,0.9744,19,1,0,0,0.1104,-0.0440,0.0310
+hibrido,llm,2,20,0.9500,1.0000,0.9744,19,1,0,0,-0.0526,-0.1359,-0.2907
+hibrido,motor_de_regras,2,20,0.9375,0.7895,0.8571,15,1,4,0,0.0756,0.0000,0.1343
+regras,todos,2,20,0.9375,0.7895,0.8571,15,1,4,0,0.0070,-0.0616,-0.0729
+llm,todos,2,20,0.9500,1.0000,0.9744,19,1,0,0,-0.0287,-0.1279,-0.2637

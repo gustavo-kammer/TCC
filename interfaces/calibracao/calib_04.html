@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meus pedidos — Feirinha</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="#">
+        <span class="brand__mark" aria-hidden="true"></span>
+        Feirinha
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#">Catálogo</a>
+        <a href="#" aria-current="page">Pedidos</a>
+        <a href="#">Ajuda</a>
+        <a href="#">Minha conta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container stack">
+    <nav class="breadcrumb" aria-label="Você está em">
+    <ol>
+      <li><a href="#">Início</a></li>
+      <li aria-current="page">Meus pedidos</li>
+    </ol>
+    </nav>
+    <h1>Meus pedidos</h1>
+    <section aria-labelledby="andamento" class="stack-sm">
+      <h4 id="andamento">Em andamento</h4>
+      <div class="grid">
+        <article class="card order">
+          <div class="order__head"><span class="order__title">Pedido #4821</span><span class="badge">A caminho</span></div>
+          <p class="muted small">27/09/2026 · 3 itens</p>
+          <p><strong>R$ 28,10</strong></p>
+        </article>
+        <article class="card order">
+          <div class="order__head"><span class="order__title">Pedido #4817</span><span class="badge">Em separação</span></div>
+          <p class="muted small">26/09/2026 · 5 itens</p>
+          <p><strong>R$ 47,60</strong></p>
+        </article>
+      </div>
+    </section>
+    <section aria-labelledby="concluidos" class="stack-sm">
+      <h4 id="concluidos">Concluídos</h4>
+      <div class="grid">
+        <article class="card order">
+          <div class="order__head"><span class="order__title">Pedido #4790</span><span class="badge">Entregue</span></div>
+          <p class="muted small">20/09/2026 · 4 itens</p>
+          <p><strong>R$ 36,30</strong></p>
+        </article>
+        <article class="card order">
+          <div class="order__head"><span class="order__title">Pedido #4766</span><span class="badge">Entregue</span></div>
+          <p class="muted small">13/09/2026 · 2 itens</p>
+          <p><strong>R$ 15,80</strong></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© 2026 Feirinha</p>
+      <ul>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Privacidade</a></li>
+        <li><a href="#">Fale conosco</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

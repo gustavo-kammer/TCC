@@ -1,0 +1,89 @@
+{
+  "versao": "v2",
+  "inicio": "2026-11-05T08:34:17-03:00",
+  "argumentos": {
+    "cmd": "oficial",
+    "ids": [],
+    "sites": "sites_v2_curado.json",
+    "versao": "v2",
+    "orcamento": null,
+    "sem_captura": true,
+    "runs": 3,
+    "sim": false,
+    "continuar": true,
+    "func": "<function cmd_oficial at 0x0000021577C26FC0>"
+  },
+  "python": "3.13.2",
+  "sistema": "Windows-11-10.0.26200-SP0",
+  "sites_json": "sites_v2_curado.json",
+  "sites_json_sha256": "0b75c8ce2def9fe2757198f9c72c3df72736012e91dcfcbea609d4d581767927",
+  "etapas": [
+    {
+      "etapa": "2/7 validação das capturas",
+      "inicio": "2026-11-05T08:34:17-03:00",
+      "status": "ok",
+      "duracao_s": 36.7
+    },
+    {
+      "etapa": "3/7 estimativa e confirmação",
+      "inicio": "2026-11-05T08:34:54-03:00",
+      "status": "ok",
+      "duracao_s": 4.3
+    },
+    {
+      "etapa": "4/7 inspeção (3 configurações x execuções)",
+      "inicio": "2026-11-05T08:34:58-03:00",
+      "status": "ok",
+      "duracao_s": 5389.9
+    },
+    {
+      "etapa": "5/7 (juiz) casamento por juiz LLM",
+      "inicio": "2026-11-05T10:21:47-03:00",
+      "status": "erro: ModuleNotFoundError: No module named 'openpyxl'",
+      "duracao_s": 641.0
+    },
+    {
+      "etapa": "5/7 (juiz) casamento por juiz LLM",
+      "inicio": "2026-11-05T10:35:10-03:00",
+      "status": "ok",
+      "duracao_s": 4.4
+    },
+    {
+      "etapa": "6/7 análises e planilha consolidada",
+      "inicio": "2026-11-05T10:35:15-03:00",
+      "status": "ok",
+      "duracao_s": 17.5
+    },
+    {
+      "etapa": "7/7 confiabilidade, amostra de auditoria e relatórios",
+      "inicio": "2026-11-05T10:35:32-03:00",
+      "status": "ok",
+      "duracao_s": 57.3
+    }
+  ],
+  "capturas": {
+    "p12": {
+      "validos": 88,
+      "esperados": 88,
+      "pasta": "RAIZ_DO_PROJETO\\coletas_v2\\p12\\20261104",
+      "coletado_em": "2026-11-04T23:57:41-03:00"
+    },
+    "p13": {
+      "validos": 12,
+      "esperados": 12,
+      "pasta": "RAIZ_DO_PROJETO\\coletas_v2\\p13\\20261104",
+      "coletado_em": "2026-11-04T23:43:45-03:00"
+    }
+  },
+  "estimativa": {
+    "fluxos": 2,
+    "estados": 100,
+    "fatias": 102,
+    "chamadas_inspecao": 600,
+    "chamadas_juiz": 18,
+    "imagens_enviadas_inspecao": 612
+  },
+  "fim": "2026-11-05T10:04:48-03:00",
+  "juiz_inicio": "2026-11-05T10:34:57-03:00",
+  "juiz_fim": "2026-11-05T10:36:29-03:00"
+}

@@ -1,0 +1,437 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256_execucoes": [
+      "735b1b89ab6c5680dae12601478910d3c1b9f9cb5320924f5be98bbd9204d634",
+      "735b1b89ab6c5680dae12601478910d3c1b9f9cb5320924f5be98bbd9204d634",
+      "735b1b89ab6c5680dae12601478910d3c1b9f9cb5320924f5be98bbd9204d634"
+    ],
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:36:05-03:00",
+    "configuracao": "llm",
+    "run_ids": [
+      0,
+      1,
+      2
+    ],
+    "n_execucoes": 3,
+    "agregacao": "mediana por célula; empate (n par) = nível mais severo"
+  },
+  "flow_id": "calib_08",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_08.html",
+  "tarefa": null,
+  "pasta": null,
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        2,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          2,
+          0
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H03_controle_e_liberdade_do_usuario",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão \"Excluir conta\"",
+          "description": "Não há indicação de que a exclusão da conta possa ser cancelada ou desfeita, nem de que haverá etapa de confirmação.",
+          "justification": "A ação de exclusão é apresentada como botão direto, sem aviso de consequências, prazo de reversão ou saída clara; também não há botão \"Cancelar\" ao lado do formulário para descartar edições.",
+          "recommendation": "Abrir diálogo de confirmação com explicação das consequências e opção de cancelar; considerar período de recuperação da conta e incluir \"Cancelar\" no formulário de edição.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H04_consistencia_e_padronizacao": {
+      "nota": 2,
+      "notas_execucoes": [
+        2,
+        2,
+        3
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          2,
+          2,
+          3
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Excluir conta'",
+          "description": "A ação destrutiva usa o mesmo estilo do botão primário, contrariando a convenção de sinalizar exclusão com cor de alerta.",
+          "justification": "Na captura, 'Excluir conta' e 'Salvar alterações' compartilham o mesmo verde de marca; usuários esperam que ações de exclusão tenham aparência distinta (vermelho ou estilo secundário), e dois botões primários competem pela hierarquia.",
+          "recommendation": "Manter um único botão primário ('Salvar alterações') e aplicar estilo de perigo ou secundário ao 'Excluir conta', conforme o design system.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botões \"Salvar alterações\" e \"Excluir conta\"",
+          "description": "Ação primária e ação destrutiva usam o mesmo padrão visual, contrariando a convenção de hierarquia e de cor para ações de exclusão.",
+          "justification": "Convenções da web usam um botão primário destacado para a ação principal e vermelho ou estilo secundário para exclusão. Aqui ambos têm peso visual igual, o que não deixa claro qual é a ação principal da tela.",
+          "recommendation": "Manter \"Salvar alterações\" como botão primário e aplicar a \"Excluir conta\" um estilo destrutivo consistente com o restante do sistema.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botões 'Salvar alterações' e 'Excluir conta'",
+          "description": "A ação destrutiva usa o mesmo estilo visual do botão primário, quebrando a convenção de diferenciar ações perigosas.",
+          "justification": "Convenções da plataforma associam ações destrutivas a cor de alerta (vermelho) ou estilo secundário; aqui os dois botões têm mesma cor e peso, sugerindo equivalência de importância e natureza.",
+          "recommendation": "Manter 'Salvar alterações' como ação primária e restilizar 'Excluir conta' como botão secundário/contorno ou vermelho de perigo.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "nota": 3,
+      "notas_execucoes": [
+        3,
+        3,
+        4
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          3,
+          3,
+          4
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botões de ação abaixo do formulário ('Salvar alterações' e 'Excluir conta')",
+          "description": "O botão destrutivo 'Excluir conta' está colado ao botão 'Salvar alterações', com aparência idêntica.",
+          "justification": "Ambos os botões são verdes preenchidos, do mesmo tamanho e separados por apenas ~12px. Uma ação irreversível sem distinção visual nem distanciamento aumenta muito a chance de clique acidental, sobretudo ao tentar salvar o formulário.",
+          "recommendation": "Diferenciar 'Excluir conta' como ação destrutiva (botão secundário/contorno em vermelho ou link de texto), afastá-lo de 'Salvar alterações' ou movê-lo para uma seção separada 'Zona de risco', e exigir confirmação explícita antes de excluir.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Grupo de botões abaixo do formulário (\"Salvar alterações\" e \"Excluir conta\")",
+          "description": "A ação destrutiva \"Excluir conta\" fica ao lado de \"Salvar alterações\" com o mesmo estilo, tamanho e cor, sem distinção visual.",
+          "justification": "Os dois botões são verdes preenchidos, quase idênticos e separados por poucos pixels; um clique impreciso ou apressado pode excluir a conta, ação irreversível, em vez de salvar. Nada sinaliza o risco da exclusão.",
+          "recommendation": "Diferenciar a ação destrutiva (botão secundário com contorno ou texto em vermelho), separá-la do botão de salvar ou movê-la para uma seção própria \"Zona de risco\", e exigir confirmação explícita antes de excluir.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 4,
+          "criticality_index": 3.0,
+          "severity_original": 4,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Excluir conta' ao lado de 'Salvar alterações'",
+          "description": "A ação destrutiva de excluir a conta está lado a lado com o botão de salvar, com estilo idêntico e sem aviso das consequências.",
+          "justification": "Ambos os botões são verdes preenchidos, do mesmo tamanho, separados por apenas ~12px. Um clique impreciso ou por hábito pode disparar uma ação irreversível, e nada na tela indica confirmação ou salvaguarda.",
+          "recommendation": "Separar visualmente o botão de exclusão (estilo secundário/perigo em vermelho, afastado ou em uma seção 'Zona de perigo') e exigir diálogo de confirmação explicando as consequências, com opção de cancelar.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        1
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          1
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H10_ajuda_e_documentacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Formulário de perfil",
+          "description": "Não há texto de apoio sobre o efeito de alterar o e-mail ou de excluir a conta.",
+          "justification": "Alterar o e-mail pode afetar login e notificações, e a exclusão pode apagar pedidos; a tela não oferece nenhuma explicação contextual nem link de ajuda próximo.",
+          "recommendation": "Adicionar texto de apoio breve abaixo do campo de e-mail e perto do botão de exclusão, com link para a Ajuda.",
+          "revision_rationale": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+ "totais": {
+  "hibrido": {
+   "achados_llm": 716,
+   "com_par": 29,
+   "sem_par": 687
+  },
+  "llm": {
+   "achados_llm": 841,
+   "com_par": 34,
+   "sem_par": 807
+  }
+ },
+ "amostra": 172
+}

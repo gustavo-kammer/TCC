@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pagamento com cartão — Feirinha</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="#">
+        <span class="brand__mark" aria-hidden="true"></span>
+        Feirinha
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#">Catálogo</a>
+        <a href="#">Pedidos</a>
+        <a href="#">Ajuda</a>
+        <a href="#">Minha conta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container stack">
+    <nav class="breadcrumb" aria-label="Você está em">
+    <ol>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Carrinho</a></li>
+      <li aria-current="page">Pagamento</li>
+    </ol>
+    </nav>
+    <h1>Pagamento</h1>
+    <ol class="stepper" aria-label="Etapas do pedido">
+      <li>Carrinho</li>
+      <li>Entrega</li>
+      <li aria-current="step">Pagamento</li>
+      <li>Confirmação</li>
+    </ol>
+    <div class="two-col">
+      <section class="stack-sm" aria-labelledby="cartao">
+        <h2 id="cartao">Pagamento com cartão</h2>
+        <div class="alert alert--error" role="alert">
+          <div class="stack-sm">
+            <p class="alert__title">Erro 500</p>
+            <p>Falha inesperada. (cód. 0x80070057)</p>
+          </div>
+        </div>
+      </section>
+      <aside class="card stack-sm" aria-labelledby="resumo">
+        <h2 id="resumo">Resumo do pedido</h2>
+        <dl class="summary">
+          <dt>Tomate italiano, 1 kg</dt><dd>R$ 8,90</dd>
+          <dt>Alface crespa, 2 un</dt><dd>R$ 7,00</dd>
+          <dt>Banana-prata, 1 kg</dt><dd>R$ 6,20</dd>
+          <dt>Entrega</dt><dd>R$ 6,00</dd>
+          <dt class="total">Total</dt><dd class="total">R$ 28,10</dd>
+        </dl>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© 2026 Feirinha</p>
+      <ul>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Privacidade</a></li>
+        <li><a href="#">Fale conosco</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

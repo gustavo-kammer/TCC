@@ -1,0 +1,119 @@
+{
+ "limiar_principal": 0.5,
+ "por_config": {
+  "hibrido": {
+   "0.4": {
+    "execucoes": 3,
+    "achados": 5039,
+    "grupos": 2328,
+    "distribuicao_tamanho": {
+     "1": 809,
+     "2": 327,
+     "3": 1192
+    },
+    "achados_reproduzidos": 0.8394522722762453,
+    "grupos_em_todas_execucoes": 0.5120274914089347
+   },
+   "0.5": {
+    "execucoes": 3,
+    "achados": 5039,
+    "grupos": 2539,
+    "distribuicao_tamanho": {
+     "1": 1143,
+     "2": 292,
+     "3": 1104
+    },
+    "achados_reproduzidos": 0.773169279618972,
+    "grupos_em_todas_execucoes": 0.4348168570303269
+   },
+   "0.6": {
+    "execucoes": 3,
+    "achados": 5039,
+    "grupos": 2763,
+    "distribuicao_tamanho": {
+     "1": 1513,
+     "2": 224,
+     "3": 1026
+    },
+    "achados_reproduzidos": 0.6997420123040285,
+    "grupos_em_todas_execucoes": 0.3713355048859935
+   }
+  },
+  "regras": {
+   "0.4": {
+    "execucoes": 3,
+    "achados": 2877,
+    "grupos": 959,
+    "distribuicao_tamanho": {
+     "1": 0,
+     "2": 0,
+     "3": 959
+    },
+    "achados_reproduzidos": 1.0,
+    "grupos_em_todas_execucoes": 1.0
+   },
+   "0.5": {
+    "execucoes": 3,
+    "achados": 2877,
+    "grupos": 959,
+    "distribuicao_tamanho": {
+     "1": 0,
+     "2": 0,
+     "3": 959
+    },
+    "achados_reproduzidos": 1.0,
+    "grupos_em_todas_execucoes": 1.0
+   },
+   "0.6": {
+    "execucoes": 3,
+    "achados": 2877,
+    "grupos": 959,
+    "distribuicao_tamanho": {
+     "1": 0,
+     "2": 0,
+     "3": 959
+    },
+    "achados_reproduzidos": 1.0,
+    "grupos_em_todas_execucoes": 1.0
+   }
+  },
+  "llm": {
+   "0.4": {
+    "execucoes": 3,
+    "achados": 2543,
+    "grupos": 1553,
+    "distribuicao_tamanho": {
+     "1": 881,
+     "2": 354,
+     "3": 318
+    },
+    "achados_reproduzidos": 0.6535587888320881,
+    "grupos_em_todas_execucoes": 0.20476497102382485
+   },
+   "0.5": {
+    "execucoes": 3,
+    "achados": 2543,
+    "grupos": 1783,
+    "distribuicao_tamanho": {
+     "1": 1225,
+     "2": 356,
+     "3": 202
+    },
+    "achados_reproduzidos": 0.5182854895792371,
+    "grupos_em_todas_execucoes": 0.11329220415030847
+   },
+   "0.6": {
+    "execucoes": 3,
+    "achados": 2543,
+    "grupos": 2039,
+    "distribuicao_tamanho": {
+     "1": 1640,
+     "2": 294,
+     "3": 105
+    },
+    "achados_reproduzidos": 0.3550924105387338,
+    "grupos_em_todas_execucoes": 0.051495831289847964
+   }
+  }
+ }
+}

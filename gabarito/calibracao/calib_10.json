@@ -1,0 +1,17 @@
+{
+  "interface_id": "calib_10",
+  "fase": "calibracao",
+  "fonte": "autor",
+  "descricao": "Configuração de entrega recorrente sem ajuda contextual",
+  "arquivo_ou_url": "interfaces/calibracao/calib_10.html",
+  "violacoes_gabarito": [
+    {
+      "id": "calib_10_v1",
+      "heuristic": "H10_ajuda_e_documentacao",
+      "severity": 2,
+      "location": "formulário de cesta recorrente",
+      "description": "Campos de decisão não óbvia (substituição, limite de variação, crédito) não têm explicação contextual nem link de ajuda, deixando o usuário sem como entender as consequências da escolha.",
+      "papel": "violacao_central"
+    }
+  ]
+}

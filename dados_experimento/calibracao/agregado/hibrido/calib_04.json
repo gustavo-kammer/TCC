@@ -1,0 +1,593 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256_execucoes": [
+      "6ab65318d9c11cccedbbf95d0734785a5ebd9197bd52d63c026658f281e34ad0",
+      "6ab65318d9c11cccedbbf95d0734785a5ebd9197bd52d63c026658f281e34ad0",
+      "6ab65318d9c11cccedbbf95d0734785a5ebd9197bd52d63c026658f281e34ad0"
+    ],
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:28:55-03:00",
+    "configuracao": "hibrido",
+    "run_ids": [
+      0,
+      1,
+      2
+    ],
+    "n_execucoes": 3,
+    "agregacao": "mediana por célula; empate (n par) = nível mais severo"
+  },
+  "flow_id": "calib_04",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_04.html",
+  "tarefa": null,
+  "pasta": null,
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "nota": 2,
+      "notas_execucoes": [
+        2,
+        2,
+        2
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          2,
+          2,
+          2
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Selos de status (A caminho, Em separação, Entregue)",
+          "description": "Todos os estados usam o mesmo selo verde-claro, sem diferenciação visual nem informação de previsão de entrega.",
+          "justification": "Na captura, \"A caminho\", \"Em separação\" e \"Entregue\" têm a mesma cor e formato; só o texto distingue o estado. Para pedidos em andamento falta informação como previsão de chegada ou etapa do processo, o que limita a percepção do progresso.",
+          "recommendation": "Diferenciar os estados por cor e ícone (sem depender só da cor) e acrescentar previsão de entrega ou indicador de etapa nos pedidos em andamento.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões em \"Em andamento\" (#4821 e #4817)",
+          "description": "Os pedidos em andamento mostram só o rótulo de status, sem previsão de entrega nem progresso.",
+          "justification": "\"A caminho\" e \"Em separação\" informam a etapa atual, mas não quando o pedido chega nem quais etapas faltam; o usuário que acompanha uma entrega fica sem a informação principal e a data exibida é a de criação.",
+          "recommendation": "Exibir previsão de entrega (ex.: \"Chega hoje até 18h\") e um indicador de progresso das etapas nos pedidos em andamento.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Selos de status",
+          "description": "Todos os status usam o mesmo selo verde claro, sem diferença visual entre pedido em andamento e entregue.",
+          "justification": "\"A caminho\", \"Em separação\" e \"Entregue\" têm cor e forma idênticas; o usuário precisa ler o texto para distinguir, e a separação em seções é a única pista visual do estado.",
+          "recommendation": "Diferenciar os estados por cor e ícone (ex.: âmbar/azul para andamento, verde para entregue), mantendo o texto.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões \"Em andamento\" (selos \"A caminho\" e \"Em separação\")",
+          "description": "O status do pedido em andamento é só um selo de texto, sem previsão de entrega nem indicação de progresso.",
+          "justification": "Para pedidos \"A caminho\" e \"Em separação\", o usuário quer saber quando chegam. O cartão mostra apenas a data do pedido e o selo verde-claro de baixo contraste, idêntico em estilo ao de \"Entregue\", então estados distintos têm a mesma aparência e não há horário estimado nem etapas.",
+          "recommendation": "Exibir previsão de entrega e uma barra ou linha de etapas (separação, a caminho, entregue). Diferenciar por cor e ícone os estados em andamento dos concluídos.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        1
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          1
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H02_correspondencia_sistema_mundo_real",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Linha de metadados dos cartões (\"27/09/2026 · 3 itens\")",
+          "description": "A data não tem rótulo, então não fica claro se é a data do pedido ou da entrega.",
+          "justification": "A linha mostra apenas \"27/09/2026 · 3 itens\". Em pedidos em andamento, o usuário pode ler a data como previsão de entrega. Além disso, o número do pedido (#4821) é a única identificação, sem descrição do conteúdo (ex.: principais produtos).",
+          "recommendation": "Rotular a data (\"Feito em 27/09/2026\", \"Entrega prevista...\") e, se possível, mostrar uma prévia dos itens.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "nota": 2,
+      "notas_execucoes": [
+        2,
+        2,
+        2
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 1,
+        "llm": 2
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          1,
+          1,
+          1
+        ],
+        "llm": [
+          2,
+          2,
+          2
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões \"Pedido #4821\" e \"Pedido #4817\" (selo de status)",
+          "description": "O selo de status tem posição e tamanho diferentes entre os dois cartões em andamento: \"A caminho\" fica ao lado do título e mais alto, \"Em separação\" fica abaixo do título.",
+          "justification": "Os selos de #4821 e #4817 estão em posições distintas, e a data e o valor ficam em alturas diferentes entre os dois cartões, o que quebra o alinhamento da grelha e dificulta comparar os pedidos. Nos cartões concluídos, o selo fica ao lado do título.",
+          "recommendation": "Padronizar o componente de cartão: selo sempre na mesma posição, com mesma altura e espaçamento interno, e alinhar data e valor entre cartões da mesma linha.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 1,
+          "criticality_index": 1.0,
+          "severity_original": 2,
+          "severity_revised": 1,
+          "source": "motor_de_regras",
+          "confidence": 1.0,
+          "location": "<h4> \"Em andamento\"",
+          "description": "Salto na hierarquia de títulos: <h1> seguido diretamente de <h4>.",
+          "justification": "Pular níveis de heading quebra a estrutura esperada do documento, prejudicando a consistência e a navegação por leitores de tela.",
+          "recommendation": "Usar <h2> no lugar de <h4> ou reorganizar a hierarquia sem saltos.",
+          "revision_rationale": "Visualmente \"Em andamento\" e \"Concluídos\" aparecem como subtítulos coerentes e bem hierarquizados abaixo do título principal; o salto h1→h4 afeta sobretudo a navegação por leitores de tela e é de baixo impacto, sendo facilmente corrigível. Reduzo de 2 para 1."
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Selos de status nos cartões de \"Em andamento\"",
+          "description": "O selo \"A caminho\" fica alto e desalinhado ao lado do título, enquanto \"Em separação\" quebra para uma linha abaixo, e os cartões ficam com layouts internos distintos.",
+          "justification": "Na captura, o selo \"A caminho\" tem altura maior e posição diferente dos selos \"Entregue\", e \"Em separação\" aparece abaixo do número do pedido, alterando o espaçamento de data e valor entre cartões vizinhos. Isso quebra o padrão visual e dificulta a comparação.",
+          "recommendation": "Padronizar o componente de selo (altura, alinhamento e posição) para todos os cartões, com layout fixo para título, status, data e valor.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 1,
+          "criticality_index": 1.0,
+          "severity_original": 2,
+          "severity_revised": 1,
+          "source": "motor_de_regras",
+          "confidence": 1.0,
+          "location": "<h4> \"Em andamento\"",
+          "description": "Salto na hierarquia de títulos: <h1> seguido diretamente de <h4>.",
+          "justification": "Pular níveis de heading quebra a estrutura esperada do documento, prejudicando a consistência e a navegação por leitores de tela.",
+          "recommendation": "Usar <h2> no lugar de <h4> ou reorganizar a hierarquia sem saltos.",
+          "revision_rationale": "O salto de h1 para h4 é um problema de estrutura, mas visualmente os subtítulos \"Em andamento\" e \"Concluídos\" têm tamanho e peso coerentes, aparecem claramente subordinados ao título e a página é curta; o impacto percebido é cosmético (afeta sobretudo leitores de tela)."
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões \"Em andamento\" – selos de status",
+          "description": "A disposição interna dos cartões é inconsistente: o selo \"A caminho\" fica ao lado do título e maior que os demais, enquanto \"Em separação\" fica abaixo do título.",
+          "justification": "No pedido #4821 o selo está na linha do título e com altura maior, e no #4817 desce para a linha seguinte, com espaçamentos verticais diferentes entre data e valor. Nos concluídos o selo fica ao lado do título. A posição variável do status dificulta a leitura rápida e passa impressão de falta de acabamento.",
+          "recommendation": "Padronizar o componente de cartão: selo sempre na mesma posição e com o mesmo tamanho, com espaçamentos idênticos entre título, data e valor.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 1,
+          "criticality_index": 1.0,
+          "severity_original": 2,
+          "severity_revised": 1,
+          "source": "motor_de_regras",
+          "confidence": 1.0,
+          "location": "<h4> \"Em andamento\"",
+          "description": "Salto na hierarquia de títulos: <h1> seguido diretamente de <h4>.",
+          "justification": "Pular níveis de heading quebra a estrutura esperada do documento, prejudicando a consistência e a navegação por leitores de tela.",
+          "recommendation": "Usar <h2> no lugar de <h4> ou reorganizar a hierarquia sem saltos.",
+          "revision_rationale": "Visualmente, \"Em andamento\" e \"Concluídos\" têm destaque proporcional e aparecem logo abaixo do h1, então a hierarquia é percebida corretamente. O salto h1→h4 afeta sobretudo a navegação por leitores de tela e é de baixo impacto para a maioria dos usuários, o que sustenta severidade cosmética."
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "nota": 0,
+      "notas_execucoes": [
+        2,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          2,
+          0,
+          0
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido (título e resumo)",
+          "description": "Os pedidos são identificados apenas por número, data, quantidade de itens e valor, sem indicar o que foi comprado.",
+          "justification": "Para reconhecer um pedido, o usuário precisa lembrar o que comprou em \"Pedido #4790\" ou \"3 itens\"; nenhum nome de produto, loja ou foto aparece no cartão.",
+          "recommendation": "Exibir um resumo dos itens (ex.: \"Banana, tomate e mais 1\") ou miniaturas dos produtos no cartão.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "nota": 3,
+      "notas_execucoes": [
+        3,
+        2,
+        3
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          3,
+          2,
+          3
+        ]
+      },
+      "origens": [
+        "llm"
+      ],
+      "violacoes": [
+        {
+          "run_id": 0,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido (Em andamento e Concluídos)",
+          "description": "Os cartões de pedido não exibem nenhuma ação ou indicação de clique, como \"Ver detalhes\", \"Acompanhar entrega\" ou \"Pedir novamente\".",
+          "justification": "Na captura, os cartões mostram só número, status, data, itens e valor, sem botões, links ou setas. O usuário não sabe se pode abrir o pedido, ver os itens ou rastrear a entrega do pedido \"A caminho\". Quem recompra com frequência não tem atalho como \"Pedir novamente\" nos pedidos concluídos.",
+          "recommendation": "Tornar o cartão inteiro clicável com indicação visual (seta, hover) e incluir ações diretas: \"Acompanhar entrega\" nos pedidos em andamento e \"Pedir novamente\" / \"Ver detalhes\" nos concluídos.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido (todos)",
+          "description": "Os cartões de pedido não oferecem ações como \"Ver detalhes\", \"Acompanhar entrega\" ou \"Pedir novamente\" nem indicam que são clicáveis.",
+          "justification": "Cada cartão mostra apenas número, status, data, itens e valor, sem botão, link ou seta. O usuário que compra com frequência não tem atalho para repetir uma compra, e não fica claro como ver quais itens compõem o pedido.",
+          "recommendation": "Tornar o cartão clicável com affordance visível (link \"Ver detalhes\") e incluir ações rápidas, como \"Acompanhar\" nos pedidos em andamento e \"Pedir novamente\" nos concluídos.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 1,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Área da lista, abaixo do título \"Meus pedidos\"",
+          "description": "Não há busca, filtro por período nem paginação para o histórico de pedidos.",
+          "justification": "Hoje são quatro pedidos, mas a lista é cronológica e tende a crescer; sem busca ou filtro, o usuário recorrente teria de rolar para achar um pedido antigo.",
+          "recommendation": "Adicionar busca por número de pedido e filtro por período/status, além de paginação ou carregamento incremental na seção \"Concluídos\".",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido (Em andamento e Concluídos)",
+          "description": "Os cartões de pedido não mostram nenhuma ação (ver detalhes, acompanhar entrega, comprar de novo) nem indicam que são clicáveis.",
+          "justification": "Cada cartão traz apenas número, status, data, itens e valor. Não há botão, link ou seta, nem atalho como \"Comprar de novo\" para quem repete compras. O usuário não sabe como ver o conteúdo do pedido ou rastrear a entrega, e o usuário recorrente não tem caminho rápido para refazer um pedido.",
+          "recommendation": "Tornar o cartão inteiro clicável com indicação visual (seta, hover, link \"Ver detalhes\") e incluir ações contextuais: \"Acompanhar entrega\" nos pedidos em andamento e \"Comprar de novo\" nos concluídos.",
+          "revision_rationale": null
+        },
+        {
+          "run_id": 2,
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Área da lista de pedidos",
+          "description": "Não há busca nem filtro por período ou status.",
+          "justification": "A lista tem hoje poucos pedidos, mas o histórico tende a crescer e o usuário frequente precisaria rolar para achar um pedido antigo. Nada na página oferece esse recurso.",
+          "recommendation": "Adicionar busca por número do pedido e filtros por período e status quando o histórico crescer.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H07_design_estetico_e_minimalista": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "nota": 0,
+      "notas_execucoes": [
+        0,
+        0,
+        0
+      ],
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "notas_por_origem_execucoes": {
+        "motor_de_regras": [
+          0,
+          0,
+          0
+        ],
+        "llm": [
+          0,
+          0,
+          0
+        ]
+      },
+      "origens": [],
+      "violacoes": []
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "interface_id": "calib_06",
+  "fase": "calibracao",
+  "fonte": "autor",
+  "descricao": "Histórico longo de compras sem recursos de busca ou filtro",
+  "arquivo_ou_url": "interfaces/calibracao/calib_06.html",
+  "violacoes_gabarito": [
+    {
+      "id": "calib_06_v1",
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "severity": 1,
+      "location": "tabela de histórico",
+      "description": "Lista de 212 compras sem busca, filtro por período nem ordenação; o único caminho para achar uma compra antiga é carregar mais linhas de 12 em 12.",
+      "papel": "violacao_central"
+    }
+  ]
+}

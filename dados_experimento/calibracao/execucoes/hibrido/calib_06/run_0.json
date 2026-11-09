@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "hibrido",
+    "prompt_sha256": "40d88d942b12fc2af35936849573972385f54b206607a49f57bcf2f0954d016e",
+    "regras_versao": "083ac2f2b37f6b508004e5a80a24e0c506f81b73ff6778503bc81a410c6a88e0",
+    "data_hora": "2026-10-29T21:31:23-03:00",
+    "configuracao": "hibrido",
+    "run_id": 0
+  },
+  "flow_id": "calib_06",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_06.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_06.html",
+      "n_fatias": 2,
+      "prompt_sha256": "fcf5ffb767aa733b469b8d667adb7d0de148e965fb80f3ae56fb8bbac4883d7f",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_06.html",
+        "total_violations": 6,
+        "count_by_severity": {
+          "3": 3,
+          "2": 1,
+          "1": 2
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Linhas da tabela (Data, Pedido, Banca, Itens, Total)",
+            "description": "As linhas de pedido não têm ação visível para abrir o detalhe ou repetir a compra.",
+            "justification": "Nenhuma linha traz link, seta, botão ou destaque de clique; o número do pedido (#4821) aparece como texto comum. Quem consulta o histórico quer ver o que comprou, conferir o recibo ou refazer o pedido, e nada na tela indica como.",
+            "recommendation": "Transformar o número do pedido ou a linha inteira em link para o detalhe, com affordance visível (sublinhado, seta ou botão 'Ver detalhes'), e oferecer a ação 'Comprar novamente'.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Ver mais 12' abaixo da tabela",
+            "description": "Para chegar a compras antigas é preciso carregar a lista de 12 em 12, até cerca de 17 vezes para os 212 registros.",
+            "justification": "O contador 'Mostrando 12 de 212 compras' deixa claro que há muitos registros, mas o único meio de avançar é o botão incremental, sem salto por período, paginação numerada ou carregamento de mais itens por vez.",
+            "recommendation": "Adicionar filtro por período e por banca, e permitir escolher a quantidade por página ou usar paginação numerada com salto direto.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+            "severity_effective": 3,
+            "criticality_index": 1.8,
+            "severity_original": 1,
+            "severity_revised": 3,
+            "source": "motor_de_regras",
+            "confidence": 0.6,
+            "location": "tabela",
+            "description": "Lista/tabela longa sem busca, filtro ou ordenação.",
+            "justification": "Sem aceleradores, o usuário experiente precisa percorrer todos os itens para achar um.",
+            "recommendation": "Oferecer busca, filtros e ordenação por colunas.",
+            "revision_rationale": "O visual agrava o problema: são 212 compras, só 12 visíveis, e a única forma de avançar é 'Ver mais 12' repetidamente, sem busca, filtro nem ordenação. Para quem quer achar um pedido antigo ou de uma banca específica, o custo é alto e frequente, então a severidade 1 está subestimada."
+          },
+          {
+            "rank": 4,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Colunas 'Pedido' e 'Itens' da tabela",
+            "description": "O pedido é identificado só por número e contagem de itens, sem indicar o que foi comprado.",
+            "justification": "Valores como '#4821' e '3' obrigam o usuário a lembrar o conteúdo de cada compra. Para reconhecer um pedido, ele só tem a data, a banca e o total.",
+            "recommendation": "Mostrar um resumo dos itens (por exemplo, 'Tomate, alface e cenoura') ou permitir expandir a linha para ver os produtos sem sair da lista.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 5,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Ver mais 12' e contador 'Mostrando 12 de 212 compras'",
+            "description": "O botão não informa quantos registros restam e o contador fica no topo, longe do botão, sem indicar progresso ao carregar mais.",
+            "justification": "O rótulo fixo 'Ver mais 12' é impreciso quando restarem menos de 12, e o contador, afastado do botão, pode sair de vista conforme a lista cresce.",
+            "recommendation": "Ajustar o rótulo dinamicamente (por exemplo, 'Ver mais 12 de 200 restantes'), repetir o contador perto do botão e dar feedback durante o carregamento.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 6,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Tabela de compras (sem coluna de status)",
+            "description": "Nenhuma compra indica seu status (entregue, cancelada, em andamento).",
+            "justification": "As colunas Data, Pedido, Banca, Itens e Total não permitem saber se uma compra foi concluída ou teve problema, algo esperado num histórico de pedidos.",
+            "recommendation": "Incluir uma coluna 'Status' com rótulo textual e cor de apoio.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Ver mais 12' e contador 'Mostrando 12 de 212 compras'",
+          "description": "O botão não informa quantos registros restam e o contador fica no topo, longe do botão, sem indicar progresso ao carregar mais.",
+          "justification": "O rótulo fixo 'Ver mais 12' é impreciso quando restarem menos de 12, e o contador, afastado do botão, pode sair de vista conforme a lista cresce.",
+          "recommendation": "Ajustar o rótulo dinamicamente (por exemplo, 'Ver mais 12 de 200 restantes'), repetir o contador perto do botão e dar feedback durante o carregamento.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Tabela de compras (sem coluna de status)",
+          "description": "Nenhuma compra indica seu status (entregue, cancelada, em andamento).",
+          "justification": "As colunas Data, Pedido, Banca, Itens e Total não permitem saber se uma compra foi concluída ou teve problema, algo esperado num histórico de pedidos.",
+          "recommendation": "Incluir uma coluna 'Status' com rótulo textual e cor de apoio.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Colunas 'Pedido' e 'Itens' da tabela",
+          "description": "O pedido é identificado só por número e contagem de itens, sem indicar o que foi comprado.",
+          "justification": "Valores como '#4821' e '3' obrigam o usuário a lembrar o conteúdo de cada compra. Para reconhecer um pedido, ele só tem a data, a banca e o total.",
+          "recommendation": "Mostrar um resumo dos itens (por exemplo, 'Tomate, alface e cenoura') ou permitir expandir a linha para ver os produtos sem sair da lista.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 3,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Linhas da tabela (Data, Pedido, Banca, Itens, Total)",
+          "description": "As linhas de pedido não têm ação visível para abrir o detalhe ou repetir a compra.",
+          "justification": "Nenhuma linha traz link, seta, botão ou destaque de clique; o número do pedido (#4821) aparece como texto comum. Quem consulta o histórico quer ver o que comprou, conferir o recibo ou refazer o pedido, e nada na tela indica como.",
+          "recommendation": "Transformar o número do pedido ou a linha inteira em link para o detalhe, com affordance visível (sublinhado, seta ou botão 'Ver detalhes'), e oferecer a ação 'Comprar novamente'.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Ver mais 12' abaixo da tabela",
+          "description": "Para chegar a compras antigas é preciso carregar a lista de 12 em 12, até cerca de 17 vezes para os 212 registros.",
+          "justification": "O contador 'Mostrando 12 de 212 compras' deixa claro que há muitos registros, mas o único meio de avançar é o botão incremental, sem salto por período, paginação numerada ou carregamento de mais itens por vez.",
+          "recommendation": "Adicionar filtro por período e por banca, e permitir escolher a quantidade por página ou usar paginação numerada com salto direto.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 1.8,
+          "severity_original": 1,
+          "severity_revised": 3,
+          "source": "motor_de_regras",
+          "confidence": 0.6,
+          "location": "tabela",
+          "description": "Lista/tabela longa sem busca, filtro ou ordenação.",
+          "justification": "Sem aceleradores, o usuário experiente precisa percorrer todos os itens para achar um.",
+          "recommendation": "Oferecer busca, filtros e ordenação por colunas.",
+          "revision_rationale": "O visual agrava o problema: são 212 compras, só 12 visíveis, e a única forma de avançar é 'Ver mais 12' repetidamente, sem busca, filtro nem ordenação. Para quem quer achar um pedido antigo ou de uma banca específica, o custo é alto e frequente, então a severidade 1 está subestimada."
+        }
+      ]
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    }
+  }
+}

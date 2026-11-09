@@ -1,0 +1,6937 @@
+{
+ "chave": "ac1336ef59a414a1a62ea20564b72a8f1fa7bd4fe5872e8a4e35000d25ee8165",
+ "juiz_modelo": "claude-opus-5-5",
+ "config": "regras",
+ "fluxo": "p12",
+ "run": 1,
+ "achados": [
+  {
+   "id": 1,
+   "estado": "x01_inicial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 2,
+   "estado": "x01_inicial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 3,
+   "estado": "x01_inicial",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 4,
+   "estado": "x01_inicial",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 5,
+   "estado": "x01_inicial",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 6,
+   "estado": "x01_inicial",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 7,
+   "estado": "x01_inicial",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 8,
+   "estado": "x01_inicial",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 9,
+   "estado": "x03_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 10,
+   "estado": "x03_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 11,
+   "estado": "x03_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 12,
+   "estado": "x03_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 13,
+   "estado": "x03_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 14,
+   "estado": "x03_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 15,
+   "estado": "x03_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 16,
+   "estado": "x03_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 17,
+   "estado": "x03_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 18,
+   "estado": "x04_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 19,
+   "estado": "x04_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 20,
+   "estado": "x04_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 21,
+   "estado": "x04_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 22,
+   "estado": "x04_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 23,
+   "estado": "x04_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 24,
+   "estado": "x04_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 25,
+   "estado": "x04_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 26,
+   "estado": "x04_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 27,
+   "estado": "x05_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 28,
+   "estado": "x05_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 29,
+   "estado": "x05_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 30,
+   "estado": "x05_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 31,
+   "estado": "x05_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 32,
+   "estado": "x05_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 33,
+   "estado": "x05_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 34,
+   "estado": "x05_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 35,
+   "estado": "x05_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 36,
+   "estado": "x06_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 37,
+   "estado": "x06_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 38,
+   "estado": "x06_div_menu_redirect",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 39,
+   "estado": "x06_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 40,
+   "estado": "x06_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 41,
+   "estado": "x06_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 42,
+   "estado": "x06_div_menu_redirect",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 43,
+   "estado": "x06_div_menu_redirect",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 44,
+   "estado": "x06_div_menu_redirect",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 45,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-1",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 46,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-2",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 47,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 48,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 49,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 50,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 51,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 52,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 53,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "input#input-2",
+   "descricao": "Campo de dado pessoal sem o atributo autocomplete."
+  },
+  {
+   "id": 54,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 55,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 56,
+   "estado": "x07_usuario_publico",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 57,
+   "estado": "x08_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 58,
+   "estado": "x08_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 59,
+   "estado": "x08_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 60,
+   "estado": "x08_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 61,
+   "estado": "x08_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 62,
+   "estado": "x08_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 63,
+   "estado": "x08_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 64,
+   "estado": "x08_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 65,
+   "estado": "x09_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 66,
+   "estado": "x09_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 67,
+   "estado": "x09_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 68,
+   "estado": "x09_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 69,
+   "estado": "x09_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 70,
+   "estado": "x09_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 71,
+   "estado": "x09_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 72,
+   "estado": "x09_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 73,
+   "estado": "x10_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 74,
+   "estado": "x10_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 75,
+   "estado": "x10_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 76,
+   "estado": "x10_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 77,
+   "estado": "x10_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 78,
+   "estado": "x10_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 79,
+   "estado": "x10_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 80,
+   "estado": "x10_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 81,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-1",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 82,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-2",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 83,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 84,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 85,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 86,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 87,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 88,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "input#input-2",
+   "descricao": "Campo de dado pessoal sem o atributo autocomplete."
+  },
+  {
+   "id": 89,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 90,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 91,
+   "estado": "x11_usuario_publico",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 92,
+   "estado": "x12_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 93,
+   "estado": "x12_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 94,
+   "estado": "x12_gestao_florestal",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 95,
+   "estado": "x12_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 96,
+   "estado": "x12_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 97,
+   "estado": "x12_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 98,
+   "estado": "x12_gestao_florestal",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 99,
+   "estado": "x12_gestao_florestal",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 100,
+   "estado": "x12_gestao_florestal",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 101,
+   "estado": "x13_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 102,
+   "estado": "x13_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 103,
+   "estado": "x13_recursos_hidricos",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 104,
+   "estado": "x13_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 105,
+   "estado": "x13_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 106,
+   "estado": "x13_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 107,
+   "estado": "x13_recursos_hidricos",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 108,
+   "estado": "x13_recursos_hidricos",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 109,
+   "estado": "x13_recursos_hidricos",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 110,
+   "estado": "x14_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 111,
+   "estado": "x14_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 112,
+   "estado": "x14_terras_indigenas",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 113,
+   "estado": "x14_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 114,
+   "estado": "x14_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 115,
+   "estado": "x14_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 116,
+   "estado": "x14_terras_indigenas",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 117,
+   "estado": "x14_terras_indigenas",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 118,
+   "estado": "x14_terras_indigenas",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 119,
+   "estado": "x15_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 120,
+   "estado": "x15_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 121,
+   "estado": "x15_divisao_geografica_1",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 122,
+   "estado": "x15_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 123,
+   "estado": "x15_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 124,
+   "estado": "x15_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 125,
+   "estado": "x15_divisao_geografica_1",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 126,
+   "estado": "x15_divisao_geografica_1",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 127,
+   "estado": "x15_divisao_geografica_1",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 128,
+   "estado": "x17_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 129,
+   "estado": "x17_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 130,
+   "estado": "x17_assentamentos",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "22 <img>",
+   "descricao": "22 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 131,
+   "estado": "x17_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 132,
+   "estado": "x17_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 133,
+   "estado": "x17_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 134,
+   "estado": "x17_assentamentos",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 135,
+   "estado": "x17_assentamentos",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 136,
+   "estado": "x17_assentamentos",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 137,
+   "estado": "x20_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 138,
+   "estado": "x20_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 139,
+   "estado": "x20_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 140,
+   "estado": "x20_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 141,
+   "estado": "x20_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 142,
+   "estado": "x20_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 143,
+   "estado": "x20_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 144,
+   "estado": "x20_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 145,
+   "estado": "x22_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 146,
+   "estado": "x22_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 147,
+   "estado": "x22_item",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 148,
+   "estado": "x22_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 149,
+   "estado": "x22_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 150,
+   "estado": "x22_item",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 151,
+   "estado": "x22_item",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 152,
+   "estado": "x22_item",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 153,
+   "estado": "x23_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 154,
+   "estado": "x23_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 155,
+   "estado": "x23_abrir_modal_principal",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 156,
+   "estado": "x23_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 157,
+   "estado": "x23_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 158,
+   "estado": "x23_abrir_modal_principal",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 159,
+   "estado": "x23_abrir_modal_principal",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 160,
+   "estado": "x23_abrir_modal_principal",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 161,
+   "estado": "x24_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 162,
+   "estado": "x24_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 163,
+   "estado": "x24_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 164,
+   "estado": "x24_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 165,
+   "estado": "x24_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 166,
+   "estado": "x24_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 167,
+   "estado": "x24_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 168,
+   "estado": "x24_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 169,
+   "estado": "x25_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 170,
+   "estado": "x25_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 171,
+   "estado": "x25_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 172,
+   "estado": "x25_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 173,
+   "estado": "x25_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 174,
+   "estado": "x25_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 175,
+   "estado": "x25_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 176,
+   "estado": "x25_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 177,
+   "estado": "x25_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 178,
+   "estado": "x26_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 179,
+   "estado": "x26_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 180,
+   "estado": "x26_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 181,
+   "estado": "x26_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 182,
+   "estado": "x26_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 183,
+   "estado": "x26_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 184,
+   "estado": "x26_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 185,
+   "estado": "x26_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 186,
+   "estado": "x27_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 187,
+   "estado": "x27_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 188,
+   "estado": "x27_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 189,
+   "estado": "x27_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 190,
+   "estado": "x27_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 191,
+   "estado": "x27_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 192,
+   "estado": "x27_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 193,
+   "estado": "x27_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 194,
+   "estado": "x28_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 195,
+   "estado": "x28_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 196,
+   "estado": "x28_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 197,
+   "estado": "x28_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 198,
+   "estado": "x28_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 199,
+   "estado": "x28_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 200,
+   "estado": "x28_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 201,
+   "estado": "x28_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 202,
+   "estado": "x29_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 203,
+   "estado": "x29_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 204,
+   "estado": "x29_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 205,
+   "estado": "x29_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 206,
+   "estado": "x29_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 207,
+   "estado": "x29_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 208,
+   "estado": "x29_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 209,
+   "estado": "x29_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 210,
+   "estado": "x30_plataforma_geoespacial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 211,
+   "estado": "x30_plataforma_geoespacial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 212,
+   "estado": "x30_plataforma_geoespacial",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 213,
+   "estado": "x30_plataforma_geoespacial",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 214,
+   "estado": "x30_plataforma_geoespacial",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 215,
+   "estado": "x30_plataforma_geoespacial",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 216,
+   "estado": "x30_plataforma_geoespacial",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 217,
+   "estado": "x30_plataforma_geoespacial",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 218,
+   "estado": "x31_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 219,
+   "estado": "x31_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 220,
+   "estado": "x31_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 221,
+   "estado": "x31_div_menu_redirect",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 222,
+   "estado": "x31_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 223,
+   "estado": "x31_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 224,
+   "estado": "x31_div_menu_redirect",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 225,
+   "estado": "x31_div_menu_redirect",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 226,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-1",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 227,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-2",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 228,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 229,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 230,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 231,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 232,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 233,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 234,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "input#input-2",
+   "descricao": "Campo de dado pessoal sem o atributo autocomplete."
+  },
+  {
+   "id": 235,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 236,
+   "estado": "x32_usuario_publico",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 237,
+   "estado": "x33_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 238,
+   "estado": "x33_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 239,
+   "estado": "x33_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 240,
+   "estado": "x33_abrir_modal_principal",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 241,
+   "estado": "x33_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 242,
+   "estado": "x33_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 243,
+   "estado": "x33_abrir_modal_principal",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 244,
+   "estado": "x33_abrir_modal_principal",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 245,
+   "estado": "x34_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 246,
+   "estado": "x34_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 247,
+   "estado": "x34_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 248,
+   "estado": "x34_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 249,
+   "estado": "x34_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 250,
+   "estado": "x34_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 251,
+   "estado": "x34_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 252,
+   "estado": "x34_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 253,
+   "estado": "x35_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 254,
+   "estado": "x35_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 255,
+   "estado": "x35_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 256,
+   "estado": "x35_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 257,
+   "estado": "x35_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 258,
+   "estado": "x35_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 259,
+   "estado": "x35_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 260,
+   "estado": "x35_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 261,
+   "estado": "x35_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 262,
+   "estado": "x36_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 263,
+   "estado": "x36_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 264,
+   "estado": "x36_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 265,
+   "estado": "x36_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 266,
+   "estado": "x36_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 267,
+   "estado": "x36_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 268,
+   "estado": "x36_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 269,
+   "estado": "x36_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 270,
+   "estado": "x36_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 271,
+   "estado": "x37_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 272,
+   "estado": "x37_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 273,
+   "estado": "x37_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 274,
+   "estado": "x37_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 275,
+   "estado": "x37_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 276,
+   "estado": "x37_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 277,
+   "estado": "x37_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 278,
+   "estado": "x37_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 279,
+   "estado": "x37_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 280,
+   "estado": "x39_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 281,
+   "estado": "x39_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 282,
+   "estado": "x39_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 283,
+   "estado": "x39_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 284,
+   "estado": "x39_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 285,
+   "estado": "x39_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 286,
+   "estado": "x39_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 287,
+   "estado": "x39_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 288,
+   "estado": "x39_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 289,
+   "estado": "x40_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 290,
+   "estado": "x40_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 291,
+   "estado": "x40_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 292,
+   "estado": "x40_item",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 293,
+   "estado": "x40_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 294,
+   "estado": "x40_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 295,
+   "estado": "x40_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 296,
+   "estado": "x40_item",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 297,
+   "estado": "x40_item",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 298,
+   "estado": "x42_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 299,
+   "estado": "x42_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 300,
+   "estado": "x42_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 301,
+   "estado": "x42_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 302,
+   "estado": "x42_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 303,
+   "estado": "x42_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 304,
+   "estado": "x42_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 305,
+   "estado": "x42_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 306,
+   "estado": "x42_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 307,
+   "estado": "x44_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 308,
+   "estado": "x44_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 309,
+   "estado": "x44_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 310,
+   "estado": "x44_abrir_modal_principal",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 311,
+   "estado": "x44_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 312,
+   "estado": "x44_abrir_modal_principal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 313,
+   "estado": "x44_abrir_modal_principal",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 314,
+   "estado": "x44_abrir_modal_principal",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 315,
+   "estado": "x45_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 316,
+   "estado": "x45_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 317,
+   "estado": "x45_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 318,
+   "estado": "x45_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 319,
+   "estado": "x45_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 320,
+   "estado": "x45_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 321,
+   "estado": "x45_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 322,
+   "estado": "x45_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 323,
+   "estado": "x47_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__278",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 324,
+   "estado": "x47_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 325,
+   "estado": "x47_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 326,
+   "estado": "x47_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 327,
+   "estado": "x47_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 328,
+   "estado": "x47_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 329,
+   "estado": "x47_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 330,
+   "estado": "x47_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 331,
+   "estado": "x48_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 332,
+   "estado": "x48_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 333,
+   "estado": "x48_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "17 <img>",
+   "descricao": "17 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 334,
+   "estado": "x48_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 335,
+   "estado": "x48_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 336,
+   "estado": "x48_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 337,
+   "estado": "x48_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 338,
+   "estado": "x48_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 339,
+   "estado": "x49_fonte_sfb_cadastro_nacio",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 340,
+   "estado": "x49_fonte_sfb_cadastro_nacio",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 341,
+   "estado": "x49_fonte_sfb_cadastro_nacio",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 342,
+   "estado": "x49_fonte_sfb_cadastro_nacio",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 343,
+   "estado": "x49_fonte_sfb_cadastro_nacio",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 344,
+   "estado": "x49_fonte_sfb_cadastro_nacio",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 345,
+   "estado": "x49_fonte_sfb_cadastro_nacio",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 346,
+   "estado": "x49_fonte_sfb_cadastro_nacio",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 347,
+   "estado": "x49_fonte_sfb_cadastro_nacio",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 348,
+   "estado": "x50_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 349,
+   "estado": "x50_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 350,
+   "estado": "x50_recursos_hidricos",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 351,
+   "estado": "x50_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 352,
+   "estado": "x50_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 353,
+   "estado": "x50_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 354,
+   "estado": "x50_recursos_hidricos",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 355,
+   "estado": "x50_recursos_hidricos",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 356,
+   "estado": "x50_recursos_hidricos",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 357,
+   "estado": "x51_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 358,
+   "estado": "x51_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 359,
+   "estado": "x51_terras_indigenas",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 360,
+   "estado": "x51_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 361,
+   "estado": "x51_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 362,
+   "estado": "x51_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 363,
+   "estado": "x51_terras_indigenas",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 364,
+   "estado": "x51_terras_indigenas",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 365,
+   "estado": "x51_terras_indigenas",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 366,
+   "estado": "x52_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 367,
+   "estado": "x52_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 368,
+   "estado": "x52_divisao_geografica_1",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "21 <img>",
+   "descricao": "21 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 369,
+   "estado": "x52_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 370,
+   "estado": "x52_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 371,
+   "estado": "x52_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 372,
+   "estado": "x52_divisao_geografica_1",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 373,
+   "estado": "x52_divisao_geografica_1",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 374,
+   "estado": "x52_divisao_geografica_1",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 375,
+   "estado": "x53_unidades_de_conservacao",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 376,
+   "estado": "x53_unidades_de_conservacao",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 377,
+   "estado": "x53_unidades_de_conservacao",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 378,
+   "estado": "x53_unidades_de_conservacao",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 379,
+   "estado": "x53_unidades_de_conservacao",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 380,
+   "estado": "x53_unidades_de_conservacao",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 381,
+   "estado": "x53_unidades_de_conservacao",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 382,
+   "estado": "x53_unidades_de_conservacao",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 383,
+   "estado": "x53_unidades_de_conservacao",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 384,
+   "estado": "x54_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 385,
+   "estado": "x54_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 386,
+   "estado": "x54_assentamentos",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "23 <img>",
+   "descricao": "23 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 387,
+   "estado": "x54_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 388,
+   "estado": "x54_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 389,
+   "estado": "x54_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 390,
+   "estado": "x54_assentamentos",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 391,
+   "estado": "x54_assentamentos",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 392,
+   "estado": "x54_assentamentos",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 393,
+   "estado": "x55_solos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 394,
+   "estado": "x55_solos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 395,
+   "estado": "x55_solos",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 396,
+   "estado": "x55_solos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 397,
+   "estado": "x55_solos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 398,
+   "estado": "x55_solos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 399,
+   "estado": "x55_solos",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 400,
+   "estado": "x55_solos",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 401,
+   "estado": "x55_solos",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 402,
+   "estado": "x56_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 403,
+   "estado": "x56_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 404,
+   "estado": "x56_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 405,
+   "estado": "x56_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 406,
+   "estado": "x56_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 407,
+   "estado": "x56_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 408,
+   "estado": "x56_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 409,
+   "estado": "x56_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 410,
+   "estado": "x56_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 411,
+   "estado": "x57_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 412,
+   "estado": "x57_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 413,
+   "estado": "x57_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 414,
+   "estado": "x57_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 415,
+   "estado": "x57_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 416,
+   "estado": "x57_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 417,
+   "estado": "x57_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 418,
+   "estado": "x57_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 419,
+   "estado": "x57_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 420,
+   "estado": "x58_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 421,
+   "estado": "x58_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 422,
+   "estado": "x58_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 423,
+   "estado": "x58_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 424,
+   "estado": "x58_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 425,
+   "estado": "x58_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 426,
+   "estado": "x58_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 427,
+   "estado": "x58_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 428,
+   "estado": "x58_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 429,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-1",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 430,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-2",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 431,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 432,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 433,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 434,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 435,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 436,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 437,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "input#input-2",
+   "descricao": "Campo de dado pessoal sem o atributo autocomplete."
+  },
+  {
+   "id": 438,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 439,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 440,
+   "estado": "x60_usuario_publico",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 441,
+   "estado": "x61_eye_slash_fill",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 442,
+   "estado": "x61_eye_slash_fill",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 443,
+   "estado": "x61_eye_slash_fill",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 444,
+   "estado": "x61_eye_slash_fill",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 445,
+   "estado": "x61_eye_slash_fill",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 446,
+   "estado": "x61_eye_slash_fill",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 447,
+   "estado": "x61_eye_slash_fill",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 448,
+   "estado": "x61_eye_slash_fill",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 449,
+   "estado": "x61_eye_slash_fill",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 450,
+   "estado": "x62_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 451,
+   "estado": "x62_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 452,
+   "estado": "x62_item",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 453,
+   "estado": "x62_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 454,
+   "estado": "x62_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 455,
+   "estado": "x62_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 456,
+   "estado": "x62_item",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 457,
+   "estado": "x62_item",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 458,
+   "estado": "x62_item",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 459,
+   "estado": "x63_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 460,
+   "estado": "x63_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 461,
+   "estado": "x63_gestao_florestal",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 462,
+   "estado": "x63_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 463,
+   "estado": "x63_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 464,
+   "estado": "x63_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 465,
+   "estado": "x63_gestao_florestal",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 466,
+   "estado": "x63_gestao_florestal",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 467,
+   "estado": "x63_gestao_florestal",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 468,
+   "estado": "x64_fonte_ana_base_hidrograf",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 469,
+   "estado": "x64_fonte_ana_base_hidrograf",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 470,
+   "estado": "x64_fonte_ana_base_hidrograf",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 471,
+   "estado": "x64_fonte_ana_base_hidrograf",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 472,
+   "estado": "x64_fonte_ana_base_hidrograf",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 473,
+   "estado": "x64_fonte_ana_base_hidrograf",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 474,
+   "estado": "x64_fonte_ana_base_hidrograf",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 475,
+   "estado": "x64_fonte_ana_base_hidrograf",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 476,
+   "estado": "x64_fonte_ana_base_hidrograf",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 477,
+   "estado": "x65_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 478,
+   "estado": "x65_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 479,
+   "estado": "x65_terras_indigenas",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 480,
+   "estado": "x65_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 481,
+   "estado": "x65_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 482,
+   "estado": "x65_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 483,
+   "estado": "x65_terras_indigenas",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 484,
+   "estado": "x65_terras_indigenas",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 485,
+   "estado": "x65_terras_indigenas",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 486,
+   "estado": "x66_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 487,
+   "estado": "x66_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 488,
+   "estado": "x66_divisao_geografica_1",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "21 <img>",
+   "descricao": "21 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 489,
+   "estado": "x66_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 490,
+   "estado": "x66_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 491,
+   "estado": "x66_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 492,
+   "estado": "x66_divisao_geografica_1",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 493,
+   "estado": "x66_divisao_geografica_1",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 494,
+   "estado": "x66_divisao_geografica_1",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 495,
+   "estado": "x68_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 496,
+   "estado": "x68_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 497,
+   "estado": "x68_assentamentos",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "23 <img>",
+   "descricao": "23 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 498,
+   "estado": "x68_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 499,
+   "estado": "x68_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 500,
+   "estado": "x68_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 501,
+   "estado": "x68_assentamentos",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 502,
+   "estado": "x68_assentamentos",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 503,
+   "estado": "x68_assentamentos",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 504,
+   "estado": "x70_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 505,
+   "estado": "x70_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 506,
+   "estado": "x70_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 507,
+   "estado": "x70_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 508,
+   "estado": "x70_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 509,
+   "estado": "x70_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 510,
+   "estado": "x70_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 511,
+   "estado": "x70_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 512,
+   "estado": "x70_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 513,
+   "estado": "x72_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 514,
+   "estado": "x72_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 515,
+   "estado": "x72_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 516,
+   "estado": "x72_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 517,
+   "estado": "x72_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 518,
+   "estado": "x72_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 519,
+   "estado": "x72_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 520,
+   "estado": "x72_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 521,
+   "estado": "x72_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 522,
+   "estado": "x73_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 523,
+   "estado": "x73_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 524,
+   "estado": "x73_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 525,
+   "estado": "x73_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 526,
+   "estado": "x73_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 527,
+   "estado": "x73_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 528,
+   "estado": "x73_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 529,
+   "estado": "x73_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 530,
+   "estado": "x73_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 531,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-1",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 532,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-2",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 533,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 534,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 535,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "18 <img>",
+   "descricao": "18 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 536,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 537,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 538,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 539,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "input#input-2",
+   "descricao": "Campo de dado pessoal sem o atributo autocomplete."
+  },
+  {
+   "id": 540,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 541,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 542,
+   "estado": "x74_usuario_publico",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 543,
+   "estado": "x76_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 544,
+   "estado": "x76_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 545,
+   "estado": "x76_item",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 546,
+   "estado": "x76_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 547,
+   "estado": "x76_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 548,
+   "estado": "x76_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 549,
+   "estado": "x76_item",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 550,
+   "estado": "x76_item",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 551,
+   "estado": "x76_item",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 552,
+   "estado": "x79_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 553,
+   "estado": "x79_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 554,
+   "estado": "x79_divisao_geografica_1",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "22 <img>",
+   "descricao": "22 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 555,
+   "estado": "x79_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 556,
+   "estado": "x79_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 557,
+   "estado": "x79_divisao_geografica_1",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 558,
+   "estado": "x79_divisao_geografica_1",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 559,
+   "estado": "x79_divisao_geografica_1",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 560,
+   "estado": "x79_divisao_geografica_1",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 561,
+   "estado": "x81_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 562,
+   "estado": "x81_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 563,
+   "estado": "x81_assentamentos",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "24 <img>",
+   "descricao": "24 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 564,
+   "estado": "x81_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 565,
+   "estado": "x81_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 566,
+   "estado": "x81_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 567,
+   "estado": "x81_assentamentos",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 568,
+   "estado": "x81_assentamentos",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 569,
+   "estado": "x81_assentamentos",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 570,
+   "estado": "x83_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 571,
+   "estado": "x83_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 572,
+   "estado": "x83_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 573,
+   "estado": "x83_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 574,
+   "estado": "x83_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 575,
+   "estado": "x83_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 576,
+   "estado": "x83_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 577,
+   "estado": "x83_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 578,
+   "estado": "x83_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 579,
+   "estado": "x84_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 580,
+   "estado": "x84_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 581,
+   "estado": "x84_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 582,
+   "estado": "x84_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 583,
+   "estado": "x84_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 584,
+   "estado": "x84_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 585,
+   "estado": "x84_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 586,
+   "estado": "x84_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 587,
+   "estado": "x84_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 588,
+   "estado": "x85_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 589,
+   "estado": "x85_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 590,
+   "estado": "x85_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 591,
+   "estado": "x85_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 592,
+   "estado": "x85_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 593,
+   "estado": "x85_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 594,
+   "estado": "x85_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 595,
+   "estado": "x85_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 596,
+   "estado": "x85_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 597,
+   "estado": "x86_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 598,
+   "estado": "x86_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 599,
+   "estado": "x86_div_menu_redirect",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 600,
+   "estado": "x86_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 601,
+   "estado": "x86_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 602,
+   "estado": "x86_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 603,
+   "estado": "x86_div_menu_redirect",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 604,
+   "estado": "x86_div_menu_redirect",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 605,
+   "estado": "x86_div_menu_redirect",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 606,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-1",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 607,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-2",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 608,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 609,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 610,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 611,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 612,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 613,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 614,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "input#input-2",
+   "descricao": "Campo de dado pessoal sem o atributo autocomplete."
+  },
+  {
+   "id": 615,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 616,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 617,
+   "estado": "x87_usuario_publico",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 618,
+   "estado": "x90_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 619,
+   "estado": "x90_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 620,
+   "estado": "x90_item",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 621,
+   "estado": "x90_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 622,
+   "estado": "x90_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 623,
+   "estado": "x90_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 624,
+   "estado": "x90_item",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 625,
+   "estado": "x90_item",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 626,
+   "estado": "x90_item",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 627,
+   "estado": "x91_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 628,
+   "estado": "x91_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 629,
+   "estado": "x91_gestao_florestal",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "21 <img>",
+   "descricao": "21 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 630,
+   "estado": "x91_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 631,
+   "estado": "x91_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 632,
+   "estado": "x91_gestao_florestal",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 633,
+   "estado": "x91_gestao_florestal",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 634,
+   "estado": "x91_gestao_florestal",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 635,
+   "estado": "x91_gestao_florestal",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 636,
+   "estado": "x92_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 637,
+   "estado": "x92_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 638,
+   "estado": "x92_terras_indigenas",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "22 <img>",
+   "descricao": "22 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 639,
+   "estado": "x92_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 640,
+   "estado": "x92_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 641,
+   "estado": "x92_terras_indigenas",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 642,
+   "estado": "x92_terras_indigenas",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 643,
+   "estado": "x92_terras_indigenas",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 644,
+   "estado": "x92_terras_indigenas",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 645,
+   "estado": "x96_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 646,
+   "estado": "x96_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 647,
+   "estado": "x96_assentamentos",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "25 <img>",
+   "descricao": "25 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 648,
+   "estado": "x96_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 649,
+   "estado": "x96_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 650,
+   "estado": "x96_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 651,
+   "estado": "x96_assentamentos",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 652,
+   "estado": "x96_assentamentos",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 653,
+   "estado": "x96_assentamentos",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 654,
+   "estado": "x98_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 655,
+   "estado": "x98_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 656,
+   "estado": "x98_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 657,
+   "estado": "x98_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 658,
+   "estado": "x98_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 659,
+   "estado": "x98_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 660,
+   "estado": "x98_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 661,
+   "estado": "x98_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 662,
+   "estado": "x98_btn",
+   "heuristica": "H10",
+   "severidade": 1,
+   "local": "documento",
+   "descricao": "Nenhum mecanismo de ajuda ou busca foi encontrado."
+  },
+  {
+   "id": 663,
+   "estado": "x99_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 664,
+   "estado": "x99_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 665,
+   "estado": "x99_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 666,
+   "estado": "x99_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 667,
+   "estado": "x99_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 668,
+   "estado": "x99_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 669,
+   "estado": "x99_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 670,
+   "estado": "x99_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 671,
+   "estado": "x99_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 672,
+   "estado": "x100_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 673,
+   "estado": "x100_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 674,
+   "estado": "x100_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 675,
+   "estado": "x100_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 676,
+   "estado": "x100_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 677,
+   "estado": "x100_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 678,
+   "estado": "x100_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 679,
+   "estado": "x100_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 680,
+   "estado": "x100_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 681,
+   "estado": "x101_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 682,
+   "estado": "x101_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 683,
+   "estado": "x101_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 684,
+   "estado": "x101_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 685,
+   "estado": "x101_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 686,
+   "estado": "x101_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 687,
+   "estado": "x101_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 688,
+   "estado": "x101_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 689,
+   "estado": "x101_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 690,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-1",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 691,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-2",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 692,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 693,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 694,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 695,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 696,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 697,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 698,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 699,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "input#input-2",
+   "descricao": "Campo de dado pessoal sem o atributo autocomplete."
+  },
+  {
+   "id": 700,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 701,
+   "estado": "x102_usuario_publico",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 702,
+   "estado": "x106_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 703,
+   "estado": "x106_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 704,
+   "estado": "x106_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 705,
+   "estado": "x106_item",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 706,
+   "estado": "x106_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 707,
+   "estado": "x106_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 708,
+   "estado": "x106_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 709,
+   "estado": "x106_item",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 710,
+   "estado": "x106_item",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 711,
+   "estado": "x107_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 712,
+   "estado": "x107_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 713,
+   "estado": "x107_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 714,
+   "estado": "x107_recursos_hidricos",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "20 <img>",
+   "descricao": "20 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 715,
+   "estado": "x107_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 716,
+   "estado": "x107_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 717,
+   "estado": "x107_recursos_hidricos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 718,
+   "estado": "x107_recursos_hidricos",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 719,
+   "estado": "x107_recursos_hidricos",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 720,
+   "estado": "x109_fonte_mma_unidades_de_co",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 721,
+   "estado": "x109_fonte_mma_unidades_de_co",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 722,
+   "estado": "x109_fonte_mma_unidades_de_co",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 723,
+   "estado": "x109_fonte_mma_unidades_de_co",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 724,
+   "estado": "x109_fonte_mma_unidades_de_co",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 725,
+   "estado": "x109_fonte_mma_unidades_de_co",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 726,
+   "estado": "x109_fonte_mma_unidades_de_co",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 727,
+   "estado": "x109_fonte_mma_unidades_de_co",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 728,
+   "estado": "x109_fonte_mma_unidades_de_co",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 729,
+   "estado": "x110_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 730,
+   "estado": "x110_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 731,
+   "estado": "x110_assentamentos",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 732,
+   "estado": "x110_assentamentos",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "24 <img>",
+   "descricao": "24 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 733,
+   "estado": "x110_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 734,
+   "estado": "x110_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 735,
+   "estado": "x110_assentamentos",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 736,
+   "estado": "x110_assentamentos",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 737,
+   "estado": "x110_assentamentos",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 738,
+   "estado": "x112_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 739,
+   "estado": "x112_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 740,
+   "estado": "x112_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 741,
+   "estado": "x112_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 742,
+   "estado": "x112_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 743,
+   "estado": "x112_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 744,
+   "estado": "x112_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 745,
+   "estado": "x112_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 746,
+   "estado": "x112_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 747,
+   "estado": "x113_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 748,
+   "estado": "x113_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 749,
+   "estado": "x113_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 750,
+   "estado": "x113_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 751,
+   "estado": "x113_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 752,
+   "estado": "x113_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 753,
+   "estado": "x113_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 754,
+   "estado": "x113_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 755,
+   "estado": "x113_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 756,
+   "estado": "x114_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 757,
+   "estado": "x114_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 758,
+   "estado": "x114_btn",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 759,
+   "estado": "x114_btn",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 760,
+   "estado": "x114_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 761,
+   "estado": "x114_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 762,
+   "estado": "x114_btn",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 763,
+   "estado": "x114_btn",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 764,
+   "estado": "x114_btn",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 765,
+   "estado": "x115_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 766,
+   "estado": "x115_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 767,
+   "estado": "x115_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 768,
+   "estado": "x115_div_menu_redirect",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 769,
+   "estado": "x115_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 770,
+   "estado": "x115_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 771,
+   "estado": "x115_div_menu_redirect",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 772,
+   "estado": "x115_div_menu_redirect",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 773,
+   "estado": "x115_div_menu_redirect",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 774,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-1",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 775,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#input-2",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 776,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 777,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 778,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 779,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "19 <img>",
+   "descricao": "19 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 780,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 781,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 782,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 783,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H08",
+   "severidade": 1,
+   "local": "input#input-2",
+   "descricao": "Campo de dado pessoal sem o atributo autocomplete."
+  },
+  {
+   "id": 784,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 785,
+   "estado": "x116_usuario_publico",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  },
+  {
+   "id": 786,
+   "estado": "x119_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "input#__BVID__1463",
+   "descricao": "Campo de formulário sem rótulo (<label>) associado."
+  },
+  {
+   "id": 787,
+   "estado": "x119_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button>",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 788,
+   "estado": "x119_item",
+   "heuristica": "H05",
+   "severidade": 3,
+   "local": "<button type=\"button\">",
+   "descricao": "Controle sem texto nem nome acessível (só ícone)."
+  },
+  {
+   "id": 789,
+   "estado": "x119_item",
+   "heuristica": "H04",
+   "severidade": 2,
+   "local": "22 <img>",
+   "descricao": "22 imagem(ns) sem atributo alt."
+  },
+  {
+   "id": 790,
+   "estado": "x119_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "button \"ES\"",
+   "descricao": "Contraste insuficiente: 3.65:1 (mínimo 4.5:1) no texto \"ES\"."
+  },
+  {
+   "id": 791,
+   "estado": "x119_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"Agricultura Familiar\"",
+   "descricao": "Contraste insuficiente: 1.00:1 (mínimo 3:1) no texto \"Agricultura Familiar\"."
+  },
+  {
+   "id": 792,
+   "estado": "x119_item",
+   "heuristica": "H05",
+   "severidade": 2,
+   "local": "span \"1\"",
+   "descricao": "Contraste insuficiente: 1.74:1 (mínimo 4.5:1) no texto \"1\"."
+  },
+  {
+   "id": 793,
+   "estado": "x119_item",
+   "heuristica": "H06",
+   "severidade": 1,
+   "local": "início da página",
+   "descricao": "Não há link para pular a navegação nem marco <main> para ir direto ao conteúdo."
+  },
+  {
+   "id": 794,
+   "estado": "x119_item",
+   "heuristica": "H07",
+   "severidade": 1,
+   "local": "animação CSS infinita em elemento visível",
+   "descricao": "Conteúdo em movimento automático sem controle de pausa: animação CSS infinita em elemento visível."
+  }
+ ],
+ "problemas": [
+  {
+   "code": "OBH-01",
+   "description": "Background animations impair readability.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-02",
+   "description": "Actions for reading are difficult to locate.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-03",
+   "description": "The contrast between elements is dark against a dark background.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-04",
+   "description": "Inconsistency in navigation - some panels lead directly to the map, while others do not.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-05",
+   "description": "Lack of standardized nomenclature - \"Geospatial,\" \"Geospatial Platform.\"",
+   "severity": 2
+  },
+  {
+   "code": "OBH-06",
+   "description": "Functions with the same name redirect to different locations.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-07",
+   "description": "Entering a thematic panel does not provide feedback indicating selection.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-08",
+   "description": "No instructions on what to select to activate layers.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-09",
+   "description": "In the layer list, there is an info button that seems clickable but is not.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-10",
+   "description": "Colors are informative only, with no explanation of their meaning.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-11",
+   "description": "Color legends are only displayed when the layer is activated.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-12",
+   "description": "The activation button (eye icon) is unclear to users.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-13",
+   "description": "The button in \"Planted Area\" with sub-options is too small and unclear.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-14",
+   "description": "Activating a layer displays a number (active layer counter) without explanation.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-15",
+   "description": "Layer title suggests button functionality but is not a button.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-16",
+   "description": "Clearing layers lacks button affordance.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-17",
+   "description": "In filters, \"culture\" with a gray background appears disabled but is not.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-18",
+   "description": "In filters, municipal layers appear activated (in white) when they are not.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-19",
+   "description": "The difference between clearing layers at the top of filters and clicking filters below is unclear.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-20",
+   "description": "Clearing filters leaves municipal layers active without selecting a culture.",
+   "severity": 2
+  },
+  {
+   "code": "OBH-21",
+   "description": "The order of interaction and field dependency in filter application is unclear.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-22",
+   "description": "The play button for advancing time is too fast, not allowing images to load.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-23",
+   "description": "The button to change speed does not clarify whether it will increase or decrease speed.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-24",
+   "description": "Changing to English or Spanish does not change the layer list.",
+   "severity": 4
+  },
+  {
+   "code": "OBH-25",
+   "description": "Logging in - the process is unclear. Why log in? How to create an account?",
+   "severity": 4
+  },
+  {
+   "code": "OBH-26",
+   "description": "Clicking on the map raises expectations of area details, but no information is provided.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-27",
+   "description": "Clicking the sandwich menu to return to the filter takes you back to the main menu of the Observatory.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-28",
+   "description": "The tutorial does not function.",
+   "severity": 4
+  },
+  {
+   "code": "OBH-29",
+   "description": "The \"forward\" button’s purpose (share?) is unclear.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-30",
+   "description": "Social media contrast makes reading difficult.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-31",
+   "description": "Why is there such a lengthy process to reach social media sharing icons?",
+   "severity": 2
+  },
+  {
+   "code": "OBH-32",
+   "description": "The button on the left with \"squares\" - label - does it open the main modal? It does not communicate effectively with the user.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-33",
+   "description": "Theme names suggest they are layers, but layer names do not match themes.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-34",
+   "description": "It is unclear whether it is possible to intersect layers from different themes.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-35",
+   "description": "The relationship between base layers and specific layers is unclear.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-36",
+   "description": "No option to clear the theme.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-37",
+   "description": "Selecting more than one theme does not seem possible in the interface.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-38",
+   "description": "The area for report details has poor contrast options - white letters on light backgrounds.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-39",
+   "description": "The function should be to delete the report, not remove the theme.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-40",
+   "description": "The generated bar graph is illegible.",
+   "severity": 4
+  },
+  {
+   "code": "OBH-41",
+   "description": "The process to generate graphs is overly complicated.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-42",
+   "description": "The graph lacks a Y-axis legend.",
+   "severity": 4
+  },
+  {
+   "code": "OBH-43",
+   "description": "An icon commonly used for sorting is used to change the period.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-44",
+   "description": "Graph color changes randomly during exchanges.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-45",
+   "description": "Latitude, longitude, and location options only work if an unidentified function is enabled.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-46",
+   "description": "Activating zoom options does not provide feedback.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-47",
+   "description": "Specifying the desired zoom level is difficult.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-48",
+   "description": "Options with search results are displayed with poor contrast.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-49",
+   "description": "Searching for a municipality only centers the map on the city without visually identifying the contour.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-50",
+   "description": "Searching does not allow pressing enter.",
+   "severity": 3
+  },
+  {
+   "code": "OBH-51",
+   "description": "When the search list generates scrolling, mouse scrolling moves the map, not the list.",
+   "severity": 4
+  },
+  {
+   "code": "OBH-52",
+   "description": "A list with more names in search disappears after a while, without providing an option to search further.",
+   "severity": 4
+  }
+ ],
+ "matches": [
+  {
+   "problem_code": "OBH-01",
+   "match": "partial",
+   "finding_id": 7,
+   "rationale": "The finding flags an infinite CSS animation with no pause control, matching the background animation but not the stated readability impact."
+  },
+  {
+   "problem_code": "OBH-02",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding addresses how hard it is to locate reading actions."
+  },
+  {
+   "problem_code": "OBH-03",
+   "match": "partial",
+   "finding_id": 5,
+   "rationale": "The finding reports very low contrast (1.00:1) on a text element, which partly covers the dark-on-dark issue."
+  },
+  {
+   "problem_code": "OBH-04",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers inconsistent panel navigation."
+  },
+  {
+   "problem_code": "OBH-05",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers inconsistent nomenclature."
+  },
+  {
+   "problem_code": "OBH-06",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers same-named functions leading to different places."
+  },
+  {
+   "problem_code": "OBH-07",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers missing selection feedback on thematic panels."
+  },
+  {
+   "problem_code": "OBH-08",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers specific instructions for activating layers."
+  },
+  {
+   "problem_code": "OBH-09",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers a non-clickable info button that looks clickable."
+  },
+  {
+   "problem_code": "OBH-10",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers colors whose meaning is never explained."
+  },
+  {
+   "problem_code": "OBH-11",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers legends that appear only after a layer is activated."
+  },
+  {
+   "problem_code": "OBH-12",
+   "match": "partial",
+   "finding_id": 441,
+   "rationale": "The finding reports an icon-only button without an accessible name on the eye screen, partly matching the unclear eye icon."
+  },
+  {
+   "problem_code": "OBH-13",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the size of the Planted Area button."
+  },
+  {
+   "problem_code": "OBH-14",
+   "match": "partial",
+   "finding_id": 14,
+   "rationale": "The finding targets the same counter element (span \"1\"), but reports its contrast rather than its missing explanation."
+  },
+  {
+   "problem_code": "OBH-15",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers a layer title that falsely looks like a button."
+  },
+  {
+   "problem_code": "OBH-16",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the missing affordance of the clear-layers control."
+  },
+  {
+   "problem_code": "OBH-17",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the culture filter that looks disabled."
+  },
+  {
+   "problem_code": "OBH-18",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers municipal layers that falsely appear active."
+  },
+  {
+   "problem_code": "OBH-19",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the unclear difference between the two clearing actions."
+  },
+  {
+   "problem_code": "OBH-20",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the behavior of clearing filters."
+  },
+  {
+   "problem_code": "OBH-21",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the unclear filter dependency order."
+  },
+  {
+   "problem_code": "OBH-22",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the playback speed being too fast."
+  },
+  {
+   "problem_code": "OBH-23",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the speed button's ambiguous direction."
+  },
+  {
+   "problem_code": "OBH-24",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers incomplete translation of the layer list."
+  },
+  {
+   "problem_code": "OBH-25",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "The missing-label findings do not address why to log in or how to create an account."
+  },
+  {
+   "problem_code": "OBH-26",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the missing information when clicking the map."
+  },
+  {
+   "problem_code": "OBH-27",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the sandwich menu returning to the main menu."
+  },
+  {
+   "problem_code": "OBH-28",
+   "match": "partial",
+   "finding_id": 8,
+   "rationale": "The finding notes that no help mechanism was detected, which relates generically to the non-functioning tutorial."
+  },
+  {
+   "problem_code": "OBH-29",
+   "match": "partial",
+   "finding_id": 1,
+   "rationale": "The finding reports an icon-only button without a name, which partly explains why the forward button's purpose is unclear."
+  },
+  {
+   "problem_code": "OBH-30",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "The contrast findings refer to other elements, not the social media icons."
+  },
+  {
+   "problem_code": "OBH-31",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the lengthy path to the sharing icons."
+  },
+  {
+   "problem_code": "OBH-32",
+   "match": "partial",
+   "finding_id": 153,
+   "rationale": "The finding reports an icon-only button without a name on the main-modal screen, partly matching the squares button that fails to communicate."
+  },
+  {
+   "problem_code": "OBH-33",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the mismatch between theme and layer names."
+  },
+  {
+   "problem_code": "OBH-34",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers intersecting layers across themes."
+  },
+  {
+   "problem_code": "OBH-35",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the relationship between base and specific layers."
+  },
+  {
+   "problem_code": "OBH-36",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the missing option to clear a theme."
+  },
+  {
+   "problem_code": "OBH-37",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers selecting multiple themes."
+  },
+  {
+   "problem_code": "OBH-38",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No contrast finding covers the report-details area."
+  },
+  {
+   "problem_code": "OBH-39",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the wrong function on the report removal action."
+  },
+  {
+   "problem_code": "OBH-40",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the illegible bar graph."
+  },
+  {
+   "problem_code": "OBH-41",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the complexity of generating graphs."
+  },
+  {
+   "problem_code": "OBH-42",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the missing Y-axis legend."
+  },
+  {
+   "problem_code": "OBH-43",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the misleading sorting icon used for period changes."
+  },
+  {
+   "problem_code": "OBH-44",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers random graph color changes."
+  },
+  {
+   "problem_code": "OBH-45",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the hidden dependency of the coordinate options."
+  },
+  {
+   "problem_code": "OBH-46",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers missing feedback when activating zoom."
+  },
+  {
+   "problem_code": "OBH-47",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers difficulty specifying the zoom level."
+  },
+  {
+   "problem_code": "OBH-48",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No contrast finding covers the search results."
+  },
+  {
+   "problem_code": "OBH-49",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the missing municipality contour."
+  },
+  {
+   "problem_code": "OBH-50",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers Enter not working in search."
+  },
+  {
+   "problem_code": "OBH-51",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers scroll moving the map instead of the list."
+  },
+  {
+   "problem_code": "OBH-52",
+   "match": "none",
+   "finding_id": 0,
+   "rationale": "No finding covers the search list disappearing."
+  }
+ ]
+}

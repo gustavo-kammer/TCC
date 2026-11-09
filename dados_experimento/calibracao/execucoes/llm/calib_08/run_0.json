@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "735b1b89ab6c5680dae12601478910d3c1b9f9cb5320924f5be98bbd9204d634",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:35:45-03:00",
+    "configuracao": "llm",
+    "run_id": 0
+  },
+  "flow_id": "calib_08",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_08.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_08.html",
+      "n_fatias": 1,
+      "prompt_sha256": "b5f9db36abdcfe36f43b905e66955984da269e72b8daada9aad5f922e503f9ef",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_08.html",
+        "total_violations": 2,
+        "count_by_severity": {
+          "3": 1,
+          "2": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H08_prevencao_de_erros",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botões de ação abaixo do formulário ('Salvar alterações' e 'Excluir conta')",
+            "description": "O botão destrutivo 'Excluir conta' está colado ao botão 'Salvar alterações', com aparência idêntica.",
+            "justification": "Ambos os botões são verdes preenchidos, do mesmo tamanho e separados por apenas ~12px. Uma ação irreversível sem distinção visual nem distanciamento aumenta muito a chance de clique acidental, sobretudo ao tentar salvar o formulário.",
+            "recommendation": "Diferenciar 'Excluir conta' como ação destrutiva (botão secundário/contorno em vermelho ou link de texto), afastá-lo de 'Salvar alterações' ou movê-lo para uma seção separada 'Zona de risco', e exigir confirmação explícita antes de excluir.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H04_consistencia_e_padronizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Excluir conta'",
+            "description": "A ação destrutiva usa o mesmo estilo do botão primário, contrariando a convenção de sinalizar exclusão com cor de alerta.",
+            "justification": "Na captura, 'Excluir conta' e 'Salvar alterações' compartilham o mesmo verde de marca; usuários esperam que ações de exclusão tenham aparência distinta (vermelho ou estilo secundário), e dois botões primários competem pela hierarquia.",
+            "recommendation": "Manter um único botão primário ('Salvar alterações') e aplicar estilo de perigo ou secundário ao 'Excluir conta', conforme o design system.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Excluir conta'",
+          "description": "A ação destrutiva usa o mesmo estilo do botão primário, contrariando a convenção de sinalizar exclusão com cor de alerta.",
+          "justification": "Na captura, 'Excluir conta' e 'Salvar alterações' compartilham o mesmo verde de marca; usuários esperam que ações de exclusão tenham aparência distinta (vermelho ou estilo secundário), e dois botões primários competem pela hierarquia.",
+          "recommendation": "Manter um único botão primário ('Salvar alterações') e aplicar estilo de perigo ou secundário ao 'Excluir conta', conforme o design system.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H08_prevencao_de_erros",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botões de ação abaixo do formulário ('Salvar alterações' e 'Excluir conta')",
+          "description": "O botão destrutivo 'Excluir conta' está colado ao botão 'Salvar alterações', com aparência idêntica.",
+          "justification": "Ambos os botões são verdes preenchidos, do mesmo tamanho e separados por apenas ~12px. Uma ação irreversível sem distinção visual nem distanciamento aumenta muito a chance de clique acidental, sobretudo ao tentar salvar o formulário.",
+          "recommendation": "Diferenciar 'Excluir conta' como ação destrutiva (botão secundário/contorno em vermelho ou link de texto), afastá-lo de 'Salvar alterações' ou movê-lo para uma seção separada 'Zona de risco', e exigir confirmação explícita antes de excluir.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    }
+  }
+}

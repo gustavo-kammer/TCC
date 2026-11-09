@@ -1,0 +1,3148 @@
+{
+ "site": "p12",
+ "pontos": [
+  {
+   "site": "p12",
+   "parada": "teto_de_tempo",
+   "tentativas_enfileiradas": 2624,
+   "caminhos_irreproduziveis": 1,
+   "exclusoes_por_motivo": {
+    "configurado": 360,
+    "tipo": 8
+   },
+   "duracao_s": 7202.3,
+   "limite_segundos": 7200,
+   "max_profundidade": 4,
+   "abas_novas_fechadas": 0,
+   "ponto": 1
+  }
+ ],
+ "estados": [
+  {
+   "nome": "x01_inicial",
+   "caminho": [],
+   "assinatura": "a11b9c8674cbb62af95ea6fa06eca2a63bd30356",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 374,
+   "profundidade": 0,
+   "t_s": 18.3,
+   "similaridade_max": 0.0,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x02_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "6761958f8f29ca02ea32f6cf8cb4af83c88d0043",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 387,
+   "profundidade": 1,
+   "t_s": 52.2,
+   "similaridade_max": 0.978,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. compartilhar 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x03_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "cd5a5c4baa988ecfe80ee7bceb494ed586d95850",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 529,
+   "profundidade": 1,
+   "t_s": 64.9,
+   "similaridade_max": 0.733,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x04_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "f64b54deb6c20ad2f92b4ba9388f1287b7bfff10",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 407,
+   "profundidade": 1,
+   "t_s": 102.8,
+   "similaridade_max": 0.843,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 300 km lat: -44.10 . long: 5.74 zoom:5x",
+   "ponto": 1
+  },
+  {
+   "nome": "x05_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "cb5ef2c9a37f6fe34143ed376c5f1769b29ddb0f",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 409,
+   "profundidade": 1,
+   "t_s": 115.4,
+   "similaridade_max": 0.88,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 500 km lat: -27.15 . long: -20.99 zoom:4x",
+   "ponto": 1
+  },
+  {
+   "nome": "x06_div_menu_redirect",
+   "caminho": [
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(2)",
+     "texto": "div-menu-redirect",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "7ca7e62b05f7f1e182ce4f46b6239847a66e879a",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 419,
+   "profundidade": 1,
+   "t_s": 140.7,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x07_usuario_publico",
+   "caminho": [
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+     "texto": "Usuário Público",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "7e5012c0129e3bb8e9b2b231a2a55093ca4fbdfa",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 443,
+   "profundidade": 1,
+   "t_s": 153.4,
+   "similaridade_max": 0.939,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios acessar recuperar senha escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x08_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "9fe5cd12bcf5d67178892b333ac756222f82447f",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 574,
+   "profundidade": 2,
+   "t_s": 203.6,
+   "similaridade_max": 0.968,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x09_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "f0e1b61f7e9752c48fb622d72e8c8ce809ee97ab",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 452,
+   "profundidade": 2,
+   "t_s": 244.1,
+   "similaridade_max": 0.925,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 300 km lat: -44.10 . long: 5.83 zoom:5x",
+   "ponto": 1
+  },
+  {
+   "nome": "x10_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "5d821f31e36af3a2c5b451f6f6aefef6aaa7b2ea",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 454,
+   "profundidade": 2,
+   "t_s": 257.7,
+   "similaridade_max": 0.925,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 500 km lat: -27.15 . long: -20.95 zoom:4x",
+   "ponto": 1
+  },
+  {
+   "nome": "x11_usuario_publico",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+     "texto": "Usuário Público",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "0963a08f16d3ea87f81a96434cabbf7cb666af32",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 398,
+   "profundidade": 2,
+   "t_s": 298.2,
+   "similaridade_max": 0.959,
+   "texto": "plataforma geoespacial es en usuário público acessar recuperar senha escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x12_gestao_florestal",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    }
+   ],
+   "assinatura": "9c44f560ff5e2373eeae767a05a547967a717d66",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 569,
+   "profundidade": 2,
+   "t_s": 404.0,
+   "similaridade_max": 0.938,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x13_recursos_hidricos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    }
+   ],
+   "assinatura": "722cd5c97703bbe296a586572d84c3bf5bca18b7",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 549,
+   "profundidade": 2,
+   "t_s": 446.2,
+   "similaridade_max": 0.968,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x14_terras_indigenas",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    }
+   ],
+   "assinatura": "7c5be3625a1cd1a411391121ec4db8112437d716",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 591,
+   "profundidade": 2,
+   "t_s": 488.6,
+   "similaridade_max": 0.968,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x15_divisao_geografica_1",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    }
+   ],
+   "assinatura": "59f3418396ab7913e9b9bf57341cd347dbb0c1b7",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 586,
+   "profundidade": 2,
+   "t_s": 530.8,
+   "similaridade_max": 0.923,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x16_unidades_de_conservacao",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    }
+   ],
+   "assinatura": "580cecf4abc46489f1dbad286fbb5a1b928be1a5",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 563,
+   "profundidade": 2,
+   "t_s": 573.0,
+   "similaridade_max": 0.952,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x17_assentamentos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Assentamentos",
+     "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0"
+    }
+   ],
+   "assinatura": "30329685a651d54e197ac536daad5bb157896a3d",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 737,
+   "profundidade": 2,
+   "t_s": 615.2,
+   "similaridade_max": 0.822,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos projeto de assentamento federal - pa projeto de assentamento agroextrativista - pae projeto de assentamento florestal - paf projeto de assentamento casulo - pca plano de desenvolvimento do assentamento - pda solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x18_solos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Solos",
+     "alternativa": "button:visible:has-text(\"Solos\") >> nth=0"
+    }
+   ],
+   "assinatura": "56107da193a123720830c3bd204173b364c30f28",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 542,
+   "profundidade": 2,
+   "t_s": 657.4,
+   "similaridade_max": 0.968,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos embrapa ibge 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x19_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "ea51f0f2f5c1be3df5257a2ade901121233367ec",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 542,
+   "profundidade": 2,
+   "t_s": 680.4,
+   "similaridade_max": 0.984,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos compartilhar 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x20_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "83bd7b1fbbae10f036f8d939cc867fd10e718653",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 408,
+   "profundidade": 2,
+   "t_s": 734.6,
+   "similaridade_max": 0.961,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 300 km lat: -44.10 . long: 26.93 zoom:5x",
+   "ponto": 1
+  },
+  {
+   "nome": "x21_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "a3a4bd8ad757471b36b2d0f68ce977e7081b083d",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 564,
+   "profundidade": 2,
+   "t_s": 748.3,
+   "similaridade_max": 0.909,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km lat: -27.15 . long: -20.95 zoom:4x",
+   "ponto": 1
+  },
+  {
+   "nome": "x22_item",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "4f44b782c52ceae4dde9d366b392997265289875",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 419,
+   "profundidade": 2,
+   "t_s": 802.4,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 300 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x23_abrir_modal_principal",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Abrir modal principal",
+     "alternativa": "button:visible:has-text(\"Abrir modal principal\") >> nth=0"
+    }
+   ],
+   "assinatura": "83d4367d61841c0c421c238473a21451390440b3",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 419,
+   "profundidade": 2,
+   "t_s": 815.9,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 200 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x24_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "42ba9c5db4e0d08c2861eb4f0c583870a9038a62",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 432,
+   "profundidade": 2,
+   "t_s": 825.5,
+   "similaridade_max": 0.938,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. compartilhar 100 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x25_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "3d983caa9aac276249530a69f6abf8218855f03d",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 573,
+   "profundidade": 2,
+   "t_s": 839.1,
+   "similaridade_max": 0.968,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 50 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x26_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(6) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "5d7f6a81cc642366e9bd428ae8cc4c3787525941",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 418,
+   "profundidade": 2,
+   "t_s": 852.7,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 30 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x27_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "1668f88b1b8b3596a87fe51eb4ad6dcc4c0be048",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 418,
+   "profundidade": 2,
+   "t_s": 866.2,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 10 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x28_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#center-button",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "0e764658c7657d5a44f5ab549c50a6a5360e2900",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 454,
+   "profundidade": 2,
+   "t_s": 879.8,
+   "similaridade_max": 0.891,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 500 km lat: -7.51 . long: -50.82 zoom:11x",
+   "ponto": 1
+  },
+  {
+   "nome": "x29_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "1a5ca76c9218ea932b01885a7e0d6bd0458c7817",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 454,
+   "profundidade": 2,
+   "t_s": 907.0,
+   "similaridade_max": 0.885,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 200 km lat: -12.30 . long: -43.72 zoom:6x",
+   "ponto": 1
+  },
+  {
+   "nome": "x30_plataforma_geoespacial",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+     "texto": "Plataforma Geoespacial",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "fdccfb424ca1c23246707d73186ade0b11aa5727",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 419,
+   "profundidade": 2,
+   "t_s": 920.5,
+   "similaridade_max": 0.979,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 100 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x31_div_menu_redirect",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(2)",
+     "texto": "div-menu-redirect",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "9855961a1b4d7b3d0f7ff9d342b392f134a208e5",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 373,
+   "profundidade": 2,
+   "t_s": 934.1,
+   "similaridade_max": 0.956,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 50 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x32_usuario_publico",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+     "texto": "Usuário Público",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "3d33500cb42ac15a0dc51640d631c491b3de1c58",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 397,
+   "profundidade": 2,
+   "t_s": 947.6,
+   "similaridade_max": 0.958,
+   "texto": "plataforma geoespacial es en usuário público acessar recuperar senha escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 30 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x33_abrir_modal_principal",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Abrir modal principal",
+     "alternativa": "button:visible:has-text(\"Abrir modal principal\") >> nth=0"
+    }
+   ],
+   "assinatura": "42e54409e93ac275f53850d87f3c1b272d46605e",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 374,
+   "profundidade": 2,
+   "t_s": 974.7,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 100 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x34_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "ab2724fe826a1e0a1de808de42c605cc7c092d8e",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 387,
+   "profundidade": 2,
+   "t_s": 984.2,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. compartilhar 200 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x35_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "949fb050a9978bf0f8fa852b91bb253b2d6cb2e5",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 529,
+   "profundidade": 2,
+   "t_s": 997.8,
+   "similaridade_max": 0.967,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 300 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x36_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#center-button",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "b956b6a56ad41e678fa0d7e50b7c79a540f68997",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 407,
+   "profundidade": 2,
+   "t_s": 1038.3,
+   "similaridade_max": 0.923,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 500 km lat: -44.10 . long: 2.22 zoom:4x",
+   "ponto": 1
+  },
+  {
+   "nome": "x37_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "a12a786b9756f49ce292018f63234ef39b42dddb",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 407,
+   "profundidade": 2,
+   "t_s": 1051.8,
+   "similaridade_max": 0.962,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 300 km lat: -44.10 . long: 5.83 zoom:5x",
+   "ponto": 1
+  },
+  {
+   "nome": "x38_btn",
+   "caminho": [
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "4e0db90457ab1ec49399917740e204e135f5a14b",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 407,
+   "profundidade": 2,
+   "t_s": 1065.3,
+   "similaridade_max": 0.961,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 500 km lat: -44.10 . long: 9.34 zoom:4x",
+   "ponto": 1
+  },
+  {
+   "nome": "x39_btn",
+   "caminho": [
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+     "texto": "Usuário Público",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "32e1c1ffda52f4bcf03dd1258a736bebbe081a6c",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 432,
+   "profundidade": 2,
+   "t_s": 1334.6,
+   "similaridade_max": 0.979,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. compartilhar 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x40_item",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "0e0581be38913b4b725be266dc2fcb4ea7ba2bd6",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 574,
+   "profundidade": 3,
+   "t_s": 1991.2,
+   "similaridade_max": 0.968,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 300 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x41_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#center-button",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "99f333ee77d4a83f4e98fbcc43f99e38daaaecb7",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 454,
+   "profundidade": 3,
+   "t_s": 2073.8,
+   "similaridade_max": 0.926,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 500 km lat: -7.49 . long: -50.85 zoom:11x",
+   "ponto": 1
+  },
+  {
+   "nome": "x42_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "6ab069e496fc3ca56e9f6c86b01b8fa3af95dba7",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 454,
+   "profundidade": 3,
+   "t_s": 2088.2,
+   "similaridade_max": 0.926,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 200 km lat: -27.11 . long: -22.75 zoom:6x",
+   "ponto": 1
+  },
+  {
+   "nome": "x43_item",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "f8e9a48f2b71877775270225bd13b2cd0aaabb4f",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 373,
+   "profundidade": 3,
+   "t_s": 2203.3,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 10 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x44_abrir_modal_principal",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Abrir modal principal",
+     "alternativa": "button:visible:has-text(\"Abrir modal principal\") >> nth=0"
+    }
+   ],
+   "assinatura": "941290920700015e6e6b69c98282f0240628d172",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 373,
+   "profundidade": 3,
+   "t_s": 2217.6,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 30 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x45_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "4a30386ada9fce81e55d44327f704dc60043fb1b",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 386,
+   "profundidade": 3,
+   "t_s": 2228.0,
+   "similaridade_max": 0.978,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. compartilhar 50 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x46_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "efd71263cc7fb71ae66082d44df5887f1eeac858",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 529,
+   "profundidade": 3,
+   "t_s": 2242.5,
+   "similaridade_max": 0.967,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 100 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x47_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(6) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "abe67475e7ccb9746ee76f0a303a184ac3e73514",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 374,
+   "profundidade": 3,
+   "t_s": 2256.9,
+   "similaridade_max": 0.978,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 200 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x48_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "6979fcce0d71ef5612f658365d8f44f0d4e7660b",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 374,
+   "profundidade": 3,
+   "t_s": 2271.3,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. 300 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x49_fonte_sfb_cadastro_nacio",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#layer > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Fonte: SFB - Cadastro Nacional de Florestas Públicas Data de atualização: 2020",
+     "alternativa": "button:visible:has-text(\"Fonte: SFB - Cadastro Nacional de Flores\") >> nth=0"
+    }
+   ],
+   "assinatura": "e050095e67247bf599eaa97800291e331e08904f",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 648,
+   "profundidade": 3,
+   "t_s": 2692.1,
+   "similaridade_max": 0.914,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos fonte: sfb - cadastro nacional de florestas públicas data de atualização: 2020 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x50_recursos_hidricos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    }
+   ],
+   "assinatura": "f998663ecf1b91d98ce8ce3bdc0a2e2d507f8542",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 589,
+   "profundidade": 3,
+   "t_s": 2735.2,
+   "similaridade_max": 0.97,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x51_terras_indigenas",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    }
+   ],
+   "assinatura": "db58b5e34b17d712fdee7ce43fa40b79f1a515f9",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 631,
+   "profundidade": 3,
+   "t_s": 2778.2,
+   "similaridade_max": 0.97,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x52_divisao_geografica_1",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    }
+   ],
+   "assinatura": "02632bdd92d0c2999f3865af4a6c2a67ed3ae0f9",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 626,
+   "profundidade": 3,
+   "t_s": 2821.3,
+   "similaridade_max": 0.942,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x53_unidades_de_conservacao",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    }
+   ],
+   "assinatura": "01c817bdf80c51b4c3a27976e3deda9bdd125dd4",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 603,
+   "profundidade": 3,
+   "t_s": 2864.6,
+   "similaridade_max": 0.955,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x54_assentamentos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Assentamentos",
+     "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0"
+    }
+   ],
+   "assinatura": "5f31102ea7e92d10c9bcd0cb5f012bf71d87a053",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 777,
+   "profundidade": 3,
+   "t_s": 2907.7,
+   "similaridade_max": 0.948,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos projeto de assentamento federal - pa projeto de assentamento agroextrativista - pae projeto de assentamento florestal - paf projeto de assentamento casulo - pca plano de desenvolvimento do assentamento - pda solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x55_solos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Solos",
+     "alternativa": "button:visible:has-text(\"Solos\") >> nth=0"
+    }
+   ],
+   "assinatura": "228352ce4c25afb8e386cd9f1b602c422dc75ec3",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 582,
+   "profundidade": 3,
+   "t_s": 2950.8,
+   "similaridade_max": 0.97,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos embrapa ibge 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x56_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "a487ca659c26fbbc9bb79ef9dcfb3b345bffc368",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 582,
+   "profundidade": 3,
+   "t_s": 3004.3,
+   "similaridade_max": 0.985,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos compartilhar 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x57_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "f912de55a1ad157c7dec6f3fe7d41c94e3bccf4b",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 602,
+   "profundidade": 3,
+   "t_s": 3119.4,
+   "similaridade_max": 0.887,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 300 km lat: -44.10 . long: 5.83 zoom:5x",
+   "ponto": 1
+  },
+  {
+   "nome": "x58_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "93b97fa530acae7294de22264630e305591ba520",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 604,
+   "profundidade": 3,
+   "t_s": 3162.5,
+   "similaridade_max": 0.943,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km lat: -27.15 . long: -20.95 zoom:4x",
+   "ponto": 1
+  },
+  {
+   "nome": "x59_div_menu_redirect",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(2)",
+     "texto": "div-menu-redirect",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "5ddafe0616baa18186407e7507f5afa9c7a671d9",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 614,
+   "profundidade": 3,
+   "t_s": 3248.8,
+   "similaridade_max": 0.97,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x60_usuario_publico",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+     "texto": "Usuário Público",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "5206cee57c59c36be861c1faef3ce3a31c58dd60",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 638,
+   "profundidade": 3,
+   "t_s": 3292.1,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios acessar recuperar senha escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x61_eye_slash_fill",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    },
+    {
+     "seletor": "#layer > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+     "texto": "eye slash fill",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "88b3a7771516479822c6d9f73895662c8e7d0bb9",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 650,
+   "profundidade": 3,
+   "t_s": 3335.4,
+   "similaridade_max": 0.943,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal 1 cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x62_item",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "05b232104a66962f97c5c6a8c9f1689b0e8e166d",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 630,
+   "profundidade": 3,
+   "t_s": 3378.6,
+   "similaridade_max": 0.917,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal 1 recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x63_gestao_florestal",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    }
+   ],
+   "assinatura": "33575653c3fe96c1f0a7af9cf122755845497332",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 634,
+   "profundidade": 3,
+   "t_s": 3464.8,
+   "similaridade_max": 0.971,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x64_fonte_ana_base_hidrograf",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#layer > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Fonte: ANA - Base Hidrográfica Ottocodificada 2013 Data de atualização: 2022",
+     "alternativa": "button:visible:has-text(\"Fonte: ANA - Base Hidrográfica Ottocodif\") >> nth=0"
+    }
+   ],
+   "assinatura": "ed1fd2a4fbc5ecf12f99f14e9279112078f563d9",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 671,
+   "profundidade": 3,
+   "t_s": 3550.9,
+   "similaridade_max": 0.849,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos fonte: ana - base hidrográfica ottocodificada 2013 data de atualização: 2022 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x65_terras_indigenas",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    }
+   ],
+   "assinatura": "32fff9534e937320423aae2425efcca50eb038ae",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 656,
+   "profundidade": 3,
+   "t_s": 3594.0,
+   "similaridade_max": 0.939,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x66_divisao_geografica_1",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    }
+   ],
+   "assinatura": "3c40da5a6909f70e0cc535d46ed1afe36b4d15e0",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 651,
+   "profundidade": 3,
+   "t_s": 3637.1,
+   "similaridade_max": 0.942,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x67_unidades_de_conservacao",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    }
+   ],
+   "assinatura": "be631dbd8a2b98a433a936c862f33bfb07e7c7a8",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 628,
+   "profundidade": 3,
+   "t_s": 3680.3,
+   "similaridade_max": 0.94,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x68_assentamentos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Assentamentos",
+     "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0"
+    }
+   ],
+   "assinatura": "db6095bd5944f57e164914231eebdc9408fe11a0",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 802,
+   "profundidade": 3,
+   "t_s": 3723.3,
+   "similaridade_max": 0.948,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos projeto de assentamento federal - pa projeto de assentamento agroextrativista - pae projeto de assentamento florestal - paf projeto de assentamento casulo - pca plano de desenvolvimento do assentamento - pda solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x69_solos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Solos",
+     "alternativa": "button:visible:has-text(\"Solos\") >> nth=0"
+    }
+   ],
+   "assinatura": "65ec9f0cf21c27861da201576d970569f61de5c7",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 607,
+   "profundidade": 3,
+   "t_s": 3766.6,
+   "similaridade_max": 0.941,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos embrapa ibge 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x70_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "f980327eeb49e33216d1534e115d16662b4e4884",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 607,
+   "profundidade": 3,
+   "t_s": 3820.5,
+   "similaridade_max": 0.955,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos compartilhar 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x71_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "f9b5986b95428351b7515b8b103eb79e44fcb3c9",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 594,
+   "profundidade": 3,
+   "t_s": 3893.4,
+   "similaridade_max": 0.985,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x72_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "e0dae5999ba64f75a036b73f1958e6367a14978b",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 627,
+   "profundidade": 3,
+   "t_s": 3936.6,
+   "similaridade_max": 0.892,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 300 km lat: -44.10 . long: 5.83 zoom:5x",
+   "ponto": 1
+  },
+  {
+   "nome": "x73_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "39aff899c31a1e137c6d830ecd0de41159a0c366",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 629,
+   "profundidade": 3,
+   "t_s": 3979.8,
+   "similaridade_max": 0.943,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km lat: -27.15 . long: -20.95 zoom:4x",
+   "ponto": 1
+  },
+  {
+   "nome": "x74_usuario_publico",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+     "texto": "Usuário Público",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "b40cd3c57308d065b3daf029c3fbd89612030357",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 573,
+   "profundidade": 3,
+   "t_s": 4109.1,
+   "similaridade_max": 0.954,
+   "texto": "plataforma geoespacial es en usuário público acessar recuperar senha escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x75_eye_slash_fill",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    },
+    {
+     "seletor": "#layer > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+     "texto": "eye slash fill",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "b4a64ca35882adaeca1e13f0ff93797e8241c5cb",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 551,
+   "profundidade": 3,
+   "t_s": 4152.2,
+   "similaridade_max": 1.0,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos 1 hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x76_item",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "c3650430d5a563bc4ba36c75272c988c9d020ff3",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 593,
+   "profundidade": 3,
+   "t_s": 4195.2,
+   "similaridade_max": 1.0,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos 1 terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x77_recursos_hidricos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    }
+   ],
+   "assinatura": "a0852b31db7f39be558a5dd7e5c971f59545a2e7",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 611,
+   "profundidade": 3,
+   "t_s": 4324.4,
+   "similaridade_max": 0.97,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x78_fonte_funai_terras_indig",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Fonte: FUNAI - Terras Indígenas Data de atualização: 2023",
+     "alternativa": "button:visible:has-text(\"Fonte: FUNAI - Terras Indígenas Data de\") >> nth=0"
+    }
+   ],
+   "assinatura": "d18ffe5137f582f634fa055a1a2adf6e4d954288",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 649,
+   "profundidade": 3,
+   "t_s": 4410.6,
+   "similaridade_max": 0.912,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos fonte: funai - terras indígenas data de atualização: 2023 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x79_divisao_geografica_1",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    }
+   ],
+   "assinatura": "949094b7289d0d630a47d094c4a72f68e443c8cd",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 648,
+   "profundidade": 3,
+   "t_s": 4496.7,
+   "similaridade_max": 0.97,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x80_unidades_de_conservacao",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    }
+   ],
+   "assinatura": "858a31ac2ac5e7d077bbbfef44b20b77d62b1a6e",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 625,
+   "profundidade": 3,
+   "t_s": 4539.9,
+   "similaridade_max": 0.969,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x81_assentamentos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Assentamentos",
+     "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0"
+    }
+   ],
+   "assinatura": "e04006ee6e67e8f4d6dd23de0507b1805362e45e",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 799,
+   "profundidade": 3,
+   "t_s": 4583.0,
+   "similaridade_max": 0.973,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos projeto de assentamento federal - pa projeto de assentamento agroextrativista - pae projeto de assentamento florestal - paf projeto de assentamento casulo - pca plano de desenvolvimento do assentamento - pda solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x82_solos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Solos",
+     "alternativa": "button:visible:has-text(\"Solos\") >> nth=0"
+    }
+   ],
+   "assinatura": "939f3072043714e5951f0adb33cfa1f9bc777233",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 604,
+   "profundidade": 3,
+   "t_s": 4626.1,
+   "similaridade_max": 0.969,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos embrapa ibge 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x83_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "fc76f536638368d0d76233a6150aa274eb87a958",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 604,
+   "profundidade": 3,
+   "t_s": 4679.6,
+   "similaridade_max": 0.984,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos compartilhar 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x84_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "6719fa92cfad042f442c8290ab490dfeddde418c",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 624,
+   "profundidade": 3,
+   "t_s": 4794.7,
+   "similaridade_max": 0.917,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 300 km lat: -44.10 . long: 5.83 zoom:5x",
+   "ponto": 1
+  },
+  {
+   "nome": "x85_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "60835c7cbc8817752a90dc50dd0f95daca15e0ce",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 626,
+   "profundidade": 3,
+   "t_s": 4837.9,
+   "similaridade_max": 0.971,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 500 km lat: -27.15 . long: -20.95 zoom:4x",
+   "ponto": 1
+  },
+  {
+   "nome": "x86_div_menu_redirect",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(2)",
+     "texto": "div-menu-redirect",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "94244d4448702d84cef43c603c7e4b9bea6417b3",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 636,
+   "profundidade": 3,
+   "t_s": 4924.0,
+   "similaridade_max": 0.97,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x87_usuario_publico",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+     "texto": "Usuário Público",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "49c86578bdcbb46a786a36610735ac6be132bb03",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 660,
+   "profundidade": 3,
+   "t_s": 4967.1,
+   "similaridade_max": 0.955,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios acessar recuperar senha escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x88_eye_slash_fill",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+     "texto": "eye slash fill",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "0470a6685e338608626ab21524fc9925f6346fac",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 672,
+   "profundidade": 3,
+   "t_s": 5010.3,
+   "similaridade_max": 0.943,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas 1 terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x89_eye_slash_fill",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+     "texto": "eye slash fill",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "ba6103d8f9103d429cb499ddab15bf8c1d2ce8f1",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 672,
+   "profundidade": 3,
+   "t_s": 5053.5,
+   "similaridade_max": 0.986,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas 2 terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 unidades de conservação assentamentos solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x90_item",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "85cc7dc842455e2d510c234a1d6dab1c28cc4839",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 667,
+   "profundidade": 3,
+   "t_s": 5096.6,
+   "similaridade_max": 0.905,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas 2 divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x91_gestao_florestal",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    }
+   ],
+   "assinatura": "2ec729c3622966227797624e4e7e088b11d2e453",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 671,
+   "profundidade": 3,
+   "t_s": 5182.8,
+   "similaridade_max": 0.972,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x92_terras_indigenas",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Terras Indígenas",
+     "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0"
+    }
+   ],
+   "assinatura": "7a7bc4a7bf0dd22fa6f6cde05f116ed90ad39874",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 693,
+   "profundidade": 3,
+   "t_s": 5268.9,
+   "similaridade_max": 0.971,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas terras indígenas homologadas terras indígenas não homologadas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x93_fonte_ibge_divisao_admin",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Fonte: IBGE - Divisão Administrativa Regional Data de atualização: 2019",
+     "alternativa": "button:visible:has-text(\"Fonte: IBGE - Divisão Administrativa Reg\") >> nth=0"
+    }
+   ],
+   "assinatura": "cbfd4d236d9a1b2402d84747620d6555aaad01bf",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 703,
+   "profundidade": 3,
+   "t_s": 5355.0,
+   "similaridade_max": 0.882,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos fonte: ibge - divisão administrativa regional data de atualização: 2019 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x94_fonte_diretoria_de_geoci",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Fonte: Diretoria de Geociências (IBGE/DGC) e Embrapa - Solos Data de atualização",
+     "alternativa": "button:visible:has-text(\"Fonte: Diretoria de Geociências (IBGE/DG\") >> nth=0"
+    }
+   ],
+   "assinatura": "64c6d553c2cee8e811ca424c55af6734f9cf3c74",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 715,
+   "profundidade": 3,
+   "t_s": 5441.2,
+   "similaridade_max": 0.897,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos fonte: diretoria de geociências (ibge/dgc) e embrapa - solos data de atualização: - 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x95_unidades_de_conservacao",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    }
+   ],
+   "assinatura": "a8a1a8878b8fc4e4ea343ccfdf03062b86f25e6b",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 665,
+   "profundidade": 3,
+   "t_s": 5527.3,
+   "similaridade_max": 0.931,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação uso sustentável proteção integral assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x96_assentamentos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Assentamentos",
+     "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0"
+    }
+   ],
+   "assinatura": "f4169ba4582180f4008a8d260fee7769f3059a4e",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 839,
+   "profundidade": 3,
+   "t_s": 5570.4,
+   "similaridade_max": 0.926,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos projeto de assentamento federal - pa projeto de assentamento agroextrativista - pae projeto de assentamento florestal - paf projeto de assentamento casulo - pca plano de desenvolvimento do assentamento - pda solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x97_solos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Solos",
+     "alternativa": "button:visible:has-text(\"Solos\") >> nth=0"
+    }
+   ],
+   "assinatura": "26017d6259a6f852a890e949815b5819390e7e55",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 644,
+   "profundidade": 3,
+   "t_s": 5613.6,
+   "similaridade_max": 0.944,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos embrapa ibge 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x98_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "009c1efbd1b7d009e0af7082ed755f14d5b7e4af",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 644,
+   "profundidade": 3,
+   "t_s": 5667.1,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos compartilhar 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x99_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "2c344f70f1b7f148eecee0040b078a5fe8fce82c",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 631,
+   "profundidade": 3,
+   "t_s": 5739.1,
+   "similaridade_max": 0.985,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x100_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "ce50dcc16f8cd4f995a40bfe3bda034262605d35",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 664,
+   "profundidade": 3,
+   "t_s": 5782.2,
+   "similaridade_max": 0.907,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 300 km lat: -44.10 . long: 5.83 zoom:5x",
+   "ponto": 1
+  },
+  {
+   "nome": "x101_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "b69aa8be248efd7354976bdb7efe2d1c5d077038",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 666,
+   "profundidade": 3,
+   "t_s": 5825.3,
+   "similaridade_max": 0.918,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km lat: -27.15 . long: -20.95 zoom:4x",
+   "ponto": 1
+  },
+  {
+   "nome": "x102_usuario_publico",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+     "texto": "Usuário Público",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "75d5ed14a5cbf9d9a2b10881cb7580a33e8e3e7e",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 610,
+   "profundidade": 3,
+   "t_s": 5954.6,
+   "similaridade_max": 0.956,
+   "texto": "plataforma geoespacial es en usuário público acessar recuperar senha escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x103_eye_slash_fill",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+     "texto": "eye slash fill",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "7fcee383ab0d657b0cfbf37eb8d5cbc1feb1f6ee",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 586,
+   "profundidade": 3,
+   "t_s": 5997.8,
+   "similaridade_max": 0.97,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 2 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x104_eye_slash_fill",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+     "texto": "eye slash fill",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "a1770fff0f30602cc1f80d906272f5286480debc",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 620,
+   "profundidade": 3,
+   "t_s": 6084.2,
+   "similaridade_max": 0.958,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 2 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x105_eye_slash_fill",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+     "texto": "eye slash fill",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "b908ab61a935aced7e8168772c3c90d87b96843c",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 620,
+   "profundidade": 3,
+   "t_s": 6127.4,
+   "similaridade_max": 0.971,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 3 municípios unidades federativas biomas biomas - contorno unidades de conservação assentamentos solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x106_item",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "ccd7dbd17e1e018a322a377afa1d9d00f1658f3b",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 597,
+   "profundidade": 3,
+   "t_s": 6170.6,
+   "similaridade_max": 0.912,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 3 unidades de conservação uso sustentável proteção integral assentamentos solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x107_recursos_hidricos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Recursos Hídricos",
+     "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0"
+    }
+   ],
+   "assinatura": "a7929781206c6cea9d8f108c0fa4cf8fc3b51c0c",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 583,
+   "profundidade": 3,
+   "t_s": 6300.0,
+   "similaridade_max": 0.97,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos hidrografia nível 1 terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x108_divisao_geografica_1",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Divisão Geográfica 1",
+     "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0"
+    }
+   ],
+   "assinatura": "19dedde5956b3aeb57679f1198ed510bc799b91b",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 620,
+   "profundidade": 3,
+   "t_s": 6386.2,
+   "similaridade_max": 0.971,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 municípios unidades federativas biomas biomas - contorno unidades de conservação uso sustentável proteção integral assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x109_fonte_mma_unidades_de_co",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Fonte: MMA - Unidades de Conservação Federal, Estadual e Municipal Data de atual",
+     "alternativa": "button:visible:has-text(\"Fonte: MMA - Unidades de Conservação Fed\") >> nth=0"
+    }
+   ],
+   "assinatura": "df6173e2620d7871b4fb2a2df6e5f280b636f062",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 656,
+   "profundidade": 3,
+   "t_s": 6472.3,
+   "similaridade_max": 0.875,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos fonte: mma - unidades de conservação federal, estadual e municipal data de atualização: 2023 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x110_assentamentos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Assentamentos",
+     "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0"
+    }
+   ],
+   "assinatura": "7854b682d77caac1f80161fb8470605a852fd71b",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 771,
+   "profundidade": 3,
+   "t_s": 6558.5,
+   "similaridade_max": 0.961,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos projeto de assentamento federal - pa projeto de assentamento agroextrativista - pae projeto de assentamento florestal - paf projeto de assentamento casulo - pca plano de desenvolvimento do assentamento - pda solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x111_solos",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Solos",
+     "alternativa": "button:visible:has-text(\"Solos\") >> nth=0"
+    }
+   ],
+   "assinatura": "2ff60733e2de67600736d95b0a46882272436644",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 576,
+   "profundidade": 3,
+   "t_s": 6601.6,
+   "similaridade_max": 0.969,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos embrapa ibge 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x112_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "b9fb21d70e175ae64d6655ee55ea052f666670e3",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 576,
+   "profundidade": 3,
+   "t_s": 6655.2,
+   "similaridade_max": 0.984,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos compartilhar 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x113_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "bfe42a71c47c8c94f7943c3961f9768cbb39fcf0",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 596,
+   "profundidade": 3,
+   "t_s": 6770.0,
+   "similaridade_max": 0.93,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos 300 km lat: -44.10 . long: 5.83 zoom:5x",
+   "ponto": 1
+  },
+  {
+   "nome": "x114_btn",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "ae3eb17a0ed676404b6f2a555c8e90a658a662c8",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 598,
+   "profundidade": 3,
+   "t_s": 6813.0,
+   "similaridade_max": 0.957,
+   "texto": "plataforma geoespacial es en usuário público escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos 500 km lat: -27.15 . long: -20.95 zoom:4x",
+   "ponto": 1
+  },
+  {
+   "nome": "x115_div_menu_redirect",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(2)",
+     "texto": "div-menu-redirect",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "ab6b672ae2a0a70343c993589057c5ede2c8ac6a",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 608,
+   "profundidade": 3,
+   "t_s": 6899.0,
+   "similaridade_max": 0.97,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x116_usuario_publico",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+     "texto": "Usuário Público",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "43a1c9be47b9ba07c40dccc6a6bdf5fbdd030dd0",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 632,
+   "profundidade": 3,
+   "t_s": 6942.1,
+   "similaridade_max": 0.956,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios acessar recuperar senha escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação uso sustentável proteção integral assentamentos solos 500 km",
+   "ponto": 1
+  },
+  {
+   "nome": "x117_eye_slash_fill",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+     "texto": "eye slash fill",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "22a7fb441b7dfc368f35f596496bb53bfc66e7cb",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 644,
+   "profundidade": 3,
+   "t_s": 6985.2,
+   "similaridade_max": 0.943,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação 1 uso sustentável proteção integral assentamentos solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x118_eye_slash_fill",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Unidades de Conservação",
+     "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+     "texto": "eye slash fill",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "48539475af5d300054a8e265cf38243d362ec2d1",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 644,
+   "profundidade": 3,
+   "t_s": 7028.3,
+   "similaridade_max": 0.986,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação 2 uso sustentável proteção integral assentamentos solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x119_item",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Assentamentos",
+     "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0"
+    },
+    {
+     "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "",
+     "alternativa": null
+    }
+   ],
+   "assinatura": "ef7b5b8bd4469166e4144e83f96aa0070628e0db",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 818,
+   "profundidade": 3,
+   "t_s": 7071.5,
+   "similaridade_max": 0.915,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação 2 assentamentos projeto de assentamento federal - pa projeto de assentamento agroextrativista - pae projeto de assentamento florestal - paf projeto de assentamento casulo - pca plano de desenvolvimento do assentamento - pda solos 500 km legenda previous slide next slide",
+   "ponto": 1
+  },
+  {
+   "nome": "x120_gestao_florestal",
+   "caminho": [
+    {
+     "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+     "texto": "btn",
+     "alternativa": null
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Assentamentos",
+     "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0"
+    },
+    {
+     "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+     "texto": "Gestão Florestal",
+     "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0"
+    }
+   ],
+   "assinatura": "8984208a1dbfc50a43045da43d2991ac7eae8a3d",
+   "rota": "/plataforma-geoespacial/#/",
+   "caracteres": 822,
+   "profundidade": 3,
+   "t_s": 7157.9,
+   "similaridade_max": 0.975,
+   "texto": "plataforma geoespacial es en usuário público plataforma estatística plataforma relatórios escolha um tema: ✕ agricultura familiar agropecuária sustentável e meio ambiente aquicultura assistencia técnica assuntos fundiários crédito rural público destaques do censo agropecuário indicações geográficas pecuária produtos agrícolas recursos hídricos e agricultura zarc vertentes agronordeste em breve, novos painéis. limites e camadas base limpar camadas gestão florestal cadastro nacional de florestas públicas recursos hídricos terras indígenas divisão geográfica 1 unidades de conservação assentamentos projeto de assentamento federal - pa projeto de assentamento agroextrativista - pae projeto de assentamento florestal - paf projeto de assentamento casulo - pca plano de desenvolvimento do assentamento - pda solos 500 km",
+   "ponto": 1
+  }
+ ],
+ "duracao_s": 7202.3,
+ "parada": "teto_de_tempo"
+}

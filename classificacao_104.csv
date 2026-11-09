@@ -1,0 +1,105 @@
+﻿code;fluxo;severidade;categoria;motivo;descricao
+OBH-01;p12;2;Exige interação;animação só observável em execução;Background animations impair readability.
+OBH-02;p12;3;Exige conhecimento do domínio ou interpretação fina;julgamento de hierarquia visual;Actions for reading are difficult to locate.
+OBH-03;p12;3;Visível na captura;contraste mensurável na imagem/CSS;The contrast between elements is dark against a dark background.
+OBH-04;p12;2;Exige interação;compara destinos após clicar nos painéis;Inconsistency in navigation - some panels lead directly to the map, while others do not.
+OBH-05;p12;2;Visível na captura;nomes divergentes visíveis no texto;"Lack of standardized nomenclature - ""Geospatial,"" ""Geospatial Platform."""
+OBH-06;p12;2;Exige interação;exige clicar para ver destinos;Functions with the same name redirect to different locations.
+OBH-07;p12;2;Exige interação;ausência de feedback após seleção;Entering a thematic panel does not provide feedback indicating selection.
+OBH-08;p12;3;Visível na captura;ausência de instrução visível;No instructions on what to select to activate layers.
+OBH-09;p12;3;Exige interação;só se sabe que não é clicável ao clicar;In the layer list, there is an info button that seems clickable but is not.
+OBH-10;p12;2;Visível na captura;cores sem legenda visível;Colors are informative only, with no explanation of their meaning.
+OBH-11;p12;2;Exige estado ou contexto de uso;legenda só aparece com camada ativa;Color legends are only displayed when the layer is activated.
+OBH-12;p12;3;Exige conhecimento do domínio ou interpretação fina;clareza do ícone depende de interpretação;The activation button (eye icon) is unclear to users.
+OBH-13;p12;3;Visível na captura;tamanho do botão visível;"The button in ""Planted Area"" with sub-options is too small and unclear."
+OBH-14;p12;3;Exige estado ou contexto de uso;contador surge após ativar camada;Activating a layer displays a number (active layer counter) without explanation.
+OBH-15;p12;2;Exige conhecimento do domínio ou interpretação fina;affordance enganosa, julgamento;Layer title suggests button functionality but is not a button.
+OBH-16;p12;2;Exige conhecimento do domínio ou interpretação fina;affordance, julgamento;Clearing layers lacks button affordance.
+OBH-17;p12;2;Exige estado ou contexto de uso;aparência de desabilitado vs. estado real;"In filters, ""culture"" with a gray background appears disabled but is not."
+OBH-18;p12;2;Exige estado ou contexto de uso;estado visual vs. estado real;In filters, municipal layers appear activated (in white) when they are not.
+OBH-19;p12;3;Exige conhecimento do domínio ou interpretação fina;diferença de funções, interpretação;The difference between clearing layers at the top of filters and clicking filters below is unclear.
+OBH-20;p12;2;Exige interação;efeito de limpar filtros;Clearing filters leaves municipal layers active without selecting a culture.
+OBH-21;p12;3;Exige interação;dependência entre campos só vista usando;The order of interaction and field dependency in filter application is unclear.
+OBH-22;p12;3;Exige interação;comportamento do play em execução;The play button for advancing time is too fast, not allowing images to load.
+OBH-23;p12;3;Exige conhecimento do domínio ou interpretação fina;significado do botão, interpretação;The button to change speed does not clarify whether it will increase or decrease speed.
+OBH-24;p12;4;Exige interação;troca de idioma e verificação da lista;Changing to English or Spanish does not change the layer list.
+OBH-25;p12;4;Exige estado ou contexto de uso;fluxo de login/conta;Logging in - the process is unclear. Why log in? How to create an account?
+OBH-26;p12;3;Exige interação;clicar no mapa e observar resposta;Clicking on the map raises expectations of area details, but no information is provided.
+OBH-27;p12;3;Exige interação;comportamento do menu após clicar;Clicking the sandwich menu to return to the filter takes you back to the main menu of the Observatory.
+OBH-28;p12;4;Exige interação;tutorial só testável executando;The tutorial does not function.
+OBH-29;p12;3;Exige conhecimento do domínio ou interpretação fina;propósito do botão, interpretação;"The ""forward"" button’s purpose (share?) is unclear."
+OBH-30;p12;3;Visível na captura;contraste visível;Social media contrast makes reading difficult.
+OBH-31;p12;2;Exige interação;processo em várias etapas;Why is there such a lengthy process to reach social media sharing icons?
+OBH-32;p12;3;Exige conhecimento do domínio ou interpretação fina;clareza do rótulo, interpretação;"The button on the left with ""squares"" - label - does it open the main modal? It does not communicate effectively with the user."
+OBH-33;p12;3;Exige conhecimento do domínio ou interpretação fina;correspondência semântica tema/camada;Theme names suggest they are layers, but layer names do not match themes.
+OBH-34;p12;3;Exige conhecimento do domínio ou interpretação fina;possibilidade de combinar temas, domínio;It is unclear whether it is possible to intersect layers from different themes.
+OBH-35;p12;3;Exige conhecimento do domínio ou interpretação fina;relação entre camadas, domínio;The relationship between base layers and specific layers is unclear.
+OBH-36;p12;3;Exige estado ou contexto de uso;falta de opção após selecionar tema;No option to clear the theme.
+OBH-37;p12;3;Exige conhecimento do domínio ou interpretação fina;inferir capacidade pela interface;Selecting more than one theme does not seem possible in the interface.
+OBH-38;p12;3;Exige estado ou contexto de uso;tela de relatório só após gerar;The area for report details has poor contrast options - white letters on light backgrounds.
+OBH-39;p12;3;Exige conhecimento do domínio ou interpretação fina;função esperada, interpretação;The function should be to delete the report, not remove the theme.
+OBH-40;p12;4;Exige estado ou contexto de uso;gráfico só existe após gerar;The generated bar graph is illegible.
+OBH-41;p12;3;Exige interação;complexidade do processo;The process to generate graphs is overly complicated.
+OBH-42;p12;4;Exige estado ou contexto de uso;gráfico gerado;The graph lacks a Y-axis legend.
+OBH-43;p12;3;Exige conhecimento do domínio ou interpretação fina;convenção de ícone;An icon commonly used for sorting is used to change the period.
+OBH-44;p12;3;Exige estado ou contexto de uso;gráfico gerado, troca de período;Graph color changes randomly during exchanges.
+OBH-45;p12;3;Exige interação;dependência de função ativada;Latitude, longitude, and location options only work if an unidentified function is enabled.
+OBH-46;p12;3;Exige interação;feedback ao ativar zoom;Activating zoom options does not provide feedback.
+OBH-47;p12;3;Exige interação;tarefa de especificar zoom;Specifying the desired zoom level is difficult.
+OBH-48;p12;3;Exige estado ou contexto de uso;resultados de busca;Options with search results are displayed with poor contrast.
+OBH-49;p12;3;Exige estado ou contexto de uso;resultado de busca de município;Searching for a municipality only centers the map on the city without visually identifying the contour.
+OBH-50;p12;3;Exige interação;teclar Enter na busca;Searching does not allow pressing enter.
+OBH-51;p12;4;Exige estado ou contexto de uso;lista de busca com rolagem;When the search list generates scrolling, mouse scrolling moves the map, not the list.
+OBH-52;p12;4;Exige estado ou contexto de uso;lista longa de resultados, tempo;A list with more names in search disappears after a while, without providing an option to search further.
+SIH-01;p13;4;Exige conhecimento do domínio ou interpretação fina;comunicação do fluxo, julgamento;The initial screen does not clearly communicate the operation flow.
+SIH-02;p13;2;Exige conhecimento do domínio ou interpretação fina;sigla compreensível ao público;What does GIS mean? Will everyone understand?
+SIH-03;p13;1;Visível na captura;alinhamento visível;The flag at the bottom is not well-aligned.
+SIH-04;p13;2;Exige conhecimento do domínio ou interpretação fina;affordance de título;"""Home Page"" title - is it clickable? It has the same color scheme as the menu."
+SIH-05;p13;3;Exige estado ou contexto de uso;tela de carregamento transitória;"""Loading mapstore"" - loading is in English while the system is in Portuguese."
+SIH-06;p13;4;Visível na captura;texto de cookies visível;Only mentions storing cookies without explaining what it means in the context where the user must agree.
+SIH-07;p13;3;Exige conhecimento do domínio ou interpretação fina;contexto geográfico, domínio;The map does not contextualize the state of Santa Catarina with the others - could at least show the borders.
+SIH-08;p13;3;Exige conhecimento do domínio ou interpretação fina;affordance de botão;The button in the lower left corner to change the background does not clearly indicate that it is clickable.
+SIH-09;p13;4;Exige estado ou contexto de uso;opção de contorno do mapa;The map outline option becomes illegible - difficult to read due to color contrast.
+SIH-10;p13;4;Exige conhecimento do domínio ou interpretação fina;ícone de ajuda, interpretação;"The ""manual"" icon for help is hard to find and unclear."
+SIH-11;p13;3;Exige interação;clicar fora do item;"""No information available for this point"" when clicking on an item outside the map - should not be considered clickable."
+SIH-12;p13;4;Exige estado ou contexto de uso;tooltip após clicar em ponto;Tooltip with map point information presents acronyms difficult for the general population to understand.
+SIH-13;p13;4;Exige estado ou contexto de uso;siglas na lista de camadas;In the layer list, there are several acronyms to select - what do they mean?
+SIH-14;p13;3;Exige estado ou contexto de uso;sub-item na lista aberta;"Layers - in the layer list - ""Antas"" has a subtle shift in relation to ""SADPLAN"" - hard to see that it is a sub-item."
+SIH-15;p13;3;Exige estado ou contexto de uso;camada com nome técnico, domínio;"What is ""balanco_hidrico_antes""? No clear description provided."
+SIH-16;p13;4;Exige estado ou contexto de uso;descrição de camada, domínio;"""balanco_hidrico_antes"" - what is it? The description only indicates ""blue line"" - does not satisfactorily explain."
+SIH-17;p13;2;Exige conhecimento do domínio ou interpretação fina;termo técnico, interpretação;Toggling the layer visibility - a term difficult for users to understand.
+SIH-18;p13;2;Exige conhecimento do domínio ou interpretação fina;compreensão de controle;Line with percentage of line contrast - difficult to understand how it works.
+SIH-19;p13;3;Exige estado ou contexto de uso;balão de explicação;Difficult to understand what the explaining balloon refers to - only by the lower arrow? (to which point on the map is this related?)
+SIH-20;p13;3;Exige interação;desativar limites e ver a lista;When deactivating municipal boundaries, the divisions still appear in the layer list.
+SIH-21;p13;3;Exige estado ou contexto de uso;camada específica, domínio;Capture and classification layer - what is it? How to use?
+SIH-22;p13;3;Exige conhecimento do domínio ou interpretação fina;ícone vs. comportamento;The layer icon is a menu (hamburger), but does not act like a menu.
+SIH-23;p13;3;Exige conhecimento do domínio ou interpretação fina;rótulos distintos para mesmo ícone;"Menu icon shows ""capture"" and ""grab..."" - distinct descriptions for different functions for the same icon."
+SIH-24;p13;4;Exige interação;"busca por ""São""";"Searching for ""São"" - shows items up to Russia, but it’s only the state of SC."
+SIH-25;p13;3;Exige interação;busca com autocompletar;Auto-complete items do not prioritize the context of Santa Catarina in the search.
+SIH-26;p13;3;Exige conhecimento do domínio ou interpretação fina;ícone de menu, convenção;Menu icon is used to offer choices of search types (coordinate or place name).
+SIH-27;p13;3;Exige estado ou contexto de uso;busca por coordenadas;Searching by coordinates - lat / lon - non-descriptive names.
+SIH-28;p13;2;Exige estado ou contexto de uso;campo marcado em vermelho;lat/lon in search by coordinates is outlined in red, as if it had already been filled in incorrectly before.
+SIH-29;p13;3;Exige conhecimento do domínio ou interpretação fina;termo técnico das coordenadas;"What do ""degree gms/degree decimal"" mean? In settings."
+SIH-30;p13;3;Exige conhecimento do domínio ou interpretação fina;convenção de ícone;X icon to clear field - does not correspond to common use (amid other icons).
+SIH-31;p13;4;Exige interação;busca com coordenadas inválidas;"Search by incorrect latitude and longitude shows location ""in the middle of nowhere,"" without feedback."
+SIH-32;p13;4;Exige estado ou contexto de uso;depende de estar logado;"Even when logged in, clicking on the profile icon shows the option to ""login,"" suggesting you are not logged in."
+SIH-33;p13;4;Exige estado ou contexto de uso;depende de estar logado;Login status does not appear to be working.
+SIH-34;p13;2;Exige conhecimento do domínio ou interpretação fina;tradução sem sentido;"""Drop your map context"" - translation does not make sense."
+SIH-35;p13;1;Exige conhecimento do domínio ou interpretação fina;ícone sem significado;Mouse icon shows the option to hide/show layers (bottom right corner) - the icon does not make sense.
+SIH-36;p13;4;Exige conhecimento do domínio ou interpretação fina;conceito de consulta, domínio;What is a query? It is not clear whether it is a public consultation or what it is for.
+SIH-37;p13;3;Exige interação;seleção afeta lista seguinte;SIOUT Consultation - it is not clear that selecting an item affects the list of subsequent ones.
+SIH-38;p13;4;Exige estado ou contexto de uso;tempo de resposta;Search in the consultation is very slow.
+SIH-39;p13;4;Exige estado ou contexto de uso;estado travado;When the search is stuck, there is no option to cancel.
+SIH-40;p13;3;Exige estado ou contexto de uso;resultado de consulta;The result does not indicate how many results were listed.
+SIH-41;p13;3;Exige estado ou contexto de uso;resultado de consulta;There is no explanation about the numbers or types of results - does not explain what the items in the results are.
+SIH-42;p13;3;Exige interação;selecionar resultado e ver destaque;When clicking on a result in the consultation list, it shows the point but does not leave a visual indication of which is currently selected.
+SIH-43;p13;4;Exige interação;sobreposição de balões;When clicking on the item to show details, there is an overlay of balloons, and it is difficult to change.
+SIH-44;p13;4;Exige interação;comportamento do botão X;Result point - detail balloon - X button as retract, not as close.
+SIH-45;p13;3;Exige estado ou contexto de uso;detalhes vazios;Result point - detail balloon - some items show with empty details.
+SIH-46;p13;4;Exige interação;limpar consulta e ver pop-up;When clearing the consultation, it removes the point, but the pop-up with details remains on the screen.
+SIH-47;p13;3;Exige interação;exportar;When exporting, it does not ask for confirmation, and immediately starts the automatic download of a .zip file.
+SIH-48;p13;3;Exige estado ou contexto de uso;arquivo exportado;When exporting, a read me in English says the result is empty.
+SIH-49;p13;3;Exige interação;exportar;When exporting, it does not explain that the data will come in shape files.
+SIH-50;p13;4;Exige interação;exportar, feedback;Does not give feedback on whether the export was successful or not.
+SIH-51;p13;2;Exige interação;clicar em objetos;Consulting objects on the map (local icon) only shows the map.
+SIH-52;p13;3;Visível na captura;dois ícones próximos visíveis;The upper right corner shows two menu (sandwich) icons very close together - what are they for?

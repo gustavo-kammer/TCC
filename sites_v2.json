@@ -1,0 +1,489 @@
+[
+ {
+  "id": "p12",
+  "site": "Observatório da Agropecuária (INMET)",
+  "gabarito": "Capeleti (2024), Tabelas A.5-A.8 (OBH)",
+  "tarefa": "Explorar livremente as seções de geoprocessamento, os mapas e as informações geradas pela plataforma.",
+  "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+  "cookies": "",
+  "locale": "pt-BR",
+  "estados": [
+   {
+    "nome": "modal_temas",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/?r=1#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_inicial",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/?r=2#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     }
+    ]
+   },
+   {
+    "nome": "camadas",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/?r=3#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.circle-button.btn-light:visible >> nth=1"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     }
+    ],
+    "comparar_com": "mapa_inicial"
+   },
+   {
+    "nome": "camadas_grupo_aberto",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/?r=4#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.circle-button.btn-light:visible >> nth=1"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "text=Gestão Florestal"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     }
+    ],
+    "comparar_com": "mapa_inicial"
+   },
+   {
+    "nome": "menu_principal",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/?r=5#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "div.navbar-brand svg >> nth=0"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     }
+    ],
+    "comparar_com": "mapa_inicial"
+   },
+   {
+    "nome": "tema_agricultura_familiar",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/?r=6#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "text=Agricultura Familiar"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 6000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.circle-button.btn-light:visible >> nth=1"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 2500
+     }
+    ],
+    "comparar_com": "mapa_inicial"
+   },
+   {
+    "nome": "busca_localidade",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/?r=7#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 2500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.circle-button.btn-light:visible >> nth=3"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1200
+     },
+     {
+      "tipo": "preencher",
+      "seletor": "div#inputSearch input >> visible=true",
+      "valor": "Santa Catarina"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 2500
+     }
+    ],
+    "comparar_com": "mapa_inicial"
+   }
+  ],
+  "_nota": "Estados definidos a priori pelas áreas de navegação da interface (tema, mapa, camadas, menu, busca), não pela lista de problemas. Cada estado recarrega a página (?r=N) para ser independente. Seletores verificados no Chrome em 28/10/2026; confirmar nos alertas do meta.json. Correção 28/10 22h: o seletor das camadas agora usa :visible, porque há botões duplicados ocultos no DOM (índices 1, 2 e 4) que faziam o clique estourar o tempo. Busca: o campo só fica visível depois de clicar na lupa (4º botão visível), então o roteiro clica na lupa antes de preencher. Menu: o ícone é o svg dentro de div.navbar-brand (o div.icon.home ocupa 284px e o clique no centro caía no título). Tema: trocado para Agricultura Familiar e o roteiro abre o painel de camadas do tema (abas Camadas/Relatórios), verificado no Chrome em 28/10.",
+  "exploracao": {
+   "inicio": [
+    {
+     "tipo": "ir",
+     "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+    },
+    {
+     "tipo": "esperar",
+     "ms": 3000
+    },
+    {
+     "tipo": "clicar",
+     "seletor": "button.close-btn",
+     "opcional": true
+    },
+    {
+     "tipo": "esperar",
+     "ms": 1500
+    }
+   ],
+   "limite_segundos": 7200,
+   "excluir_textos": [
+    "ES",
+    "EN",
+    "✕",
+    "Clean active layers"
+   ]
+  }
+ },
+ {
+  "id": "p13",
+  "site": "SIOUT SC (Águas de SC)",
+  "gabarito": "Capeleti (2024), Tabelas A.14-A.17 (SIH)",
+  "tarefa": "Explorar livremente as seções públicas do sistema, incluindo o visualizador de mapa (SIG SIOUT).",
+  "url": "https://siout.aguas.sc.gov.br/#/",
+  "cookies": "button.cookie-btn",
+  "locale": "pt-BR",
+  "estados": [
+   {
+    "nome": "home",
+    "acoes": []
+   },
+   {
+    "nome": "consulta_cadastro",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/consulta/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     }
+    ]
+   },
+   {
+    "nome": "consulta_portarias",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/consulta/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "text=Portarias digitadas"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 2000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_inicial",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     }
+    ],
+    "exigir_texto": [
+     "SADPLAN"
+    ]
+   },
+   {
+    "nome": "mapa_camadas",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#drawer-menu-button",
+      "js_se_falhar": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 2500
+     }
+    ],
+    "comparar_com": "mapa_inicial",
+    "exigir_texto": [
+     "SADPLAN"
+    ]
+   },
+   {
+    "nome": "mapa_consulta",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.ms-drawer-menu-button:not(#drawer-menu-button)",
+      "js_se_falhar": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 2500
+     }
+    ],
+    "comparar_com": "mapa_inicial",
+    "exigir_texto": [
+     "SADPLAN"
+    ]
+   },
+   {
+    "nome": "mapa_menu",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#mapstore-burger-menu-container",
+      "js_se_falhar": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 2500
+     }
+    ],
+    "comparar_com": "mapa_inicial",
+    "exigir_texto": [
+     "SADPLAN"
+    ]
+   }
+  ],
+  "_nota": "v2: inclui o visualizador de mapa, que abre só partindo da home (ação clicar_mesma_aba remove o target=_blank). Orçamento: 7 estados por sistema.",
+  "fechar": [
+   "button:has-text('Aceitar')"
+  ],
+  "exploracao": [
+   {
+    "nome": "portal",
+    "inicio": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     }
+    ],
+    "limite_segundos": 3600
+   },
+   {
+    "nome": "mapa",
+    "inicio": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     }
+    ],
+    "limite_segundos": 3600
+   }
+  ]
+ }
+]

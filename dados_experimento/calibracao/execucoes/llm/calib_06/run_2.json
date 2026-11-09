@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "49906935c5cfc03392712060da06367ee4cf559b649e3e3da32f8289ea8c156e",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:32:25-03:00",
+    "configuracao": "llm",
+    "run_id": 2
+  },
+  "flow_id": "calib_06",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_06.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_06.html",
+      "n_fatias": 2,
+      "prompt_sha256": "b2047d092149568c5bbaf66882114b98d55d911e27d75151b6be1c42b7df6bf3",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_06.html",
+        "total_violations": 4,
+        "count_by_severity": {
+          "3": 1,
+          "2": 2,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Tabela de histórico (cabeçalho e área acima da tabela)",
+            "description": "Lista de 212 compras sem busca, filtro por data/banca nem ordenação das colunas.",
+            "justification": "Com 212 registros e apenas 12 visíveis, encontrar uma compra específica exige carregar páginas repetidamente e varrer visualmente; os cabeçalhos Data, Banca, Itens e Total não indicam que podem ser ordenados e não há controles de filtro.",
+            "recommendation": "Adicionar busca por número do pedido/banca, filtros por período e banca e ordenação clicável nos cabeçalhos das colunas.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Ver mais 12'",
+            "description": "A paginação carrega apenas 12 registros por vez, sem opção de carregar mais ou saltar para um período.",
+            "justification": "Para chegar às compras mais antigas dentre 212, o usuário precisaria clicar cerca de 17 vezes; não há atalho para tamanho de página nem navegação por data.",
+            "recommendation": "Oferecer opção de quantidade por página, carregar mais itens por vez ou navegação por período/paginação numerada.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Linhas da tabela (coluna Pedido e Itens)",
+            "description": "As linhas não oferecem acesso aparente ao detalhe do pedido; o número #4821 e a quantidade de itens aparecem como texto simples.",
+            "justification": "O usuário vê apenas '3 itens' e o total, sem saber quais produtos foram comprados; precisa lembrar o conteúdo do pedido de memória, e nada indica que a linha seja interativa.",
+            "recommendation": "Tornar o número do pedido (ou a linha) um link para o detalhe, mostrando os itens, e considerar ação como 'Comprar novamente'.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H04_consistencia_e_padronizacao",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Navegação principal, breadcrumb e título (Pedidos / Meus pedidos / Histórico de compras)",
+            "description": "Os termos 'pedidos' e 'compras' são usados de forma alternada para o mesmo conceito.",
+            "justification": "A aba é 'Pedidos', o breadcrumb 'Meus pedidos', o título 'Histórico de compras', a legenda 'compras' e a coluna 'Pedido', o que pode levar a dúvida se são coisas distintas.",
+            "recommendation": "Padronizar a terminologia, por exemplo usando 'Pedidos' em todos os pontos, ou 'Histórico de pedidos' como título.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Navegação principal, breadcrumb e título (Pedidos / Meus pedidos / Histórico de compras)",
+          "description": "Os termos 'pedidos' e 'compras' são usados de forma alternada para o mesmo conceito.",
+          "justification": "A aba é 'Pedidos', o breadcrumb 'Meus pedidos', o título 'Histórico de compras', a legenda 'compras' e a coluna 'Pedido', o que pode levar a dúvida se são coisas distintas.",
+          "recommendation": "Padronizar a terminologia, por exemplo usando 'Pedidos' em todos os pontos, ou 'Histórico de pedidos' como título.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Linhas da tabela (coluna Pedido e Itens)",
+          "description": "As linhas não oferecem acesso aparente ao detalhe do pedido; o número #4821 e a quantidade de itens aparecem como texto simples.",
+          "justification": "O usuário vê apenas '3 itens' e o total, sem saber quais produtos foram comprados; precisa lembrar o conteúdo do pedido de memória, e nada indica que a linha seja interativa.",
+          "recommendation": "Tornar o número do pedido (ou a linha) um link para o detalhe, mostrando os itens, e considerar ação como 'Comprar novamente'.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Tabela de histórico (cabeçalho e área acima da tabela)",
+          "description": "Lista de 212 compras sem busca, filtro por data/banca nem ordenação das colunas.",
+          "justification": "Com 212 registros e apenas 12 visíveis, encontrar uma compra específica exige carregar páginas repetidamente e varrer visualmente; os cabeçalhos Data, Banca, Itens e Total não indicam que podem ser ordenados e não há controles de filtro.",
+          "recommendation": "Adicionar busca por número do pedido/banca, filtros por período e banca e ordenação clicável nos cabeçalhos das colunas.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Ver mais 12'",
+          "description": "A paginação carrega apenas 12 registros por vez, sem opção de carregar mais ou saltar para um período.",
+          "justification": "Para chegar às compras mais antigas dentre 212, o usuário precisaria clicar cerca de 17 vezes; não há atalho para tamanho de página nem navegação por data.",
+          "recommendation": "Oferecer opção de quantidade por página, carregar mais itens por vez ou navegação por período/paginação numerada.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    }
+  }
+}

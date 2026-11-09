@@ -1,0 +1,4410 @@
+[
+ {
+  "id": "p12",
+  "site": "Observatório da Agropecuária (INMET)",
+  "gabarito": "Capeleti (2024), Tabelas A.5-A.8 (OBH)",
+  "tarefa": "Explorar livremente as seções de geoprocessamento, os mapas e as informações geradas pela plataforma.",
+  "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/",
+  "cookies": "",
+  "locale": "pt-BR",
+  "_nota": "Roteiro gerado por exploração determinística em largura; 120 estados em 1 ponto(s) de partida; paradas: ['teto_de_tempo']. Curadoria: similaridade de texto >= 0.9 e mudança visual < 0.005 = repetido; 88 de 120 estados mantidos.",
+  "estados": [
+   {
+    "nome": "x01_inicial",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     }
+    ]
+   },
+   {
+    "nome": "x03_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x04_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x05_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x06_div_menu_redirect",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x07_usuario_publico",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x08_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x09_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x10_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x11_usuario_publico",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x12_gestao_florestal",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x13_recursos_hidricos",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x14_terras_indigenas",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x15_divisao_geografica_1",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x17_assentamentos",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x20_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x22_item",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x23_abrir_modal_principal",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Abrir modal principal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x24_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x25_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x26_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(6) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x27_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x28_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#center-button",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x29_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x30_plataforma_geoespacial",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x31_div_menu_redirect",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x32_usuario_publico",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x33_abrir_modal_principal",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Abrir modal principal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x34_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x35_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x36_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#center-button",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x37_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x39_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x40_item",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x42_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x44_abrir_modal_principal",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Abrir modal principal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x45_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x47_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(6) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x48_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x49_fonte_sfb_cadastro_nacio",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#layer > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Fonte: SFB - Cadastro Nacional de Flores\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x50_recursos_hidricos",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x51_terras_indigenas",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x52_divisao_geografica_1",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x53_unidades_de_conservacao",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x54_assentamentos",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x55_solos",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Solos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x56_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x57_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x58_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x60_usuario_publico",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x61_eye_slash_fill",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#layer > div:nth-of-type(1) > div:nth-of-type(1) > svg:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x62_item",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x63_gestao_florestal",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x64_fonte_ana_base_hidrograf",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#layer > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Fonte: ANA - Base Hidrográfica Ottocodif\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x65_terras_indigenas",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x66_divisao_geografica_1",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x68_assentamentos",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x70_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x72_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x73_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x74_usuario_publico",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x76_item",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x79_divisao_geografica_1",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x81_assentamentos",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x83_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x84_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x85_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x86_div_menu_redirect",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x87_usuario_publico",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x90_item",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x91_gestao_florestal",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Gestão Florestal\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x92_terras_indigenas",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Terras Indígenas\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x96_assentamentos",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x98_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x99_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x100_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x101_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x102_usuario_publico",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Divisão Geográfica 1\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x106_item",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x107_recursos_hidricos",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Recursos Hídricos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x109_fonte_mma_unidades_de_co",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Fonte: MMA - Unidades de Conservação Fed\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x110_assentamentos",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x112_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x113_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x114_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#retratil > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x115_div_menu_redirect",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(2)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x116_usuario_publico",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Unidades de Conservação\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "x119_item",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://observatorio.agropecuaria.inmet.gov.br/plataforma-geoespacial/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "button.close-btn",
+      "opcional": true
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1500
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-container > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#settings-panel > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Assentamentos\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#nav > nav:nth-of-type(1) > ul:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "p13",
+  "site": "SIOUT SC (Águas de SC)",
+  "gabarito": "Capeleti (2024), Tabelas A.14-A.17 (SIH)",
+  "tarefa": "Explorar livremente as seções públicas do sistema, incluindo o visualizador de mapa (SIG SIOUT).",
+  "url": "https://siout.aguas.sc.gov.br/#/",
+  "cookies": "button.cookie-btn",
+  "locale": "pt-BR",
+  "_nota": "Roteiro gerado por exploração determinística em largura; 16 estados em 2 ponto(s) de partida; paradas: ['saturacao', 'teto_de_tempo']. Curadoria: similaridade de texto >= 0.9 e mudança visual < 0.005 = repetido; 12 de 16 estados mantidos.",
+  "fechar": [
+   "button:has-text('Aceitar')"
+  ],
+  "estados": [
+   {
+    "nome": "portal_x01_inicial",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     }
+    ]
+   },
+   {
+    "nome": "portal_x02_consulta_siout",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#new-portal-wrap > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > a:nth-of-type(1)",
+      "alternativa": "a:visible:has-text(\"Consulta SIOUT\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "portal_x03_cadastrar",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#new-portal-wrap > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "alternativa": "button:visible:has-text(\"Cadastrar\") >> nth=0",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "portal_x04_documentacao_auxiliar",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#new-portal-wrap > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x01_inicial",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x02_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#drawer-menu-button",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x03_btn",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#mapstore-mouseposition > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x04_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#zoomin-btn",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x05_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#zoomout-btn",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x08_square_button",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#navigationBar-container > button:nth-of-type(5)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x09_square_button_md",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map-search-bar > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   },
+   {
+    "nome": "mapa_x12_ol_viewport",
+    "acoes": [
+     {
+      "tipo": "ir",
+      "url": "https://siout.aguas.sc.gov.br/#/"
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar_mesma_aba",
+      "seletor": "a:has-text('SIG')"
+     },
+     {
+      "tipo": "esperar_elemento",
+      "seletor": "text=SADPLAN",
+      "ms": 180000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 3000
+     },
+     {
+      "tipo": "clicar",
+      "seletor": "#map > div:nth-of-type(1)",
+      "ms": 8000
+     },
+     {
+      "tipo": "esperar",
+      "ms": 1000
+     }
+    ]
+   }
+  ]
+ }
+]

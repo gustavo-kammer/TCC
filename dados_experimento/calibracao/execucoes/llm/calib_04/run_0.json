@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "50349e285d205182909fe271c33f394802a8cb23d2849130af3dee2879907b9e",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:29:10-03:00",
+    "configuracao": "llm",
+    "run_id": 0
+  },
+  "flow_id": "calib_04",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_04.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_04.html",
+      "n_fatias": 1,
+      "prompt_sha256": "89902b86564cd2848e3a4ab7c15eab90e8da3971868b76eba1c9aad14b00f6bd",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_04.html",
+        "total_violations": 4,
+        "count_by_severity": {
+          "3": 1,
+          "2": 2,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartões de pedido (toda a lista)",
+            "description": "Os cartões não têm ação nem indicação de que levam a detalhes: sem link, botão, seta, \"Acompanhar\", \"Ver detalhes\" ou \"Pedir novamente\".",
+            "justification": "A listagem mostra apenas resumo (número, data, itens, valor). Não há como ver quais itens foram comprados, acompanhar a entrega do pedido \"A caminho\" ou repetir uma compra dos concluídos, tornando a tela um beco sem saída e exigindo outro caminho para tarefas frequentes.",
+            "recommendation": "Tornar o cartão clicável com affordance visível (seta ou link \"Ver detalhes\") e incluir ações contextuais: \"Acompanhar entrega\" nos em andamento e \"Pedir novamente\" nos concluídos.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H04_consistencia_e_padronizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartões de pedido, selo de status (#4821 vs #4817)",
+            "description": "O selo de status aparece ao lado do título em #4821 (com formato mais alto) e abaixo do título em #4817, com espaçamentos internos diferentes.",
+            "justification": "Cartões do mesmo tipo e na mesma linha apresentam posição e formato distintos do selo, desalinhando data, itens e valor (R$ 28,10 e R$ 47,60 em alturas diferentes) e quebrando o padrão visual esperado.",
+            "recommendation": "Padronizar o componente do cartão: mesma posição, altura e padding do selo e alinhamento fixo de data e valor em todos os cartões.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartões em \"Em andamento\" (selos \"A caminho\" e \"Em separação\")",
+            "description": "O status dos pedidos em andamento é mostrado só por um selo de texto, sem progresso nem previsão de entrega.",
+            "justification": "Para pedidos ativos o usuário quer saber em que etapa está e quando chega; os selos têm a mesma cor verde-clara dos \"Entregue\" e a data exibida é a de criação, sem previsão.",
+            "recommendation": "Exibir previsão de entrega e um indicador de progresso (etapas), e diferenciar visualmente os estados em andamento dos concluídos, mantendo o texto do status.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Cartões de pedido, identificação",
+            "description": "Os pedidos são identificados apenas por número, data e quantidade de itens, sem pista do conteúdo.",
+            "justification": "O usuário precisa lembrar o que comprou em cada \"Pedido #NNNN\" para distinguir um do outro, pois nada mostra nomes ou imagens dos produtos.",
+            "recommendation": "Mostrar um resumo do conteúdo, como nomes dos primeiros itens ou miniaturas, em cada cartão.",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões em \"Em andamento\" (selos \"A caminho\" e \"Em separação\")",
+          "description": "O status dos pedidos em andamento é mostrado só por um selo de texto, sem progresso nem previsão de entrega.",
+          "justification": "Para pedidos ativos o usuário quer saber em que etapa está e quando chega; os selos têm a mesma cor verde-clara dos \"Entregue\" e a data exibida é a de criação, sem previsão.",
+          "recommendation": "Exibir previsão de entrega e um indicador de progresso (etapas), e diferenciar visualmente os estados em andamento dos concluídos, mantendo o texto do status.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H04_consistencia_e_padronizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido, selo de status (#4821 vs #4817)",
+          "description": "O selo de status aparece ao lado do título em #4821 (com formato mais alto) e abaixo do título em #4817, com espaçamentos internos diferentes.",
+          "justification": "Cartões do mesmo tipo e na mesma linha apresentam posição e formato distintos do selo, desalinhando data, itens e valor (R$ 28,10 e R$ 47,60 em alturas diferentes) e quebrando o padrão visual esperado.",
+          "recommendation": "Padronizar o componente do cartão: mesma posição, altura e padding do selo e alinhamento fixo de data e valor em todos os cartões.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido, identificação",
+          "description": "Os pedidos são identificados apenas por número, data e quantidade de itens, sem pista do conteúdo.",
+          "justification": "O usuário precisa lembrar o que comprou em cada \"Pedido #NNNN\" para distinguir um do outro, pois nada mostra nomes ou imagens dos produtos.",
+          "recommendation": "Mostrar um resumo do conteúdo, como nomes dos primeiros itens ou miniaturas, em cada cartão.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Cartões de pedido (toda a lista)",
+          "description": "Os cartões não têm ação nem indicação de que levam a detalhes: sem link, botão, seta, \"Acompanhar\", \"Ver detalhes\" ou \"Pedir novamente\".",
+          "justification": "A listagem mostra apenas resumo (número, data, itens, valor). Não há como ver quais itens foram comprados, acompanhar a entrega do pedido \"A caminho\" ou repetir uma compra dos concluídos, tornando a tela um beco sem saída e exigindo outro caminho para tarefas frequentes.",
+          "recommendation": "Tornar o cartão clicável com affordance visível (seta ou link \"Ver detalhes\") e incluir ações contextuais: \"Acompanhar entrega\" nos em andamento e \"Pedir novamente\" nos concluídos.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    }
+  }
+}

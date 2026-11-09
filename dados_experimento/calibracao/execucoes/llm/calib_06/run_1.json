@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "modelo": "claude-sonnet-5-5",
+    "temperatura": null,
+    "seed": null,
+    "prompt_variante": "llm_isolado",
+    "prompt_sha256": "49906935c5cfc03392712060da06367ee4cf559b649e3e3da32f8289ea8c156e",
+    "regras_versao": null,
+    "data_hora": "2026-10-29T21:32:14-03:00",
+    "configuracao": "llm",
+    "run_id": 1
+  },
+  "flow_id": "calib_06",
+  "site": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_06.html",
+  "tarefa": null,
+  "pasta": null,
+  "estados": [
+    {
+      "ordem": 1,
+      "nome": "pagina",
+      "url_no_momento": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_06.html",
+      "n_fatias": 2,
+      "prompt_sha256": "b2047d092149568c5bbaf66882114b98d55d911e27d75151b6be1c42b7df6bf3",
+      "avisos_extracao": [],
+      "relatorio": {
+        "url": "file:///RAIZ_DO_PROJETO/interfaces/calibracao/calib_06.html",
+        "total_violations": 4,
+        "count_by_severity": {
+          "3": 1,
+          "2": 2,
+          "1": 1
+        },
+        "violations": [
+          {
+            "rank": 1,
+            "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+            "severity_effective": 3,
+            "criticality_index": 2.25,
+            "severity_original": 3,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Tabela de histórico e área acima dela",
+            "description": "Não há busca, filtro (por período, banca, valor) nem ordenação nas colunas para um histórico de 212 compras.",
+            "justification": "O usuário vê apenas 12 de 212 compras e o cabeçalho da tabela (Data, Pedido, Banca, Itens, Total) não mostra controles de ordenação; para achar um pedido específico precisa carregar lotes sucessivos e varrer visualmente.",
+            "recommendation": "Adicionar campo de busca por número do pedido/banca, filtros por período e banca e ordenação clicável nas colunas.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 2,
+            "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Ver mais 12'",
+            "description": "A única forma de navegar pelo histórico é carregar mais 12 itens por vez, sem opção de ajustar o tamanho do lote ou saltar para períodos antigos.",
+            "justification": "Para chegar às compras mais antigas entre 212 seriam necessários cerca de 17 cliques sucessivos no botão, sem atalho para o usuário frequente.",
+            "recommendation": "Oferecer paginação numerada ou seleção de itens por página, ou filtro por mês/ano para saltar a períodos antigos.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 3,
+            "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+            "severity_effective": 2,
+            "criticality_index": 1.5,
+            "severity_original": 2,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Linhas da tabela (coluna Pedido e Itens)",
+            "description": "As linhas mostram apenas número do pedido e quantidade de itens, sem indicar quais produtos foram comprados nem um link visível para detalhes.",
+            "justification": "O número '#4821' e '3' itens exigem que o usuário lembre o conteúdo de cada pedido; nenhuma linha tem aparência de link ou ação (ver detalhes, comprar novamente), então é preciso memorizar em vez de reconhecer.",
+            "recommendation": "Tornar o número do pedido um link para os detalhes, exibir resumo dos produtos e adicionar ação 'Ver detalhes' ou 'Comprar de novo'.",
+            "revision_rationale": null
+          },
+          {
+            "rank": 4,
+            "heuristic": "H01_visibilidade_do_estado_do_sistema",
+            "severity_effective": 1,
+            "criticality_index": 0.75,
+            "severity_original": 1,
+            "severity_revised": null,
+            "source": "llm",
+            "confidence": 0.75,
+            "location": "Botão 'Ver mais 12' e caption 'Mostrando 12 de 212 compras'",
+            "description": "O botão não informa quantas compras restam e não há indicação de feedback de carregamento ao acioná-lo.",
+            "justification": "O rótulo fixo 'Ver mais 12' não diz que restam 200 e, na captura, não há indicador de progresso; o usuário não sabe se o carregamento ocorreu ou terminou, nem quando o botão deixará de aparecer no último lote.",
+            "recommendation": "Mostrar estado de carregamento no botão, atualizar o contador após carregar e ajustar o rótulo no último lote (ex.: 'Ver mais 8').",
+            "revision_rationale": null
+          }
+        ]
+      }
+    }
+  ],
+  "celulas": {
+    "H01_visibilidade_do_estado_do_sistema": {
+      "heuristic": "H01_visibilidade_do_estado_do_sistema",
+      "nota": 1,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 1
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H01_visibilidade_do_estado_do_sistema",
+          "severity_effective": 1,
+          "criticality_index": 0.75,
+          "severity_original": 1,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Ver mais 12' e caption 'Mostrando 12 de 212 compras'",
+          "description": "O botão não informa quantas compras restam e não há indicação de feedback de carregamento ao acioná-lo.",
+          "justification": "O rótulo fixo 'Ver mais 12' não diz que restam 200 e, na captura, não há indicador de progresso; o usuário não sabe se o carregamento ocorreu ou terminou, nem quando o botão deixará de aparecer no último lote.",
+          "recommendation": "Mostrar estado de carregamento no botão, atualizar o contador após carregar e ajustar o rótulo no último lote (ex.: 'Ver mais 8').",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H02_correspondencia_sistema_mundo_real": {
+      "heuristic": "H02_correspondencia_sistema_mundo_real",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H03_controle_e_liberdade_do_usuario": {
+      "heuristic": "H03_controle_e_liberdade_do_usuario",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H04_consistencia_e_padronizacao": {
+      "heuristic": "H04_consistencia_e_padronizacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H05_reconhecimento_em_vez_de_memorizacao": {
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "nota": 2,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 2
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Linhas da tabela (coluna Pedido e Itens)",
+          "description": "As linhas mostram apenas número do pedido e quantidade de itens, sem indicar quais produtos foram comprados nem um link visível para detalhes.",
+          "justification": "O número '#4821' e '3' itens exigem que o usuário lembre o conteúdo de cada pedido; nenhuma linha tem aparência de link ou ação (ver detalhes, comprar novamente), então é preciso memorizar em vez de reconhecer.",
+          "recommendation": "Tornar o número do pedido um link para os detalhes, exibir resumo dos produtos e adicionar ação 'Ver detalhes' ou 'Comprar de novo'.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H06_flexibilidade_e_eficiencia_de_uso": {
+      "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+      "nota": 3,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 3
+      },
+      "violacoes": [
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 3,
+          "criticality_index": 2.25,
+          "severity_original": 3,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Tabela de histórico e área acima dela",
+          "description": "Não há busca, filtro (por período, banca, valor) nem ordenação nas colunas para um histórico de 212 compras.",
+          "justification": "O usuário vê apenas 12 de 212 compras e o cabeçalho da tabela (Data, Pedido, Banca, Itens, Total) não mostra controles de ordenação; para achar um pedido específico precisa carregar lotes sucessivos e varrer visualmente.",
+          "recommendation": "Adicionar campo de busca por número do pedido/banca, filtros por período e banca e ordenação clicável nas colunas.",
+          "revision_rationale": null
+        },
+        {
+          "estado_ordem": 1,
+          "estado_nome": "pagina",
+          "heuristic": "H06_flexibilidade_e_eficiencia_de_uso",
+          "severity_effective": 2,
+          "criticality_index": 1.5,
+          "severity_original": 2,
+          "severity_revised": null,
+          "source": "llm",
+          "confidence": 0.75,
+          "location": "Botão 'Ver mais 12'",
+          "description": "A única forma de navegar pelo histórico é carregar mais 12 itens por vez, sem opção de ajustar o tamanho do lote ou saltar para períodos antigos.",
+          "justification": "Para chegar às compras mais antigas entre 212 seriam necessários cerca de 17 cliques sucessivos no botão, sem atalho para o usuário frequente.",
+          "recommendation": "Oferecer paginação numerada ou seleção de itens por página, ou filtro por mês/ano para saltar a períodos antigos.",
+          "revision_rationale": null
+        }
+      ]
+    },
+    "H07_design_estetico_e_minimalista": {
+      "heuristic": "H07_design_estetico_e_minimalista",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H08_prevencao_de_erros": {
+      "heuristic": "H08_prevencao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H09_diagnostico_e_recuperacao_de_erros": {
+      "heuristic": "H09_diagnostico_e_recuperacao_de_erros",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    },
+    "H10_ajuda_e_documentacao": {
+      "heuristic": "H10_ajuda_e_documentacao",
+      "nota": 0,
+      "nota_por_origem": {
+        "motor_de_regras": 0,
+        "llm": 0
+      },
+      "violacoes": []
+    }
+  }
+}

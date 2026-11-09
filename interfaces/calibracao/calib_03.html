@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minha conta — Feirinha</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="#">
+        <span class="brand__mark" aria-hidden="true"></span>
+        Feirinha
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#">Catálogo</a>
+        <a href="#">Pedidos</a>
+        <a href="#">Ajuda</a>
+        <a href="#" aria-current="page">Minha conta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="container stack">
+    <nav class="breadcrumb" aria-label="Você está em">
+    <ol>
+      <li><a href="#">Início</a></li>
+      <li aria-current="page">Minha conta</li>
+    </ol>
+    </nav>
+    <h1>Minha conta</h1>
+    <section class="card stack-sm" aria-labelledby="plano">
+      <h2 id="plano">Plano atual</h2>
+      <p>Básico — R$ 19,90 por mês</p>
+      <div class="actions"><button class="btn btn--secondary" type="button">Alterar plano</button></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>© 2026 Feirinha</p>
+      <ul>
+        <li><a href="#">Termos de uso</a></li>
+        <li><a href="#">Privacidade</a></li>
+        <li><a href="#">Fale conosco</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="backdrop">
+    <div class="dialog stack-sm" role="dialog" aria-modal="true" aria-labelledby="dlg">
+      <h2 id="dlg">Alterar para o plano Premium?</h2>
+      <p>Seu plano passa a custar R$ 49,90 por mês, com cobrança imediata.</p>
+      <div class="dialog__actions"><button class="btn" type="button">Confirmar alteração</button></div>
+    </div>
+  </div>
+</body>
+</html>

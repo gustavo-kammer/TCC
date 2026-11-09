@@ -1,0 +1,11 @@
+fluxo,heuristica,consenso,apontada,status,motivo,n_problemas
+p13,H01_visibilidade_do_estado_do_sistema,4,1,incluida,,9
+p13,H02_correspondencia_sistema_mundo_real,4,1,incluida,,18
+p13,H03_controle_e_liberdade_do_usuario,4,1,incluida,,4
+p13,H04_consistencia_e_padronizacao,3,1,incluida,,3
+p13,H05_reconhecimento_em_vez_de_memorizacao,3,1,incluida,,8
+p13,H06_flexibilidade_e_eficiencia_de_uso,0,0,incluida,,0
+p13,H07_design_estetico_e_minimalista,4,1,incluida,,3
+p13,H08_prevencao_de_erros,3,1,incluida,,3
+p13,H09_diagnostico_e_recuperacao_de_erros,4,1,incluida,,9
+p13,H10_ajuda_e_documentacao,4,1,incluida,,6

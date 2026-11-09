@@ -1,0 +1,1061 @@
+{
+ "cfgs": [
+  "hibrido",
+  "regras",
+  "llm"
+ ],
+ "runs": {
+  "hibrido": [
+   0,
+   1,
+   2
+  ],
+  "regras": [
+   0,
+   1,
+   2
+  ],
+  "llm": [
+   0,
+   1,
+   2
+  ]
+ },
+ "metricas": {
+  "hibrido": {
+   "por_run": {
+    "0": {
+     "recall_estrito": 0.1346153846153846,
+     "recall_ponderado": 0.2403846153846154,
+     "precisao_estrita": 0.007761194029850746,
+     "precisao_ponderada": 0.013432835820895522,
+     "f1_estrito": 0.014676235787436497,
+     "f1_ponderado": 0.02544385389573674,
+     "kappa_severidade": 0.1032608695652174,
+     "problemas": 104,
+     "achados": 1675,
+     "casou": 14,
+     "parcial": 22,
+     "n_pares_severidade": 36
+    },
+    "1": {
+     "recall_estrito": 0.11538461538461539,
+     "recall_ponderado": 0.23076923076923078,
+     "precisao_estrita": 0.007151370679380214,
+     "precisao_ponderada": 0.013408820023837902,
+     "f1_estrito": 0.013468013468013467,
+     "f1_ponderado": 0.025344973246972685,
+     "kappa_severidade": 0.1032608695652174,
+     "problemas": 104,
+     "achados": 1678,
+     "casou": 12,
+     "parcial": 24,
+     "n_pares_severidade": 36
+    },
+    "2": {
+     "recall_estrito": 0.1346153846153846,
+     "recall_ponderado": 0.2548076923076923,
+     "precisao_estrita": 0.00830367734282325,
+     "precisao_ponderada": 0.014531435349940688,
+     "f1_estrito": 0.015642458100558657,
+     "f1_ponderado": 0.027494865225400726,
+     "kappa_severidade": 0.019955654101995624,
+     "problemas": 104,
+     "achados": 1686,
+     "casou": 14,
+     "parcial": 25,
+     "n_pares_severidade": 39
+    }
+   },
+   "mediana": {
+    "recall_estrito": 0.1346153846153846,
+    "recall_ponderado": 0.2403846153846154,
+    "precisao_estrita": 0.007761194029850746,
+    "precisao_ponderada": 0.013432835820895522,
+    "f1_estrito": 0.014676235787436497,
+    "f1_ponderado": 0.02544385389573674,
+    "kappa_severidade": 0.1032608695652174,
+    "achados": 1678,
+    "n_pares_severidade": 36
+   },
+   "faixa": {
+    "recall_estrito": [
+     0.11538461538461539,
+     0.1346153846153846
+    ],
+    "recall_ponderado": [
+     0.23076923076923078,
+     0.2548076923076923
+    ],
+    "precisao_estrita": [
+     0.007151370679380214,
+     0.00830367734282325
+    ],
+    "precisao_ponderada": [
+     0.013408820023837902,
+     0.014531435349940688
+    ],
+    "f1_estrito": [
+     0.013468013468013467,
+     0.015642458100558657
+    ],
+    "f1_ponderado": [
+     0.025344973246972685,
+     0.027494865225400726
+    ],
+    "kappa_severidade": [
+     0.019955654101995624,
+     0.1032608695652174
+    ],
+    "achados": [
+     1675,
+     1686
+    ]
+   },
+   "por_fluxo": {
+    "p12": {
+     "recall_estrito": 0.1346153846153846,
+     "recall_ponderado": 0.2692307692307692,
+     "precisao_estrita": 0.004908835904628331,
+     "precisao_ponderada": 0.009817671809256662,
+     "f1_estrito": 0.009472259810554802,
+     "f1_ponderado": 0.018944519621109605,
+     "kappa_severidade": 0.012626262626262541,
+     "achados": 1426
+    },
+    "p13": {
+     "recall_estrito": 0.11538461538461539,
+     "recall_ponderado": 0.22115384615384615,
+     "precisao_estrita": 0.01984126984126984,
+     "precisao_ponderada": 0.038,
+     "f1_estrito": 0.0336322869955157,
+     "f1_ponderado": 0.06485604036806175,
+     "kappa_severidade": 0.1062215477996965,
+     "achados": 252
+    }
+   },
+   "por_fluxo_faixa": {
+    "p12": {
+     "recall_ponderado": [
+      0.2403846153846154,
+      0.28846153846153844
+     ],
+     "recall_estrito": [
+      0.1346153846153846,
+      0.15384615384615385
+     ],
+     "precisao_ponderada": [
+      0.00844475721323012,
+      0.010445682451253482
+     ]
+    },
+    "p13": {
+     "recall_ponderado": [
+      0.19230769230769232,
+      0.2403846153846154
+     ],
+     "recall_estrito": [
+      0.09615384615384616,
+      0.1346153846153846
+     ],
+     "precisao_ponderada": [
+      0.03373015873015873,
+      0.04133858267716536
+     ]
+    }
+   }
+  },
+  "regras": {
+   "por_run": {
+    "0": {
+     "recall_estrito": 0.009615384615384616,
+     "recall_ponderado": 0.052884615384615384,
+     "precisao_estrita": 0.0010427528675703858,
+     "precisao_ponderada": 0.0046923879040667365,
+     "f1_estrito": 0.0018814675446848542,
+     "f1_ponderado": 0.008619939050936004,
+     "kappa_severidade": 0.0,
+     "problemas": 104,
+     "achados": 959,
+     "casou": 1,
+     "parcial": 9,
+     "n_pares_severidade": 10
+    },
+    "1": {
+     "recall_estrito": 0.0,
+     "recall_ponderado": 0.0625,
+     "precisao_estrita": 0.0,
+     "precisao_ponderada": 0.005213764337851929,
+     "f1_estrito": 0.0,
+     "f1_ponderado": 0.00962463907603465,
+     "kappa_severidade": -0.06060606060606055,
+     "problemas": 104,
+     "achados": 959,
+     "casou": 0,
+     "parcial": 13,
+     "n_pares_severidade": 13
+    },
+    "2": {
+     "recall_estrito": 0.0,
+     "recall_ponderado": 0.0625,
+     "precisao_estrita": 0.0,
+     "precisao_ponderada": 0.005735140771637122,
+     "f1_estrito": 0.0,
+     "f1_ponderado": 0.010506208213944605,
+     "kappa_severidade": 0.01680672268907557,
+     "problemas": 104,
+     "achados": 959,
+     "casou": 0,
+     "parcial": 13,
+     "n_pares_severidade": 13
+    }
+   },
+   "mediana": {
+    "recall_estrito": 0.0,
+    "recall_ponderado": 0.0625,
+    "precisao_estrita": 0.0,
+    "precisao_ponderada": 0.005213764337851929,
+    "f1_estrito": 0.0,
+    "f1_ponderado": 0.00962463907603465,
+    "kappa_severidade": 0.0,
+    "achados": 959,
+    "n_pares_severidade": 13
+   },
+   "faixa": {
+    "recall_estrito": [
+     0.0,
+     0.009615384615384616
+    ],
+    "recall_ponderado": [
+     0.052884615384615384,
+     0.0625
+    ],
+    "precisao_estrita": [
+     0.0,
+     0.0010427528675703858
+    ],
+    "precisao_ponderada": [
+     0.0046923879040667365,
+     0.005735140771637122
+    ],
+    "f1_estrito": [
+     0.0,
+     0.0018814675446848542
+    ],
+    "f1_ponderado": [
+     0.008619939050936004,
+     0.010506208213944605
+    ],
+    "kappa_severidade": [
+     -0.06060606060606055,
+     0.01680672268907557
+    ],
+    "achados": [
+     959,
+     959
+    ]
+   },
+   "por_fluxo": {
+    "p12": {
+     "recall_estrito": 0.0,
+     "recall_ponderado": 0.0673076923076923,
+     "precisao_estrita": 0.0,
+     "precisao_ponderada": 0.004408060453400504,
+     "f1_estrito": 0.0,
+     "f1_ponderado": 0.008274231678486997,
+     "kappa_severidade": 0.11650485436893199,
+     "achados": 794
+    },
+    "p13": {
+     "recall_estrito": 0.0,
+     "recall_ponderado": 0.057692307692307696,
+     "precisao_estrita": 0.0,
+     "precisao_ponderada": 0.012121212121212121,
+     "f1_estrito": 0.0,
+     "f1_ponderado": 0.02003338898163606,
+     "kappa_severidade": -0.02985074626865658,
+     "achados": 165
+    }
+   },
+   "por_fluxo_faixa": {
+    "p12": {
+     "recall_ponderado": [
+      0.04807692307692308,
+      0.0673076923076923
+     ],
+     "recall_estrito": [
+      0.0,
+      0.0
+     ],
+     "precisao_ponderada": [
+      0.0031486146095717885,
+      0.004408060453400504
+     ]
+    },
+    "p13": {
+     "recall_ponderado": [
+      0.057692307692307696,
+      0.057692307692307696
+     ],
+     "recall_estrito": [
+      0.0,
+      0.019230769230769232
+     ],
+     "precisao_ponderada": [
+      0.00909090909090909,
+      0.012121212121212121
+     ]
+    }
+   }
+  },
+  "llm": {
+   "por_run": {
+    "0": {
+     "recall_estrito": 0.10576923076923077,
+     "recall_ponderado": 0.23557692307692307,
+     "precisao_estrita": 0.013079667063020214,
+     "precisao_ponderada": 0.0267538644470868,
+     "f1_estrito": 0.02328042328042328,
+     "f1_ponderado": 0.04805073111203121,
+     "kappa_severidade": 0.09034749034749046,
+     "problemas": 104,
+     "achados": 841,
+     "casou": 11,
+     "parcial": 27,
+     "n_pares_severidade": 38
+    },
+    "1": {
+     "recall_estrito": 0.1346153846153846,
+     "recall_ponderado": 0.22115384615384615,
+     "precisao_estrita": 0.01527614571092832,
+     "precisao_ponderada": 0.024676850763807285,
+     "f1_estrito": 0.027438564751997588,
+     "f1_ponderado": 0.04439950360803419,
+     "kappa_severidade": 0.0046948356807511304,
+     "problemas": 104,
+     "achados": 851,
+     "casou": 14,
+     "parcial": 18,
+     "n_pares_severidade": 32
+    },
+    "2": {
+     "recall_estrito": 0.09615384615384616,
+     "recall_ponderado": 0.21153846153846154,
+     "precisao_estrita": 0.011750881316098707,
+     "precisao_ponderada": 0.022914218566392478,
+     "f1_estrito": 0.020942408376963352,
+     "f1_ponderado": 0.04134939759036144,
+     "kappa_severidade": 0.13023255813953483,
+     "problemas": 104,
+     "achados": 851,
+     "casou": 10,
+     "parcial": 24,
+     "n_pares_severidade": 34
+    }
+   },
+   "mediana": {
+    "recall_estrito": 0.10576923076923077,
+    "recall_ponderado": 0.22115384615384615,
+    "precisao_estrita": 0.013079667063020214,
+    "precisao_ponderada": 0.024676850763807285,
+    "f1_estrito": 0.02328042328042328,
+    "f1_ponderado": 0.04439950360803419,
+    "kappa_severidade": 0.09034749034749046,
+    "achados": 851,
+    "n_pares_severidade": 34
+   },
+   "faixa": {
+    "recall_estrito": [
+     0.09615384615384616,
+     0.1346153846153846
+    ],
+    "recall_ponderado": [
+     0.21153846153846154,
+     0.23557692307692307
+    ],
+    "precisao_estrita": [
+     0.011750881316098707,
+     0.01527614571092832
+    ],
+    "precisao_ponderada": [
+     0.022914218566392478,
+     0.0267538644470868
+    ],
+    "f1_estrito": [
+     0.020942408376963352,
+     0.027438564751997588
+    ],
+    "f1_ponderado": [
+     0.04134939759036144,
+     0.04805073111203121
+    ],
+    "kappa_severidade": [
+     0.0046948356807511304,
+     0.13023255813953483
+    ],
+    "achados": [
+     841,
+     851
+    ]
+   },
+   "por_fluxo": {
+    "p12": {
+     "recall_estrito": 0.1346153846153846,
+     "recall_ponderado": 0.23076923076923078,
+     "precisao_estrita": 0.009446693657219974,
+     "precisao_ponderada": 0.016150740242261104,
+     "f1_estrito": 0.017654476670870115,
+     "f1_ponderado": 0.03018867924528302,
+     "kappa_severidade": -0.08333333333333326,
+     "achados": 741
+    },
+    "p13": {
+     "recall_estrito": 0.07692307692307693,
+     "recall_ponderado": 0.23076923076923078,
+     "precisao_estrita": 0.037383177570093455,
+     "precisao_ponderada": 0.09345794392523364,
+     "f1_estrito": 0.05031446540880503,
+     "f1_ponderado": 0.13303769401330376,
+     "kappa_severidade": 0.17995444191343957,
+     "achados": 108
+    }
+   },
+   "por_fluxo_faixa": {
+    "p12": {
+     "recall_ponderado": [
+      0.21153846153846154,
+      0.2403846153846154
+     ],
+     "recall_estrito": [
+      0.1346153846153846,
+      0.1346153846153846
+     ],
+     "precisao_ponderada": [
+      0.01417004048582996,
+      0.0170299727520436
+     ]
+    },
+    "p13": {
+     "recall_ponderado": [
+      0.19230769230769232,
+      0.23076923076923078
+     ],
+     "recall_estrito": [
+      0.057692307692307696,
+      0.1346153846153846
+     ],
+     "precisao_ponderada": [
+      0.06944444444444445,
+      0.09545454545454546
+     ]
+    }
+   }
+  }
+ },
+ "uniao": {
+  "hibrido": {
+   "recall_qualquer_par": 0.4326923076923077,
+   "recall_estrito": 0.20192307692307693,
+   "recall_ponderado": 0.3173076923076923,
+   "n_qualquer_par": 45,
+   "n_estrito": 21
+  },
+  "regras": {
+   "recall_qualquer_par": 0.14423076923076922,
+   "recall_estrito": 0.009615384615384616,
+   "recall_ponderado": 0.07692307692307693,
+   "n_qualquer_par": 15,
+   "n_estrito": 1
+  },
+  "llm": {
+   "recall_qualquer_par": 0.41346153846153844,
+   "recall_estrito": 0.14423076923076922,
+   "recall_ponderado": 0.27884615384615385,
+   "n_qualquer_par": 43,
+   "n_estrito": 15
+  }
+ },
+ "freq": {
+  "hibrido": {
+   "0": 59,
+   "1": 8,
+   "2": 8,
+   "3": 29
+  },
+  "regras": {
+   "0": 89,
+   "1": 4,
+   "2": 1,
+   "3": 10
+  },
+  "llm": {
+   "0": 61,
+   "1": 7,
+   "2": 11,
+   "3": 25
+  }
+ },
+ "categoria": {
+  "hibrido": {
+   "Exige conhecimento do domínio ou interpretação fina": {
+    "n": 30,
+    "qualquer_par_med": 0.4666666666666667,
+    "qualquer_par_faixa": [
+     0.43333333333333335,
+     0.5333333333333333
+    ],
+    "ponderado_med": 0.31666666666666665,
+    "uniao": 0.5333333333333333
+   },
+   "Exige estado ou contexto de uso": {
+    "n": 33,
+    "qualquer_par_med": 0.30303030303030304,
+    "qualquer_par_faixa": [
+     0.2727272727272727,
+     0.3333333333333333
+    ],
+    "ponderado_med": 0.19696969696969696,
+    "uniao": 0.3939393939393939
+   },
+   "Exige interação": {
+    "n": 32,
+    "qualquer_par_med": 0.21875,
+    "qualquer_par_faixa": [
+     0.15625,
+     0.21875
+    ],
+    "ponderado_med": 0.140625,
+    "uniao": 0.28125
+   },
+   "Visível na captura": {
+    "n": 9,
+    "qualquer_par_med": 0.6666666666666666,
+    "qualquer_par_faixa": [
+     0.6666666666666666,
+     0.7777777777777778
+    ],
+    "ponderado_med": 0.4444444444444444,
+    "uniao": 0.7777777777777778
+   }
+  },
+  "regras": {
+   "Exige conhecimento do domínio ou interpretação fina": {
+    "n": 30,
+    "qualquer_par_med": 0.1,
+    "qualquer_par_faixa": [
+     0.1,
+     0.13333333333333333
+    ],
+    "ponderado_med": 0.05,
+    "uniao": 0.13333333333333333
+   },
+   "Exige estado ou contexto de uso": {
+    "n": 33,
+    "qualquer_par_med": 0.18181818181818182,
+    "qualquer_par_faixa": [
+     0.15151515151515152,
+     0.18181818181818182
+    ],
+    "ponderado_med": 0.09090909090909091,
+    "uniao": 0.21212121212121213
+   },
+   "Exige interação": {
+    "n": 32,
+    "qualquer_par_med": 0.0625,
+    "qualquer_par_faixa": [
+     0.03125,
+     0.0625
+    ],
+    "ponderado_med": 0.03125,
+    "uniao": 0.0625
+   },
+   "Visível na captura": {
+    "n": 9,
+    "qualquer_par_med": 0.1111111111111111,
+    "qualquer_par_faixa": [
+     0.1111111111111111,
+     0.2222222222222222
+    ],
+    "ponderado_med": 0.05555555555555555,
+    "uniao": 0.2222222222222222
+   }
+  },
+  "llm": {
+   "Exige conhecimento do domínio ou interpretação fina": {
+    "n": 30,
+    "qualquer_par_med": 0.4,
+    "qualquer_par_faixa": [
+     0.36666666666666664,
+     0.43333333333333335
+    ],
+    "ponderado_med": 0.26666666666666666,
+    "uniao": 0.5
+   },
+   "Exige estado ou contexto de uso": {
+    "n": 33,
+    "qualquer_par_med": 0.2727272727272727,
+    "qualquer_par_faixa": [
+     0.21212121212121213,
+     0.2727272727272727
+    ],
+    "ponderado_med": 0.16666666666666666,
+    "uniao": 0.30303030303030304
+   },
+   "Exige interação": {
+    "n": 32,
+    "qualquer_par_med": 0.25,
+    "qualquer_par_faixa": [
+     0.1875,
+     0.28125
+    ],
+    "ponderado_med": 0.140625,
+    "uniao": 0.34375
+   },
+   "Visível na captura": {
+    "n": 9,
+    "qualquer_par_med": 0.7777777777777778,
+    "qualquer_par_faixa": [
+     0.6666666666666666,
+     0.7777777777777778
+    ],
+    "ponderado_med": 0.5555555555555556,
+    "uniao": 0.7777777777777778
+   }
+  }
+ },
+ "complementar": {
+  "regras": 15,
+  "llm": 43,
+  "hibrido": 45,
+  "llm_e_hibrido": 38,
+  "so_hibrido": 7,
+  "so_llm": 5,
+  "regras_nao_llm_nem_hibrido": 0,
+  "regras_dentro_llm_ou_hibrido": 15,
+  "nenhuma": 54,
+  "alguma": 50
+ },
+ "volume": {
+  "hibrido": {
+   "p12": {
+    "achados_med": 1426,
+    "achados_por_run": [
+     1421,
+     1426,
+     1436
+    ]
+   },
+   "p13": {
+    "achados_med": 252,
+    "achados_por_run": [
+     254,
+     252,
+     250
+    ]
+   }
+  },
+  "regras": {
+   "p12": {
+    "achados_med": 794,
+    "achados_por_run": [
+     794,
+     794,
+     794
+    ]
+   },
+   "p13": {
+    "achados_med": 165,
+    "achados_por_run": [
+     165,
+     165,
+     165
+    ]
+   }
+  },
+  "llm": {
+   "p12": {
+    "achados_med": 741,
+    "achados_por_run": [
+     734,
+     741,
+     743
+    ]
+   },
+   "p13": {
+    "achados_med": 108,
+    "achados_por_run": [
+     107,
+     110,
+     108
+    ]
+   }
+  }
+ },
+ "hibrido_composicao": {
+  "0": {
+   "achados": {
+    "llm": 716,
+    "motor_de_regras": 959
+   },
+   "achados_com_par": {
+    "motor_de_regras": 3,
+    "llm": 29
+   },
+   "pares_por_origem": {
+    "motor_de_regras": 3,
+    "llm": 33
+   }
+  },
+  "1": {
+   "achados": {
+    "llm": 720,
+    "motor_de_regras": 958
+   },
+   "achados_com_par": {
+    "motor_de_regras": 3,
+    "llm": 30
+   },
+   "pares_por_origem": {
+    "motor_de_regras": 4,
+    "llm": 32
+   }
+  },
+  "2": {
+   "achados": {
+    "llm": 727,
+    "motor_de_regras": 959
+   },
+   "achados_com_par": {
+    "motor_de_regras": 2,
+    "llm": 33
+   },
+   "pares_por_origem": {
+    "motor_de_regras": 2,
+    "llm": 37
+   }
+  }
+ },
+ "severidade": {
+  "hibrido": {
+   "pares": 111,
+   "igual": 0.17117117117117117,
+   "sistema_maior": 0.0990990990990991,
+   "sistema_menor": 0.7297297297297297,
+   "media_sistema": 2.0,
+   "media_especialista": 2.8828828828828827
+  },
+  "regras": {
+   "pares": 36,
+   "igual": 0.19444444444444445,
+   "sistema_maior": 0.0,
+   "sistema_menor": 0.8055555555555556,
+   "media_sistema": 1.9722222222222223,
+   "media_especialista": 3.2777777777777777
+  },
+  "llm": {
+   "pares": 104,
+   "igual": 0.25961538461538464,
+   "sistema_maior": 0.0673076923076923,
+   "sistema_menor": 0.6730769230769231,
+   "media_sistema": 2.0865384615384617,
+   "media_especialista": 2.951923076923077
+  }
+ },
+ "sev_especialistas": {
+  "2": 20,
+  "3": 57,
+  "4": 25,
+  "1": 2
+ },
+ "calibracao": {
+  "plantadas": [
+   {
+    "fluxo": "calib_01",
+    "heuristica": "H01",
+    "consenso": "3",
+    "hibrido": {
+     "nota": "4",
+     "origem": "motor_de_regras",
+     "execucoes": "4;4;4"
+    },
+    "regras": {
+     "nota": "3",
+     "origem": "motor_de_regras",
+     "execucoes": "3;3;3"
+    },
+    "llm": {
+     "nota": "4",
+     "origem": "llm",
+     "execucoes": "4;3;4"
+    }
+   },
+   {
+    "fluxo": "calib_02",
+    "heuristica": "H02",
+    "consenso": "2",
+    "hibrido": {
+     "nota": "3",
+     "origem": "llm;motor_de_regras",
+     "execucoes": "3;3;3"
+    },
+    "regras": {
+     "nota": "2",
+     "origem": "motor_de_regras",
+     "execucoes": "2;2;2"
+    },
+    "llm": {
+     "nota": "3",
+     "origem": "llm",
+     "execucoes": "3;3;3"
+    }
+   },
+   {
+    "fluxo": "calib_03",
+    "heuristica": "H03",
+    "consenso": "4",
+    "hibrido": {
+     "nota": "4",
+     "origem": "motor_de_regras",
+     "execucoes": "4;4;4"
+    },
+    "regras": {
+     "nota": "3",
+     "origem": "motor_de_regras",
+     "execucoes": "3;3;3"
+    },
+    "llm": {
+     "nota": "4",
+     "origem": "llm",
+     "execucoes": "4;4;4"
+    }
+   },
+   {
+    "fluxo": "calib_04",
+    "heuristica": "H04",
+    "consenso": "1",
+    "hibrido": {
+     "nota": "2",
+     "origem": "llm",
+     "execucoes": "2;2;2"
+    },
+    "regras": {
+     "nota": "2",
+     "origem": "motor_de_regras",
+     "execucoes": "2;2;2"
+    },
+    "llm": {
+     "nota": "2",
+     "origem": "llm",
+     "execucoes": "2;2;2"
+    }
+   },
+   {
+    "fluxo": "calib_05",
+    "heuristica": "H05",
+    "consenso": "3",
+    "hibrido": {
+     "nota": "3",
+     "origem": "llm;motor_de_regras",
+     "execucoes": "3;3;3"
+    },
+    "regras": {
+     "nota": "3",
+     "origem": "motor_de_regras",
+     "execucoes": "3;3;3"
+    },
+    "llm": {
+     "nota": "3",
+     "origem": "llm",
+     "execucoes": "3;3;3"
+    }
+   },
+   {
+    "fluxo": "calib_06",
+    "heuristica": "H06",
+    "consenso": "1",
+    "hibrido": {
+     "nota": "3",
+     "origem": "llm;motor_de_regras",
+     "execucoes": "3;3;3"
+    },
+    "regras": {
+     "nota": "1",
+     "origem": "motor_de_regras",
+     "execucoes": "1;1;1"
+    },
+    "llm": {
+     "nota": "3",
+     "origem": "llm",
+     "execucoes": "3;3;3"
+    }
+   },
+   {
+    "fluxo": "calib_07",
+    "heuristica": "H07",
+    "consenso": "2",
+    "hibrido": {
+     "nota": "3",
+     "origem": "llm",
+     "execucoes": "3;3;3"
+    },
+    "regras": {
+     "nota": "0",
+     "origem": "",
+     "execucoes": "0;0;0"
+    },
+    "llm": {
+     "nota": "3",
+     "origem": "llm",
+     "execucoes": "3;3;3"
+    }
+   },
+   {
+    "fluxo": "calib_08",
+    "heuristica": "H08",
+    "consenso": "3",
+    "hibrido": {
+     "nota": "4",
+     "origem": "motor_de_regras",
+     "execucoes": "4;4;4"
+    },
+    "regras": {
+     "nota": "3",
+     "origem": "motor_de_regras",
+     "execucoes": "3;3;3"
+    },
+    "llm": {
+     "nota": "3",
+     "origem": "llm",
+     "execucoes": "3;3;4"
+    }
+   },
+   {
+    "fluxo": "calib_09",
+    "heuristica": "H09",
+    "consenso": "3",
+    "hibrido": {
+     "nota": "4",
+     "origem": "motor_de_regras",
+     "execucoes": "4;4;4"
+    },
+    "regras": {
+     "nota": "3",
+     "origem": "motor_de_regras",
+     "execucoes": "3;3;3"
+    },
+    "llm": {
+     "nota": "4",
+     "origem": "llm",
+     "execucoes": "4;4;4"
+    }
+   },
+   {
+    "fluxo": "calib_10",
+    "heuristica": "H10",
+    "consenso": "2",
+    "hibrido": {
+     "nota": "3",
+     "origem": "llm",
+     "execucoes": "3;3;2"
+    },
+    "regras": {
+     "nota": "0",
+     "origem": "",
+     "execucoes": "0;0;0"
+    },
+    "llm": {
+     "nota": "2",
+     "origem": "llm",
+     "execucoes": "2;2;2"
+    }
+   }
+  ],
+  "heuristicas_extras_por_interface": {
+   "hibrido": 3.0,
+   "regras": 0.0,
+   "llm": 3.4
+  },
+  "metricas": [
+   {
+    "configuracao": "hibrido",
+    "origem": "todos",
+    "n_fluxos": "10",
+    "n_celulas": "100",
+    "precision": "0.2500",
+    "recall": "1.0000",
+    "f1": "0.4000",
+    "vp": "10",
+    "fp": "30",
+    "fn": "0",
+    "vn": "60",
+    "kappa_todas_celulas": "0.4054",
+    "kappa_somente_vp": "0.4660",
+    "spearman": "0.5309"
+   },
+   {
+    "configuracao": "hibrido",
+    "origem": "llm",
+    "n_fluxos": "10",
+    "n_celulas": "100",
+    "precision": "0.1892",
+    "recall": "0.7000",
+    "f1": "0.2979",
+    "vp": "7",
+    "fp": "30",
+    "fn": "3",
+    "vn": "60",
+    "kappa_todas_celulas": "0.1430",
+    "kappa_somente_vp": "0.0000",
+    "spearman": "0.2636"
+   },
+   {
+    "configuracao": "hibrido",
+    "origem": "motor_de_regras",
+    "n_fluxos": "10",
+    "n_celulas": "100",
+    "precision": "1.0000",
+    "recall": "0.8000",
+    "f1": "0.8889",
+    "vp": "8",
+    "fp": "0",
+    "fn": "2",
+    "vn": "90",
+    "kappa_todas_celulas": "0.8900",
+    "kappa_somente_vp": "0.6000",
+    "spearman": "0.8917"
+   },
+   {
+    "configuracao": "regras",
+    "origem": "todos",
+    "n_fluxos": "10",
+    "n_celulas": "100",
+    "precision": "1.0000",
+    "recall": "0.8000",
+    "f1": "0.8889",
+    "vp": "8",
+    "fp": "0",
+    "fn": "2",
+    "vn": "90",
+    "kappa_todas_celulas": "0.9094",
+    "kappa_somente_vp": "0.8333",
+    "spearman": "0.8919"
+   },
+   {
+    "configuracao": "llm",
+    "origem": "todos",
+    "n_fluxos": "10",
+    "n_celulas": "100",
+    "precision": "0.2273",
+    "recall": "1.0000",
+    "f1": "0.3704",
+    "vp": "10",
+    "fp": "34",
+    "fn": "0",
+    "vn": "56",
+    "kappa_todas_celulas": "0.3802",
+    "kappa_somente_vp": "0.5055",
+    "spearman": "0.4993"
+   }
+  ]
+ }
+}

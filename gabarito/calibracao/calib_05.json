@@ -1,0 +1,17 @@
+{
+  "interface_id": "calib_05",
+  "fase": "calibracao",
+  "fonte": "autor",
+  "descricao": "Formulário de cadastro com um campo sem rótulo",
+  "arquivo_ou_url": "interfaces/calibracao/calib_05.html",
+  "violacoes_gabarito": [
+    {
+      "id": "calib_05_v1",
+      "heuristic": "H05_reconhecimento_em_vez_de_memorizacao",
+      "severity": 3,
+      "location": "campo de telefone",
+      "description": "O campo de telefone não tem rótulo visível; só um texto de exemplo (placeholder) que desaparece ao digitar, e o usuário precisa lembrar que dado o campo pede.",
+      "papel": "violacao_central"
+    }
+  ]
+}

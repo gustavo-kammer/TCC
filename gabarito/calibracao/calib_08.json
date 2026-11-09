@@ -1,0 +1,17 @@
+{
+  "interface_id": "calib_08",
+  "fase": "calibracao",
+  "fonte": "autor",
+  "descricao": "Edição de perfil com ação destrutiva sem proteção",
+  "arquivo_ou_url": "interfaces/calibracao/calib_08.html",
+  "violacoes_gabarito": [
+    {
+      "id": "calib_08_v1",
+      "heuristic": "H08_prevencao_de_erros",
+      "severity": 3,
+      "location": "ações do formulário de perfil",
+      "description": "O botão que exclui a conta fica ao lado de 'Salvar alterações', com o mesmo estilo e sem aviso de que a ação é irreversível, o que favorece o clique acidental.",
+      "papel": "violacao_central"
+    }
+  ]
+}
